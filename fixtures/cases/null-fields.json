@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T08:10:00+08:00",
+  "channel": "frontier",
+  "title": "每日前沿简报",
+  "summary": "演示日报 · 把每天的发现，编成一本可以回看的报纸。本期聚焦可验证的研究、开源工具与本地数据的长期价值。所有叙述仅用于界面和导入测试。",
+  "items": [
+    {
+      "title": "不完整条目",
+      "summary": null,
+      "image_url": null,
+      "tags": null
+    }
+  ]
+}

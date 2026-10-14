@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T16:10:00+08:00",
+  "channel": "market",
+  "title": "A 股收盘点评",
+  "summary": "模拟交易日 · 量能与结构观察",
+  "market_open": true,
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "close": 3210,
+      "change_pct": 0.42
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "close": 10210,
+      "change_pct": -0.31
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "close": 2110,
+      "change_pct": 0.86
+    },
+    {
+      "name": "科创 50",
+      "code": "000688",
+      "close": 960,
+      "change_pct": 1.12
+    }
+  ],
+  "metrics": {
+    "turnover": "演示：1.2 万亿元",
+    "up_count": 2800,
+    "down_count": 2300,
+    "limit_up": null,
+    "limit_down": null
+  },
+  "leading_sectors": [
+    {
+      "name": "模拟科技板块",
+      "reason": "演示：结构性观察，不代表实际行情。"
+    }
+  ],
+  "lagging_sectors": [
+    {
+      "name": "模拟防御板块",
+      "reason": "演示：与风险偏好的关系仍需验证。"
+    }
+  ],
+  "sentiment": {
+    "stage": "演示 · 分歧中观察",
+    "summary": "仅用于展示正负数值和市场分析布局，不能作为历史市场信息。",
+    "evidence": [
+      "所有市场数值均为测试数据。"
+    ]
+  },
+  "analysis": "演示分析：指数表现和市场广度可能给出不同信号。先观察成交与板块结构，再讨论可能的解释；没有可靠数据的指标保持 null。",
+  "outlook": {
+    "horizon": "1-5 trading days",
+    "scenarios": [
+      {
+        "name": "量能改善",
+        "conditions": "若后续成交与市场广度同时改善",
+        "implication": "演示：可以进一步观察参与范围是否扩大。"
+      },
+      {
+        "name": "结构分化",
+        "conditions": "若热点集中且广度没有改善",
+        "implication": "演示：继续核实结构信号的持续性。"
+      }
+    ],
+    "risks": [
+      "演示：数据口径变化与信息缺失。"
+    ],
+    "opportunities": [
+      "演示：观察有公开证据支持的结构变化。"
+    ]
+  },
+  "sources": [
+    {
+      "name": "上海证券交易所（仅供来源链接展示）",
+      "url": "https://www.sse.com.cn/"
+    }
+  ]
+}

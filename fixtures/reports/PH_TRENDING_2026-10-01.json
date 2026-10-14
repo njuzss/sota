@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T09:00:00+08:00",
+  "channel": "trending",
+  "title": "Daily Trending Projects",
+  "summary": "演示选刊：可组合的开发工具、本地数据和轻量工作流。项目链接为真实官方仓库；选择、热度信号与数值均为演示，不代表当日 Trending。",
+  "top_picks": [
+    "vitejs/vite",
+    "fastify/fastify",
+    "drizzle-team/drizzle-orm"
+  ],
+  "items": [
+    {
+      "title": "vitejs/vite",
+      "summary": "演示第 3 期：为现代 Web 提供快速反馈的构建工具。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "DEVTOOLS",
+      "tags": [
+        "TypeScript",
+        "开发工具"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vitejs/vite",
+      "image_url": null,
+      "published_at": null,
+      "evidence": null,
+      "extra": {
+        "repo": "vitejs/vite",
+        "github_stars": 10200,
+        "stars_growth": null,
+        "trend_signal": "演示观察信号（非真实热度）",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "fastify/fastify",
+      "summary": "演示条目：轻量 HTTP 服务，把源数据同步与阅读接口清楚分开。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "BACKEND",
+      "tags": [
+        "Node.js",
+        "API"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/fastify/fastify",
+      "image_url": null,
+      "published_at": null,
+      "evidence": null,
+      "extra": {
+        "repo": "fastify/fastify",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "演示选刊",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "drizzle-team/drizzle-orm",
+      "summary": "演示条目：类型化的数据访问工具。本地项目应先判断是否需要额外抽象。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "DATA",
+      "tags": [
+        "SQLite",
+        "TypeScript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/drizzle-team/drizzle-orm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": null,
+      "extra": {
+        "repo": "drizzle-team/drizzle-orm",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "演示选刊",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "一个没有 GitHub 指标的工具",
+      "summary": "演示条目：产品没有 star 指标时，直接展示功能和观察理由。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "PRODUCTIVITY",
+      "tags": [],
+      "source_name": "演示编辑部",
+      "source_url": null,
+      "image_url": null,
+      "published_at": null,
+      "evidence": null,
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "language": null,
+        "trend_signal": null
+      }
+    }
+  ]
+}

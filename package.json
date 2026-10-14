@@ -1,0 +1,42 @@
+{
+  "name": "sota",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "npm run publish && vite --host 127.0.0.1",
+    "dev:demo": "npm run publish:demo && vite --host 127.0.0.1",
+    "publish": "node --import tsx scripts/build-publication.ts",
+    "publish:demo": "node --import tsx scripts/build-publication.ts --demo",
+    "build": "npm run typecheck && npm run publish && vite build && node --import tsx scripts/routes.ts",
+    "build:demo": "npm run typecheck && npm run publish:demo && vite build && node --import tsx scripts/routes.ts",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "migrate": "node --import tsx scripts/migrate.ts",
+    "format": "prettier --write src web scripts tests schemas *.json vite.config.ts",
+    "validate:reports": "node --import tsx scripts/validate-reports.ts"
+  },
+  "dependencies": {
+    "@fastify/static": "^10.1.6",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.0",
+    "google-auth-library": "^10.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  }
+}

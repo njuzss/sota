@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T08:51:46+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "今天的项目生态有两条主线：Coding Agent 从能力竞赛转向工程约束——跨 harness 工作流、worktree 队列、安全 hooks、跨仓库索引和确定性流程集中冒头；同时 AnyPS5、Figxit 等具体系统工具也获得明显关注。",
+  "top_picks": [
+    "michael-denyer/pstack-claude",
+    "boykopovar/AnyPS5",
+    "alcubie/delegator"
+  ],
+  "items": [
+    {
+      "title": "michael-denyer/pstack-claude",
+      "summary": "把严格 Agent 工作流移植到 Claude Code、Codex、Copilot、Pi、OpenCode、Gemini 等 harness。",
+      "why_it_matters": "GitHub Explore 今日列为 Trending；跨 harness 的可复用工程工作流值得关注。",
+      "category": "Skills/Coding Agent",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/michael-denyer/pstack-claude",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+      "extra": {
+        "repo": "michael-denyer/pstack-claude",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "pingdotgg/t3code",
+      "summary": "当前进入 GitHub Explore Trending 的 TypeScript 开发工具项目。",
+      "why_it_matters": "公开描述仍少，因此不猜测具体功能，只保留确定的 Trending 信号。",
+      "category": "Developer tool",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pingdotgg/t3code",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+      "extra": {
+        "repo": "pingdotgg/t3code",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "boykopovar/AnyPS5",
+      "summary": "自动把 PS5 可执行程序移植到 Linux 和 Windows，涉及 Vulkan、SPIR-V 和动态库转换。",
+      "why_it_matters": "今天少数完全非 AI 且技术路线硬核的 Trending 项目。",
+      "category": "Gaming/Systems",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/boykopovar/AnyPS5",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+      "extra": {
+        "repo": "boykopovar/AnyPS5",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "summary": "面向 AI harness 的设计语言与约束集，用于提升 Agent 生成界面的设计质量。",
+      "why_it_matters": "Agent 前端生成的瓶颈正从写 UI 转向设计一致性；今日 GitHub Explore Trending。",
+      "category": "Design/Agent Skills",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+      "extra": {
+        "repo": "pbakaus/impeccable",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Explore listed it as Trending on Oct 7; updated Oct 6.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "alcubie/delegator",
+      "summary": "本地 CLI 任务收件箱，把 scoped coding-agent 工作排队到后台 git worktree 执行。",
+      "why_it_matters": "减少多 Agent 会话切换，同时保留 worktree 隔离、队列上限和人工 review。",
+      "category": "CLI/Coding Agent",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": "https://github.com/alcubie/delegator",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; local background tasks in git worktrees.",
+      "extra": {
+        "repo": "alcubie/delegator",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; local background tasks in git worktrees.",
+        "language": null
+      }
+    },
+    {
+      "title": "Pawl",
+      "summary": "跨 Claude Code、Codex、Antigravity 的确定性安全 hooks，在执行前检查危险 tool calls。",
+      "why_it_matters": "十三道 gate 不靠 LLM 判定，可阻止破坏性命令并 replay 过去会话。",
+      "category": "Security/Coding Agent",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; 13 deterministic gates and cross-agent plugin support.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; 13 deterministic gates and cross-agent plugin support.",
+        "language": null
+      }
+    },
+    {
+      "title": "cairn",
+      "summary": "扫描所有 git repo，生成低 token 跨仓库地图和带证据 repo cards。",
+      "why_it_matters": "让 Coding Agent 避免在多仓库环境反复 grep/explore。",
+      "category": "Coding Agent context",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; ~25-token-per-repo index and <=800-token repo cards.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; ~25-token-per-repo index and <=800-token repo cards.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "DemoForge",
+      "summary": "从 Playwright 脚本生成产品 Demo 视频：录屏、自动缩放、合成光标、旁白并导出 MP4。",
+      "why_it_matters": "把可复现测试脚本直接转成发布素材，还提供 Chrome recorder 和 Claude Code skill。",
+      "category": "Creative/Developer tool",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; open-source Playwright/ffmpeg launch.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; open-source Playwright/ffmpeg launch.",
+        "language": null
+      }
+    },
+    {
+      "title": "Figxit",
+      "summary": "macOS 原生终端自动补全，支持 zsh/bash/fish，并按 Atuin 历史排序。",
+      "why_it_matters": "无账号、无云、无 telemetry；能读 Makefile targets 和 package.json scripts。",
+      "category": "macOS/CLI",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; local native completion popup using Fig specs.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; local native completion popup using Fig specs.",
+        "language": null
+      }
+    },
+    {
+      "title": "Gretel",
+      "summary": "本地桌面 App，把 YouTube 推荐拆成多个主题专属 feed。",
+      "why_it_matters": "把推荐算法从一个全局注意力黑洞变成用户可控的多个兴趣空间。",
+      "category": "Desktop/Productivity",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; beta uses YT.js and topic embeddings.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; beta uses YT.js and topic embeddings.",
+        "language": null
+      }
+    },
+    {
+      "title": "Swift Chat",
+      "summary": "MIT 开源 Swift package，复刻 iMessage 并新增类似 Siri App 的流式 AI assistant 交互。",
+      "why_it_matters": "约 300 行 starter app、SSE 流式响应、照片输入和 Keychain API key。",
+      "category": "iOS/SDK",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; open-source Swift package and starter app.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; open-source Swift package and starter app.",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "Outpost",
+      "summary": "MIT 开源 TypeScript library/CLI，用确定性 steps、checks、approvals 包住 Codex、Claude Code 等概率型 Agent。",
+      "why_it_matters": "允许模型输出变化，但让外围流程、检查和审批保持确定性。",
+      "category": "Agent workflow",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Oct 6 release tracking identified a new deterministic workflow layer for coding agents.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 6 release tracking identified a new deterministic workflow layer for coding agents.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Golem",
+      "summary": "纯 Go、零依赖、类型安全的 AI Agent framework。",
+      "why_it_matters": "在 Python/TypeScript Agent 框架之外，零依赖 Go 实现更利于部署和二进制分发。",
+      "category": "Agent framework",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN release surfaced Oct 6 as a zero-dependency type-safe agent framework in Go.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN release surfaced Oct 6 as a zero-dependency type-safe agent framework in Go.",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "Tencent Octop",
+      "summary": "腾讯开源、自托管的本地 AI assistant，采用多 Agent 架构。",
+      "why_it_matters": "桌面、Docker、Web dashboard、CLI、API 和远程桌面一起出现，代表个人 Agent 向完整自托管平台演进。",
+      "category": "AI assistant/Self-hosted",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Oct 6 release tracking reported Tencent's open-source Octop launch.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 6 release tracking reported Tencent's open-source Octop launch.",
+        "language": null
+      }
+    },
+    {
+      "title": "jev-browser-wingman",
+      "summary": "MCP proxy，把 Agent 浏览器点击/输入交给 Jev 做元素决策。",
+      "why_it_matters": "作者 68-run 对照报告 wingman 34/34 完成、Playwright-only 32/34；成本略低但延迟略高。",
+      "category": "Browser/Agent",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; author-reported 68-run comparison, 34/34 vs 32/34.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; author-reported 68-run comparison, 34/34 vs 32/34.",
+        "language": null
+      }
+    },
+    {
+      "title": "Thyme",
+      "summary": "本地 AI reverse-engineering 工具，把 APK/DEX/JAR/IPA 和 ARM 反汇编汇入 DuckDB，并通过 MCP 暴露。",
+      "why_it_matters": "把反编译、原生反汇编、查询图和 Agent 接口整合到本地 workspace。",
+      "category": "Reverse engineering",
+      "tags": [],
+      "source_name": "Hacker News",
+      "source_url": "https://apppipeline.online/",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Fresh Show HN on Oct 6; local DuckDB workspace and MCP over local IPC.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN on Oct 6; local DuckDB workspace and MCP over local IPC.",
+        "language": null
+      }
+    },
+    {
+      "title": "NInfer6000",
+      "summary": "针对 RTX 6000 96GB 优化的 NInfer fork，用于 Qwen 3.8 Flash Next 等本地推理。",
+      "why_it_matters": "作者报告最高约 400 tok/s decode、13.9K tok/s prefill；属于作者基准。",
+      "category": "Local AI/GPU",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Oct 6 release tracking reported author benchmarks up to 400 tok/s decode and ~13.9K tok/s prefill.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 6 release tracking reported author benchmarks up to 400 tok/s decode and ~13.9K tok/s prefill.",
+        "language": null
+      }
+    }
+  ]
+}

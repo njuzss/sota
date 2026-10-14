@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T08:25:00+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "今天的新增热点从通用聊天 Agent 转向更可落地的工具：编码 Agent 的上下文治理与代码审查闭环、可控视觉创作与交互式制图、真正能在桌面使用的语音和提示工具。Product Hunt 集中在端侧多模态检索、MCP 数据服务与多 Agent 可观察性；Hacker News 则涌现 PS2→WebAssembly、Linux 云盘挂载等有趣工程实验。明确区分 GitHub Trending、HN 积分和 Product Hunt 投票，不把新品热度等同成熟度。",
+  "top_picks": [
+    "mksglu/context-mode",
+    "cathrynlavery/diagram-design",
+    "opennookorg/betterwispr"
+  ],
+  "items": [
+    {
+      "title": "mksglu/context-mode",
+      "summary": "为 Codex、Claude Code 等编码 Agent 提供 MCP 工具输出隔离、SQLite/FTS5 会话记忆和 hooks 路由；作者报告特定测试场景可减少约 98% 原始上下文占用。",
+      "why_it_matters": "从工具边界解决上下文污染和长会话遗忘；介入 hooks/MCP 较深，建议先在独立项目试用。",
+      "category": "Agent / Context management",
+      "tags": [
+        "Codex",
+        "MCP",
+        "context",
+        "memory",
+        "hooks"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending 2026-10-13 显示 27,186 stars、当日 +394；README 列出 17 个客户端。",
+      "extra": {
+        "repo": "mksglu/context-mode",
+        "github_stars": 27186,
+        "stars_growth": "+394/today (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub daily Trending",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "cathrynlavery/diagram-design",
+      "summary": "跨 Codex、Claude Code、Cursor 的编辑式制图 Skill，输出独立 HTML + SVG，支持架构图、流程图、序列图和品牌视觉规范。",
+      "why_it_matters": "比 Mermaid 默认风格更适合正式技术材料；值得测试图形质量和 HTML 可移植性。",
+      "category": "Agent Skill / Diagrams",
+      "tags": [
+        "skill",
+        "Codex",
+        "SVG",
+        "HTML",
+        "architecture"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending 2026-10-13 显示 52,401 stars、当日 +2,100；README 提供 npx skills add 安装方式。",
+      "extra": {
+        "repo": "cathrynlavery/diagram-design",
+        "github_stars": 52401,
+        "stars_growth": "+2100/today (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub daily Trending",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "storytold/artcraft",
+      "summary": "Rust 驱动的视觉创作工作台，组合 2D 图层、3D 场景布置、角色摆姿、镜头和 AI 图像/视频生成。",
+      "why_it_matters": "把提示词碰运气变成可控镜头和资产编排，适合重复场景创作；稳定性和模型成本需实测。",
+      "category": "Creative / 2D-3D Studio",
+      "tags": [
+        "Rust",
+        "3D",
+        "video",
+        "creative",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/artcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending 2026-10-13 显示 21,496 stars、当日 +4,106；README 展示 2D/3D compositing。",
+      "extra": {
+        "repo": "storytold/artcraft",
+        "github_stars": 21496,
+        "stars_growth": "+4106/today (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub daily Trending",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "snuri00/ps2-web-recomp",
+      "summary": "将 PS2 游戏机器码提前重编译为 C++/WebAssembly，结合 WebGPU 与自实现运行时在浏览器运行；作者展示《GT4》和《战神2》。",
+      "why_it_matters": "与传统模拟器不同的兼容技术路线很值得研究，但目前仅验证两款游戏；需使用合法拥有的游戏镜像。",
+      "category": "Gaming / WebAssembly",
+      "tags": [
+        "PS2",
+        "WASM",
+        "WebGPU",
+        "recompilation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/snuri00/ps2-web-recomp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 2026-10-13 快照 258 points、140 comments；GitHub 仓库 297 stars。",
+      "extra": {
+        "repo": "snuri00/ps2-web-recomp",
+        "github_stars": 297,
+        "stars_growth": null,
+        "trend_signal": "Hacker News high engagement",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "opennookorg/betterwispr",
+      "summary": "开源 macOS 本地语音输入工具，支持 Apple Speech、Parakeet、Whisper，在任意应用转写文字，并提供会议笔记与词表；选择外部 API 时才会发送数据。",
+      "why_it_matters": "适合普通 Mac 用户直接尝试，离线和免费属性明确；需检查中文转写及模型下载体验。",
+      "category": "macOS / Dictation",
+      "tags": [
+        "macOS",
+        "offline",
+        "dictation",
+        "Swift"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/opennookorg/betterwispr",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 快照 204 points、123 comments；GitHub 仓库 271 stars。",
+      "extra": {
+        "repo": "opennookorg/betterwispr",
+        "github_stars": 271,
+        "stars_growth": null,
+        "trend_signal": "Hacker News strong engagement",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "SaarthurR/atticus-mac",
+      "summary": "macOS 按键说话语音助手，以 Apple Speech 本地转写和 Claude Code CLI 操作窗口、文件、屏幕；常用动作可缓存为快捷操作。",
+      "why_it_matters": "展示轻量系统级语音 Agent 路线；依赖 Claude Pro/Max 和系统权限，不等于通用零成本服务。",
+      "category": "macOS / Voice agent",
+      "tags": [
+        "macOS",
+        "voice",
+        "Claude Code",
+        "automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/SaarthurR/atticus-mac",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 快照 54 points、6 comments；GitHub 仓库 49 stars。",
+      "extra": {
+        "repo": "SaarthurR/atticus-mac",
+        "github_stars": 49,
+        "stars_growth": null,
+        "trend_signal": "Show HN early launch",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "franzenzenhofer/big-arrow-on-the-screen",
+      "summary": "纯 Swift CLI 与 Agent Skill，允许 Codex/Claude Code 在 Mac 屏幕画临时箭头、方框、提示文字，引导用户点击控件且不拦截输入。",
+      "why_it_matters": "用极小能力补足 Agent 的人机协作断点；无守护进程，适合权限提示与操作教程。",
+      "category": "macOS / Agent Skill",
+      "tags": [
+        "Swift",
+        "CLI",
+        "Codex",
+        "UX"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 近三天快照 417 points、196 comments；GitHub 仓库 661 stars。",
+      "extra": {
+        "repo": "franzenzenhofer/big-arrow-on-the-screen",
+        "github_stars": 661,
+        "stars_growth": null,
+        "trend_signal": "Hacker News high engagement",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "mastro-hq/mastro-connect",
+      "summary": "捕获已登录网页会话并用 OpenAPI 3.1 描述后台接口，再通过 CLI 给 Agent 调用，而不是逐步点击页面。",
+      "why_it_matters": "提供浏览器自动化之外的路线，但依赖私有 API 和会话凭证，安全与稳定性有明显风险。",
+      "category": "Browser extension / CLI",
+      "tags": [
+        "OpenAPI",
+        "CLI",
+        "browser",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mastro-hq/mastro-connect",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 2026-10-13 收录；GitHub 仅 4 stars，技术新颖但热度非常弱。",
+      "extra": {
+        "repo": "mastro-hq/mastro-connect",
+        "github_stars": 4,
+        "stars_growth": null,
+        "trend_signal": "Show HN low-signal discovery",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "preloopdev/preloop",
+      "summary": "在本地或自托管 microVM 中运行 GitHub Actions 风格工作流，支持失败暂停、单步重试与现场调试。",
+      "why_it_matters": "让 Agent 可以更可靠地复现和调试 CI 失败；microVM 部署复杂度值得评估。",
+      "category": "DevOps / CI",
+      "tags": [
+        "GitHub Actions",
+        "microVM",
+        "debug",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/preloopdev/preloop",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 快照 9 points、1 comment；GitHub 仓库 203 stars。",
+      "extra": {
+        "repo": "preloopdev/preloop",
+        "github_stars": 203,
+        "stars_growth": null,
+        "trend_signal": "Show HN niche launch",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "moritzwilksch/diffle",
+      "summary": "键盘优先的 Git diff 审查器，在本地浏览器查看分支、提交和 PR 差异，支持 LSP 跳转、逐行评论，并把评论交给 Agent 或 GitHub。",
+      "why_it_matters": "把人类审查与 AI 修改闭环连接得很自然，适合大量 Agent 生成代码的场景。",
+      "category": "Developer utility / Code review",
+      "tags": [
+        "diff",
+        "LSP",
+        "CLI",
+        "GitHub",
+        "review"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/moritzwilksch/diffle",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 近两天快照 71 points、12 comments；GitHub 仓库 138 stars。",
+      "extra": {
+        "repo": "moritzwilksch/diffle",
+        "github_stars": 138,
+        "stars_growth": null,
+        "trend_signal": "Hacker News developer engagement",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "obsessiondb/chkit",
+      "summary": "ClickHouse TypeScript schema 与迁移 CLI：用代码定义表、视图、物化视图和字典，生成可审查 SQL，并检测 schema drift。",
+      "why_it_matters": "填补 ClickHouse 工程化 schema 管理的空缺；生产数据迁移仍需审查与备份。",
+      "category": "Database / CLI",
+      "tags": [
+        "ClickHouse",
+        "TypeScript",
+        "migrations",
+        "CI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/obsessiondb/chkit",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 2026-10-13 快照 6 points；GitHub 仓库 33 stars，属小众早期新品。",
+      "extra": {
+        "repo": "obsessiondb/chkit",
+        "github_stars": 33,
+        "stars_growth": null,
+        "trend_signal": "Show HN low-signal niche",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "khaosdoctor/proton-drive-linux-fs",
+      "summary": "通过 FUSE 将 Proton Drive 挂载为 Linux 本地目录，按需下载文件并通过事件流刷新缓存；作者标注为非官方早期实现。",
+      "why_it_matters": "Linux 隐私云盘的文件系统集成需求真实，但涉及认证和同步，建议先用测试账户。",
+      "category": "Linux / Filesystem utility",
+      "tags": [
+        "Linux",
+        "FUSE",
+        "Proton Drive",
+        "privacy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/khaosdoctor/proton-drive-linux-fs",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Hacker News Show HN 近三天快照 121 points、45 comments；官方文档明确称 early and unofficial。",
+      "extra": {
+        "repo": "khaosdoctor/proton-drive-linux-fs",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Hacker News discussion",
+        "language": null
+      }
+    },
+    {
+      "title": "CigaleAI/guilds",
+      "summary": "可自托管多 Agent 团队工作台，记录提示词、工具调用和记忆变化；提供共享数据、定时例程和可复用团队配置。",
+      "why_it_matters": "多 Agent 产品开始强调可观察性和权限，而不只是数量；开源社区规模仍很小。",
+      "category": "Agent orchestration / Open source",
+      "tags": [
+        "multi-agent",
+        "self-hosted",
+        "observability",
+        "Docker"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CigaleAI/guilds",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt 2026-10-12/13 榜单 #5、158 votes；GitHub 仓库 18 stars。",
+      "extra": {
+        "repo": "CigaleAI/guilds",
+        "github_stars": 18,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt launch #5; small GitHub footprint",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Google EmbeddingGemma 2",
+      "summary": "Google DeepMind 轻量多模态 embedding 模型，把文本、代码、图片、音频和视频映射到统一向量空间，官方称全模态约 740M 参数，支持端侧。",
+      "why_it_matters": "本地多模态检索可以减少多模型流水线；官方基准仍需在真实硬件复测。",
+      "category": "AI model / Local search",
+      "tags": [
+        "embeddings",
+        "multimodal",
+        "on-device",
+        "RAG"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "image_url": null,
+      "published_at": "2026-10-06",
+      "evidence": "Google 官方博客 2026-10-06 发布；Product Hunt 2026-10-12/13 榜单 #1、251 votes。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Official Google announcement and Product Hunt #1",
+        "language": null
+      }
+    },
+    {
+      "title": "ngram 2.0",
+      "summary": "把文档、录屏和产品说明自动转成旁白解说、屏幕演示或 AI 主持人视频，并可用对话修改。",
+      "why_it_matters": "适合快速制作技术教程和功能更新视频；UI 更新后的自动重制能力尚未上线。",
+      "category": "Creative / Video app",
+      "tags": [
+        "video",
+        "screencast",
+        "AI",
+        "tutorial"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://www.ngram.com/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt 2026-10-12/13 榜单 #2、226 votes；作者表示 GitHub PR 视频集成仍在开发。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt launch #2",
+        "language": null
+      }
+    },
+    {
+      "title": "Dropstone CLI",
+      "summary": "新发布的终端编码 Agent，声称支持跨文件修改、测试、保留用户纠错经验、Skills、子 Agent、MCP 和命令授权。",
+      "why_it_matters": "长期偏好学习与权限策略值得关注，但缺少可信独立基准，不能仅凭功能清单认定更强。",
+      "category": "AI coding / CLI",
+      "tags": [
+        "CLI",
+        "agent",
+        "MCP",
+        "skills",
+        "coding"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://www.dropstone.io/products/dropstone-cli",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt 2026-10-12/13 榜单 #12、87 votes；功能主要来自产品官方描述。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt launch #12",
+        "language": null
+      }
+    },
+    {
+      "title": "ExcaliClaw",
+      "summary": "实时协作手绘风格白板，借助 MCP 让 Claude、Cursor 等 Agent 创建和编辑图表；带搜索、版本记录和免费层。",
+      "why_it_matters": "从一次性 SVG 走向可协作编辑画布，但托管账户和数据导出能力需核查。",
+      "category": "Productivity / Whiteboard",
+      "tags": [
+        "MCP",
+        "diagram",
+        "collaboration",
+        "whiteboard"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://excaliclaw.com/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt 2026-10-12/13 榜单 #14、80 votes；产品页列有 200 drawings 免费额度。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt launch #14",
+        "language": null
+      }
+    },
+    {
+      "title": "Manifold MCP",
+      "summary": "托管 MCP 服务，把 SEO 排名、AI 搜索答案、社交内容、竞品广告和 Reddit 线索等营销数据提供给 Agent，按调用量计费。",
+      "why_it_matters": "让 Agent 用实际数据而非臆测制定增长策略；需评估数据来源、覆盖和成本。",
+      "category": "MCP / Marketing data",
+      "tags": [
+        "MCP",
+        "SEO",
+        "social",
+        "agents",
+        "data"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://www.manifoldmcp.com/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt 2026-10-12/13 榜单 #6、139 votes；作者称提供 500 免费 credits。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt launch #6",
+        "language": null
+      }
+    },
+    {
+      "title": "Ancher 2.0",
+      "summary": "将文章、视频、PDF 和收藏内容汇集为可搜索知识工作台，关联主题并生成研究简报、报告、演示等成果。",
+      "why_it_matters": "知识管理从存储转向输出，实际检索质量与导出能力仍需测试。",
+      "category": "Productivity / Knowledge app",
+      "tags": [
+        "research",
+        "read-later",
+        "knowledge",
+        "AI"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://ancher.ai/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt 2026-10-12/13 榜单 #7、131 votes；产品页显示第二次发布。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt version 2 launch #7",
+        "language": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+name: Deploy SOTA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/reports/**"
+      - "src/**"
+      - "web/**"
+      - "scripts/**"
+      - "schemas/**"
+      - "tests/**"
+      - "fixtures/**"
+      - "package*.json"
+      - "tsconfig*.json"
+      - "vite.config.ts"
+      - ".github/workflows/**"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: sota-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      revision: ${{ steps.snapshot.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build from latest main snapshot
+        id: snapshot
+        run: |
+          git fetch origin main
+          git checkout --detach origin/main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "BUILD_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run typecheck
+      - uses: actions/configure-pages@v5
+        id: pages
+      - run: npm run build
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Skip an obsolete snapshot
+        id: current
+        env:
+          BUILT_REVISION: ${{ needs.build.outputs.revision }}
+        run: |
+          if [ "$(git ls-remote origin refs/heads/main | cut -f1)" = "$BUILT_REVISION" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+            echo "Newer main commit exists; the queued run will publish the latest snapshot."
+          fi
+      - uses: actions/deploy-pages@v4
+        id: deployment
+        if: steps.current.outputs.deploy == 'true'

@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T08:54:41+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "本期最值得关注的不是又一个通用聊天框，而是 Agent Skills 走向专业化（机械交互图、可制造 CAD、视频渲染与语音生产），多 Agent 运行时开始重视会话管理与权限边界。非 AI 工具同样有亮点：Mac 端侧多模态搜索、歌词视觉播放器、PS5 二进制重链接及 Rust 创作软件启动器。热度指标区分 GitHub 当日 Trending、第三方采样窗口和一周快照，避免把单次冲高误判为成熟度。",
+  "top_picks": [
+    "wheresryan22/anatomy",
+    "earthtojake/text-to-cad",
+    "ARahim3/DigUp"
+  ],
+  "items": [
+    {
+      "title": "wheresryan22/anatomy",
+      "summary": "将抽象技术概念转成可交互的等轴测机械示意图；输出 SVG、可选 WebGL 特效及实验性 3D，并带几何审计和浏览器截图检查。",
+      "why_it_matters": "与普通 Mermaid 或 AI 配图不同，它让“解释机制”成为可交互、可验证的前端作品；适合技术文章、架构说明和教育页面。生成精细图耗时，且主要面向 Claude Code。",
+      "category": "Agent Skill / Interactive diagrams",
+      "tags": [
+        "Skill",
+        "isometric",
+        "SVG",
+        "WebGL",
+        "interactive"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/wheresryan22/anatomy",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova 记录 2026-10-11 UTC 采样窗口新增约 2,127 stars；GitHub 官方 README 列有 kit、几何审计和示例。",
+      "extra": {
+        "repo": "wheresryan22/anatomy",
+        "github_stars": null,
+        "stars_growth": "+2127/2026-10-11 sampled window",
+        "trend_signal": "GitNova 10/11 breakout; official README confirms interactive isometric SVG/WebGL skill.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "ARahim3/DigUp",
+      "summary": "macOS 本地多模态搜索应用：可按照片内容、PDF、录音、视频和代码中的语义找文件，并跳到对应页面或时间点。基于 EmbeddingGemma 2 在设备上索引。",
+      "why_it_matters": "补足 Spotlight 主要依赖文件名、元数据和文字的短板；对个人大量照片和资料库有实际价值。首次索引较重，模型下载约 865MB，中文无空格词语的精确搜索有限制。",
+      "category": "macOS / Local search",
+      "tags": [
+        "macOS",
+        "local-first",
+        "semantic-search",
+        "multimodal"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ARahim3/DigUp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova 记录 10/11 UTC 采样窗口 +558 stars；GitHub 官方 README 说明本地索引和多语言限制。",
+      "extra": {
+        "repo": "ARahim3/DigUp",
+        "github_stars": 978,
+        "stars_growth": "+558/2026-10-11 sampled window",
+        "trend_signal": "GitNova 10/11 early signal; on-device macOS semantic search.",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "earthtojake/text-to-cad",
+      "summary": "为 Codex、Claude Code、Cursor 等 Agent 提供本地 CAD 工作流：自然语言创建/修改零件，导出 STEP、STL、GLB、3MF，生成工程图并做制造可行性检查。",
+      "why_it_matters": "让 Agent 输出可继续编辑、可加工的几何模型，而不只是 3D 预览图；尤其适合玩具、机械结构和 3D 打印原型。复杂几何仍需工程复核。",
+      "category": "Agent Skill / CAD",
+      "tags": [
+        "CAD",
+        "3D",
+        "Codex",
+        "STEP",
+        "MCP"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/earthtojake/text-to-cad",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 存档显示 10/05–10/12 一周新增 2,400 stars；官方 README 明确列出 Codex 插件及本地 viewer。",
+      "extra": {
+        "repo": "earthtojake/text-to-cad",
+        "github_stars": null,
+        "stars_growth": "+2400/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Weekly snapshot growth; official Codex plugin and CAD export documentation.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "boykopovar/AnyPS5",
+      "summary": "通过重链接 PS5 可执行文件并实现相关 PRX 系统库，尝试将游戏直接转换为 Linux/Windows 原生程序，而非运行完整模拟器。",
+      "why_it_matters": "技术路径有趣，涉及 ABI、动态链接、着色器重编译和兼容层；但官方只展示少量已验证游戏，远未达到普遍可用，须合法持有软件。",
+      "category": "Games / Compatibility",
+      "tags": [
+        "PS5",
+        "porting",
+        "Vulkan",
+        "SPIR-V",
+        "reverse-engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/boykopovar/AnyPS5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending 10/12 页面显示 30,089 stars、当日 +3,952 stars；项目 README 列有已验证游戏及兼容性限制。",
+      "extra": {
+        "repo": "boykopovar/AnyPS5",
+        "github_stars": 30089,
+        "stars_growth": "+3952/today (GitHub Trending 2026-10-12)",
+        "trend_signal": "GitHub Trending daily breakout; early-stage compatibility claims require caution.",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "chthollyphile/folia-major",
+      "summary": "面向本地音乐、Navidrome 及部分在线音乐源的沉浸式歌词播放器；提供多种全屏动态歌词主题，支持 Windows/macOS/Linux 和 Web 部署。",
+      "why_it_matters": "少见的视觉设计驱动型开源播放器，适合重视歌词呈现和本地音乐库的用户；第三方音乐源可用性取决于接口和地区。",
+      "category": "Desktop / Music",
+      "tags": [
+        "lyrics",
+        "music",
+        "Electron",
+        "Navidrome",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/chthollyphile/folia-major",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/12 榜单显示该项目当日 +555 stars；官方 README 介绍桌面端和 Web 版本。",
+      "extra": {
+        "repo": "chthollyphile/folia-major",
+        "github_stars": null,
+        "stars_growth": "+555/today (whatstrending.ai 2026-10-12)",
+        "trend_signal": "Accelerating on 10/12 tracked repo feed; Chinese-language creative app.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "debpalash/VoiceStudio",
+      "summary": "本地优先的语音克隆、配音、听写、有声书与转录工作台；Electron 桌面端提供多语种语音流程、可选引擎、本地 API 和 MCP。",
+      "why_it_matters": "把零散的语音模型串成可用桌面产品，尤其适合自制有声故事；不同引擎模型许可证、显存和语音授权仍须核实。",
+      "category": "Desktop / Audio AI",
+      "tags": [
+        "voice",
+        "local-AI",
+        "dubbing",
+        "MCP",
+        "Electron"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/debpalash/VoiceStudio",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/05–10/12 周度快照 +5,553 stars；官方 README 说明 Electron、Apple Silicon MPS 与本地处理。",
+      "extra": {
+        "repo": "debpalash/VoiceStudio",
+        "github_stars": null,
+        "stars_growth": "+5553/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Strong weekly growth; local voice-production workflow and MCP.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "mvschwarz/openrig",
+      "summary": "以 YAML 定义 Agent 团队拓扑，在 tmux 中统一运行 Codex、Claude Code 等会话，提供持续上下文、任务分派、TUI 拓扑视图与快照恢复。",
+      "why_it_matters": "多 Agent 工具的核心难点已从“开多个终端”转向权限、会话恢复和共享上下文；OpenRig 对这些运行时问题有较完整的工程实现，但安装会修改本机配置。",
+      "category": "Agent orchestration / TUI",
+      "tags": [
+        "Codex",
+        "Claude-Code",
+        "multi-agent",
+        "tmux",
+        "TUI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mvschwarz/openrig",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 周榜显示 10/05–10/12 +1,996 stars；官方 README 明确说明 CLI/TUI/MCP、Node 22/24 和 tmux 要求。",
+      "extra": {
+        "repo": "mvschwarz/openrig",
+        "github_stars": null,
+        "stars_growth": "+1996/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Weekly momentum; multi-harness team runtime with TUI.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "heygen-com/hyperframes",
+      "summary": "以 HTML/CSS/JS 定义视频场景和动画，再渲染成视频；提供 WebGL 转场和分布式渲染扩展，设计为便于 Agent 编排。",
+      "why_it_matters": "前端开发者可复用 Web 技术制作程序化视频，而不是学习封闭时间轴编辑器；官方称在 HeyGen 生产中使用，但复杂渲染成本仍需实测。",
+      "category": "Creative / Video engineering",
+      "tags": [
+        "video",
+        "HTML",
+        "agents",
+        "WebGL",
+        "rendering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/heygen-com/hyperframes",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/05–10/12 +4,202 stars；官方 README 列出 WebGL shader transitions 与 AWS Lambda 渲染模块。",
+      "extra": {
+        "repo": "heygen-com/hyperframes",
+        "github_stars": null,
+        "stars_growth": "+4202/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Accelerating weekly adoption; HTML-to-video agent workflow.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Panniantong/Agent-Reach",
+      "summary": "为 Agent 提供跨 X、Reddit、YouTube、GitHub、B 站、小红书等平台的读取和搜索能力，目标是统一 CLI 而非每个平台单独写集成。",
+      "why_it_matters": "对需要跨中英文社区做技术情报采集的工作流很有吸引力；但“零 API 费用”不等于零维护成本，站点反爬和登录限制可能变化。",
+      "category": "Agent / Web research CLI",
+      "tags": [
+        "X",
+        "Reddit",
+        "YouTube",
+        "Bilibili",
+        "Xiaohongshu"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/05–10/12 +5,156 stars；官方仓库说明跨平台 CLI 采集范围。",
+      "extra": {
+        "repo": "Panniantong/Agent-Reach",
+        "github_stars": null,
+        "stars_growth": "+5156/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Strong weekly momentum for multi-platform agent research.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "DietrichGebert/ponytail",
+      "summary": "给编码 Agent 增加一套“先不写、先复用、优先标准库、最后才造轮子”的极简决策阶梯，适配 Claude Code/Codex 等工作流。",
+      "why_it_matters": "AI 代码膨胀是现实痛点，减少不必要的依赖和抽象可能比多生成代码更有价值；作者宣称的节省比例来自有限任务测试，不能直接推广。",
+      "category": "Agent Skill / Code quality",
+      "tags": [
+        "skill",
+        "YAGNI",
+        "Codex",
+        "minimalism",
+        "review"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/05–10/12 +6,257 stars；官方 README 提供可复现实验说明及安全例外规则。",
+      "extra": {
+        "repo": "DietrichGebert/ponytail",
+        "github_stars": null,
+        "stars_growth": "+6257/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Strong weekly growth; claims about code reduction are project-reported.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "bilawalsidhu/gods-eye-view",
+      "summary": "浏览器中的逼真 3D 地球与公开空间情报可视化，叠加卫星风格视图和可获取的实时/近实时地理数据。",
+      "why_it_matters": "把地图、开放数据和 3D 渲染融合成可探索界面；适合观察可视化交互设计，但公开情报的更新频率和精度不能当成真实军用卫星能力。",
+      "category": "Web / Geospatial",
+      "tags": [
+        "3D",
+        "OSINT",
+        "maps",
+        "geospatial",
+        "browser"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending 10/12 显示 51,666 stars、当日 +886；仓库 README 定位为真实开放空间情报的 3D 地球模拟器。",
+      "extra": {
+        "repo": "bilawalsidhu/gods-eye-view",
+        "github_stars": 51666,
+        "stars_growth": "+886/today (GitHub Trending 2026-10-12)",
+        "trend_signal": "On GitHub daily Trending; strong visual exploration value.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "lyogavin/airllm",
+      "summary": "通过模型分层加载和内存/磁盘卸载，让显存较小的 GPU 也能尝试运行大参数量 LLM；项目主张 4GB 显存运行 70B 级模型。",
+      "why_it_matters": "揭示了“能装下模型”与“推理速度可用”的区别：低显存推理技术很有启发性，但 IO 开销可能显著，不能据此推断实际体验接近大显存 GPU。",
+      "category": "AI / Local inference",
+      "tags": [
+        "LLM",
+        "low-VRAM",
+        "inference",
+        "GPU",
+        "quantization"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lyogavin/airllm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending 10/12 显示 36,474 stars、当日 +548；项目 README 标明单卡 4GB 的 70B 推理目标。",
+      "extra": {
+        "repo": "lyogavin/airllm",
+        "github_stars": 36474,
+        "stars_growth": "+548/today (GitHub Trending 2026-10-12)",
+        "trend_signal": "Renewed daily trending for low-VRAM LLM inference.",
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "calesthio/OpenMontage",
+      "summary": "开源 Agent 视频制作系统，提供脚本、素材、配音、字幕、渲染及质量检查等流水线，集成多种 Agent Skills。",
+      "why_it_matters": "把视频生产从单一“文生视频”扩展为可追踪的制作管线；适合研究自动化内容生产，但大规模工具链的稳定性和输出质量仍需逐项验证。",
+      "category": "Creative / Agent video studio",
+      "tags": [
+        "video",
+        "agents",
+        "skills",
+        "FFmpeg",
+        "production"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/calesthio/OpenMontage",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/05–10/12 +3,760 stars；官方仓库 README 展示多流水线、技能目录和 FFmpeg 工作流。",
+      "extra": {
+        "repo": "calesthio/OpenMontage",
+        "github_stars": null,
+        "stars_growth": "+3760/7d (2026-10-05 to 2026-10-12)",
+        "trend_signal": "Strong weekly trend in agent-native video production.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "rociiu/talorys",
+      "summary": "单用户个人 AI 助手，可部署在自己的 Cloudflare 账号内，提供聊天、长期记忆、笔记、任务和定时提醒，使用 Workers/Pages/Durable Objects。",
+      "why_it_matters": "提供不依赖项目作者服务器的云端个人助手部署方式，免费层友好；但数据仍由 Cloudflare 处理，免费额度有限，不能误解为完全离线。",
+      "category": "Self-hosted / Personal agent",
+      "tags": [
+        "Cloudflare",
+        "personal-agent",
+        "memory",
+        "reminders",
+        "serverless"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rociiu/talorys",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova 10/11 UTC 采样窗口记录 +339 stars；官方 README 列出一键部署、资源构成与费用边界。",
+      "extra": {
+        "repo": "rociiu/talorys",
+        "github_stars": null,
+        "stars_growth": "+339/2026-10-11 sampled window",
+        "trend_signal": "GitNova early signal; self-owned Cloudflare deployment.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "academa-labs/manimgx",
+      "summary": "兼容 Manim CE Python API 的动画渲染引擎，以 Rust/wgpu 为核心渲染数学、物理和 3D 视频，并提供面向 Agent 的文档。",
+      "why_it_matters": "兼顾熟悉的 Python 场景 API 与 GPU 渲染管线，对科普视频和自动化技术演示很有价值；兼容程度和性能主张需按具体场景验证。",
+      "category": "Creative / Scientific animation",
+      "tags": [
+        "Manim",
+        "Rust",
+        "wgpu",
+        "3D",
+        "animation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/academa-labs/manimgx",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova 10/11 UTC 采样窗口 +310 stars；官方 README 说明 Manim API、Rust/wgpu 与 Typst 排版。",
+      "extra": {
+        "repo": "academa-labs/manimgx",
+        "github_stars": null,
+        "stars_growth": "+310/2026-10-11 sampled window",
+        "trend_signal": "GitNova early signal; GPU-backed Manim-style renderer.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "FeiZhuLulu/DeepSeek-Bot",
+      "summary": "DeepSeek Harness 的社区插件，让多个长期存在的 Bot 互相发消息、群聊和协作；可在 DSH Desktop/Web 中安装。",
+      "why_it_matters": "体现国产 Agent Harness 插件生态开始细分为团队协作层；项目明确非 DeepSeek 官方，使用时需注意模型额度及文件/命令权限。",
+      "category": "Plugin / Multi-agent",
+      "tags": [
+        "DeepSeek-Harness",
+        "plugin",
+        "multi-agent",
+        "bots",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/FeiZhuLulu/DeepSeek-Bot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova 10/11 UTC 采样窗口 +575 stars；GitHub 官方页显示 817 stars（10/12 抓取）及插件安装说明。",
+      "extra": {
+        "repo": "FeiZhuLulu/DeepSeek-Bot",
+        "github_stars": 817,
+        "stars_growth": "+575/2026-10-11 sampled window",
+        "trend_signal": "GitNova early signal; independent DSH multi-agent plugin.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "storytold/craft-launcher",
+      "summary": "用原生 Rust/egui 桌面启动器统一安装、更新和启动 Craft App Suite 的多款图像、视频、PDF、表格和 CAD 应用，并按操作系统选择安装包。",
+      "why_it_matters": "比单独跟踪十几个项目 Release 更实用，也说明开源创作软件正在尝试整套分发体验；但套件规模不等于各应用成熟度。",
+      "category": "Desktop / Creative utilities",
+      "tags": [
+        "launcher",
+        "Rust",
+        "creative-suite",
+        "updates",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/craft-launcher",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova 10/11 UTC 采样窗口 +512 stars；官方 README 列出套件目录、平台检测与更新功能。",
+      "extra": {
+        "repo": "storytold/craft-launcher",
+        "github_stars": null,
+        "stars_growth": "+512/2026-10-11 sampled window",
+        "trend_signal": "GitNova early signal; native creative-suite installer.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Alishahryar1/free-claude-code",
+      "summary": "为多种编码 Agent 提供统一模型路由与本地代理，可接入多家免费、付费或本地推理服务，并提供浏览器会话、回退和语音输入等能力。",
+      "why_it_matters": "对多模型切换和预算控制有实际吸引力；但“免费 token”由上游供应商政策决定，项目关于服务条款兼容性的表述应自行核实。",
+      "category": "CLI / Agent model routing",
+      "tags": [
+        "Codex",
+        "Claude-Code",
+        "gateway",
+        "multi-provider",
+        "local-models"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Alishahryar1/free-claude-code",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "whatstrending.ai 10/12 显示当日 +506 stars；官方 README 列出多 Agent harness 与模型路由支持。",
+      "extra": {
+        "repo": "Alishahryar1/free-claude-code",
+        "github_stars": null,
+        "stars_growth": "+506/today (whatstrending.ai 2026-10-12)",
+        "trend_signal": "Accelerating tracked trend; provider claims are project-reported.",
+        "language": "Python"
+      }
+    }
+  ]
+}

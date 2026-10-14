@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T08:29:48+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "今天最明显的趋势是 Agent 基础设施继续从单纯编排转向更低成本、更可审计、更持久的运行层：OpenDots 把持久 Agent 与独立计算机、人工审批和多端交互组合起来，Moli 从浏览器内核层为 Agent 降低渲染成本，e2e 把自然语言测试转成可回放的确定性步骤；与此同时，draw.io MCP、LDraw Nova、Showoff 等项目说明 Agent-native 创作工具正在从文本/代码扩展到架构图、3D 模型和发布视频。安全侧 Rowan 针对 AI/MCP 应用做静态扫描，PixelLeak 事件也进一步强化了运行时权限和产物审计的重要性。",
+  "top_picks": [
+    "CopilotKit/OpenDots",
+    "lexmount/moli",
+    "tester-army/e2e"
+  ],
+  "items": [
+    {
+      "title": "CopilotKit/OpenDots",
+      "summary": "开源的持久 AI coworker 模板：每个 Agent 可以拥有独立计算机、浏览器配置、文件与 shell，并在 Web、语音和 Slack 之间持续工作。",
+      "why_it_matters": "它把 Agent 的长期状态、独立执行环境、人工审批、页面工作区和多端交互放进同一个可自托管模板，代表个人/团队 Agent 从一次性会话向长期数字同事演进。",
+      "category": "AI/Agent workspace",
+      "tags": ["agents", "persistent-agents", "computer-use", "self-hosted", "AG-UI"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CopilotKit/OpenDots",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub.Locker reported OpenDots as the fastest-growing autonomous-agent project on Oct 2 at about +1K stars/day; the official repository describes per-Agent computers, persistent browser/files, review-before-save, calls and Slack integration.",
+      "extra": {
+        "repo": "CopilotKit/OpenDots",
+        "github_stars": 382,
+        "stars_growth": "+1K/day (Oct 2 tracker snapshot)",
+        "trend_signal": "Fastest-growing autonomous-agent project in GitHub.Locker's Oct 2 snapshot; very new persistent-agent template.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "lexmount/moli",
+      "summary": "Rust 编写的面向 AI Agent 的独立 headless browser 内核，不是 Chromium wrapper；默认跳过不必要的 layout/paint，只在需要截图或坐标操作时按需渲染。",
+      "why_it_matters": "浏览器 Agent 的大量任务只需要 DOM、网络和结构化文本。Moli 把昂贵的视觉渲染变成按需能力，有机会显著降低大规模 crawling、browser-use 和 RL 环境的资源成本。",
+      "category": "Browser/Agent infrastructure",
+      "tags": ["browser", "rust", "agents", "automation", "headless"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lexmount/moli",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub.Locker listed moli at about +1.5K stars/day on Oct 2; the official repo documents a standalone Rust browser kernel with V8, Stylo, on-demand layout and CDP/WebDriver support.",
+      "extra": {
+        "repo": "lexmount/moli",
+        "github_stars": 5000,
+        "stars_growth": "+1.5K/day (Oct 2 tracker snapshot)",
+        "trend_signal": "One of the fastest-growing AI-agent repositories in the Oct 2 snapshot.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "tester-army/e2e",
+      "summary": "新一代 Web/移动端 E2E 测试框架：允许 Agent 用自然语言执行操作，但把已验证动作记录下来，后续运行优先确定性回放，只有应用变化时再调用模型。",
+      "why_it_matters": "它把 Agent 的灵活探索和传统测试的可重复性结合起来，避免每次 CI 都重新付模型成本，也降低纯视觉/自然语言测试的不稳定性。",
+      "category": "Developer testing",
+      "tags": ["e2e", "testing", "agents", "playwright", "mobile"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tester-army/e2e",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub.Locker reported roughly +972 stars/day on Oct 2. The official repo supports Web plus iOS/Android and records Agent actions for replay without model calls until the app changes.",
+      "extra": {
+        "repo": "tester-army/e2e",
+        "github_stars": 629,
+        "stars_growth": "+972/day (Oct 2 tracker snapshot)",
+        "trend_signal": "Fast breakout in the AI-agent tooling tracker; active pre-1.0 development.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "JuliusBrussee/caveman",
+      "summary": "面向 Coding Agent 的 token 压缩 Skill/代理层，把冗长自然语言改写成极简表达，同时声称保持代码和错误文本逐字节不变。",
+      "why_it_matters": "Agent 成本优化正在从换模型转向 context/output pipeline。Caveman 的爆发说明开发者开始把 token 视为可由中间件主动治理的系统资源。",
+      "category": "Agent efficiency",
+      "tags": ["tokens", "compression", "coding-agents", "proxy", "skill"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JuliusBrussee/caveman",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 3 trend coverage placed Caveman near the top of GitHub daily trending. The maintainer reports about 65% fewer output tokens; that savings figure is author-reported and should be treated as such.",
+      "extra": {
+        "repo": "JuliusBrussee/caveman",
+        "github_stars": 109000,
+        "stars_growth": null,
+        "trend_signal": "Near the top of Oct 3 GitHub daily trending; unusually strong discussion around token-efficiency middleware.",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "jgraph/drawio-mcp",
+      "summary": "draw.io 官方 MCP/Agent 集成，可让模型创建可交互、可继续编辑的原生 draw.io 图，并提供 10,000+ 可搜索图形。",
+      "why_it_matters": "Agent 生成架构图正在从 Mermaid 这种只读式文本输出走向真正可编辑的设计资产；官方 MCP、Skill 和导出链路让图表进入工程工作流而不是停留在聊天结果。",
+      "category": "MCP/Diagramming",
+      "tags": ["MCP", "drawio", "diagram", "skills", "architecture"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/jgraph/drawio-mcp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "The official draw.io MCP registry entry reports 5,555 and documents MCP App, MCP Tool Server and assistant plugins for Claude Code, Codex CLI and GitHub Copilot.",
+      "extra": {
+        "repo": "jgraph/drawio-mcp",
+        "github_stars": 5555,
+        "stars_growth": null,
+        "trend_signal": "Featured in Oct 3 agent-tooling digests as draw.io's official MCP server; strong fit for editable Agent-generated diagrams.",
+        "language": null
+      }
+    },
+    {
+      "title": "Hedgerow-dev/rowan",
+      "summary": "面向 AI/ML/MCP 项目的开源 SAST 扫描器，检查注入、SSRF、秘密泄露、不安全反序列化、危险 Agent tools 和模型加载等问题。",
+      "why_it_matters": "AI 应用的攻击面已经超出传统 Web 代码。Rowan 尝试把模型文件、MCP/Agent 工具和普通源码放进统一静态审计范围，而且扫描本身不执行目标代码、不调用 LLM。",
+      "category": "Security",
+      "tags": ["SAST", "AI-security", "MCP", "AppSec", "static-analysis"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Hedgerow-dev/rowan",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Show HN on Oct 3 introduced Rowan as an open-source SAST scanner for AI apps. Coverage reports 590 rules across 48 YAML files and notes the project is alpha.",
+      "extra": {
+        "repo": "Hedgerow-dev/rowan",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN launch on Oct 3 focused specifically on AI/MCP static security analysis.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Human-Agent-Society/reef",
+      "summary": "持续自我改进 Agent 的开源基础设施：记录交互与反馈，生成模型权重或 harness/skills 更新，评估候选并按版本发布。",
+      "why_it_matters": "它把 self-improving agent 从概念拆成 Serve→Observe→Grow→Commit 的可运营闭环，并且既能演化模型权重，也能演化 prompts、rules、skills 和 harness。",
+      "category": "Agent learning infrastructure",
+      "tags": ["continual-learning", "agents", "self-improving", "RL", "harness"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Human-Agent-Society/reef",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Official GitHub snapshot on Oct 3 showed 7,481 stars and active updates. Reef exposes OpenAI/Anthropic-compatible serving and versioned learning workflows for model weights or agent harnesses.",
+      "extra": {
+        "repo": "Human-Agent-Society/reef",
+        "github_stars": 7481,
+        "stars_growth": null,
+        "trend_signal": "Active Oct 3 updates and growing attention around continual self-improving agents.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "anteloc/ldraw-nova",
+      "summary": "让 Agent 从文字想法生成可编辑 LEGO/LDraw 模型的工具链，输出 LDraw 源码、多视角、3D/VR 预览以及可进 Blender 的 GLB。",
+      "why_it_matters": "这是 Agent-native 3D 创作的有趣样本：不是生成一张 LEGO 风格图片，而是生成有结构、可继续编辑和渲染的模型资产。",
+      "category": "Creative/3D",
+      "tags": ["LEGO", "3D", "LDraw", "Blender", "agents"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anteloc/ldraw-nova",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "The official repo documents text-to-LDraw generation, a 3D viewer/player, Meta Quest 3 VR and Blender-editable GLB export; Oct 3 community radar flagged it as an early organic signal.",
+      "extra": {
+        "repo": "anteloc/ldraw-nova",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN/community attention around an open-source LEGO AI generator and structured 3D output.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "gohokiehlee/rapid-mlx",
+      "summary": "Apple Silicon 本地 LLM inference server + Mac App，兼容 OpenAI/Anthropic API，重点优化 prompt cache、tool calling、并发 Agent 和 MLX 推理。",
+      "why_it_matters": "本地模型竞争正从“能不能跑”转向 Agent workload 的 TTFT、并发和工具调用可靠性。Rapid-MLX 直接把 Claude Code、Codex/Aider 类客户端作为兼容目标。",
+      "category": "Local AI/Mac",
+      "tags": ["MLX", "Apple-Silicon", "local-LLM", "Mac", "coding-agents"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/gohokiehlee/rapid-mlx",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Official site reports about 3.5K GitHub stars and publishes reproducible benchmark conditions; claimed speedups versus Ollama are project-maintained benchmarks, not independent validation.",
+      "extra": {
+        "repo": "gohokiehlee/rapid-mlx",
+        "github_stars": 3500,
+        "stars_growth": null,
+        "trend_signal": "Active Oct 3 development in the rapidly growing Apple-Silicon agent-inference niche.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ganeshmshetty/openclip",
+      "summary": "macOS 上针对任意已选中文字弹出 contextual actions 的原生工具，可复制、转换、计算、AI 改写，并允许自定义扩展。",
+      "why_it_matters": "它把 AI/自动化能力放进系统级文字选择交互，而不是要求用户切到独立聊天窗口；这种轻量、可编程的 ambient utility 很适合高频桌面工作。",
+      "category": "macOS utility",
+      "tags": ["macOS", "Swift", "productivity", "text", "extensions"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ganeshmshetty/openclip",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 3 repository snapshot showed 592 stars and 629 commits, with active updates and a native Swift implementation.",
+      "extra": {
+        "repo": "ganeshmshetty/openclip",
+        "github_stars": 592,
+        "stars_growth": null,
+        "trend_signal": "Actively updated Oct 3; compact macOS utility with a programmable action model rather than a standalone AI chat UI.",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "enkiruntime/enki",
+      "summary": "纯 Rust 的异构 GPU compute 平台，目标是把普通 Rust 函数在 CPU 执行或 JIT 编译到 Vulkan 1.3 GPU 上。",
+      "why_it_matters": "如果路线成熟，它提供了一种不依赖 CUDA 专有栈、也不要求 nightly Rust 的 GPU 编程实验路径；目前仍非常早期，更适合作为技术观察项目。",
+      "category": "GPU/Systems",
+      "tags": ["Rust", "GPU", "Vulkan", "JIT", "compute"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/enkiruntime/enki",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Show HN surfaced Enki on Oct 2/3 as a pure-Rust heterogeneous GPU compute platform with Vulkan 1.3 JIT compilation; the repository was still extremely early at launch.",
+      "extra": {
+        "repo": "enkiruntime/enki",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Show HN systems project; technically interesting but weak adoption signal so far.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Showoff",
+      "summary": "面向 App 发布视频、App Store 截图和设备 mockup 的编辑器，可通过 MCP 让 Claude 先生成第一版，再由人在同一编辑器继续调整。",
+      "why_it_matters": "它展示了 Agent-native creative app 的合理交互：Agent 不是一次性吐出不可编辑成品，而是在真实编辑器里构建项目，人类随时接管并继续修改。",
+      "category": "Creative/Product launch",
+      "tags": ["video", "MCP", "launch", "design", "collaboration"],
+      "source_name": "Product Hunt",
+      "source_url": "https://www.producthunt.com/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt's Oct 3 daily listing described Showoff as a collaborative launch-video/App Store asset editor with Claude MCP support and 3D device mockups.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Product Hunt launch on Oct 3; notable for editable Agent-assisted creative workflow.",
+        "language": null
+      }
+    },
+    {
+      "title": "Epure",
+      "summary": "可自托管的开源 error tracker，目标是兼容官方 Sentry SDK，只需把 DSN 指向自己的服务器；部署核心是 Rust binary + PostgreSQL。",
+      "why_it_matters": "错误追踪是典型的重型 SaaS 基础设施。Epure 用极简两容器架构尝试覆盖 grouped issues、breadcrumbs、releases、alerts 和 webhooks，适合希望控制数据和运维复杂度的团队关注。",
+      "category": "Observability",
+      "tags": ["error-tracking", "self-hosted", "Rust", "Sentry", "observability"],
+      "source_name": "Product Hunt",
+      "source_url": "https://www.producthunt.com/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Product Hunt's Oct 3 listing described Epure as an open-source VPS error tracker compatible with official Sentry SDKs, using one Rust binary plus PostgreSQL 16 and no Redis/Kafka.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 3 launch; appealing minimalist self-hosted alternative in a traditionally heavy observability category.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "codegraph-ai/CodeGraph",
+      "summary": "把代码库解析成函数、类、imports 和 call chains 的语义图，通过 MCP、VS Code 扩展和持久 memory 给 Coding Agent 提供结构化代码理解。",
+      "why_it_matters": "Coding Agent 的主要浪费之一是每次重新 grep/read 探索仓库。预索引代码图可以把结构、调用链和变更影响作为一次查询返回，并通过 tool profiles 控制 MCP 工具面和上下文成本。",
+      "category": "Coding Agent tooling",
+      "tags": ["codegraph", "MCP", "coding-agents", "static-analysis", "context"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/codegraph-ai/CodeGraph",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 3 agent-tooling coverage highlighted code-graph approaches as a way to reduce repeated repository exploration; the official repo exposes 42 MCP tools and supports 38 languages.",
+      "extra": {
+        "repo": "codegraph-ai/CodeGraph",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Part of the Oct 3 context-efficiency trend alongside output compression and tool-result distillation.",
+        "language": null
+      }
+    },
+    {
+      "title": "tw93/Mole",
+      "summary": "开源 macOS CLI 工具箱，用于清理缓存/日志/残留、卸载 App、分析磁盘、维护系统并监控状态；另有原生 Mac App。",
+      "why_it_matters": "在 Agent 项目密集的一天里，它代表一个成熟而直接有用的非 AI 工具：把 AppCleaner、磁盘分析和系统维护类能力合并到一个脚本化 CLI。",
+      "category": "macOS utility",
+      "tags": ["macOS", "CLI", "cleanup", "disk", "maintenance"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tw93/Mole",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 3 repository snapshot showed 69,116 stars and active updates; the CLI remains free/open-source while the native app is commercial.",
+      "extra": {
+        "repo": "tw93/Mole",
+        "github_stars": 69116,
+        "stars_growth": null,
+        "trend_signal": "Large established macOS utility with fresh Oct 3 activity; useful counterweight to the day's AI-heavy trend set.",
+        "language": "Shell"
+      }
+    }
+  ]
+}

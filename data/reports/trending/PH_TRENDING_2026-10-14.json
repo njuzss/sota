@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T08:46:53+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间 10 月 14 日早间，最新可核实的 10 月 13 日 GitHub Trending 快照显示，Agent 生态的关注点继续从通用聊天走向工程工具链：代码审查、跨会话记忆、隔离沙箱、桌面操作与动态交互界面同时升温。非 AI 项目也有实用亮点，包括多线路下载、离线知识服务器、自托管健身记录与复古游戏媒体库。各项目热度仅引用注明采样日期和窗口的快照；单日 Star 不代表质量或成熟度。",
+  "top_picks": [
+    "Javis603/token-monitor",
+    "CopilotKit/OpenIntelligentUI",
+    "anmolkapil/plexo"
+  ],
+  "items": [
+    {
+      "title": "morluto/rea",
+      "summary": "把逆向分析工具通过 MCP 交给 Agent，覆盖原生二进制、Electron/JavaScript 应用、.NET 和网页行为；支持本地证据链与 CLI。",
+      "why_it_matters": "10 月 13 日采样中仍是异常强势的破圈项目，代表 Agent 从阅读源代码迈向分析黑盒软件。适用于合法的兼容性研究与产品行为分析；复杂原生逆向仍依赖 Ghidra、Hopper 或 IDA。",
+      "category": "Agent / Reverse engineering",
+      "tags": [
+        "MCP",
+        "reverse-engineering",
+        "Codex",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "morluto/rea",
+        "github_stars": null,
+        "stars_growth": "+148799/7d (whatstrending.ai 2026-10-06..13)",
+        "trend_signal": "whatstrending.ai 2026-10-06→10-13 weekly snapshot +148,799; GitHub Trending 10/13 daily breakout.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Javis603/token-monitor",
+      "summary": "跨 Codex、Claude Code、Cursor、OpenCode 等数十款工具统计 Token、费用、会话和额度；提供 macOS 菜单栏、桌面浮窗、iOS Widget 与多设备同步。",
+      "why_it_matters": "比单一模型的额度小工具更接近统一用量控制台；本地模式无需搭建服务器，尤其适合同时使用多个 Agent 的开发者。跨设备同步与配额读取能力应按平台逐项验证。",
+      "category": "Desktop / AI usage",
+      "tags": [
+        "macOS",
+        "Codex",
+        "quota",
+        "widget",
+        "multi-device"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Javis603/token-monitor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "Javis603/token-monitor",
+        "github_stars": null,
+        "stars_growth": "+125/today (GitHub Trending snapshot 2026-10-13)",
+        "trend_signal": "GitHub Trending 2026-10-13 LLM category +125 stars today (snapshot).",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "alibaba/open-code-review",
+      "summary": "阿里巴巴开源的混合式代码审查工具：静态规则检查配合 LLM Agent，面向 NPE、线程安全、SQL 注入、XSS 等问题输出行级建议。",
+      "why_it_matters": "把可复现的规则分析与语义推理组合，而非完全依赖大模型自由点评；适合 Java/Go 等大型代码库和企业 CI，但应评估误报与敏感代码传输。",
+      "category": "Developer / Code review",
+      "tags": [
+        "code-review",
+        "CI",
+        "LLM",
+        "security"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/alibaba/open-code-review",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "alibaba/open-code-review",
+        "github_stars": null,
+        "stars_growth": "+24317/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 ranked #1, +24,317 stars over rolling month.",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "mattpocock/skills",
+      "summary": "Matt Pocock 的工程实践 Skills 集合，可通过 skills.sh 按需装入 Codex/Claude Code 等 Agent；强调问题拆解、代码评审、复用与实际交付。",
+      "why_it_matters": "相比全流程大框架，小型可组合 Skills 更容易融入已有 AGENTS.md 和团队约束。安装时应选择需要的技能，避免与既有指令重复。",
+      "category": "Agent Skills / Engineering",
+      "tags": [
+        "Skills",
+        "Codex",
+        "developer-workflow",
+        "review"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mattpocock/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "mattpocock/skills",
+        "github_stars": null,
+        "stars_growth": "+11139/7d (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending weekly 2026-10-13 +11,139 stars; repo documents skills.sh integration.",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "vectorize-io/hindsight",
+      "summary": "面向长期运行 Agent 的记忆服务，提供 retain、recall、reflect 语义，支持本地部署、MCP 与客户端 SDK，尝试把经验归纳为可复用知识。",
+      "why_it_matters": "Agent 的长期连续性是独立于上下文窗口的问题；值得关注其跨会话学习设计。但基准宣传不等于真实业务稳定性，隐私隔离与错误记忆要测试。",
+      "category": "Agent / Memory",
+      "tags": [
+        "memory",
+        "MCP",
+        "RAG",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vectorize-io/hindsight",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "vectorize-io/hindsight",
+        "github_stars": null,
+        "stars_growth": "+25557/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 +25,557 stars (+109% rolling month).",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "NVIDIA/OpenShell",
+      "summary": "NVIDIA 的自主 Agent 沙箱运行时，围绕文件、系统调用、网络与凭据建立细粒度策略，并提供策略预检与隔离执行。",
+      "why_it_matters": "当 Agent 获得执行代码和调用外部 API 的能力时，权限边界比提示词约束更关键。项目处于 0.1.x 早期阶段，应实测系统兼容性及策略覆盖。",
+      "category": "Agent Infrastructure / Security",
+      "tags": [
+        "sandbox",
+        "policy",
+        "security",
+        "Rust"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/OpenShell",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "NVIDIA/OpenShell",
+        "github_stars": null,
+        "stars_growth": "+7457/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 +7,457 stars (+87%).",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "JustVugg/colibri",
+      "summary": "纯 C 的大型 MoE 模型推理引擎，把不活跃专家放在磁盘，按需读取活跃部分；主打无需独显也能运行超大参数模型。",
+      "why_it_matters": "利用 MoE 稀疏激活降低 RAM/显存门槛，技术路径有趣；但磁盘带宽与延迟仍限制实际 tokens/s，不应把能加载误认为交互流畅。",
+      "category": "Local LLM / Inference",
+      "tags": [
+        "MoE",
+        "CPU",
+        "disk-offload",
+        "C"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JustVugg/colibri",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "JustVugg/colibri",
+        "github_stars": null,
+        "stars_growth": "+13470/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 +13,470 stars (+48%).",
+        "language": "C"
+      }
+    },
+    {
+      "title": "Tencent/WeKnora",
+      "summary": "腾讯的开源知识库与 Agent 平台，将文档解析、带引用 RAG、智能推理、CLI/MCP 和本地浏览器技能组合在一起。",
+      "why_it_matters": "比单一向量数据库更完整地覆盖企业文档问答和知识工作流；中文生态友好，但部署复杂度、索引质量与权限管理需要独立验收。",
+      "category": "Knowledge / RAG",
+      "tags": [
+        "RAG",
+        "knowledge-base",
+        "MCP",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Tencent/WeKnora",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "Tencent/WeKnora",
+        "github_stars": null,
+        "stars_growth": "+11159/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 +11,159 stars (+50%).",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "TencentCloud/Octop",
+      "summary": "腾讯云开源的多用户、多 Agent 自托管助手，整合 Web 控制台、CLI、IM 渠道、定时任务和本地数据库。",
+      "why_it_matters": "将个人 Agent 延伸到家庭或团队共用环境；一进程整合多渠道降低入门复杂度，但账号权限、密钥隔离和 IM 渠道维护不可忽视。",
+      "category": "Agent / Self-hosted assistant",
+      "tags": [
+        "multi-agent",
+        "self-hosted",
+        "IM",
+        "cron"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/TencentCloud/Octop",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "TencentCloud/Octop",
+        "github_stars": null,
+        "stars_growth": "+7333/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 +7,333 stars (+441%).",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "DuarteSantos8/openGym",
+      "summary": "自托管训练和体重管理工具：计划、组数记录、肌群恢复可视化、Passkey 登录及离线同步；支持从常见健身应用导入。",
+      "why_it_matters": "数据归用户自己所有，且能跨手机和电脑使用；属于少见兼顾隐私与体验的非 AI 工具。其可选 AI 教练不应替代个体化运动医学建议。",
+      "category": "Health / Self-hosted app",
+      "tags": [
+        "fitness",
+        "PWA",
+        "self-hosted",
+        "privacy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DuarteSantos8/openGym",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "DuarteSantos8/openGym",
+        "github_stars": null,
+        "stars_growth": "+6621/7d (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending weekly 2026-10-13 +6,621 stars (+162%).",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "CopilotKit/OpenIntelligentUI",
+      "summary": "开源生成式交互 UI 框架，Agent 可按任务输出文字、表格、可操作计算器、地图和 3D 说明；基于 CopilotKit 与 AG-UI。",
+      "why_it_matters": "从“聊天框返回 Markdown”转向“答案就是可操作工具”，很适合知识解释、交互式产品和动态仪表板。运行示例需要模型与可视化路由服务。",
+      "category": "Frontend / Generative UI",
+      "tags": [
+        "AG-UI",
+        "interactive",
+        "3D",
+        "TypeScript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CopilotKit/OpenIntelligentUI",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "CopilotKit/OpenIntelligentUI",
+        "github_stars": null,
+        "stars_growth": "+250/today (GitHub Trending snapshot 2026-10-13)",
+        "trend_signal": "GitHub Trending 2026-10-13 LLM category +250 stars today; official demo includes 3D controls.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "ranxianglei/billion-context",
+      "summary": "中文开发者的上下文压缩代理，利用可恢复的分层摘要和模型驱动的压缩工具，支持多种编码 Agent 的长会话。",
+      "why_it_matters": "与单纯增大上下文窗口不同，强调 token 成本和前缀缓存；官方 5 倍节省及长期测试属于项目方数据，且 README 明示真实模型集成仍在早期。",
+      "category": "Agent / Context compression",
+      "tags": [
+        "Codex",
+        "context",
+        "token-saving",
+        "proxy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ranxianglei/billion-context",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "ranxianglei/billion-context",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "whatstrending.ai 2026-10-13 first-seen recent snapshot; GitHub Trending language feed lists project.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "anmolkapil/plexo",
+      "summary": "跨平台多线路下载器，可同时使用 Wi-Fi 与手机 USB 网络下载同一文件，并支持断点续传、BT 和网络级流量限额。",
+      "why_it_matters": "不是常见的单连接多线程，而是将多块数据动态分配到不同物理网络；对网络条件复杂的笔记本用户有实际价值，服务端须支持分段请求。",
+      "category": "Desktop / Download manager",
+      "tags": [
+        "macOS",
+        "download",
+        "multi-network",
+        "torrent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anmolkapil/plexo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "anmolkapil/plexo",
+        "github_stars": null,
+        "stars_growth": "+1600/today (approx, GitTrend 2026-10-12)",
+        "trend_signal": "GitTrend 2026-10-12 snapshot +1.6k today; repo checked again 2026-10-13.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Crosstalk-Solutions/project-nomad",
+      "summary": "离线知识与教育服务器，打包 Wikipedia/Kiwix、Khan Academy/Kolibri、离线地图、笔记和可选本地 AI。",
+      "why_it_matters": "面向无网环境、家庭教育和知识长期保存，比单个离线百科更像完整的私有知识站。安装脚本需要 root，且默认无应用层身份认证，不应直接暴露公网。",
+      "category": "Self-hosted / Offline knowledge",
+      "tags": [
+        "offline",
+        "education",
+        "Docker",
+        "maps"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "Crosstalk-Solutions/project-nomad",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-10-13 repository/language list; community momentum visible, no reliable daily delta.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "rommapp/romm",
+      "summary": "自托管复古游戏 ROM 管理与浏览器游玩平台，自动补充封面元数据、跨设备同步存档，并支持大量主机平台。",
+      "why_it_matters": "将分散的模拟器文件组织成类似流媒体媒体库；适合合法备份的游戏收藏。游戏 ROM 的版权及元数据接口限制仍需遵守。",
+      "category": "Games / Self-hosted",
+      "tags": [
+        "emulation",
+        "ROM",
+        "web",
+        "library"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rommapp/romm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "rommapp/romm",
+        "github_stars": null,
+        "stars_growth": "+158/today (whatstrending.ai snapshot 2026-10-13)",
+        "trend_signal": "whatstrending.ai 2026-10-13 sampled +158 stars today.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "summary": "PDF 转 Markdown、结构化 JSON 与 HTML 的解析工具，保留段落/表格边界框，支持扫描件 OCR 和复杂页混合解析。",
+      "why_it_matters": "在 RAG、论文整理和可追溯引用中，版面坐标往往比纯文本更重要；官方基准成绩属于项目方测试，复杂中文扫描件仍需抽样复核。",
+      "category": "Developer / Document parsing",
+      "tags": [
+        "PDF",
+        "OCR",
+        "RAG",
+        "Markdown"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "opendataloader-project/opendataloader-pdf",
+        "github_stars": null,
+        "stars_growth": "+56/today (GitHub Trending snapshot 2026-10-13)",
+        "trend_signal": "GitHub Trending 2026-10-13 LLM category +56 stars today; repo README documents bbox JSON.",
+        "language": "Java"
+      }
+    },
+    {
+      "title": "OpenBMB/VoxCPM",
+      "summary": "开源多语言语音生成与音色设计模型系列，VoxCPM2 支持文本生成语音、参考音频克隆、情绪/语速控制和高采样率输出。",
+      "why_it_matters": "本地化儿童故事、配音和创作者工作流可用；模型效果、速度与授权应按版本验证，克隆真实人物声音需获得许可。",
+      "category": "Audio / Open models",
+      "tags": [
+        "TTS",
+        "voice",
+        "Chinese",
+        "local-AI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/OpenBMB/VoxCPM",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "OpenBMB/VoxCPM",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-10-13 language lists included repository; no verified daily star growth.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "trycua/cua",
+      "summary": "跨 macOS、Windows、Linux 的计算机操作 Agent 基础设施，提供桌面驱动、沙箱、SDK 和可评测的 GUI 任务环境。",
+      "why_it_matters": "GUI 操作让 Agent 能覆盖没有 API 的软件；值得关注可复现评测与沙箱边界。部分 Spaces 组件为 source-available 许可，不能笼统视为全部 MIT。",
+      "category": "Agent / Computer use",
+      "tags": [
+        "GUI",
+        "automation",
+        "sandbox",
+        "benchmark"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/trycua/cua",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "trycua/cua",
+        "github_stars": null,
+        "stars_growth": "+7084/month (GitHub Trending 2026-10-13)",
+        "trend_signal": "GitHub Trending monthly 2026-10-13 +7,084 stars (+32%).",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "XiaoYouChR/Ghost-Downloader-3",
+      "summary": "跨平台下载工具，整合 HTTP、BT、FTP、M3U8、DASH 等协议，并提供浏览器嗅探、站点适配和下载任务控制。",
+      "why_it_matters": "与 Plexo 的多网络聚合形成不同方向：这里侧重“一站式多协议”和媒体抓取，适合频繁处理素材的人。站点支持和内容版权需按实际环境核查。",
+      "category": "Desktop / Downloader",
+      "tags": [
+        "download",
+        "browser-extension",
+        "video",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "XiaoYouChR/Ghost-Downloader-3",
+        "github_stars": null,
+        "stars_growth": "+75/today (whatstrending.ai snapshot 2026-10-13)",
+        "trend_signal": "whatstrending.ai 2026-10-13 sampled +75 stars today.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "EpicGames/raddebugger",
+      "summary": "原生图形调试器，面向多进程用户态调试与大型 C/C++ 项目，围绕 RAD Debug Info 和链接工具链展开。",
+      "why_it_matters": "大型原生项目需要比脚本级断点更精细的调试能力；项目目前主要面向 Windows x64/PDB，Linux/macOS 开发者不宜误认为已跨平台。",
+      "category": "Developer / Debugger",
+      "tags": [
+        "C",
+        "debugger",
+        "Windows",
+        "native"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/EpicGames/raddebugger",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "项目 README 与 2026-10-13 UTC GitHub Trending/第三方采样页交叉核查；热度是关注度，不代表质量或安全性。",
+      "extra": {
+        "repo": "EpicGames/raddebugger",
+        "github_stars": null,
+        "stars_growth": "+845/7d (GitHub Trending snapshot 2026-10-13)",
+        "trend_signal": "GitHub Trending weekly 2026-10-13 +845 stars; official README describes alpha status.",
+        "language": "C"
+      }
+    }
+  ]
+}

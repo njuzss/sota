@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T08:46:17+08:00",
+  "title": "每日前沿简报",
+  "summary": "10 月 8 日最重要的变化集中在三个交叉点：Google 将通用 Gemini Agent 推向企业身份、权限与跨应用执行层，Anthropic 与 OpenAI 则分别从使用政策和真实影响行动案例展示 Agent 治理压力；美国进一步将 AI 算力纳入国家科研投入。医学研究中，BRCA 卵巢癌联合方案未达主要疗效终点、CD28 CAR-T 仍处临床前阶段，而乙肝停药、蛋白组学跨平台验证和免疫记忆机制提供了高价值但须谨慎解读的新证据。资本市场方面，台积电和台湾出口的强劲数据与 OpenAI 收入口径争议、油价和高利率引发的科技股回撤形成鲜明对照。",
+  "items": [
+    {
+      "title": "Google 发布通用企业 Gemini Agent：跨应用长时任务与独立 Agent 身份",
+      "summary": "Google Cloud 在 10 月 8 日 Gemini at Work 大会上推出通用 Gemini Agent，整合 Workspace、代码执行、第三方工具、长期上下文与多 Agent 协作。企业还可创建拥有独立邮箱、存储、身份与权限的“同事 Agent”；目前部分能力处于私有预览或分阶段开放。",
+      "why_it_matters": "这是 Agent 从聊天入口走向企业身份、权限、审计和云端持久执行的标志性产品化。Google 同时支持按任务路由 Gemini 与 Claude 等模型，意味着企业 Agent 平台竞争不再只取决于单一模型榜单。",
+      "category": "AI",
+      "tags": [
+        "Google Cloud",
+        "Gemini Agent",
+        "Workspace",
+        "agent identity",
+        "multi-agent"
+      ],
+      "source_name": "Google Cloud",
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "image_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Gemini.max-2000x2000.png",
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "notes": "产品功能及采用规模来自 Google 官方公告；部分功能尚未普遍可用。"
+      }
+    },
+    {
+      "title": "Anthropic 更新 Claude 使用政策：首次细化物理 Agent 安全互锁",
+      "summary": "Anthropic 10 月 8 日公布新版 Usage Policy，11 月 12 日生效。政策集中规范虚假影响行动、选举欺骗、武器软件、监控和高风险医疗金融用途，并要求连接自主硬件时有人能观察、紧急停止且设备断连后保持安全状态。",
+      "why_it_matters": "相比“禁止危险提示词”，新规把责任延伸到 Agent 对物理世界的真实操作链。针对模型持续遭受无目的残酷对待的禁令引起关注，但公司明确称不针对普通批评、测试或用户挫折表达。",
+      "category": "AI",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "usage policy",
+        "physical AI",
+        "agent safety"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "effective_date": "2026-11-12"
+      }
+    },
+    {
+      "title": "OpenAI 披露两起“假前台”影响行动：AI 让伪媒体身份更易规模化",
+      "summary": "OpenAI 10 月 8 日披露并封禁一批关联俄罗斯与伊朗的影响行动账户。俄方行动以拉美“研究中心”为前台并试图雇佣不知情人员；伊方使用七个假记者身份向外部媒体投稿，OpenAI 称识别出近百篇已发表或转载文章。",
+      "why_it_matters": "值得关注的不是模型生成了多少文字，而是 AI 辅助的虚假身份已渗透真实编辑、媒体分发和机构雇佣流程。影响范围评估主要来自 OpenAI 调查，独立归因与实际受众效果仍存在不确定性。",
+      "category": "AI",
+      "tags": [
+        "OpenAI",
+        "threat intelligence",
+        "influence operations",
+        "information integrity"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "notes": "事件细节主要依据平台自身威胁情报，外部独立核验程度有限。"
+      }
+    },
+    {
+      "title": "美国 Genesis Mission 获 24 亿美元企业算力与工具承诺",
+      "summary": "美国白宫 10 月 8 日公布“Science: A New Golden Age”系列计划，称 NVIDIA、AMD、OpenAI、Anthropic、Google 等 11 家企业为 Genesis Mission 承诺合计 24 亿美元的 AI 工具与算力额度。官方列出的贡献包括 NVIDIA 10 亿、AMD 5 亿、OpenAI 2 亿美元，覆盖多家联邦科研机构。",
+      "why_it_matters": "这表明前沿 AI 正被系统性纳入国家实验室、能源、医疗和空间科研基础设施。须区分“算力与工具承诺”与已到账现金拨款，也不能把总承诺额直接视为新增科研支出。",
+      "category": "AI",
+      "tags": [
+        "Genesis Mission",
+        "AI for science",
+        "NVIDIA",
+        "OpenAI",
+        "public-private research"
+      ],
+      "source_name": "The White House",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "notes": "24 亿美元为行业伙伴承诺的工具与算力额度，不全是现金。"
+      }
+    },
+    {
+      "title": "GitHub Trending：diagram-design 为 Codex/Claude Code 提供 42 类编辑级架构图",
+      "summary": "cathrynlavery/diagram-design 出现在本次 GitHub Trending 榜单，项目以 Agent Skill 和插件形式为 Codex、Claude Code 等提供 42 类图形布局。它以自包含 HTML+SVG 输出架构图、序列图、数据流、轴测平面图等，并强调品牌样式与静态可验证产物。",
+      "why_it_matters": "这类工具把 Agent 的设计产出从“能画个图”推进到可复用视觉规范、跨工具导入和可维护图形代码。对需要经常让 Codex 产出系统架构图和 3D 空间说明的项目尤其值得试用，但热门度不是质量保证。",
+      "category": "OpenSource",
+      "tags": [
+        "GitHub Trending",
+        "diagram-design",
+        "Codex",
+        "Claude Code",
+        "SVG",
+        "Agent Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "image_url": "https://github.com/cathrynlavery/diagram-design/raw/main/docs/hero/hero-light.webp",
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "trend_observed_date": "2026-10-09",
+        "notes": "GitHub Trending 实时榜单；非长期排名。"
+      }
+    },
+    {
+      "title": "GitHub Trending：rea 尝试让 Agent 从界面行为逆向到原生二进制",
+      "summary": "morluto/rea 登上 GitHub Trending，项目定位为使用 Agent 对应用行为、接口乃至原生二进制进行逆向工程。与传统单一反编译器不同，它强调把观察、分析和工具调用组织为可迭代工作流。",
+      "why_it_matters": "逆向工程正成为 Coding Agent 的新应用场景：不仅理解已有源码，也尝试推断黑盒行为与底层实现。实际正确率、安全边界和法律合规取决于目标软件及执行环境，项目描述本身不是能力验证。",
+      "category": "OpenSource",
+      "tags": [
+        "GitHub Trending",
+        "rea",
+        "reverse engineering",
+        "coding agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "trend_observed_date": "2026-10-09",
+        "notes": "仅确认项目描述与榜单热度，未独立复现逆向能力。"
+      }
+    },
+    {
+      "title": "GitHub Trending：claude-mem 为 Codex 等 Agent 保存跨会话开发记忆",
+      "summary": "由 thedotmack 维护的 claude-mem 进入 GitHub Trending。项目通过捕获 Agent 会话事件、压缩历史并在后续会话注入相关上下文，支持 Claude Code、Codex、Gemini、OpenClaw 等多个宿主。",
+      "why_it_matters": "多日开发中重复读取仓库、遗忘决策与重做失败尝试正在成为 Agent 成本和可靠性瓶颈。跨宿主记忆很有吸引力，但压缩漂移、敏感信息存储和检索准确率需要结合真实仓库评测。",
+      "category": "OpenSource",
+      "tags": [
+        "GitHub Trending",
+        "claude-mem",
+        "Codex",
+        "agent memory",
+        "context engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "trend_observed_date": "2026-10-09",
+        "notes": "项目热度已核实；性能收益为待验证的工程主张。"
+      }
+    },
+    {
+      "title": "BRCA 卵巢癌联合治疗一期/二期：32.7% 缓解率但未达预设疗效终点",
+      "summary": "10 月 8 日 Nature Communications 发表一项纳入 50 名胚系 BRCA1/2 突变复发卵巢癌患者的单臂研究，测试奥拉帕利加 CTLA-4 抗体 tremelimumab。总体缓解率 32.7%，中位 PFS 3.0 个月；57% 发生 3–4 级非血液学毒性，研究未达到预设疗效终点。",
+      "why_it_matters": "这是一项值得报道的“阴性但有信息量”的肿瘤试验：少数患者持久获益不能掩盖整体终点未达标和毒性负担。后续重点是生物标志物分层，而非直接推广联合方案。",
+      "category": "Medicine",
+      "tags": [
+        "ovarian cancer",
+        "BRCA",
+        "olaparib",
+        "tremelimumab",
+        "phase 2"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-78395-y",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "study_type": "single-arm phase I/II",
+        "notes": "无随机对照，无法估计相对标准治疗的因果获益。"
+      }
+    },
+    {
+      "title": "T-ALL 新 CAR-T 靶点 CD28：临床前研究显示较少广泛淋巴细胞清除",
+      "summary": "10 月 8 日 Nature Communications 研究发现 CD28 在部分 T 系恶性肿瘤细胞中高表达。研究者通过 CRISPR 敲除 CAR-T 自身 CD28 以避免自相残杀，构建抗 CD28 CAR-T；在细胞和动物模型中观察到抗肿瘤活性，并较 CD7 靶向方案保留更多 CD8 T 和 NK 细胞。",
+      "why_it_matters": "T 细胞白血病 CAR-T 的难点是靶点同时存在于正常 T 细胞，容易造成长期免疫缺陷。CD28 提供新路线，但目前仅为临床前证据，不能推断人体安全性或疗效。",
+      "category": "Medicine",
+      "tags": [
+        "T-ALL",
+        "CAR-T",
+        "CD28",
+        "CRISPR",
+        "preclinical"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-78312-3",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "study_type": "preclinical",
+        "notes": "尚无患者临床疗效证据。"
+      }
+    },
+    {
+      "title": "乙肝停药 COIN-B 前瞻性研究：病毒基因型与遗传祖源比粗略族裔标签更有用",
+      "summary": "Nature Communications 10 月 8 日发表 COIN-B 多中心前瞻性试验：91 名长期核苷（酸）类似物治疗、HBeAg 阴性且无晚期纤维化的患者停药，84 人完成 72 周方案。研究分析停药后结局与 HBV 基因型、遗传祖源和传统族裔分类的关联。",
+      "why_it_matters": "慢性乙肝停药可能带来功能性治愈机会，但也存在病毒反弹和肝炎风险。该研究支持更精细的生物学风险分层，不意味着患者可自行停药；样本量与人群选择限制普适性。",
+      "category": "Medicine",
+      "tags": [
+        "HBV",
+        "COIN-B",
+        "antiviral cessation",
+        "genomics",
+        "prospective trial"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-78490-0",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "study_type": "prospective multicentre trial",
+        "notes": "严格筛选的停药人群，不适用于未经医生评估的普通乙肝患者。"
+      }
+    },
+    {
+      "title": "跨平台蛋白组学 11 队列对照：疾病预测模型换检测平台后显著退化",
+      "summary": "Nature Communications 10 月 8 日比较 Olink 与 SomaScan 两大亲和蛋白组平台，覆盖 11 个独立队列，筛选出 757 组跨队列相关性稳定的蛋白探针对。研究发现年龄、BMI 和 15 种常见疾病预测模型在平台切换时常出现性能下降。",
+      "why_it_matters": "大规模蛋白组数据正被用于疾病风险评分与药物靶点发现，但“一个平台训练、另一个平台部署”并非自然可行。此研究提供了跨平台可迁移性筛选思路，提醒商业多病种蛋白检测警惕外部验证不足。",
+      "category": "Medicine",
+      "tags": [
+        "proteomics",
+        "Olink",
+        "SomaScan",
+        "biomarkers",
+        "external validation"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-78443-7",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "study_type": "cross-cohort technology comparison"
+      }
+    },
+    {
+      "title": "细菌毒素诱导短暂先天免疫记忆：小鼠脓毒症存活改善",
+      "summary": "Nature Communications 10 月 8 日研究显示，细菌毒素可经 NLRP3 炎症小体、IL-1 信号和表观遗传重塑诱导巨噬细胞“训练性免疫”。研究在小鼠脓毒症模型中观察到更强宿主抵抗力和存活改善，并在原代人巨噬细胞中发现相关机制。",
+      "why_it_matters": "训练性免疫为感染防御提供不同于传统抗体疫苗的机制线索，但诱导炎症本身也可能带来伤害。该研究仍是机制与动物证据，不能被解释为“注射毒素治疗脓毒症”。",
+      "category": "Medicine",
+      "tags": [
+        "sepsis",
+        "trained immunity",
+        "NLRP3",
+        "macrophage",
+        "preclinical"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-78499-5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "study_type": "in vitro and mouse model"
+      }
+    },
+    {
+      "title": "骨关节炎镇痛研发的系统性难题：动物模型难以外推人类疼痛",
+      "summary": "Communications Medicine 10 月 8 日发表综述，评估用于开发骨关节炎镇痛疗法的动物模型能否反映临床疼痛机制与患者异质性。作者强调模型终点、病程、行为测量和人类患者体验之间存在重要转化鸿沟。",
+      "why_it_matters": "骨关节炎新药研发屡遇临床失败，部分原因可能不是靶点毫无作用，而是动物实验衡量的并非患者真正关心的疼痛与功能。该文是方法学综述，不是某种新药已获证实的证据。",
+      "category": "Medicine",
+      "tags": [
+        "osteoarthritis",
+        "pain",
+        "animal models",
+        "translational medicine"
+      ],
+      "source_name": "Communications Medicine",
+      "source_url": "https://www.nature.com/articles/s43856-026-01926-7",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "study_type": "review"
+      }
+    },
+    {
+      "title": "台积电三季度营收同比增长 50%，创历史纪录并超预期",
+      "summary": "台积电公布 2026 年第三季度营收约新台币 1.49 万亿元（约 467 亿美元），同比增长 50%，高于市场约 1.46 万亿元预估。9 月单月营收同比增长约 54.6%，反映 AI 加速器与先进制程需求持续旺盛。",
+      "why_it_matters": "相比 GPU 厂商订单预期，晶圆代工实际营收是 AI 投资链条更靠近生产端的硬指标。下一步需结合先进封装产能、毛利率和客户集中度判断需求能否持续。",
+      "category": "Tech",
+      "tags": [
+        "TSMC",
+        "semiconductors",
+        "AI capex",
+        "Taiwan"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/tsmcs-third-quarter-revenue-surges-50-yy-beating-market-forecast-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08"
+      }
+    },
+    {
+      "title": "GlobalFoundries 与台积电达成 20 亿美元硅中介层制造合作",
+      "summary": "GlobalFoundries 10 月 8 日宣布约 20 亿美元协议，将在纽约州工厂为台积电生产先进 AI 芯片封装所需的 silicon interposer。硅中介层连接计算芯片与高带宽存储，是先进 2.5D 封装的重要组件。",
+      "why_it_matters": "AI 芯片产能瓶颈已从先进逻辑晶圆扩展到封装与芯粒互连。由成熟工艺厂参与中介层制造，可能释放部分先进产线资源并增强美国本土供应链弹性。",
+      "category": "Tech",
+      "tags": [
+        "GlobalFoundries",
+        "TSMC",
+        "interposer",
+        "advanced packaging",
+        "HBM"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/globalfoundries-make-key-ai-chip-component-tsmc-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08"
+      }
+    },
+    {
+      "title": "Upscale AI 推出 Token Fabric：异构 AI 芯片尝试共用数据中心网络",
+      "summary": "获 NVIDIA 支持的 Upscale AI 于 10 月 8 日发布 Token Fabric，定位为跨不同供应商 AI 处理器的硬件与软件网络平台。公司希望减少混合 GPU/加速器数据中心分别部署多套互连系统的复杂度。",
+      "why_it_matters": "当企业同时采购 NVIDIA GPU、定制 ASIC 与其他加速器时，互连和编排可能成为成本、吞吐和厂商锁定的关键变量。平台刚发布，性能、兼容性和实际客户部署仍需验证。",
+      "category": "Tech",
+      "tags": [
+        "Upscale AI",
+        "Token Fabric",
+        "networking",
+        "heterogeneous accelerators"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "notes": "产品能力主要为发布方主张，缺少独立大规模部署数据。"
+      }
+    },
+    {
+      "title": "ASML 与蔡司提出 Hyper-NA EUV：下一代光刻机仍需约十年",
+      "summary": "ASML 与光学伙伴 Zeiss 10 月 8 日披露新一代 Hyper-NA EUV 研究，目标进一步提高数值孔径并缩小可印制特征。两家公司估计相关设备距离实际可用可能仍有约十年，尚未承诺量产。",
+      "why_it_matters": "先进制程竞争并未因 3D 堆叠而结束，光刻光学仍是决定功耗、密度与成本的基础技术。但十年时间尺度和研发不确定性意味着它不是近期芯片产能利好。",
+      "category": "Tech",
+      "tags": [
+        "ASML",
+        "Zeiss",
+        "Hyper-NA",
+        "EUV",
+        "lithography"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "notes": "技术研发方向已披露，时间表为估计而非承诺。"
+      }
+    },
+    {
+      "title": "OpenAI 年化收入被指比此前口径少约 200 亿美元，AI 估值承压",
+      "summary": "路透社 10 月 8 日转述金融时报基于投资者材料的报道：OpenAI 年化收入可能比此前对外传递的数字低约 200 亿美元。路透社当时无法独立核实相关文件，OpenAI 也未及时回应。",
+      "why_it_matters": "AI 基建与软件估值高度依赖少数头部模型公司的营收增长。此事的关键是厘清 run-rate、合同额与已确认收入的统计口径，在独立核实前不宜把“差额”当成真实收入缩水。",
+      "category": "Macro",
+      "tags": [
+        "OpenAI",
+        "revenue",
+        "AI valuation",
+        "financial reporting"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "disputed",
+      "extra": {
+        "publication_date": "2026-10-08",
+        "controversy": "基于二手报道且未获路透社独立核实，可能涉及不同收入统计口径。"
+      }
+    },
+    {
+      "title": "台湾 9 月出口同比增长 60.9% 创纪录：AI 需求向实体贸易扩散",
+      "summary": "台湾 10 月 8 日公布 9 月出口约 872.2 亿美元，同比增加 60.9%，连续第二个月刷新单月纪录，也高于市场预期。美国是重要目的地，AI 芯片与相关电子产品是主要拉动因素。",
+      "why_it_matters": "出口数据为全球 AI 资本开支提供了订单与实物流向之外的宏观交叉验证。与此同时，高增长集中在电子链条，也可能扩大台湾经济对 AI 投资周期的依赖。",
+      "category": "Macro",
+      "tags": [
+        "Taiwan",
+        "exports",
+        "AI supply chain",
+        "trade"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/taiwan-september-exports-hit-fresh-monthly-record-ai-demand-us-leads-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08"
+      }
+    },
+    {
+      "title": "油价与高利率双重冲击：美股科技板块领跌，纳指跌约 1.3%",
+      "summary": "10 月 8 日美国股市收盘，标普 500 下跌约 0.5%，纳斯达克跌约 1.3%，道指微涨。Brent 原油上涨约 4.1%，AI 相关半导体股承压，市场同时消化长债收益率偏高和 OpenAI 收入报道。",
+      "why_it_matters": "这说明 AI 资本开支主题不再能无条件抵消贴现率和能源价格的冲击。需要持续区分油价驱动的通胀压力、企业信用融资成本与 AI 需求基本面，而不是把当日跌幅简单归咎于某一条新闻。",
+      "category": "Macro",
+      "tags": [
+        "Nasdaq",
+        "oil",
+        "Treasuries",
+        "AI stocks",
+        "Fed"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-08"
+      }
+    }
+  ]
+}

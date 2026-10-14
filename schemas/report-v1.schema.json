@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sota.local/schemas/report-v1.schema.json",
+  "title": "SOTA Report v1 (producer contract)",
+  "type": "object",
+  "required": ["schema_version", "channel", "date", "generated_at", "title"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "channel": { "enum": ["frontier", "trending", "market"] },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": ["string", "null"] }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "channel": { "const": "frontier" },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/item" } }
+      },
+      "required": ["items", "summary"]
+    },
+    {
+      "properties": {
+        "channel": { "const": "trending" },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "top_picks": {
+          "type": "array",
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["items", "summary", "top_picks"]
+    },
+    {
+      "properties": {
+        "channel": { "const": "market" },
+        "market_open": { "type": "boolean" },
+        "analysis": { "type": "string" },
+        "indices": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "code", "close", "change_pct"],
+            "properties": {
+              "name": { "type": "string" },
+              "code": { "type": ["string", "null"] },
+              "close": { "$ref": "#/$defs/number" },
+              "change_pct": { "$ref": "#/$defs/number" }
+            }
+          }
+        },
+        "metrics": {
+          "type": "object",
+          "properties": {
+            "turnover": { "type": ["string", "number", "null"] },
+            "up_count": { "$ref": "#/$defs/count" },
+            "down_count": { "$ref": "#/$defs/count" },
+            "limit_up": { "$ref": "#/$defs/count" },
+            "limit_down": { "$ref": "#/$defs/count" }
+          }
+        },
+        "leading_sectors": { "$ref": "#/$defs/sectors" },
+        "lagging_sectors": { "$ref": "#/$defs/sectors" },
+        "sentiment": {
+          "type": "object",
+          "properties": {
+            "stage": { "type": "string" },
+            "summary": { "type": "string" },
+            "evidence": { "$ref": "#/$defs/strings" }
+          }
+        },
+        "outlook": {
+          "type": "object",
+          "properties": {
+            "horizon": { "type": "string" },
+            "scenarios": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "conditions", "implication"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "conditions": { "type": "string" },
+                  "implication": { "type": "string" }
+                }
+              }
+            },
+            "risks": { "$ref": "#/$defs/strings" },
+            "opportunities": { "$ref": "#/$defs/strings" }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "url"],
+            "properties": {
+              "name": { "type": "string" },
+              "url": { "$ref": "#/$defs/url" }
+            }
+          }
+        }
+      },
+      "required": [
+        "market_open",
+        "indices",
+        "metrics",
+        "leading_sectors",
+        "lagging_sectors",
+        "sentiment",
+        "analysis",
+        "outlook",
+        "sources"
+      ]
+    }
+  ],
+  "$defs": {
+    "number": { "type": ["number", "null"] },
+    "count": { "type": ["integer", "null"], "minimum": 0 },
+    "strings": { "type": "array", "items": { "type": "string" } },
+    "url": {
+      "anyOf": [
+        { "type": "string", "format": "uri", "pattern": "^https?://" },
+        { "type": "null" }
+      ]
+    },
+    "sectors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "title",
+        "summary",
+        "why_it_matters",
+        "category",
+        "tags",
+        "source_name",
+        "source_url",
+        "image_url",
+        "published_at",
+        "evidence",
+        "extra"
+      ],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": ["string", "null"] },
+        "why_it_matters": { "type": ["string", "null"] },
+        "category": { "type": ["string", "null"] },
+        "tags": { "type": ["array", "null"], "items": { "type": "string" } },
+        "source_name": { "type": ["string", "null"] },
+        "source_url": { "$ref": "#/$defs/url" },
+        "image_url": { "$ref": "#/$defs/url" },
+        "published_at": { "type": ["string", "null"], "format": "date-time" },
+        "evidence": {
+          "enum": ["strong", "moderate", "weak", "disputed", null]
+        },
+        "extra": { "type": "object" }
+      }
+    }
+  }
+}

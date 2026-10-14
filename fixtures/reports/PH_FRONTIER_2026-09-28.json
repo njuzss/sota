@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T08:10:00+08:00",
+  "channel": "frontier",
+  "title": "每日前沿简报",
+  "summary": "演示日报 · 从工具到工作流：让研究结果真正留下来。本期聚焦可验证的研究、开源工具与本地数据的长期价值。所有叙述仅用于界面和导入测试。",
+  "items": [
+    {
+      "title": "从工具到工作流：让研究结果真正留下来",
+      "summary": "当一条信息有了日期、来源和上下文，它才开始成为可以反复使用的知识。结构化日报把一次阅读连接到长期观察，而原始稿件让每次修改都有据可查。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "AI",
+      "tags": [
+        "演示",
+        "Agent",
+        "研究工作流"
+      ],
+      "source_name": "演示研究札记",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-09-28T07:30:00+08:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "医学研究：区分观察信号与因果结论",
+      "summary": "演示条目：同样的结果，在不同研究设计下会有不同的解释。阅读论文时，同时记录样本、方法和局限，比只记住一个醒目的数字更有帮助。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "MEDICINE",
+      "tags": [
+        "循证",
+        "演示"
+      ],
+      "source_name": "研究方法演示",
+      "source_url": null,
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "不描述真实临床结果"
+      }
+    },
+    {
+      "title": "SQLite 与本地全文搜索：小系统也能有完整记忆",
+      "summary": "第 1 次演示观察。数据留在本地，页面读取已经生成的内容；中文检索、英文项目名和历史归档可以共用一个轻量存储。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "SQLite",
+        "本地优先"
+      ],
+      "source_name": "SQLite Documentation",
+      "source_url": "https://sqlite.org/fts5.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "宏观观察：把事实、解释和情景放在不同位置",
+      "summary": "演示条目：明确哪些是已经发生的事实，哪些是对事实的解释，哪些依赖未来条件。未能核实的指标保留为空，也能帮助读者判断信息边界。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "MACRO",
+      "tags": [
+        "宏观",
+        "不确定性"
+      ],
+      "source_name": "演示编辑部",
+      "source_url": null,
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    }
+  ]
+}

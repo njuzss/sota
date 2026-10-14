@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T12:00:00+08:00",
+  "channel": "frontier",
+  "title": "每日前沿简报 · 修订版",
+  "summary": "演示日报 · 把每天的发现，编成一本可以回看的报纸。本期聚焦可验证的研究、开源工具与本地数据的长期价值。所有叙述仅用于界面和导入测试。",
+  "items": [
+    {
+      "title": "把每天的发现，编成一本可以回看的报纸",
+      "summary": "当一条信息有了日期、来源和上下文，它才开始成为可以反复使用的知识。结构化日报把一次阅读连接到长期观察，而原始稿件让每次修改都有据可查。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "AI",
+      "tags": [
+        "演示",
+        "Agent",
+        "研究工作流"
+      ],
+      "source_name": "演示研究札记",
+      "source_url": null,
+      "image_url": "http://127.0.0.1:3000/fixture-missing-image.png",
+      "published_at": "2026-10-03T07:30:00+08:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "医学研究：区分观察信号与因果结论",
+      "summary": "演示条目：同样的结果，在不同研究设计下会有不同的解释。阅读论文时，同时记录样本、方法和局限，比只记住一个醒目的数字更有帮助。",
+      "why_it_matters": "演示内容：关注可以验证的变化，并保留来源与不确定性。",
+      "category": "MEDICINE",
+      "tags": [
+        "循证",
+        "演示"
+      ],
+      "source_name": "研究方法演示",
+      "source_url": null,
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "不描述真实临床结果"
+      }
+    }
+  ]
+}

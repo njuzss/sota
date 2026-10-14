@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T08:36:12+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "今天最明显的趋势是 Agent 生态继续向可复用 Skills、可验证创作流程和本地系统集成扩展；与此同时，Apple container、Tolaria、Helium、Octri 等项目显示普通开发基础设施、知识管理、隐私浏览器和 API 工具仍有独立于 AI 热潮的产品价值。",
+  "top_picks": [
+    "addyosmani/agent-skills",
+    "vincentsch/explainroo",
+    "CharlonTank/agents-sleep-preventer"
+  ],
+  "items": [
+    {
+      "title": "addyosmani/agent-skills",
+      "summary": "面向 AI Coding Agent 的生产级工程 Skills 集合。",
+      "why_it_matters": "Skills 正从零散提示词变成可安装、可审计、可版本化的工程资产。",
+      "category": "Skills/Coding Agent",
+      "tags": [
+        "skills",
+        "coding-agents",
+        "engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/addyosmani/agent-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~55.9K stars, +3.3K/day.",
+      "extra": {
+        "repo": "addyosmani/agent-skills",
+        "github_stars": 55900,
+        "stars_growth": "+3.3K/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Top-tier GitHub Trending placement.",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "vincentsch/explainroo",
+      "summary": "让 Coding Agent 在本地生成讲解视频和产品 Demo：Kokoro 配音、Whisper 对齐、Canvas/Chrome 绘制、ffmpeg 输出。",
+      "why_it_matters": "Agent 写结构化脚本和场景，再通过静帧、布局和语音检查自检，体现确定性媒体流水线。",
+      "category": "Creative/Video",
+      "tags": [
+        "video",
+        "agents",
+        "codex",
+        "local-first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vincentsch/explainroo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Fresh Oct 4 community launch; official repo showed 384 stars.",
+      "extra": {
+        "repo": "vincentsch/explainroo",
+        "github_stars": 384,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 4 developer-community signal.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "CharlonTank/agents-sleep-preventer",
+      "summary": "在 Claude Code、Codex 工作时自动阻止 Mac/Windows 休眠，结束后恢复；另带本地语音听写。",
+      "why_it_matters": "长时间 Agent 任务催生 ambient utility，把 Agent hooks 直接接到桌面电源管理。",
+      "category": "Desktop utility",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Codex",
+        "Claude-Code"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CharlonTank/agents-sleep-preventer",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Fresh Show HN signal on Oct 4; official repo documents Codex/Claude hooks and local dictation.",
+      "extra": {
+        "repo": "CharlonTank/agents-sleep-preventer",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 4 Show HN launch.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "apple/container",
+      "summary": "Apple 用 Swift 开源的 macOS Linux 容器工具，每个容器运行在轻量虚拟机中。",
+      "why_it_matters": "Apple 原生虚拟化栈进入容器工作流，对本地 Agent sandbox 和 Apple Silicon Linux 开发都有价值。",
+      "category": "Developer infrastructure",
+      "tags": [
+        "containers",
+        "macOS",
+        "Apple-Silicon"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/apple/container",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~34K stars, +2.4K/day.",
+      "extra": {
+        "repo": "apple/container",
+        "github_stars": 34000,
+        "stars_growth": "+2.4K/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Strong non-Agent daily trend.",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "phuryn/pm-skills",
+      "summary": "100+ 产品经理 Agent Skills、commands 和 plugins，覆盖 discovery 到 growth。",
+      "why_it_matters": "专业知识工作开始被 Skill 化，产品管理尤其适合框架化流程。",
+      "category": "Skills/Productivity",
+      "tags": [
+        "product-management",
+        "skills",
+        "agents"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/phuryn/pm-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~16.6K stars, +2K/day.",
+      "extra": {
+        "repo": "phuryn/pm-skills",
+        "github_stars": 16600,
+        "stars_growth": "+2K/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Strong daily breakout.",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "NVIDIA/SkillSpector",
+      "summary": "NVIDIA 的 AI Agent Skill 安全扫描器。",
+      "why_it_matters": "Skills 越来越像可执行依赖，安装前审计正成为供应链基础设施。",
+      "category": "Security/Skills",
+      "tags": [
+        "security",
+        "skills",
+        "agents"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/SkillSpector",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~3K stars, +319/day.",
+      "extra": {
+        "repo": "NVIDIA/SkillSpector",
+        "github_stars": 3000,
+        "stars_growth": "+319/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Trending amid skill-security interest.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "refactoringhq/tolaria",
+      "summary": "管理 Markdown 知识库的桌面应用。",
+      "why_it_matters": "本地 Markdown 仍是耐久、可迁移的个人知识格式，文件即数据库的桌面工具持续有需求。",
+      "category": "Desktop/Knowledge",
+      "tags": [
+        "markdown",
+        "knowledge-base",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/refactoringhq/tolaria",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~15.6K stars, +604/day.",
+      "extra": {
+        "repo": "refactoringhq/tolaria",
+        "github_stars": 15600,
+        "stars_growth": "+604/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Strong desktop-app placement.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "maziyarpanahi/openmed",
+      "summary": "开源 healthcare AI 项目。",
+      "why_it_matters": "医疗 AI 通常高度封闭且数据敏感；快速上榜的开放项目值得技术观察，但不能视作临床工具。",
+      "category": "Healthcare AI",
+      "tags": [
+        "healthcare",
+        "AI",
+        "open-source"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/maziyarpanahi/openmed",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~3K stars, +426/day.",
+      "extra": {
+        "repo": "maziyarpanahi/openmed",
+        "github_stars": 3000,
+        "stars_growth": "+426/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Fresh high Trending placement.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Nero7991/llm.vhdl",
+      "summary": "在 FPGA 全 fabric 上用 VHDL 实现 Qwen3.5 9B / Qwen3.8 27B 类 Transformer 推理。",
+      "why_it_matters": "把 LLM inference 推到完整硬件逻辑路径，是很少见的系统工程实验。",
+      "category": "Hardware/LLM",
+      "tags": [
+        "FPGA",
+        "VHDL",
+        "LLM",
+        "Qwen"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Nero7991/llm.vhdl",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Fresh Oct 4 developer-community discussion around full-fabric VHDL LLM inference.",
+      "extra": {
+        "repo": "Nero7991/llm.vhdl",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 4 community attention.",
+        "language": "VHDL"
+      }
+    },
+    {
+      "title": "Octri.dev",
+      "summary": "从 OpenAPI spec 生成文档站、十种语言 SDK 和 MCP server，并回报生产集成错误。",
+      "why_it_matters": "API 工具链开始同时面向人类开发者和 Agent consumer。",
+      "category": "API/Developer tools",
+      "tags": [
+        "OpenAPI",
+        "SDK",
+        "MCP"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://octri.dev/",
+      "image_url": null,
+      "published_at": "2026-10-04",
+      "evidence": "First seen in Product Hunt tracking Oct 4.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 4 Product Hunt launch.",
+        "language": null
+      }
+    },
+    {
+      "title": "Switch",
+      "summary": "把 AI Agent 作为具名参与者接入 Slack、Teams、Discord 或 Telegram。",
+      "why_it_matters": "Agent 正进入团队现有协作界面，而不是要求团队迁移到新控制台。",
+      "category": "Agent collaboration",
+      "tags": [
+        "Slack",
+        "Teams",
+        "Discord",
+        "agents"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-04",
+      "evidence": "Product Hunt tracking Oct 4 described an open-source/self-hostable collaboration bridge.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 4 Product Hunt signal.",
+        "language": null
+      }
+    },
+    {
+      "title": "imputnet/helium",
+      "summary": "基于 ungoogled-chromium 的跨平台隐私浏览器。",
+      "why_it_matters": "在 Agent 热潮之外，Chromium 兼容性加更少追踪仍有稳定产品需求。",
+      "category": "Browser",
+      "tags": [
+        "browser",
+        "privacy",
+        "Chromium"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/imputnet/helium",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitNova reported organic star growth in its Oct 4 snapshot.",
+      "extra": {
+        "repo": "imputnet/helium",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Organic Oct 4 GitHub radar signal.",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "soxoj/maigret",
+      "summary": "按用户名在 3000+ 网站中搜索公开账号信息的 OSINT 工具。",
+      "why_it_matters": "成熟非 AI 工具重新上榜，显示经典 CLI/OSINT 仍有热度；使用需遵守隐私与合法边界。",
+      "category": "OSINT/CLI",
+      "tags": [
+        "OSINT",
+        "CLI",
+        "username"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/soxoj/maigret",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~32.9K stars, +661/day.",
+      "extra": {
+        "repo": "soxoj/maigret",
+        "github_stars": 32900,
+        "stars_growth": "+661/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Fresh daily Trending spike.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "lusob/nlc",
+      "summary": "让 LLM 逐字节生成可执行程序，从 hello-world 探索到可玩的 Tetris。",
+      "why_it_matters": "这是测试模型能否绕过高级语言和传统编译链、直接推理机器表示的边界实验。",
+      "category": "Experimental/Programming",
+      "tags": [
+        "LLM",
+        "binary",
+        "compiler"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lusob/nlc",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Fresh Oct 4 developer-community discussion.",
+      "extra": {
+        "repo": "lusob/nlc",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 4 Hacker News/community curiosity signal.",
+        "language": null
+      }
+    },
+    {
+      "title": "restic/restic",
+      "summary": "成熟的开源加密、去重备份工具。",
+      "why_it_matters": "可靠基础工具持续获得新用户；在 Agent 自动化时代，备份和可恢复性反而更重要。",
+      "category": "Backup/CLI",
+      "tags": [
+        "backup",
+        "CLI",
+        "security"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/restic/restic",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub Trending Oct 4: ~34.3K stars, +61/day.",
+      "extra": {
+        "repo": "restic/restic",
+        "github_stars": 34300,
+        "stars_growth": "+61/day (Oct 4 GitHub Trending snapshot)",
+        "trend_signal": "Mature infrastructure project returning to Trending.",
+        "language": "Go"
+      }
+    }
+  ]
+}

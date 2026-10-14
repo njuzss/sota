@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T09:05:04+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "今天的新信号更分散：Coding Agent 从单终端向跨仓库通信、远程隔离、多 Agent 工作区和持久记忆扩张；同时 DiPlay、DroidDeck、RemoveMacAI 等具体系统工具快速冒头。Skills 仍热，但安全审计和结构化 CAD 等专业技能更值得关注。",
+  "top_picks": [
+    "shihabal3amri/DiPlay",
+    "Droid-Deck/DroidDeck",
+    "omlahore/RemoveMacAI"
+  ],
+  "items": [
+    {
+      "title": "shihabal3amri/DiPlay",
+      "summary": "Android 车机独立 CarPlay 接收器，支持有线/无线公开预览。",
+      "why_it_matters": "新仓库约 11 天，Oct 5 趋势快照约 3.7K stars、+757/24h。",
+      "category": "Android/Automotive",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shihabal3amri/DiPlay",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "新仓库约 11 天，Oct 5 趋势快照约 3.7K stars、+757/24h。",
+      "extra": {
+        "repo": "shihabal3amri/DiPlay",
+        "github_stars": 3700,
+        "stars_growth": "+757/24h",
+        "trend_signal": "新仓库约 11 天，Oct 5 趋势快照约 3.7K stars、+757/24h。",
+        "language": "Kotlin"
+      }
+    },
+    {
+      "title": "Droid-Deck/DroidDeck",
+      "summary": "把 SteamOS 式体验带到 Android Adreno 掌机，用 ARM64 Proton 运行 Windows 游戏。",
+      "why_it_matters": "Oct 5 趋势快照 +624/24h；官方仓库约 1.1K stars，项目非常新。",
+      "category": "Gaming/Android",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Droid-Deck/DroidDeck",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 趋势快照 +624/24h；官方仓库约 1.1K stars，项目非常新。",
+      "extra": {
+        "repo": "Droid-Deck/DroidDeck",
+        "github_stars": 1100,
+        "stars_growth": "+624/24h",
+        "trend_signal": "Oct 5 趋势快照 +624/24h；官方仓库约 1.1K stars，项目非常新。",
+        "language": "C"
+      }
+    },
+    {
+      "title": "thedotmack/claude-mem",
+      "summary": "跨 Claude Code、Codex、Gemini 等 Agent 保存并检索持久上下文。",
+      "why_it_matters": "Oct 5 趋势快照 +627/24h；官方仓库约 94.1K stars。",
+      "category": "Agent memory",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 趋势快照 +627/24h；官方仓库约 94.1K stars。",
+      "extra": {
+        "repo": "thedotmack/claude-mem",
+        "github_stars": 94100,
+        "stars_growth": "+627/24h",
+        "trend_signal": "Oct 5 趋势快照 +627/24h；官方仓库约 94.1K stars。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "affaan-m/ECC",
+      "summary": "跨多种 Coding Agent harness 的 skills、memory、security、hooks 工程系统。",
+      "why_it_matters": "Oct 5 趋势快照 +897/24h；GitTrend 近 30 天约 +26.2K。",
+      "category": "Agent harness/Skills",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 趋势快照 +897/24h；GitTrend 近 30 天约 +26.2K。",
+      "extra": {
+        "repo": "affaan-m/ECC",
+        "github_stars": 272300,
+        "stars_growth": "+897/24h",
+        "trend_signal": "Oct 5 趋势快照 +897/24h；GitTrend 近 30 天约 +26.2K。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "qualixar/superlocalmemory",
+      "summary": "本地优先的 Agent 长期记忆控制层，支持时间查询、MCP/CLI 和多 IDE。",
+      "why_it_matters": "Oct 5 Show HN 新信号；官方仓库约 227 stars，仍属早期。",
+      "category": "Agent memory",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/qualixar/superlocalmemory",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 Show HN 新信号；官方仓库约 227 stars，仍属早期。",
+      "extra": {
+        "repo": "qualixar/superlocalmemory",
+        "github_stars": 227,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 新信号；官方仓库约 227 stars，仍属早期。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "omlahore/RemoveMacAI",
+      "summary": "关闭 macOS 27 Apple Intelligence、移除本地模型并可逆恢复。",
+      "why_it_matters": "Oct 5 获 The Verge/MacRumors 与社区集中讨论；作者称通常可回收约 12GB。",
+      "category": "macOS utility",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/omlahore/RemoveMacAI",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 获 The Verge/MacRumors 与社区集中讨论；作者称通常可回收约 12GB。",
+      "extra": {
+        "repo": "omlahore/RemoveMacAI",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 获 The Verge/MacRumors 与社区集中讨论；作者称通常可回收约 12GB。",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "imshaikot/Browsentic",
+      "summary": "通过本地 MCP 把 Claude Code、Codex、OpenCode/Cursor CLI 接入 Firefox/Chromium。",
+      "why_it_matters": "Oct 5 Show HN 发布 v0.8.0 首个公开稳定版。",
+      "category": "Browser/Agent",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/imshaikot/Browsentic",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 Show HN 发布 v0.8.0 首个公开稳定版。",
+      "extra": {
+        "repo": "imshaikot/Browsentic",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 发布 v0.8.0 首个公开稳定版。",
+        "language": null
+      }
+    },
+    {
+      "title": "Phonebook",
+      "summary": "让一个 Claude Code 会话向另一个仓库中已注册的 Agent 提问。",
+      "why_it_matters": "Oct 5 Show HN 新发布；跨仓库 Agent 通信思路新颖，但消息非端到端加密。",
+      "category": "Multi-agent developer tool",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": "https://phonebook.dev/",
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "Oct 5 Show HN 新发布；跨仓库 Agent 通信思路新颖，但消息非端到端加密。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 新发布；跨仓库 Agent 通信思路新颖，但消息非端到端加密。",
+        "language": null
+      }
+    },
+    {
+      "title": "Loa",
+      "summary": "本地 Coding Agent，用可修改 DAG 与验收标准管理长任务，每步从状态重建上下文。",
+      "why_it_matters": "Oct 5 Show HN 新发布；支持 OpenAI-compatible endpoint/Ollama。",
+      "category": "Coding Agent",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "Oct 5 Show HN 新发布；支持 OpenAI-compatible endpoint/Ollama。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 新发布；支持 OpenAI-compatible endpoint/Ollama。",
+        "language": null
+      }
+    },
+    {
+      "title": "Offrun",
+      "summary": "Apple Silicon Mac 多 Agent 工作区，为 Claude Code、Codex 等分配独立 git worktree 并交叉 review。",
+      "why_it_matters": "Oct 5 Show HN 新发布，贴近真实多 Agent 开发工作流。",
+      "category": "macOS/Coding Agent",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "Oct 5 Show HN 新发布，贴近真实多 Agent 开发工作流。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 新发布，贴近真实多 Agent 开发工作流。",
+        "language": null
+      }
+    },
+    {
+      "title": "pi pod",
+      "summary": "在自有服务器 VM 上为每个 pi coding-agent 会话创建独立容器，并提供低延迟 TUI。",
+      "why_it_matters": "Oct 5 Show HN 新发布；代表 Agent 执行从本机迁移到私有远程池。",
+      "category": "Agent infrastructure",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": "https://pipod.dev/",
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "Oct 5 Show HN 新发布；代表 Agent 执行从本机迁移到私有远程池。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 新发布；代表 Agent 执行从本机迁移到私有远程池。",
+        "language": null
+      }
+    },
+    {
+      "title": "pve-agents",
+      "summary": "在 Proxmox 上为 Claude Code 创建一次性 LXC 工作区，可浏览 transcript、审批和 review diff。",
+      "why_it_matters": "Oct 5 Show HN 新发布；强调可销毁隔离执行。",
+      "category": "Agent sandbox",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": "https://pve-agents.sh/",
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "Oct 5 Show HN 新发布；强调可销毁隔离执行。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Oct 5 Show HN 新发布；强调可销毁隔离执行。",
+        "language": null
+      }
+    },
+    {
+      "title": "mattpocock/skills",
+      "summary": "来自真实工程实践的 Agent Skills 集合。",
+      "why_it_matters": "Oct 5 趋势快照 +751/24h；Skill Leaderboard 近 7 天约 +5.5K。",
+      "category": "Skills/Coding Agent",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mattpocock/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Oct 5 趋势快照 +751/24h；Skill Leaderboard 近 7 天约 +5.5K。",
+      "extra": {
+        "repo": "mattpocock/skills",
+        "github_stars": 275500,
+        "stars_growth": "+751/24h",
+        "trend_signal": "Oct 5 趋势快照 +751/24h；Skill Leaderboard 近 7 天约 +5.5K。",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare 的 Agent 安全审计 Skill，面向代码库、API、服务和 CLI。",
+      "why_it_matters": "Skill Leaderboard 截至 Oct 5：约 24.6K stars，近 7 天 +2K、30 天 +21.3K。",
+      "category": "Security/Skills",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Skill Leaderboard 截至 Oct 5：约 24.6K stars，近 7 天 +2K、30 天 +21.3K。",
+      "extra": {
+        "repo": "cloudflare/security-audit-skill",
+        "github_stars": 24600,
+        "stars_growth": "+2K/7d",
+        "trend_signal": "Skill Leaderboard 截至 Oct 5：约 24.6K stars，近 7 天 +2K、30 天 +21.3K。",
+        "language": null
+      }
+    },
+    {
+      "title": "earthtojake/text-to-cad",
+      "summary": "从自然语言生成参数化 CAD，并导出 STEP/STL/3MF/GLB。",
+      "why_it_matters": "Skill Leaderboard 截至 Oct 5：约 17.1K stars，近 7 天 +650。",
+      "category": "Creative/CAD",
+      "tags": [],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/earthtojake/text-to-cad",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "Skill Leaderboard 截至 Oct 5：约 17.1K stars，近 7 天 +650。",
+      "extra": {
+        "repo": "earthtojake/text-to-cad",
+        "github_stars": 17100,
+        "stars_growth": "+650/7d",
+        "trend_signal": "Skill Leaderboard 截至 Oct 5：约 17.1K stars，近 7 天 +650。",
+        "language": null
+      }
+    },
+    {
+      "title": "Founder CRM",
+      "summary": "面向独立开发者的免费、本地 Chrome CRM，用于管理早期客户。",
+      "why_it_matters": "Launch Llama 标注 Oct 5 上线；属于很早期但清晰的 local-first 产品信号。",
+      "category": "Browser extension/Productivity",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": null,
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "Launch Llama 标注 Oct 5 上线；属于很早期但清晰的 local-first 产品信号。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Launch Llama 标注 Oct 5 上线；属于很早期但清晰的 local-first 产品信号。",
+        "language": null
+      }
+    },
+    {
+      "title": "Kilo Code for JetBrains",
+      "summary": "原生 JetBrains AI Coding Agent，覆盖 IntelliJ、WebStorm、PyCharm、GoLand、Rider 等。",
+      "why_it_matters": "官方文档确认 JetBrains v7 原生插件可用，支持 remote development 且无需 Node.js。",
+      "category": "IDE/Coding Agent",
+      "tags": [],
+      "source_name": "Developer community",
+      "source_url": "https://kilo.ai/docs/code-with-ai/platforms/jetbrains",
+      "image_url": null,
+      "published_at": "2026-10-05",
+      "evidence": "官方文档确认 JetBrains v7 原生插件可用，支持 remote development 且无需 Node.js。",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "官方文档确认 JetBrains v7 原生插件可用，支持 remote development 且无需 Node.js。",
+        "language": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T08:52:55+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "本期最明显的趋势有三条：第一，原生/开源创作软件集体走红，Rust 系 PhotoCraft、LightCraft、FilmCraft 与 Swift/Metal 的 Redlamp 展现了离线、可编程编辑器的吸引力，但多数仍属早期版本；第二，Coding Agent 从大模型本身转向更细分的 harness 设计与场景落地，Reika 关注小模型稳定性，Rea 做逆向，Universal Modder 做游戏创作；第三，日常开发工具重新获得关注，包括 WebGPU 特效库、统一终端、状态栏、健身自托管工具。星标增量仅使用 GitDiscover 10 月 7 日快照，均标明第三方统计口径，未独立核实的数字不填。Top 3 worth trying today：PhotoCraft（早期创作实验）、Shaders（前端效果可复用）、Kitbar（多项目状态总览，付费）。",
+  "top_picks": [
+    "storytold/photocraft",
+    "shader-effects-inc/shaders",
+    "Kitbar"
+  ],
+  "items": [
+    {
+      "title": "storytold/photocraft",
+      "summary": "纯 Rust 开源 Photoshop 类图像编辑器：PSD 图层、蒙版、调整层、画笔与 GPU 合成，并提供 CLI/MCP 控制。",
+      "why_it_matters": "编辑器原生可编程、支持 Agent 操作，比一次性生成图更接近可复用创作工作流；项目明确标为 early alpha，不能视为成熟 Photoshop 替代品。",
+      "category": "Creative/Desktop",
+      "tags": [
+        "Rust",
+        "photo-editor",
+        "PSD",
+        "MCP",
+        "offline"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/photocraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot: +11.2K stars/24h; GitHub repository confirms PSD editing, CLI/MCP and early-alpha status.",
+      "extra": {
+        "repo": "storytold/photocraft",
+        "github_stars": null,
+        "stars_growth": "+11.2K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot: +11.2K stars/24h; GitHub repository confirms PSD editing, CLI/MCP and early-alpha status.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "morluto/rea",
+      "summary": "Agent 驱动的逆向工程平台，覆盖应用行为观察、协议/代码结构分析到原生二进制。",
+      "why_it_matters": "逆向工具开始将 Agent 作为交互入口；增长信号很强，但不能把项目宣传等同于已验证的通用逆向能力。",
+      "category": "Reverse engineering/Agent",
+      "tags": [
+        "reverse-engineering",
+        "agents",
+        "binary-analysis",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot: +4.7K stars/24h, listed on GitHub Trending; official repo describes agent-based reverse engineering.",
+      "extra": {
+        "repo": "morluto/rea",
+        "github_stars": null,
+        "stars_growth": "+4.7K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot: +4.7K stars/24h, listed on GitHub Trending; official repo describes agent-based reverse engineering.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "shader-effects-inc/shaders",
+      "summary": "WebGPU 视觉特效组件库，面向 React、Vue、Svelte、Solid、原生 JavaScript 和 Framer。",
+      "why_it_matters": "设计师与前端可复用 GPU 效果而非自行编写 shader；适合需要高级视觉效果的 Web 项目。",
+      "category": "Frontend/Creative",
+      "tags": [
+        "WebGPU",
+        "shaders",
+        "React",
+        "Vue",
+        "Svelte"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shader-effects-inc/shaders",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot: +1.6K stars/24h; official repository lists multi-framework WebGPU effects.",
+      "extra": {
+        "repo": "shader-effects-inc/shaders",
+        "github_stars": null,
+        "stars_growth": "+1.6K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot: +1.6K stars/24h; official repository lists multi-framework WebGPU effects.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "storytold/lightcraft",
+      "summary": "纯 Rust 的开源 Lightroom 类照片处理与管理应用，涵盖 RAW 调整、调色、遮罩和图库工作流。",
+      "why_it_matters": "同一 ArtCraft 创作工具家族本周集体走红，表明对离线、可扩展原生创作软件的兴趣；仍需谨慎看待成熟度。",
+      "category": "Creative/Photography",
+      "tags": [
+        "Rust",
+        "RAW",
+        "photo-editor",
+        "Lightroom"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/lightcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot: +1.9K stars/24h; official repository documents photo editing workflow.",
+      "extra": {
+        "repo": "storytold/lightcraft",
+        "github_stars": null,
+        "stars_growth": "+1.9K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot: +1.9K stars/24h; official repository documents photo editing workflow.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "ys-ll/uniterm",
+      "summary": "集成 SSH、RDP、SFTP、数据库、Kubernetes 等多协议的终端工具，附带可执行多步命令的 AI Agent。",
+      "why_it_matters": "把传统运维终端的多连接切换集中到一个客户端，适合管理多环境的开发者。",
+      "category": "CLI/TUI/DevOps",
+      "tags": [
+        "terminal",
+        "SSH",
+        "RDP",
+        "Kubernetes",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ys-ll/uniterm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 Daily Picks: 750 stars and +32 on the snapshot; official repo confirms 30+ protocols.",
+      "extra": {
+        "repo": "ys-ll/uniterm",
+        "github_stars": 750,
+        "stars_growth": "+32/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 Daily Picks: 750 stars and +32 on the snapshot; official repo confirms 30+ protocols.",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "DuarteSantos8/openGym",
+      "summary": "自托管训练与体重记录工具，支持组间训练、肌肉疲劳/恢复可视化、导入其他健身 App 数据。",
+      "why_it_matters": "与 Agent 热潮无关的实用开源产品；自托管、数据自主和多训练平台迁移是差异点。",
+      "category": "Self-hosted/Fitness",
+      "tags": [
+        "self-hosted",
+        "fitness",
+        "Docker",
+        "privacy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DuarteSantos8/openGym",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot: +1.5K stars/24h and listed on GitHub Trending; repo describes workout tracking and import.",
+      "extra": {
+        "repo": "DuarteSantos8/openGym",
+        "github_stars": null,
+        "stars_growth": "+1.5K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot: +1.5K stars/24h and listed on GitHub Trending; repo describes workout tracking and import.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "Niko1221/Strata",
+      "summary": "Windows/Linux 本地推理引擎及一键安装方案，目标是让消费级 GPU 运行 Qwen3.8-Flash-Next，并暴露 OpenAI/Anthropic 兼容接口。",
+      "why_it_matters": "大模型本地部署从硬件门槛转向工具链门槛；项目对兼容性/性能的声明仍需在具体 GPU 上独立验证。",
+      "category": "Local AI/Inference",
+      "tags": [
+        "local-LLM",
+        "GPU",
+        "Qwen",
+        "Windows",
+        "Linux"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Niko1221/Strata",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 New & Rising reported about +2.1K stars/24h; official repo documents local inference and API compatibility.",
+      "extra": {
+        "repo": "Niko1221/Strata",
+        "github_stars": null,
+        "stars_growth": "+2.1K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 New & Rising reported about +2.1K stars/24h; official repo documents local inference and API compatibility.",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "rehan-remade/universal-modder",
+      "summary": "面向游戏 Mod 的 Claude Code Skills 与工具链：侦察、逆向、生成素材、测试与展示视频。",
+      "why_it_matters": "把 Agent 和可编辑游戏资产串成端到端流程，创意性强；“支持几乎所有游戏”是项目定位而非已证实的覆盖率。",
+      "category": "Gaming/Agent Skills",
+      "tags": [
+        "Claude-Code",
+        "game-modding",
+        "skills",
+        "3D"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rehan-remade/universal-modder",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 New & Rising reported +722 stars/24h; official repository describes skills and fal MCP for game modding.",
+      "extra": {
+        "repo": "rehan-remade/universal-modder",
+        "github_stars": null,
+        "stars_growth": "+722/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 New & Rising reported +722 stars/24h; official repository describes skills and fal MCP for game modding.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "alexwkleung/reika",
+      "summary": "针对 8B–35B 等小型本地模型优化的 Coding Agent CLI：上下文纪律、循环检测、审批、沙盒、MCP 和计划模式。",
+      "why_it_matters": "项目把失败循环、上下文压缩成本和工具调用稳定性做成可测量的 harness 问题；很适合探索低成本本地编程 Agent，但尚未成熟。",
+      "category": "CLI/Coding Agent",
+      "tags": [
+        "local-model",
+        "CLI",
+        "MCP",
+        "sandbox",
+        "agent-harness"
+      ],
+      "source_name": "Product Hunt / GitHub",
+      "source_url": "https://github.com/alexwkleung/reika",
+      "image_url": null,
+      "published_at": "2026-10-07",
+      "evidence": "Product Hunt Oct 7 launch ranked #29 with 71 points; official GitHub showed 6 stars and pre-1.0 status, and publishes harness measurements.",
+      "extra": {
+        "repo": "alexwkleung/reika",
+        "github_stars": 6,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt Oct 7 launch ranked #29 with 71 points; official GitHub showed 6 stars and pre-1.0 status, and publishes harness measurements.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "pdcgomes/redlamp",
+      "summary": "Swift/Metal 原生 Mac RAW 编辑器，兼容常见 Lightroom 操作逻辑，使用 sidecar 非破坏性编辑和本地 AI 遮罩。",
+      "why_it_matters": "真正针对 Apple Silicon 原生图像处理优化，且不依赖订阅/云端；当前 pre-alpha、要求 macOS 26+。",
+      "category": "macOS/Photography",
+      "tags": [
+        "macOS",
+        "RAW",
+        "Swift",
+        "Metal",
+        "open-source"
+      ],
+      "source_name": "Product Hunt / GitHub",
+      "source_url": "https://github.com/pdcgomes/redlamp",
+      "image_url": null,
+      "published_at": "2026-10-07",
+      "evidence": "Product Hunt Oct 7 launch; official repo identifies pre-alpha 0.2.x, macOS 26+, open-source MPL-2.0.",
+      "extra": {
+        "repo": "pdcgomes/redlamp",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt Oct 7 launch; official repo identifies pre-alpha 0.2.x, macOS 26+, open-source MPL-2.0.",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "Kitbar",
+      "summary": "Mac/Windows 桌面开发状态栏：聚合 Vercel/Cloudflare 部署、GitHub/GitLab 检查、Stripe/Polar 支付和 Codex/Claude Code 用量。",
+      "why_it_matters": "把跨多个控制台的高频状态检查变成一眼可见的轻量工具；对多项目和多 Agent 开发者实用，但属于付费产品。",
+      "category": "Desktop/Developer utility",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Codex",
+        "usage",
+        "statusbar"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://kitbar.io/",
+      "image_url": null,
+      "published_at": "2026-10-07",
+      "evidence": "Product Hunt Oct 7 launch ranked #28 with 69 points; maker describes native Swift/WPF app and direct-provider connections. No independently verified performance benchmarks.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt Oct 7 launch ranked #28 with 69 points; maker describes native Swift/WPF app and direct-provider connections. No independently verified performance benchmarks.",
+        "language": null
+      }
+    },
+    {
+      "title": "Lofi Desk 2.0",
+      "summary": "像素风专注伙伴：番茄钟、背景氛围音、专注积分、可布置房间与角色服装。",
+      "why_it_matters": "游戏化专注工具不必依赖 AI；本次更新把陪伴式计时器扩展为可持续装饰的轻量空间。",
+      "category": "Productivity/Creative",
+      "tags": [
+        "focus",
+        "Pomodoro",
+        "pixel-art",
+        "iOS",
+        "Android"
+      ],
+      "source_name": "Product Hunt",
+      "source_url": "https://lofi.shingoirie.com/en",
+      "image_url": null,
+      "published_at": "2026-10-07",
+      "evidence": "Product Hunt Oct 7 second launch ranked #27 with 72 points; maker confirms hand-redrawn pixel animations and one-time premium purchase.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Product Hunt Oct 7 second launch ranked #27 with 72 points; maker confirms hand-redrawn pixel animations and one-time premium purchase.",
+        "language": null
+      }
+    },
+    {
+      "title": "deepseek-ai/DeepGEMM",
+      "summary": "面向 NVIDIA GPU 的高性能矩阵乘法 kernel 库，针对多数据格式与不同矩阵布局优化。",
+      "why_it_matters": "这是大模型推理与训练效率的重要底层工程方向；相比 Agent 应用，技术价值主要在 GPU kernel 设计与实测性能。",
+      "category": "GPU/Infrastructure",
+      "tags": [
+        "CUDA",
+        "GEMM",
+        "DeepSeek",
+        "inference"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 Daily Picks: 8.7K stars and +199 on the snapshot; official repo describes GPU GEMM kernels.",
+      "extra": {
+        "repo": "deepseek-ai/DeepGEMM",
+        "github_stars": null,
+        "stars_growth": "+199/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 Daily Picks: 8.7K stars and +199 on the snapshot; official repo describes GPU GEMM kernels.",
+        "language": "Cuda"
+      }
+    },
+    {
+      "title": "Panniantong/Agent-Reach",
+      "summary": "一套让 Agent 通过 CLI 阅读与搜索 X、Reddit、YouTube、GitHub、Bilibili、小红书等内容的工具。",
+      "why_it_matters": "跨平台信息采集是 Agent 实用性的基础设施；作者强调免付费 API，但站点登录、反爬和服务条款仍是实际使用限制。",
+      "category": "Agent/CLI/Research",
+      "tags": [
+        "agents",
+        "social-search",
+        "CLI",
+        "X",
+        "Reddit"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot showed +1.2K stars/24h; official repo documents multiple platforms and CLI access.",
+      "extra": {
+        "repo": "Panniantong/Agent-Reach",
+        "github_stars": null,
+        "stars_growth": "+1.2K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot showed +1.2K stars/24h; official repo documents multiple platforms and CLI access.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "stablyai/orca",
+      "summary": "跨桌面、移动和远程执行环境的多 Agent 开发环境，可复用自己的 Coding Agent 订阅。",
+      "why_it_matters": "多 Agent 编程从 tmux/终端扩展到有状态工作台；今天仍有显著增长，但属于已存在项目而非新首发。",
+      "category": "Agent IDE/Workspace",
+      "tags": [
+        "multi-agent",
+        "desktop",
+        "mobile",
+        "remote",
+        "Codex"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/stablyai/orca",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot showed +1.2K stars/24h; official repo describes parallel-agent development environment.",
+      "extra": {
+        "repo": "stablyai/orca",
+        "github_stars": null,
+        "stars_growth": "+1.2K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot showed +1.2K stars/24h; official repo describes parallel-agent development environment.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "storytold/filmcraft",
+      "summary": "纯 Rust 的开源 Premiere Pro 类视频编辑器，属于 ArtCraft 原生创作应用家族。",
+      "why_it_matters": "照片、视频、图像编辑工具集体冒头，说明开发者对本地创作工具和可编程媒体工作流的兴趣增长；早期产品不宜与成熟商业软件等同。",
+      "category": "Creative/Video",
+      "tags": [
+        "Rust",
+        "video-editing",
+        "open-source",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/filmcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 snapshot: +1.9K stars/24h; official repository identifies early open-source video editor.",
+      "extra": {
+        "repo": "storytold/filmcraft",
+        "github_stars": null,
+        "stars_growth": "+1.9K/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 snapshot: +1.9K stars/24h; official repository identifies early open-source video editor.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "rui314/mold",
+      "summary": "面向 Linux/Unix 等平台的高性能链接器，通过并行化减少大型 C/C++ 项目链接等待。",
+      "why_it_matters": "老牌但仍值得关注的非 AI 工程利器；构建链路优化往往能直接节省开发时间。",
+      "category": "CLI/Build systems",
+      "tags": [
+        "linker",
+        "C++",
+        "Rust",
+        "build-performance"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rui314/mold",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitDiscover Oct 7 Daily Picks: 17.5K stars and +168 on the snapshot.",
+      "extra": {
+        "repo": "rui314/mold",
+        "github_stars": null,
+        "stars_growth": "+168/24h (GitDiscover Oct 7)",
+        "trend_signal": "GitDiscover Oct 7 Daily Picks: 17.5K stars and +168 on the snapshot.",
+        "language": "Rust"
+      }
+    }
+  ]
+}

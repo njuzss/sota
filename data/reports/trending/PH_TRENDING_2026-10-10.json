@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T22:17:00+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "10 月 10 日晚间最明显的变化不是再多几个通用 Agent 框架，而是 Agent 的专业工具层和人机协作接口继续细化：REA 把逆向工程接入 MCP，big-arrow 解决 Agent 无法替人点击的最后一米，mxc 与 OSS Scanner 分别补执行隔离和开源安全扫描；同时 fsearch、zerobrew、omdrop-owl、VibeOffice 等非 AI 工具仍获得明显关注。另一条主线是“机器可验证的专业知识”：Open Components 把 UI 规范结构化，diagram-design 把图表审美编码为可复用模板，tgv 则把基因组数据层直接暴露给 Agent。",
+  "top_picks": [
+    "morluto/rea",
+    "franzenzenhofer/big-arrow-on-the-screen",
+    "noahdunnagan/fsearch"
+  ],
+  "items": [
+    {
+      "title": "morluto/rea",
+      "summary": "面向 Claude Code、Codex 等 Agent 的统一逆向工程工具，可通过 MCP/CLI 分析原生二进制、Electron/JavaScript、.NET、APK、网站和运行时行为。",
+      "why_it_matters": "它把 Hopper、Ghidra、IDA 等传统逆向工具包装成 Agent 可查询、可追证据的工作流；10 月 10 日 GitNova 日榜将其列为最强 breakout，且 GitHub 官方页已显示 62.8k stars。",
+      "category": "Reverse engineering/Agent tools",
+      "tags": ["reverse-engineering", "MCP", "Codex", "Claude-Code", "Ghidra"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 62.8k stars and documents support for Codex, Claude Code, Cursor, Gemini CLI and multiple reverse-engineering targets; GitNova ranked it #1 on Oct 10.",
+      "extra": {
+        "repo": "morluto/rea",
+        "github_stars": 62800,
+        "stars_growth": null,
+        "trend_signal": "#1 on GitNova's Oct 10 daily trend list; strong Hacker News discussion.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "franzenzenhofer/big-arrow-on-the-screen",
+      "summary": "macOS CLI + Agent Skill，让 Claude Code、Codex 等在屏幕最上层画箭头、方框和文字，指引人类点击或处理只能手工完成的步骤。",
+      "why_it_matters": "这是典型的 human-in-the-loop“最后一米”工具：Agent 不必只在终端里说“请点 Allow”，而能直接在真实 UI 上指给你看，而且不抢焦点、用完自动消失。",
+      "category": "macOS/Agent utility",
+      "tags": ["macOS", "Codex", "Claude-Code", "human-in-the-loop", "Swift"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 545 stars; the Oct 10 Hacker News discussion reached roughly 270 points and 112 comments in one current tracker.",
+      "extra": {
+        "repo": "franzenzenhofer/big-arrow-on-the-screen",
+        "github_stars": 545,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 Hacker News breakout and GitHub trend signal.",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "noahdunnagan/fsearch",
+      "summary": "macOS 全盘文件搜索工具，提供模糊文件名匹配、拼写容错和已索引的 grep 式内容搜索，可作为 CLI、后台 daemon 或 Rust crate 使用。",
+      "why_it_matters": "它是今天很实用的非 AI 工具：目标是把 Spotlight、find 和 grep 的不同体验整合成低延迟本地搜索，官方描述称在 800 万文件规模上查询约为毫秒级。",
+      "category": "macOS/CLI",
+      "tags": ["macOS", "search", "Rust", "CLI", "productivity"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/noahdunnagan/fsearch",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows about 1.3k stars; GitNova placed it among Oct 10's early-signal repositories.",
+      "extra": {
+        "repo": "noahdunnagan/fsearch",
+        "github_stars": 1300,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 GitNova discovery; practical local utility rather than AI hype.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "microsoft/mxc",
+      "summary": "微软开源的跨平台隔离与 containment 系统，用策略控制不可信代码、插件、模型输出和工具在 Windows、Linux、macOS 上能访问的文件、网络和 UI。",
+      "why_it_matters": "Agent 正越来越多地执行外部代码和工具，单纯 prompt 约束不够；mxc 把执行边界下沉到系统隔离层，属于 Agent 安全基础设施的关键方向。",
+      "category": "Security/Sandbox",
+      "tags": ["sandbox", "security", "agents", "isolation", "Rust"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/microsoft/mxc",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows about 2.5k stars; GitNova ranked it in the top tier of Oct 10 daily security breakouts.",
+      "extra": {
+        "repo": "microsoft/mxc",
+        "github_stars": 2500,
+        "stars_growth": null,
+        "trend_signal": "Oct 10 breakout in sandboxing/security tooling.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "anthropics/oss-scanner",
+      "summary": "Anthropic 面向关键开源项目推出的 AI 安全扫描方案：在隔离、无网络环境中构建项目，用模型发现漏洞并生成复现和修复建议。",
+      "why_it_matters": "AI 漏洞发现正在进入开源供应链维护流程，但报告完全由模型生成、没有人工复核，因此它同时代表效率提升和误报治理的新问题。",
+      "category": "Security/AI",
+      "tags": ["security", "open-source", "scanner", "AI", "supply-chain"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anthropics/oss-scanner",
+      "image_url": null,
+      "published_at": "2026-10-09",
+      "evidence": "GitHub official page shows 519 stars; Anthropic's OSS Scanner launch received broad coverage on Oct 9-10 and appears on Oct 10 GitNova.",
+      "extra": {
+        "repo": "anthropics/oss-scanner",
+        "github_stars": 519,
+        "stars_growth": null,
+        "trend_signal": "Fresh official launch and Oct 10 GitHub radar signal.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "uxfront-com/open-components",
+      "summary": "不是组件库，而是一套 UI 组件开放标准：同时定义 UX、DX 和 Agentic Experience，每条规则都有 ID、检查方式，并提供 Markdown/YAML 机器可读合同。",
+      "why_it_matters": "如果 Agent 越来越多地写前端，真正缺的往往不是代码生成能力，而是可验证的设计和交互规则；Open Components 尝试把“好组件”变成机器也能检查的标准。",
+      "category": "Frontend/Agent standards",
+      "tags": [
+        "UI",
+        "design-system",
+        "accessibility",
+        "agentic-experience",
+        "standards"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/uxfront-com/open-components",
+      "image_url": null,
+      "published_at": "2026-10-10",
+      "evidence": "Fresh Show HN on Oct 10; official site currently ships Button/Input guidance and machine-readable contracts, explicitly targeting human and AI-authored components.",
+      "extra": {
+        "repo": "uxfront-com/open-components",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 Show HN launch.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "zeqianli/tgv",
+      "summary": "面向人类和 Agent 协作的终端基因组浏览器，支持 BAM/VCF/BCF/BED 等格式，并通过 MCP 与 SQL 数据层把多组学数据暴露给 Agent。",
+      "why_it_matters": "这是很少见的专业科学工具案例：不是给生物信息学再加一个聊天框，而是把 Agent 直接接入高性能基因组浏览与查询层。",
+      "category": "Science/Bioinformatics",
+      "tags": ["bioinformatics", "genomics", "TUI", "MCP", "Rust"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/zeqianli/tgv",
+      "image_url": null,
+      "published_at": "2026-10-10",
+      "evidence": "GitHub official page shows 485 stars and documents Codex/Claude MCP setup; the project launched on Show HN on Oct 10.",
+      "extra": {
+        "repo": "zeqianli/tgv",
+        "github_stars": 485,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 Show HN launch in a specialized scientific niche.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Rutter",
+      "summary": "跨 Claude Code、Codex、Grok、Antigravity 保存“做过什么决定、当时引用了哪些笔记”的个人决策记忆层，记录放在用户自己的 Markdown 目录中。",
+      "why_it_matters": "它和常见语义记忆不同：不试图把一切合并成“当前事实”，而是保留时间顺序、引用路径和内容哈希，让未来会话能追溯当时依据。",
+      "category": "Agent memory/Knowledge work",
+      "tags": ["memory", "MCP", "Markdown", "Codex", "local-first"],
+      "source_name": "Official site",
+      "source_url": "https://ruttermemory.com/",
+      "image_url": null,
+      "published_at": "2026-10-10",
+      "evidence": "Fresh Show HN on Oct 10; official site documents append-only Markdown records, content hashes, MCP reads, and hooks for Claude Code, Grok, Codex and Antigravity.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 Show HN launch; differentiated provenance-focused memory design.",
+        "language": null
+      }
+    },
+    {
+      "title": "HelixDB/helix-foundry",
+      "summary": "本地优先的数据工作台，把数据库、Stripe、WorkOS、PostHog、文件和 API 连接成统一 ontology，并在本机用 HelixDB + DuckDB 查询。",
+      "why_it_matters": "Agent/分析工具越来越依赖跨 SaaS 数据，但集中式数据平台成本高、治理复杂；Foundry 的本地 ontology 路线适合小团队和隐私敏感场景。",
+      "category": "Data/Local-first",
+      "tags": ["DuckDB", "data", "local-first", "ontology", "analytics"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/HelixDB/helix-foundry",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 683 stars; GitNova marked it as an Oct 10 early signal.",
+      "extra": {
+        "repo": "HelixDB/helix-foundry",
+        "github_stars": 683,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 data-tooling signal.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "ThariqS/ai-newtab",
+      "summary": "Chrome 新标签页扩展：读取浏览历史并让 Claude 每天生成一张个性化首页，可访问最多若干已登录页面来做当日摘要。",
+      "why_it_matters": "它把浏览历史从被动记录变成主动的个人信息入口，但也明显涉及浏览隐私和已登录会话权限，值得同时从产品与安全角度观察。",
+      "category": "Browser extension/Productivity",
+      "tags": [
+        "Chrome",
+        "browser-history",
+        "Claude",
+        "new-tab",
+        "personalization"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ThariqS/ai-newtab",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 594 stars; GitNova listed it as a fresh Oct 10 early signal.",
+      "extra": {
+        "repo": "ThariqS/ai-newtab",
+        "github_stars": 594,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 browser-utility breakout.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "cathrynlavery/diagram-design",
+      "summary": "为 Claude Code、Codex 等 Agent 提供 44 类 editorial diagram 设计模板，输出自包含 HTML + SVG，不依赖 Mermaid 或构建步骤。",
+      "why_it_matters": "Agent 画图正在从“能生成 Mermaid”进入视觉规范化阶段；这种预定义图表语法和版式库能显著减少千篇一律的 AI 图表风格。",
+      "category": "Developer tools/Design",
+      "tags": ["diagrams", "SVG", "Codex", "Claude-Code", "agent-skills"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 48.5k stars; GitNova surfaced it again on Oct 10 among fast-growing developer tools.",
+      "extra": {
+        "repo": "cathrynlavery/diagram-design",
+        "github_stars": 48500,
+        "stars_growth": null,
+        "trend_signal": "Strong established project with renewed Oct 10 trend activity.",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "zerobrewhq/zerobrew",
+      "summary": "Rust 编写的 Homebrew 替代客户端，采用类似 uv 的共享 store 与缓存架构，目标是显著加快 macOS/Linux 包安装。",
+      "why_it_matters": "这是今天很值得关注的基础工具方向：不是再包一层 AI，而是重新设计成熟开发者基础设施的安装性能和缓存模型。",
+      "category": "Developer tools/Package management",
+      "tags": ["Homebrew", "Rust", "macOS", "Linux", "package-manager"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/zerobrewhq/zerobrew",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 8.1k stars and describes the project as up to 6.6x faster than Homebrew; GitNova lists fresh Oct 10 activity.",
+      "extra": {
+        "repo": "zerobrewhq/zerobrew",
+        "github_stars": 8100,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 developer-tool trend signal.",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Robbyant/lingbot-map",
+      "summary": "面向视频流式 3D 重建的 Geometric Context Transformer，把坐标 grounding、稠密几何线索和漂移校正在统一 feed-forward 框架里。",
+      "why_it_matters": "实时 3D 场景重建是机器人、AR/VR、数字孪生和具身 Agent 的关键底层能力；该项目同时是 ECCV 2026 Best Paper Award Candidate。",
+      "category": "3D/Computer vision",
+      "tags": [
+        "3D",
+        "computer-vision",
+        "streaming",
+        "reconstruction",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Robbyant/lingbot-map",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 17.9k stars; GitNova flagged renewed Oct 10 breakout activity.",
+      "extra": {
+        "repo": "Robbyant/lingbot-map",
+        "github_stars": 17900,
+        "stars_growth": null,
+        "trend_signal": "Oct 10 research/3D breakout signal.",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "shader-effects-inc/shaders",
+      "summary": "面向 React、Vue、Svelte、Solid、原生 JS 与 Framer 的 WebGPU 视觉效果组件库，同时提供 CLI 和 MCP 同步能力。",
+      "why_it_matters": "WebGPU 从底层 API 逐渐变成设计系统可直接消费的组件；加入 MCP 后，Agent 也能把复杂 shader 效果纳入前端工作流。",
+      "category": "Web/Creative tools",
+      "tags": ["WebGPU", "shaders", "React", "MCP", "frontend"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shader-effects-inc/shaders",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 3.8k stars; GitNova marked it as peaking on Oct 10.",
+      "extra": {
+        "repo": "shader-effects-inc/shaders",
+        "github_stars": 3800,
+        "stars_growth": null,
+        "trend_signal": "Oct 10 peaking WebGPU/frontend signal.",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "tcchen2026/VibeOffice",
+      "summary": "在浏览器里运行的 Office 2003 风格办公套件，无安装、无账号、无服务器，直接在本地打开和保存 .docx、.xlsx、.pptx。",
+      "why_it_matters": "本地文件优先的浏览器办公套件是少见的非 AI 方向；它展示了 Web 技术在“不把文档上传云端”的前提下替代桌面办公软件的可能性。",
+      "category": "Productivity/Web app",
+      "tags": ["office", "browser", "local-first", "docx", "xlsx"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tcchen2026/VibeOffice",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 162 stars; GitNova listed it as an Oct 10 early-signal app.",
+      "extra": {
+        "repo": "tcchen2026/VibeOffice",
+        "github_stars": 162,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 browser-app signal.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "DuarteSantos8/openGym",
+      "summary": "自托管健身与体重记录器：计划训练、记录超级组/热身/有氧、显示肌肉疲劳，并可从 FitNotes、Strong、Hevy 导入。",
+      "why_it_matters": "它是今天优秀的非 AI local-first 项目样本：数据留在自己的服务器，同时把训练计划、日志、passkey 登录和导入迁移做成一体化产品。",
+      "category": "Self-hosted/Productivity",
+      "tags": ["self-hosted", "fitness", "PWA", "local-first", "passkeys"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DuarteSantos8/openGym",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 8.9k stars; GitNova listed it as peaking on Oct 10.",
+      "extra": {
+        "repo": "DuarteSantos8/openGym",
+        "github_stars": 8900,
+        "stars_growth": null,
+        "trend_signal": "Peaking on Oct 10 GitNova; strong non-AI self-hosted signal.",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "Microsoft-Decision-1",
+      "summary": "微软新发布的专用 decision-scoring 模型，不生成开放文本，而是针对固定选项返回概率/评分，用于路由、分类、验证和 Agent 工作流控制。",
+      "why_it_matters": "它强化了一个正在成形的 Agent 架构：昂贵的生成/推理模型负责困难问题，低延迟决策模型负责 route、allow/deny、score 和 handoff。",
+      "category": "AI model/Agent infrastructure",
+      "tags": [
+        "decision-model",
+        "routing",
+        "classification",
+        "agent-control",
+        "Microsoft"
+      ],
+      "source_name": "Microsoft",
+      "source_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "image_url": null,
+      "published_at": "2026-10-09",
+      "evidence": "Microsoft announced the model on Oct 9 and Product Hunt listed it among Oct 10 launches; Microsoft says it is based on Qwen3.5-9B and is available in Microsoft Foundry.",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Fresh official release and Oct 10 Product Hunt placement.",
+        "language": null
+      }
+    },
+    {
+      "title": "t4t5/omdrop-owl",
+      "summary": "让没有 Apple Broadcom Wi-Fi 的 Linux 设备也能跑 AirDrop：在用户态通过 OWL 实现 AWDL，首个目标是 MediaTek MT7925。",
+      "why_it_matters": "这是非常具体又漂亮的协议/无线栈工程：在 Wi-Fi 保持连接的情况下复用 monitor interface 运行 AWDL，把 AirDrop 带到非 Apple 无线网卡。",
+      "category": "Networking/Linux",
+      "tags": ["AirDrop", "Linux", "AWDL", "Wi-Fi", "hardware"],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/t4t5/omdrop-owl",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "GitHub official page shows 790 stars and documents bidirectional AirDrop on MT7925 while Wi-Fi remains connected; GitNova ranked it as an Oct 10 early signal.",
+      "extra": {
+        "repo": "t4t5/omdrop-owl",
+        "github_stars": 790,
+        "stars_growth": null,
+        "trend_signal": "Fresh Oct 10 networking/hardware breakout.",
+        "language": "Shell"
+      }
+    }
+  ]
+}
