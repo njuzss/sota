@@ -61,3 +61,18 @@ After the user selected GitHub Actions as the Pages source and renewed CLI autho
 Live HTTP verification passed for 18 HTML routes and all 11 daily JSON resources. The live manifest contains 21 real reports, latest date 2026-10-14, content revision 06460e9acd507278a615a07c, build commit 3f2f19407123d75582823e12e7d28386baa9eff7. Production days are explicitly demo=false. GitHub Pages API confirms build_type=workflow. This supersedes the initial has_pages=false deployment blocker above.
 
 The user subsequently requested three NEW ChatGPT cloud scheduled tasks, preserving the three original tasks instead of replacing them. Task creation is being verified in the logged-in ChatGPT Scheduled UI; future producer execution and GitHub readback are separate from the already-verified hosted deployment.
+
+
+## New cloud tasks — creation verification
+
+On 2026-10-14, the ChatGPT Scheduled UI confirmed two new active cloud tasks, while all three original tasks remain active and unchanged:
+
+| New task | Schedule (Asia/Shanghai) | Verified state |
+| --- | --- | --- |
+| SOTA V2 · 每日前沿简报 | Daily 08:00; next 2026-10-15 | Created, enabled; saved full prompt matches source after whitespace normalization |
+| SOTA V2 · 热门项目 | Daily 08:00; next 2026-10-15 | Created, enabled; saved full prompt matches source after whitespace normalization |
+| SOTA V2 · A股收盘点评 | Intended Mon–Fri 15:30 | Creation rejected by the account's five-active-task limit; no new market task was created |
+
+The original A股收盘点评, 每日前沿简报 and Daily Trending Projects were not edited, paused, replaced or deleted. The third creation attempt explicitly requested a separate cloud task with the full market prompt and no immediate collection or GitHub write; ChatGPT refused because the original three plus new two consume all five active slots. Resolving quota or authorizing a different activation arrangement is a user decision.
+
+No producer was run immediately. Creation/configuration verification does not establish future GitHub Connector write access or successful end-to-end producer delivery. The next scheduled run must separately verify a canonical raw JSON commit, GitHub readback, Actions deployment and online report visibility. The hosted release above remains successful.
