@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-14T23:57:08.293Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间 2026-10-15 早间，最新可核验的 10 月 14 日 GitHub 热度快照与 10 月 14–15 日 Hacker News Show HN 显示三条主线：一是 Agent 工程化从单一聊天扩展到轻量浏览器、并行 worktree、端到端测试、代码图谱和审计；二是 Rust 原生桌面软件、参数化 CAD 与可由 Agent 驱动的创作工具集中升温；三是本地推理、终端媒体工具与游戏兼容层继续吸引社区关注。榜单热度不等于成熟度；项目方性能宣称未视为独立验证。对缺乏可靠精确快照的 Star 总数和增速统一填 null，明确区分 GitHub Trending 周增量与第三方榜单信号。",
+  "top_picks": [
+    "lexmount/moli",
+    "stablyai/orca",
+    "bherbruck/solidcraft"
+  ],
+  "items": [
+    {
+      "title": "lexmount/moli",
+      "summary": "Rust 自研无头浏览器，面向 Agent 的结构优先网页提取和自动化；支持 CLI、CDP、WebDriver Classic/BiDi，并按需启用布局与截图。",
+      "why_it_matters": "相比启动完整 Chromium 的传统路径，按需渲染可降低 Agent 抓取的资源开销；README 给出与 Chrome 的对比测试，但性能数据由作者提供，复杂网页兼容性仍需实测。",
+      "category": "Agent / Browser automation",
+      "tags": [
+        "Rust",
+        "browser",
+        "CDP",
+        "WebDriver",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lexmount/moli",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "lexmount/moli",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜第 1；GitHub 官方 README 核对功能。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "stablyai/orca",
+      "summary": "跨 macOS/Windows/Linux 的 Agent 开发环境，集中管理 Codex、Claude Code、OpenCode、Pi，支持并行 worktree、远程 SSH、移动端监督、Diff 批注与终端。",
+      "why_it_matters": "对同时跑多个编码 Agent 的开发者非常实用：可把任务、隔离分支、审查和合并集中管理；仍需验证大仓库性能、凭据隔离及账户接入。",
+      "category": "Developer / Agent IDE",
+      "tags": [
+        "Codex",
+        "worktree",
+        "desktop",
+        "multi-agent",
+        "SSH"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/stablyai/orca",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "stablyai/orca",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 榜单前 10；README 列出并行 worktree 与移动端功能。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "bherbruck/solidcraft",
+      "summary": "Rust 开源参数化 CAD，提供草图约束、特征时间线、STEP/3MF/STL 导出、桌面/Web 客户端和 MCP 建模接口。",
+      "why_it_matters": "不只是文生 3D 网格，而是能由 Agent 操作可编辑参数化实体；适合原型件、3D 打印和自动化工程制图。作者明确称简单零件可用、完整 CAD 兼容性尚未达成。",
+      "category": "Creative / Parametric CAD",
+      "tags": [
+        "Rust",
+        "CAD",
+        "MCP",
+        "3D",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/bherbruck/solidcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "bherbruck/solidcraft",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14/15 Hacker News Show HN 约 140 points、51 comments；官方 README 核验。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "tester-army/e2e",
+      "summary": "Web 与移动端端到端测试框架，将自然语言 Agent 操作与确定性 locator/assertion 混用，并缓存成功动作以便后续无模型重放。",
+      "why_it_matters": "有望减少脆弱的手写 UI 测试步骤，又不放弃确定性断言；适合 Agent 生成代码后的自动验收，但模型动作漂移和 CI 成本要评估。",
+      "category": "Developer / E2E testing",
+      "tags": [
+        "testing",
+        "Playwright",
+        "mobile",
+        "Agent",
+        "CI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tester-army/e2e",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tester-army/e2e",
+        "github_stars": null,
+        "stars_growth": "+4426/7d (GitHub Trending snapshot 2026-10-14 06:59 UTC)",
+        "trend_signal": "GitHub Trending 周榜 2026-10-14 第 3，近 7 天 +4,426 stars；README 核验重放机制。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Graphicle-AI/graphicle",
+      "summary": "单个 Rust 程序为编码 Agent 建立代码依赖图、项目文档与历史会话记忆，查询时返回带文件和行号的证据；提供 MCP 接入。",
+      "why_it_matters": "为跨会话大型仓库探索提供可追溯证据，减少重复搜索；安装会调整 AGENTS.md 与 Git hooks，建议在隔离分支先验收副作用。",
+      "category": "Agent / Code graph & memory",
+      "tags": [
+        "Rust",
+        "MCP",
+        "code-graph",
+        "memory",
+        "Codex"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Graphicle-AI/graphicle",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Graphicle-AI/graphicle",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14/15 Hacker News Show HN 约 40 points、11 comments；项目 README 可核查。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Niko1221/Strata",
+      "summary": "本地混合 CPU/GPU 的 MoE 推理引擎，主打在 Windows/Linux 消费级显卡运行 Qwen3.8-Flash-Next，并暴露 OpenAI/Anthropic 兼容 API。",
+      "why_it_matters": "让本地编码 Agent 接入更大的模型有工程探索价值；硬件仍需至少约 12GB 显存及较多内存/磁盘，README 吞吐属于作者测试，不可外推。",
+      "category": "Local AI / Inference",
+      "tags": [
+        "C++",
+        "local-LLM",
+        "MoE",
+        "CUDA",
+        "HIP"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Niko1221/Strata",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Niko1221/Strata",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜第 2；官方 README 核验支持条件。",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "heygen-com/hyperframes",
+      "summary": "通过 HTML/CSS、媒体和可寻址时间轴动画确定性渲染 MP4 的开源框架；提供 CLI、Agent Skills 和插件。",
+      "why_it_matters": "让编码 Agent 直接生成可复现视频，适合产品演示、UI 动画及项目介绍；复杂音视频编排和渲染耗时仍需实际测试。",
+      "category": "Creative / Video tooling",
+      "tags": [
+        "HTML",
+        "CSS",
+        "video",
+        "CLI",
+        "Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/heygen-com/hyperframes",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "heygen-com/hyperframes",
+        "github_stars": null,
+        "stars_growth": "+4732/7d (GitHub Trending snapshot 2026-10-14 06:59 UTC)",
+        "trend_signal": "GitHub Trending 周榜 2026-10-14 近 7 天 +4,732 stars；README 核验。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "latent-spaces/brag",
+      "summary": "一条 /brag Skill 命令将当前项目制作成短宣传视频，自动处理画面、配乐和发布文案；新版本还提供更轻量的 /brag-slim。",
+      "why_it_matters": "可把项目发布演示纳入 Agent 工作流，尤其适合快速制作产品预告；成片质量仍取决于源素材与渲染配置。",
+      "category": "Agent Skills / Creative",
+      "tags": [
+        "Skill",
+        "Codex",
+        "video",
+        "launch",
+        "automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/latent-spaces/brag",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "latent-spaces/brag",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜前 20；README 显示新 /brag-slim 流程。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "earthtojake/text-to-cad",
+      "summary": "为编码 Agent 提供本地参数化 CAD 工作流，输出 STEP、GLB、STL、3MF，并可做可制造性检查和工程图。",
+      "why_it_matters": "将自然语言建模连接到可编辑工程几何与制造流程，而非只产出不可编辑网格；复杂公差、几何正确性必须人工核验。",
+      "category": "Agent Skills / CAD",
+      "tags": [
+        "CAD",
+        "Python",
+        "3D",
+        "STEP",
+        "manufacturing"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/earthtojake/text-to-cad",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "earthtojake/text-to-cad",
+        "github_stars": null,
+        "stars_growth": "+2173/7d (GitHub Trending snapshot 2026-10-14 06:59 UTC)",
+        "trend_signal": "GitHub Trending 周榜 2026-10-14 近 7 天 +2,173 stars；README 列出导出格式。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ifixai-ai/iFixAi",
+      "summary": "面向 Agent 的独立审计与业务目标一致性检查工具，支持 CLI、CI 与 Skills，输出评分卡和结构化诊断。",
+      "why_it_matters": "与只测延迟、Token 或通用 benchmark 的评估工具不同，强调 Agent 是否完成业务 KPI；项目方两分钟完成审计的宣称需要独立复核。",
+      "category": "Agent / Evaluation & governance",
+      "tags": [
+        "audit",
+        "evaluation",
+        "CI",
+        "governance",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ifixai-ai/iFixAi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ifixai-ai/iFixAi",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜前 10；项目 README 描述三种执行方式。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "rehan-remade/universal-modder",
+      "summary": "把游戏识别、引擎分析、Mod 开发、AI 生成素材、运行测试与演示视频串成 Agent Skills 工作流。",
+      "why_it_matters": "让游戏 Modding 从手工逆向转向可复用自动化，但对具体游戏的适配、授权边界与反作弊风险要逐项确认。",
+      "category": "Creative / Game modding",
+      "tags": [
+        "Agent Skills",
+        "modding",
+        "3D",
+        "MCP",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rehan-remade/universal-modder",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "rehan-remade/universal-modder",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜前 5；README 展示游戏改造工作流。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "xtool-org/xtool",
+      "summary": "跨平台 SwiftPM iOS 开发工具，提供 iOS App 构建、签名、安装和 Apple Developer Services 操作接口，目标是降低对完整 Xcode 的依赖。",
+      "why_it_matters": "对 Linux/Windows 开发环境和 CI 有实用价值；iOS 签名、SDK 兼容和 Apple 服务限制仍须按版本验证。",
+      "category": "Developer / Cross-platform mobile",
+      "tags": [
+        "Swift",
+        "iOS",
+        "CLI",
+        "SwiftPM",
+        "Linux"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/xtool-org/xtool",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "xtool-org/xtool",
+        "github_stars": null,
+        "stars_growth": "+1198/24h (GitHub Trending snapshot 2026-10-14 06:59 UTC)",
+        "trend_signal": "GitHub Trending 日榜 2026-10-14 收录，快照 +1,198 stars/日；官方 README 核验。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "LargeModGames/spotatui",
+      "summary": "Rust 终端音乐播放器，整合 Spotify、本地文件、Subsonic/Navidrome、网络电台、YouTube 和 Qobuz，附带桌面预览版及 Lua 插件。",
+      "why_it_matters": "少见的多源 TUI 媒体工具；Spotify 需要 Premium，桌面端仍处预览阶段，适合重度终端用户尝鲜。",
+      "category": "Apps / TUI music",
+      "tags": [
+        "Rust",
+        "TUI",
+        "music",
+        "desktop",
+        "plugins"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/LargeModGames/spotatui",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "LargeModGames/spotatui",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14/15 Hacker News Show HN 约 85 points、18 comments；README 核验。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "RayenMlayeh/jevcrawl",
+      "summary": "面向 Agent 的站点爬取 CLI/MCP，用小型决策模型挑选链接和证据片段，而不是让大模型逐页决定导航。",
+      "why_it_matters": "结构化证据输出可降低爬取 Token 消耗；README 的成本/准确率比较为作者自测，且需要第三方 API Key，不能视为完全离线免费。",
+      "category": "Agent / Web crawling",
+      "tags": [
+        "MCP",
+        "crawler",
+        "CLI",
+        "retrieval",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/RayenMlayeh/jevcrawl",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "RayenMlayeh/jevcrawl",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14/15 Hacker News Show HN 收录、约 20 points；项目 README 核验。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "storytold/vectorcraft",
+      "summary": "ArtCraft 生态中的 Rust 矢量绘图编辑器，面向 Illustrator 类工作流，提供桌面/Web 版本和 MCP 自动化入口。",
+      "why_it_matters": "传统设计软件正出现原生开源与 Agent 可控的组合；项目仍在积极开发，SVG/字体/导出一致性需要验证。",
+      "category": "Creative / Vector graphics",
+      "tags": [
+        "Rust",
+        "SVG",
+        "MCP",
+        "desktop",
+        "WebAssembly"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/vectorcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/vectorcraft",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜第 3；README 提供功能与截图。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "storytold/filmcraft",
+      "summary": "ArtCraft 生态的 Rust 非线性视频剪辑器，面向多轨时间线、调色和音频工作流，支持桌面及浏览器路线。",
+      "why_it_matters": "可作为开放、可编程视频工作台的候选；与成熟专业剪辑软件的格式支持和稳定性仍有明显验证成本。",
+      "category": "Creative / Video editor",
+      "tags": [
+        "Rust",
+        "NLE",
+        "video",
+        "desktop",
+        "WebAssembly"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/filmcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/filmcraft",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜前 10；README 标注项目处于快速迭代早期。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "boykopovar/AnyPS5",
+      "summary": "面向 PS5 可执行文件跨平台移植的实验性 C++ 工具，提供本地处理的 Web 转换入口，目标平台 Linux/Windows。",
+      "why_it_matters": "高关注度反映主机软件兼容技术的探索需求；可移植范围、性能和法律边界不应从宣传推断，建议仅用于有权研究的二进制。",
+      "category": "Experimental / Game compatibility",
+      "tags": [
+        "C++",
+        "PS5",
+        "porting",
+        "Linux",
+        "Windows"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/boykopovar/AnyPS5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "boykopovar/AnyPS5",
+        "github_stars": null,
+        "stars_growth": "+28663/7d (GitHub Trending snapshot 2026-10-14 06:59 UTC)",
+        "trend_signal": "GitHub Trending 周榜 2026-10-14 第 1，近 7 天 +28,663 stars；项目 README 核验。",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "cursor/plugins",
+      "summary": "Cursor 官方插件集合，包含代码审查、安全检查、CLI 设计、持续学习、PR 可视化等模块，每个插件有独立 manifest。",
+      "why_it_matters": "Agent 功能从提示词集合走向可管理插件目录，适合参考工程规范；实际使用需关注 Cursor 版本与插件权限。",
+      "category": "Plugins / Developer workflows",
+      "tags": [
+        "Cursor",
+        "Plugins",
+        "AGENTS.md",
+        "code-review",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cursor/plugins",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cursor/plugins",
+        "github_stars": null,
+        "stars_growth": "+1141/7d (GitHub Trending snapshot 2026-10-14 06:59 UTC)",
+        "trend_signal": "GitHub Trending 周榜 2026-10-14 近 7 天 +1,141 stars；官方 README 核验。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "deepseek-ai/deepseek-harness",
+      "summary": "DeepSeek 的插件优先 Agent Harness，基于 Cordis，提供 Web UI、CLI 与可扩展插件生态。",
+      "why_it_matters": "国产开源 Agent 基础设施在可组合架构上探索不同于单体框架的路线；官方明确标注开发者预览且可能出现破坏性变更。",
+      "category": "Agent / Harness & plugins",
+      "tags": [
+        "DeepSeek",
+        "Agent",
+        "Plugins",
+        "TypeScript",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "deepseek-ai/deepseek-harness",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14 GitHubRepo 热度榜前 20；官方 README 标注 developer preview。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Guitoro",
+      "summary": "用电脑键盘模拟拨弦的交互式虚拟吉他网页工具，无需专门硬件即可体验节奏和和弦交互。",
+      "why_it_matters": "一个有趣的非 AI 轻量交互产品，说明新颖交互本身仍能带来强社区传播；音乐表达能力和输入延迟需自行体验。",
+      "category": "Creative / Web app",
+      "tags": [
+        "music",
+        "interactive",
+        "web",
+        "experimental"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://guitoro.com",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-14/15 Hacker News Show HN 快照约 550 points、154 comments，属高参与度的独立创意工具。",
+        "language": null
+      }
+    }
+  ]
+}
