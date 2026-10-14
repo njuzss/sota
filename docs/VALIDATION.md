@@ -52,3 +52,12 @@ Implementation commit `0fab029a543abd487b4c7e79cd0cabb3d437ad71` was pushed to n
 - Deploy run https://github.com/njuzss/sota/actions/runs/38514410591 passed checkout/latest-main/npm ci/tests/typecheck, then failed at actions/configure-pages. Build artifact and deploy steps were skipped.
 - Public repository metadata reports has_pages=false. Pages is not enabled, so no hosted release or hosted-route acceptance is claimed.
 - Next external step: in https://github.com/njuzss/sota/settings/pages choose GitHub Actions, then rerun Deploy SOTA. CLI OAuth is awaiting the user's browser authorization; SSH push is already successful independently.
+
+
+## Hosted release confirmed — 2026-10-14
+
+After the user selected GitHub Actions as the Pages source and renewed CLI authorization, workflow run [38535461085](https://github.com/njuzss/sota/actions/runs/38535461085) completed successfully (build, artifact upload and deploy). The published site is https://njuzss.github.io/sota/.
+
+Live HTTP verification passed for 18 HTML routes and all 11 daily JSON resources. The live manifest contains 21 real reports, latest date 2026-10-14, content revision 06460e9acd507278a615a07c, build commit 3f2f19407123d75582823e12e7d28386baa9eff7. Production days are explicitly demo=false. GitHub Pages API confirms build_type=workflow. This supersedes the initial has_pages=false deployment blocker above.
+
+The user subsequently requested three NEW ChatGPT cloud scheduled tasks, preserving the three original tasks instead of replacing them. Task creation is being verified in the logged-in ChatGPT Scheduled UI; future producer execution and GitHub readback are separate from the already-verified hosted deployment.
