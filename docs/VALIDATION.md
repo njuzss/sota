@@ -43,3 +43,12 @@ Final local /sota/ production build verified with in-app browser (prior agent-br
 This record confirms local code/data/browser checks. A GitHub Actions/Pages hosted deployment must be independently confirmed after push and Pages configuration; a successful local build or workflow file alone is not an online release.
 
 CLI login was initially blocked by direct HTTPS; device authorization became available via the existing local Shadowsocks proxy (per-process, no global network changes). SSH clone/push does not require CLI OAuth. TASK_PROMPTS.md provides three complete prompts, but no live task prompt/schedule/cutover or old-system shutdown occurred.
+
+## First pushed cloud run
+
+Implementation commit `0fab029a543abd487b4c7e79cd0cabb3d437ad71` was pushed to njuzss/sota main and the remote SHA verified.
+
+- Node 24 CI succeeded: https://github.com/njuzss/sota/actions/runs/38514410610 .
+- Deploy run https://github.com/njuzss/sota/actions/runs/38514410591 passed checkout/latest-main/npm ci/tests/typecheck, then failed at actions/configure-pages. Build artifact and deploy steps were skipped.
+- Public repository metadata reports has_pages=false. Pages is not enabled, so no hosted release or hosted-route acceptance is claimed.
+- Next external step: in https://github.com/njuzss/sota/settings/pages choose GitHub Actions, then rerun Deploy SOTA. CLI OAuth is awaiting the user's browser authorization; SSH push is already successful independently.
