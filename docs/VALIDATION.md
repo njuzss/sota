@@ -4,7 +4,7 @@
 
 Current checkout `/Users/zss/sota` was cloned from `git@github.com:njuzss/sota.git`, initial main `1b7131525b36988e4391923a5f8c8e19a6331a27`. Its REQUIREMENTS.md contains the formal V2 GitHub-native specification and is preserved unchanged. The earlier prepared implementation was reused and adapted to that specification; provisional Drive sync and reports/ contract were removed.
 
-Old `/Users/zss/ai/sota`, `njuzss/ai`, local raw sources and existing tasks were read-only throughout. The user explicitly requested the home-directory clone; it is outside the parent ai repository and cannot enter its index. Parent status shows no sota/github changes from this run.
+Old `/Users/zss/ai/sota`, `njuzss/ai` and local raw sources were read-only throughout. Existing tasks were unchanged during code migration; the user later explicitly authorized pausing only the original A股收盘点评 to release an active-task slot. The user explicitly requested the home-directory clone; it is outside the parent ai repository and cannot enter its index. Parent status shows no sota/github changes from this run.
 
 ## Automated verification
 
@@ -42,7 +42,7 @@ Final local /sota/ production build verified with in-app browser (prior agent-br
 
 This record confirms local code/data/browser checks. A GitHub Actions/Pages hosted deployment must be independently confirmed after push and Pages configuration; a successful local build or workflow file alone is not an online release.
 
-CLI login was initially blocked by direct HTTPS; device authorization became available via the existing local Shadowsocks proxy (per-process, no global network changes). SSH clone/push does not require CLI OAuth. TASK_PROMPTS.md provides three complete prompts, but no live task prompt/schedule/cutover or old-system shutdown occurred.
+CLI login was initially blocked by direct HTTPS; device authorization became available via the existing local Shadowsocks proxy (per-process, no global network changes). SSH clone/push does not require CLI OAuth. At initial implementation acceptance, TASK_PROMPTS.md provided three complete prompts and no live task changes had occurred. The subsequent authorized task creation and one pause are recorded below.
 
 ## First pushed cloud run
 
@@ -60,19 +60,21 @@ After the user selected GitHub Actions as the Pages source and renewed CLI autho
 
 Live HTTP verification passed for 18 HTML routes and all 11 daily JSON resources. The live manifest contains 21 real reports, latest date 2026-10-14, content revision 06460e9acd507278a615a07c, build commit 3f2f19407123d75582823e12e7d28386baa9eff7. Production days are explicitly demo=false. GitHub Pages API confirms build_type=workflow. This supersedes the initial has_pages=false deployment blocker above.
 
-The user subsequently requested three NEW ChatGPT cloud scheduled tasks, preserving the three original tasks instead of replacing them. Task creation is being verified in the logged-in ChatGPT Scheduled UI; future producer execution and GitHub readback are separate from the already-verified hosted deployment.
+The user subsequently requested three NEW ChatGPT cloud scheduled tasks, preserving the original task configurations instead of replacing their prompts. All three new tasks were verified in the logged-in ChatGPT Scheduled UI; future producer execution and GitHub readback are separate from the already-verified hosted deployment.
 
 
 ## New cloud tasks — creation verification
 
-On 2026-10-14, the ChatGPT Scheduled UI confirmed two new active cloud tasks, while all three original tasks remain active and unchanged:
+On 2026-10-14, the ChatGPT Scheduled UI confirmed all three new cloud tasks are created and enabled:
 
 | New task | Schedule (Asia/Shanghai) | Verified state |
 | --- | --- | --- |
-| SOTA V2 · 每日前沿简报 | Daily 08:00; next 2026-10-15 | Created, enabled; saved full prompt matches source after whitespace normalization |
-| SOTA V2 · 热门项目 | Daily 08:00; next 2026-10-15 | Created, enabled; saved full prompt matches source after whitespace normalization |
-| SOTA V2 · A股收盘点评 | Intended Mon–Fri 15:30 | Creation rejected by the account's five-active-task limit; no new market task was created |
+| SOTA V2 · 每日前沿简报 | Daily 08:00; next 2026-10-15 08:00 | Created, enabled; saved full prompt matches source after whitespace normalization |
+| SOTA V2 · 热门项目 | Daily 08:00; next 2026-10-15 08:00 | Created, enabled; saved full prompt matches source after whitespace normalization |
+| SOTA V2 · A股收盘点评 | Mon–Fri 15:30; first 2026-10-15 15:30 | Created, enabled; saved full prompt matches source after whitespace normalization |
 
-The original A股收盘点评, 每日前沿简报 and Daily Trending Projects were not edited, paused, replaced or deleted. The third creation attempt explicitly requested a separate cloud task with the full market prompt and no immediate collection or GitHub write; ChatGPT refused because the original three plus new two consume all five active slots. Resolving quota or authorizing a different activation arrangement is a user decision.
+The first market-task attempt was rejected by the account's five-active-task limit: the original three plus new two filled all active slots. The user explicitly authorized pausing only the original A股收盘点评 and then creating the new market task. The UI confirmed the old task is paused and retained, the new task is enabled, and the remaining two original tasks (每日前沿简报 and Daily Trending Projects) remain active. Final inventory: five active tasks and one paused task. No original task prompt or schedule was replaced; no task was deleted.
 
-No producer was run immediately. Creation/configuration verification does not establish future GitHub Connector write access or successful end-to-end producer delivery. The next scheduled run must separately verify a canonical raw JSON commit, GitHub readback, Actions deployment and online report visibility. The hosted release above remains successful.
+Market creation returned Mon–Fri 15:30, Asia/Shanghai, cloud execution, enabled, first execution 2026-10-15. Its saved full 2,736-character prompt was independently read from the editor and compared to TASK_PROMPTS.md; it matches after whitespace normalization. The editor confirms Mon–Fri, cloud source and enabled state. The three new tasks retain the canonical per-channel GitHub paths, latest-SHA update, bounded retry and readback requirements.
+
+No producer was run immediately. Creation/configuration verification does not establish future GitHub Connector write access or successful end-to-end producer delivery. The first scheduled runs must separately verify canonical raw JSON commits, GitHub readback, Actions deployment and online report visibility. The hosted release above remains successful.
