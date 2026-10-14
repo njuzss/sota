@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T10:12:54.797Z",
+  "title": "每日前沿简报",
+  "summary": "今天最重要的技术动态集中在 Gemini 4 Argon 扩大开放、Meta 推进长任务智能体，以及编程助手的自主执行与上下文管理。医学领域，两项《Nature Medicine》研究分别探索了癫痫人机实时协作和癌症恶病质的提前识别。宏观方面，IMF 新报告继续警示全球债务和利息负担风险；开源社区则关注逆向工程、空间可视化和本地音频工具。",
+  "items": [
+    {
+      "title": "Google Gemini 4 Argon 面向开发者与企业开放",
+      "summary": "Google 于 10 月 13 日宣布 Gemini 4 Argon 可通过付费 API 使用，并向部分 AI Studio、Antigravity 用户提供访问。官方强调其针对软件工程、跨步骤工作流及网络防御优化；领先表现主要来自厂商公布的评测，仍需独立验证。",
+      "why_it_matters": "长任务编程与复杂专业工作流正在成为旗舰模型的核心竞争领域。",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "Agent",
+        "Coding"
+      ],
+      "source_name": "Google Developers Blog",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+      "image_url": null,
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "Gemini 4 Argon 加入 Gemini 应用与 macOS 编程工作流",
+      "summary": "Google 宣布付费 Pro、Ultra 用户可以在 Gemini 应用中使用 Argon，同时在 macOS 版 Gemini 内对接 Antigravity 编程界面。新的任务入口允许用户从聊天转向异步执行。",
+      "why_it_matters": "消费端 AI 正进一步从问答产品转向可操作的代理式界面。",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "macOS",
+        "Agent"
+      ],
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "image_url": null,
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "Google 披露 Argon 网络防御安全评估与分阶段开放",
+      "summary": "Google 公开介绍 Gemini 4 Argon 的安全策略，并称在正式扩大开放前先由受信任的网络防御团队试用。官方举出协助发现医疗软件关键漏洞的案例，但此类个案并不能单独证明普遍的防御效果。",
+      "why_it_matters": "高能力模型的网络安全双用途风险使发布节奏和治理机制同样重要。",
+      "category": "AI",
+      "tags": [
+        "Cybersecurity",
+        "Safety",
+        "Gemini"
+      ],
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+      "image_url": null,
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "Meta 发布 Muse Wonder 系列代理模型",
+      "summary": "Meta 于 10 月 12 日介绍 Muse Wonder 与 Wonder Full，强调长任务的 Active Memory 与 Active Focus 机制。模型分别通过 Meta Model API、Muse Code 等渠道开放；其效果主要仍是官方声明，独立比较有待跟进。",
+      "why_it_matters": "智能体的持续记忆、任务恢复和可靠执行可能比一次性测试分数更能决定产品价值。",
+      "category": "AI",
+      "tags": [
+        "Meta",
+        "Muse",
+        "Long-horizon"
+      ],
+      "source_name": "Meta Newsroom",
+      "source_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "image_url": null,
+      "published_at": "2026-10-12T00:00:00+00:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "癫痫监测研究探索患者与 AI 实时协作",
+      "summary": "10 月 13 日《Nature Medicine》发表一项小规模癫痫监测研究，允许患者用手机与脑电监测系统的语言界面对话。研究报告患者反馈使检测器的误报显著降低，但样本量小，尚不能外推为临床普适效果。",
+      "why_it_matters": "该工作展示了让患者参与实时模型纠错的可行路径，是医疗 AI 从静态读片走向闭环交互的信号。",
+      "category": "MEDICINE",
+      "tags": [
+        "Epilepsy",
+        "Clinical AI",
+        "EEG"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04680-4",
+      "image_url": null,
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "五万余例癌症患者数据构建恶病质纵向图谱",
+      "summary": "《Nature Medicine》10 月 12 日发表一项基于 52,236 名癌症患者的研究，分析体重下降事件与生存、常规检验指标和肿瘤分子特征的关系。团队探索了预测未来恶病质风险的模型，但仍需前瞻性临床验证。",
+      "why_it_matters": "癌症恶病质长期缺乏早期识别工具；真实世界纵向数据可能帮助确定干预窗口。",
+      "category": "MEDICINE",
+      "tags": [
+        "Cancer",
+        "Cachexia",
+        "Real-world data"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04689-9",
+      "image_url": null,
+      "published_at": "2026-10-12T00:00:00+00:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "IMF 最新《财政监测报告》警示全球债务与利息负担",
+      "summary": "IMF 10 月 14 日发布年度会议财政监测材料，指出各国公共债务水平高企、借贷成本和支出压力持续。IMF 呼吁财政风险较高的经济体尽早调整，避免被市场压力迫使更剧烈的收缩。",
+      "why_it_matters": "财政可持续性会影响国债收益率、公共投资空间和全球宏观政策边界。",
+      "category": "MACRO",
+      "tags": [
+        "IMF",
+        "Debt",
+        "Fiscal policy"
+      ],
+      "source_name": "International Monetary Fund",
+      "source_url": "https://mediacenter.imf.org/news/imf---fiscal-monitor-report-annual-meetings--2026/s/1b05cec6-cde8-4b75-80ec-2b29f9fb5d19",
+      "image_url": null,
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "rea：智能体辅助逆向工程登上 GitHub Trending",
+      "summary": "GitHub 当日趋势列表显示 morluto/rea 位于热门项目之列，其定位是使用智能体辅助理解应用行为及原生二进制程序。项目的热度可观察，但不等于逆向质量、安全性或法律合规性得到证实。",
+      "why_it_matters": "自然语言与自动化分析结合，正在降低部分复杂软件研究工作的工具门槛。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Reverse engineering",
+        "Agent",
+        "GitHub Trending"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/trending",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    },
+    {
+      "title": "God's Eye View：公开数据驱动的三维空间情报平台",
+      "summary": "项目把航班、船舶、卫星、地震等公开信号呈现在三维地球界面，并支持语音交互。官方特别注明部分交通与轨迹数据属于模拟或粗略估计，不应被视为全面实时监视能力。",
+      "why_it_matters": "多源公开数据与沉浸式可视化的结合，对教育、态势感知和个人 3D 项目均有参考价值。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "3D",
+        "Geospatial",
+        "Open data"
+      ],
+      "source_name": "GitHub / bilawalsidhu",
+      "source_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "VoiceStudio：本地语音合成和配音工具持续受关注",
+      "summary": "VoiceStudio 开源项目提供本地语音克隆、音色设计、转录及视频配音等工作流。项目文档显示当前桌面端采用 Electron，并提醒使用者遵守模型各自授权及语音克隆许可。",
+      "why_it_matters": "本地化音频 AI 降低对云端服务的依赖，对隐私敏感的个人内容生产尤其值得关注。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "TTS",
+        "Local AI",
+        "Audio"
+      ],
+      "source_name": "GitHub / debpalash",
+      "source_url": "https://github.com/debpalash/VoiceStudio",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "context-mode 探索为编程智能体节约上下文",
+      "summary": "context-mode 项目提供跨多种编程助手的上下文管理、搜索与代码执行能力，并声称显著减少原始工具输出对上下文窗口的占用。节省比例属于项目自述，具体效果受负载影响；其执行权限和安全边界也需要单独审核。",
+      "why_it_matters": "随着长时编程任务增多，工具输出压缩与会话记忆可能成为智能体基础设施的重要组成。",
+      "category": "TECH",
+      "tags": [
+        "Codex",
+        "Context window",
+        "MCP"
+      ],
+      "source_name": "GitHub / mksglu",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    }
+  ]
+}
