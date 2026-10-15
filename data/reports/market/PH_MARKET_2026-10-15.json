@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "channel": "market",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T15:32:00+08:00",
+  "title": "A股收盘点评",
+  "market_open": true,
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "close": 3707.48,
+      "change_pct": -1.59
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "close": null,
+      "change_pct": -2.43
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "close": null,
+      "change_pct": -2.92
+    },
+    {
+      "name": "科创50",
+      "code": "000688",
+      "close": null,
+      "change_pct": null
+    }
+  ],
+  "metrics": {
+    "turnover": "沪深两市约1.63万亿元，较上日放量约2186亿元",
+    "up_count": null,
+    "down_count": null,
+    "limit_up": null,
+    "limit_down": null
+  },
+  "leading_sectors": [
+    {
+      "name": "PCB、证券",
+      "reason": "部分个股逆势活跃，业绩与板块普涨不可混同。"
+    }
+  ],
+  "lagging_sectors": [
+    {
+      "name": "航运、煤炭、科技硬件",
+      "reason": "相关板块走弱，航运部分个股跌停。"
+    }
+  ],
+  "sentiment": {
+    "stage": "放量普跌",
+    "summary": "沪指盘中跌破3700点后收复，收盘报道超过5100只股票下跌；尾盘反抽不足以确认企稳。",
+    "evidence": [
+      "三大指数收跌",
+      "沪深成交额约1.63万亿元",
+      "科创指数收盘数据未核实"
+    ]
+  },
+  "analysis": "事实：沪指跌1.59%、深成指跌2.43%、创业板指跌2.92%；沪深成交额约1.63万亿元，放量约2186亿元，超过5100只股票下跌。市场解释：海外科技股波动及利率预期可能影响风险偏好。推断：短线风险偏好偏弱，尾盘修复不能证明反转。不确定性：涨跌家数及涨跌停精确收盘值、科创指数收盘值无法可靠核实，填null；不机械引用资金流向。",
+  "outlook": {
+    "horizon": "1-5 trading days",
+    "scenarios": [
+      {
+        "name": "延续调整",
+        "conditions": "若市场宽度未改善且科技板块继续走弱",
+        "implication": "可能再次探低。"
+      },
+      {
+        "name": "修复",
+        "conditions": "若市场宽度和量价结构同步改善",
+        "implication": "可能出现结构性反弹。"
+      }
+    ],
+    "risks": [
+      "海外市场波动",
+      "盈利不及预期"
+    ],
+    "opportunities": [
+      "观察有业绩支撑的PCB公司",
+      "观察券商和消费板块持续性"
+    ]
+  },
+  "sources": [
+    {
+      "name": "凤凰网财经收评",
+      "url": "https://finance.ifeng.com/c/8xF8hWenk0j"
+    },
+    {
+      "name": "证券时报午盘数据",
+      "url": "https://www.stcn.com/article/detail/4219573.html"
+    }
+  ]
+}
