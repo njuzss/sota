@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T07:59:30+08:00",
+  "title": "每日前沿简报",
+  "summary": "本期重点是开放权重AI与科学基础模型：Meta发布Muse Spark Open，CERN与Mistral启动粒子物理模型合作，Apple展示多机本地推理。GitHub的AI安全扫描和智能体自动修复正式可用；医学领域出现抗生素规范处方集群随机试验、心血管荟萃分析与重症纵向数据集。美国9月生产端通胀显著升温，零售名义销售增长，中国外贸数据保持强势。",
+  "items": [
+    {
+      "title": "Meta 开放 Muse Spark Open：816B 总参数、42B 激活的多模态模型",
+      "summary": "Meta 10月15日发布 Muse Spark Open 权重，采用8160亿总参数、每token约420亿激活参数的MoE架构，支持100万token上下文和多模态输入。官方定位于长程编程与智能体任务；领先性能主张尚需独立验证。",
+      "why_it_matters": "高能力开放权重模型改变本地部署、Agent生态与治理的竞争格局。",
+      "category": "AI",
+      "tags": [
+        "Meta",
+        "Open weights",
+        "MoE",
+        "Coding Agent"
+      ],
+      "source_name": "Meta AI Research",
+      "source_url": "https://research.meta.ai/blog/muse-spark-open",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "CERN 与 Mistral 合作研发粒子物理基础模型",
+      "summary": "CERN 10月15日宣布与Mistral签署合作意向，计划利用大型强子对撞机模拟碰撞数据训练统一的Large Physics Model。目标涵盖粒子重建、异常信号检测及探测器设计；项目尚处研发规划阶段。",
+      "why_it_matters": "科学基础模型从文本延伸到高能物理原始数据，可能改变科研分析工作流。",
+      "category": "AI",
+      "tags": [
+        "CERN",
+        "Mistral",
+        "AI for Science",
+        "Physics"
+      ],
+      "source_name": "CERN",
+      "source_url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "Apple MLX 演示四台 Mac Studio 分布式运行超大模型",
+      "summary": "Apple 10月15日介绍MLX与Thunderbolt 5 RDMA的分布式推理方案，自测四台Mac Studio运行Muse Spark Open达到每秒超过36 token。该模型4位量化权重仍约493GB，普通MacBook无法据此直接单机运行。",
+      "why_it_matters": "统一内存和高速互联提供了本地隐私推理的新技术路线。",
+      "category": "TECH",
+      "tags": [
+        "Apple Silicon",
+        "MLX",
+        "RDMA",
+        "Local LLM"
+      ],
+      "source_name": "Apple Machine Learning Research",
+      "source_url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "GitHub AI Scan for PR 正式可用",
+      "summary": "GitHub 10月15日宣布AI Scan for pull requests GA，可补充CodeQL未覆盖的PHP、Shell、Terraform和Dockerfile等安全检查。结果属于建议性告警，不阻断合并；不同仓库类型有启用和计费条件。",
+      "why_it_matters": "AI代码审计进一步融入PR，但误报管理和人工复核仍然必要。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "Code Security",
+        "AI Scan",
+        "DevSecOps"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Agentic Autofix GA：自动修复并复跑 CodeQL",
+      "summary": "GitHub 10月15日宣布Agentic Autofix正式可用，Copilot可分析代码扫描告警、跨文件提出修复并复跑CodeQL，再创建草稿PR供审核。该能力面向满足授权要求的Enterprise Cloud安全产品客户。",
+      "why_it_matters": "安全修复由单次补丁生成升级为带验证的智能体闭环。",
+      "category": "TECH",
+      "tags": [
+        "Copilot",
+        "Agentic Autofix",
+        "CodeQL",
+        "Security"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "17项随机试验荟萃分析：心血管代谢及抗炎治疗降低事件风险",
+      "summary": "10月15日发表的荟萃分析纳入17项随机试验、157278人及15815例主要心血管事件。协调终点后的合并风险比为0.84（95%CI 0.79–0.88），但干预种类和终点存在异质性，不能解释为某种单药疗效。",
+      "why_it_matters": "为残余心血管风险管理提供跨治疗路径的汇总证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "Cardiovascular",
+        "Meta-analysis",
+        "RCT",
+        "Inflammation"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-73850-8",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "20家医院集群随机试验：指南App组合干预改善抗生素处方",
+      "summary": "npj Digital Medicine 10月15日发表埃塞俄比亚20家医院的集群随机试验，评估离线指南App、培训和实施支持的组合干预，共分析1433份病历。规范处方在粗差分分析中提高26.7个百分点，调整比值比3.89；不能单独归因于App。",
+      "why_it_matters": "在抗菌药耐药治理中，实施科学和可落地的临床决策支持同样重要。",
+      "category": "MEDICINE",
+      "tags": [
+        "Antimicrobial stewardship",
+        "Cluster RCT",
+        "Digital health"
+      ],
+      "source_name": "npj Digital Medicine",
+      "source_url": "https://www.nature.com/articles/s41746-026-03401-y",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "脓毒症凝血障碍：血小板变化轨迹识别不同死亡风险",
+      "summary": "研究使用MIMIC-IV的6151人建立四类早期血小板轨迹，并在eICU的1305人中外部验证。轨迹与28天死亡风险相关，24小时预测模型外部宏平均AUC为0.884；回顾性研究不能证明据此改变激素治疗有效。",
+      "why_it_matters": "动态临床时间序列可能改善风险分层，但治疗价值需前瞻性研究。",
+      "category": "MEDICINE",
+      "tags": [
+        "Sepsis",
+        "Platelets",
+        "Prediction",
+        "External validation"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-65712-0",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "重症肺炎日级临床数据集：704人、21931个住院日",
+      "summary": "Scientific Data 10月15日发布SCRIPT CarpeDiem数据集，汇集704名机械通气患者的21931个患者住院日。包含每日生命体征、检验、呼吸支持、专家判定的肺炎事件与结局，并按HIPAA规则去标识化。",
+      "why_it_matters": "高质量纵向标注数据对临床预测模型与医疗智能体评估尤为重要。",
+      "category": "MEDICINE",
+      "tags": [
+        "Pneumonia",
+        "ICU",
+        "Dataset",
+        "PhysioNet"
+      ],
+      "source_name": "Scientific Data",
+      "source_url": "https://www.nature.com/articles/s41597-026-08537-w",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "深度学习右心室测量研究探索心血管结局关联",
+      "summary": "Nature Cardiovascular Research 10月15日发表深度学习评估右心室大小与功能并分析其心血管结局关联的研究。自动量化有望提高影像表型的一致性；未能独立确认的样本量和效应值不予引用。",
+      "why_it_matters": "影像AI的价值正在从自动测量转向可重复的临床预后评估。",
+      "category": "MEDICINE",
+      "tags": [
+        "Cardiac imaging",
+        "Deep learning",
+        "Right ventricle"
+      ],
+      "source_name": "Nature Cardiovascular Research",
+      "source_url": "https://www.nature.com/articles/s44161-026-00886-4",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "妇科手术随机试验：三联方案降低术后恶心呕吐",
+      "summary": "10月15日发表的单中心双盲随机试验分析140名高风险妇科腹腔镜手术患者。地塞米松、帕洛诺司琼加磷阿瑞匹坦的三联预防，术后24小时恶心呕吐发生率为27.1%，双联对照为47.9%；推广仍需更多研究。",
+      "why_it_matters": "提供了直接比较围术期预防策略的随机证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "PONV",
+        "RCT",
+        "Anesthesia"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-76554-1",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "沉浸式VR单次训练试验未显示显著组间平衡改善",
+      "summary": "一项81名健康年轻成人的随机试验比较20分钟VR运动与坐姿休息。部分指标虽有组内变化，主要感觉组织和反应时间改善并未显著优于对照组；结果只适用于单次即时干预。",
+      "why_it_matters": "阴性证据提醒数字康复不能把新颖体验等同于已证实的疗效。",
+      "category": "MEDICINE",
+      "tags": [
+        "VR",
+        "Rehabilitation",
+        "Negative trial"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-75184-x",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "《Nature Reviews Disease Primers》发表登革热疾病综述",
+      "summary": "10月15日《Nature Reviews Disease Primers》发表登革病毒感染综合综述，整合病毒学、流行病学、诊断与防治研究。文章属于证据整合而非新随机试验，具体效果仍需核对原始研究。",
+      "why_it_matters": "登革热传播风险变化使系统疾病综述对公共卫生实践具有参考价值。",
+      "category": "MEDICINE",
+      "tags": [
+        "Dengue",
+        "Infectious disease",
+        "Review"
+      ],
+      "source_name": "Nature Reviews Disease Primers",
+      "source_url": "https://www.nature.com/articles/s41572-026-00744-4",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "人体类器官与器官芯片：新社论强调标准化和预测效度",
+      "summary": "Nature Biomedical Engineering 10月15日社论认为类器官、器官芯片正提升人源疾病模型的生理相关性。文章强调可重复性、规模化和临床预测价值，明确不能简单替代动物研究及临床试验。",
+      "why_it_matters": "新替代方法能否进入药物研发监管，关键是可验证的可靠性而非外观逼真。",
+      "category": "MEDICINE",
+      "tags": [
+        "Organoids",
+        "Organ-on-chip",
+        "NAMs"
+      ],
+      "source_name": "Nature Biomedical Engineering",
+      "source_url": "https://www.nature.com/articles/s41551-026-01824-2",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "美国9月PPI环比上涨1.3%、同比上涨6.3%",
+      "summary": "美国劳工统计局10月15日公布，9月最终需求PPI季调环比上涨1.3%，为2022年3月以来最大单月涨幅，同比上涨6.3%。能源是主要推动因素，汽油生产者价格当月上涨20.3%；生产端价格不等于CPI。",
+      "why_it_matters": "能源成本冲击可能影响企业利润、后续通胀和货币政策预期。",
+      "category": "MACRO",
+      "tags": [
+        "US PPI",
+        "Inflation",
+        "Energy",
+        "Fed"
+      ],
+      "source_name": "U.S. Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "美国9月零售销售环比增长0.8%，需剔除价格影响",
+      "summary": "美国人口调查局10月15日公布，9月零售及餐饮服务销售初值7450亿美元，环比增长0.8%、同比增长6.3%。统计为未经价格调整的名义销售额，不能单凭总量认定实际消费增长同等幅度。",
+      "why_it_matters": "区分价格效应与真实需求，是判断美国经济韧性的关键。",
+      "category": "MACRO",
+      "tags": [
+        "US Retail Sales",
+        "Consumption",
+        "Inflation"
+      ],
+      "source_name": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/retail/sales.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "中国9月货物进出口达5.16万亿元，单月首破5万亿元",
+      "summary": "海关总署10月14日公布，9月中国货物进出口总额约5.16万亿元，同比增长27.5%；出口约3.03万亿元，进口约2.13万亿元。前三季度累计39.94万亿元；以上为名义人民币口径。",
+      "why_it_matters": "外贸结构与增速影响供应链景气、经济增长和资本市场预期。",
+      "category": "CHINA",
+      "tags": [
+        "中国外贸",
+        "海关",
+        "进出口",
+        "宏观"
+      ],
+      "source_name": "国务院新闻办公室／海关总署",
+      "source_url": "https://english.scio.gov.cn/m/pressroom/2026-10/14/content_118732891.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "mattpocock/skills：可组合工程技能进入GitHub趋势榜",
+      "summary": "GitHub本周趋势榜关注mattpocock/skills，项目将需求澄清、TDD、架构评审和问题分解封装为可组合技能。维护者强调保留开发者对工程过程的控制；提效幅度尚需独立验证。",
+      "why_it_matters": "对Codex等编程智能体而言，明确反馈回路和可复用技能是可靠工程实践的基础。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Agent Skills",
+        "Codex",
+        "TDD",
+        "Software engineering"
+      ],
+      "source_name": "GitHub / mattpocock",
+      "source_url": "https://github.com/mattpocock/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "AnyPS5：尝试把PS5可执行程序移植到Linux与Windows",
+      "summary": "GitHub本周趋势项目boykopovar/AnyPS5定位为PS5可执行程序的自动移植工具，原始仓库已核实存在。项目简介不等于已验证广泛兼容性，且移植与分发涉及软件授权边界。",
+      "why_it_matters": "跨平台二进制兼容工具值得研究，但应区分技术目标、可用性和合法使用。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Porting",
+        "Linux",
+        "Windows",
+        "Reverse engineering"
+      ],
+      "source_name": "GitHub / boykopovar",
+      "source_url": "https://github.com/boykopovar/AnyPS5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    }
+  ]
+}
