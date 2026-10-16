@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T04:40:55.355Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间10月16日，GitHub 当日榜单显示 Agent Skills、上下文管理、本地创作工具及软件分析工具获得较多开发者关注。本期只将公开榜单收录作为热度信号，不将项目性能宣称视为独立验证。",
+  "top_picks": [
+    "cathrynlavery/diagram-design",
+    "NVIDIA/OpenShell",
+    "calesthio/OpenMontage"
+  ],
+  "items": [
+    {
+      "title": "cathrynlavery/diagram-design",
+      "summary": "将软件架构和流程说明转换为可编辑的 HTML/SVG 图表。",
+      "why_it_matters": "项目 README 描述支持 Codex 等编码助手；适合技术文档与可视化交付。",
+      "category": "Agent Skills / diagrams",
+      "tags": [
+        "Agent Skills",
+        "diagrams"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cathrynlavery/diagram-design",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "公开仓库及近期版本说明已核验",
+        "language": null
+      }
+    },
+    {
+      "title": "NVIDIA/OpenShell",
+      "summary": "通过隔离沙箱与权限策略约束自主 Agent 的文件和网络访问。",
+      "why_it_matters": "为具有工具调用能力的 Agent 提供安全边界，适合团队评估。",
+      "category": "Agent / runtime security",
+      "tags": [
+        "Agent",
+        "runtime security"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/OpenShell",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVIDIA/OpenShell",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "官方仓库持续维护",
+        "language": null
+      }
+    },
+    {
+      "title": "calesthio/OpenMontage",
+      "summary": "开源的 Agent 驱动视频制作工作流。",
+      "why_it_matters": "适合代码项目视频制作；注意存在冒名仓库风险，仅使用官方仓库。",
+      "category": "Creative / video",
+      "tags": [
+        "Creative",
+        "video"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/calesthio/OpenMontage",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "calesthio/OpenMontage",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "官方仓库及安全公告已核验",
+        "language": null
+      }
+    },
+    {
+      "title": "morluto/rea",
+      "summary": "使用 Agent 分析软件行为与程序结构的逆向工程项目。",
+      "why_it_matters": "当日榜单关注度突出；使用时须遵守授权与许可边界。",
+      "category": "Developer / analysis",
+      "tags": [
+        "Developer",
+        "analysis"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "morluto/rea",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "anthropics/claude-plugins-official",
+      "summary": "Anthropic 管理的 Claude Code 插件目录。",
+      "why_it_matters": "可供开发者研究插件分发、工具集成和工作流组织。",
+      "category": "Plugins",
+      "tags": [
+        "Plugins"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anthropics/claude-plugins-official",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "summary": "面向科学研究任务的 Agent Skills 集合。",
+      "why_it_matters": "包含多学科研究工作流，适合核对方法和工具接入质量。",
+      "category": "Skills / science",
+      "tags": [
+        "Skills",
+        "science"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "K-Dense-AI/scientific-agent-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "JuliusBrussee/caveman",
+      "summary": "尝试降低编码 Agent 输出 Token 消耗的 Skill 与代理工具。",
+      "why_it_matters": "值得做成本和可读性的实际对照测试；效果数字不视为独立结论。",
+      "category": "Agent / efficiency",
+      "tags": [
+        "Agent",
+        "efficiency"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JuliusBrussee/caveman",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "JuliusBrussee/caveman",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "debpalash/VoiceStudio",
+      "summary": "本地部署的语音生成、配音、转写与有声读物工具。",
+      "why_it_matters": "提供多种本地音频生产场景；具体语言质量需测试。",
+      "category": "Creative / audio",
+      "tags": [
+        "Creative",
+        "audio"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/debpalash/VoiceStudio",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "debpalash/VoiceStudio",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "obra/superpowers",
+      "summary": "面向软件开发的 Agent Skills 与流程方法框架。",
+      "why_it_matters": "强调从需求到测试的工作流纪律，可作为团队规范参考。",
+      "category": "Skills / development",
+      "tags": [
+        "Skills",
+        "development"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/obra/superpowers",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "obra/superpowers",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "ruvnet/ruflo",
+      "summary": "面向多 Agent 协作、记忆与任务编排的工具集。",
+      "why_it_matters": "适合评估复杂任务拆分和多角色协同的运维成本。",
+      "category": "Agent / orchestration",
+      "tags": [
+        "Agent",
+        "orchestration"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ruvnet/ruflo",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "mksglu/context-mode",
+      "summary": "对编码 Agent 的工具输出与上下文进行管理。",
+      "why_it_matters": "针对长会话上下文膨胀问题，值得在真实代码仓库中测试。",
+      "category": "Agent / context",
+      "tags": [
+        "Agent",
+        "context"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mksglu/context-mode",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "NationalSecurityAgency/ghidra",
+      "summary": "开源软件逆向分析框架。",
+      "why_it_matters": "成熟工具仍保持讨论热度，适合授权范围内的软件分析研究。",
+      "category": "Developer / binary analysis",
+      "tags": [
+        "Developer",
+        "binary analysis"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NationalSecurityAgency/ghidra",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NationalSecurityAgency/ghidra",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Java"
+      }
+    },
+    {
+      "title": "affaan-m/ECC",
+      "summary": "为编码 Agent 提供 Skills、记忆和工程流程配置。",
+      "why_it_matters": "以可复用方法组织开发步骤，需避免无效规则过载。",
+      "category": "Skills / developer productivity",
+      "tags": [
+        "Skills",
+        "developer productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "affaan-m/ECC",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "lightseekorg/tokenspeed",
+      "summary": "探索低延迟模型推理的开源引擎。",
+      "why_it_matters": "可作为推理架构研究对象，性能需要可复现基准测试。",
+      "category": "AI / inference",
+      "tags": [
+        "AI",
+        "inference"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lightseekorg/tokenspeed",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "lightseekorg/tokenspeed",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "xerj-org/xerj",
+      "summary": "面向代码、文档和日志的自动索引与检索工具。",
+      "why_it_matters": "有潜力减少重复文本搜索，适合测试大型工程检索效率。",
+      "category": "Developer / search",
+      "tags": [
+        "Developer",
+        "search"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/xerj-org/xerj",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "xerj-org/xerj",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 当日上榜",
+        "language": "Rust"
+      }
+    }
+  ]
+}
