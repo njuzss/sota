@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T15:21:19.950Z",
+  "title": "Daily Trending Projects",
+  "summary": "10月17日项目热度呈现三条线索：Agent 插件与技能生态持续扩张，面向创作和技术说明的工具得到传播，Rust 工具及本地生产力软件受到关注。星数按当日公开榜单快照记录；周榜项目不冒充当日热度。",
+  "top_picks": [
+    "HKUDS/CLI-Anything",
+    "wheresryan22/anatomy",
+    "storytold/artcraft"
+  ],
+  "items": [
+    {
+      "title": "HKUDS/CLI-Anything",
+      "summary": "自动为现有软件构建 Agent 可调用的命令行接口。",
+      "why_it_matters": "将图形软件能力连接到自动化工作流；需要检验生成接口的准确性。",
+      "category": "Agent / CLI",
+      "tags": [
+        "Agent",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/HKUDS/CLI-Anything",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "HKUDS/CLI-Anything",
+        "github_stars": 53708,
+        "stars_growth": "+281/24h",
+        "trend_signal": "2026-10-17 GitHub Trending 日榜第3，榜单显示当日 +281 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "wheresryan22/anatomy",
+      "summary": "用于生成交互式等轴测技术原理插图的 Agent Skill。",
+      "why_it_matters": "SVG、WebGL 与 3D 图示有助于技术说明及演示。",
+      "category": "Skills / visualization",
+      "tags": [
+        "Skills",
+        "visualization"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/wheresryan22/anatomy",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "wheresryan22/anatomy",
+        "github_stars": null,
+        "stars_growth": "+426/24h",
+        "trend_signal": "10月17日 Trendshift 记录当日 +426 stars，近期持续受到社区关注。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "storytold/artcraft",
+      "summary": "面向艺术家和视频创作者的可视化创作工作台。",
+      "why_it_matters": "探索开放式图像、视频和 3D 创作流程；成熟度需实测。",
+      "category": "Creative / desktop",
+      "tags": [
+        "Creative",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/artcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/artcraft",
+        "github_stars": null,
+        "stars_growth": "+253/24h",
+        "trend_signal": "10月17日 Trendshift 记录 +253 stars，10月13日曾登 Rust 趋势榜首位。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "anthropics/claude-plugins-official",
+      "summary": "Anthropic 官方 Claude Code 插件目录。",
+      "why_it_matters": "适合研究 Agent 插件分发和可复用工作流。",
+      "category": "Plugins",
+      "tags": [
+        "Plugins"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anthropics/claude-plugins-official",
+        "github_stars": 41032,
+        "stars_growth": "+1552/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第1，+1552 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "summary": "用于科学研究的专业 Agent Skills 集合。",
+      "why_it_matters": "支持跨学科研究任务，但每项科学结论仍需来源核查。",
+      "category": "Skills / research",
+      "tags": [
+        "Skills",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "K-Dense-AI/scientific-agent-skills",
+        "github_stars": 51832,
+        "stars_growth": "+1158/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第2，+1158 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ruvnet/ruflo",
+      "summary": "多 Agent 协同与任务编排工具。",
+      "why_it_matters": "适合评估多角色开发流程与自动化协作开销。",
+      "category": "Agent / orchestration",
+      "tags": [
+        "Agent",
+        "orchestration"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ruvnet/ruflo",
+        "github_stars": 75775,
+        "stars_growth": "+672/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第4，+672 stars。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "android/skills",
+      "summary": "Android 相关开发技能仓库。",
+      "why_it_matters": "为移动开发任务提供可重用的 Agent 技能入口。",
+      "category": "Skills / mobile",
+      "tags": [
+        "Skills",
+        "mobile"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/android/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "android/skills",
+        "github_stars": 8199,
+        "stars_growth": "+36/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第5，+36 stars。",
+        "language": "Kotlin"
+      }
+    },
+    {
+      "title": "cursor/plugins",
+      "summary": "Cursor 的插件规范及官方插件仓库。",
+      "why_it_matters": "对编码 Agent 插件治理与集成有直接参考价值。",
+      "category": "Plugins / IDE",
+      "tags": [
+        "Plugins",
+        "IDE"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cursor/plugins",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cursor/plugins",
+        "github_stars": 12130,
+        "stars_growth": "+278/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第6，+278 stars。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "hmjz100/LinkSwift",
+      "summary": "支持多种网盘的浏览器辅助工具。",
+      "why_it_matters": "覆盖多种国内网盘的文件链接工作流；使用前核对平台规则和安全性。",
+      "category": "Browser / productivity",
+      "tags": [
+        "Browser",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/hmjz100/LinkSwift",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "hmjz100/LinkSwift",
+        "github_stars": 24162,
+        "stars_growth": "+538/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第7，+538 stars。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "xerj-org/xerj",
+      "summary": "用于自动索引和检索数据的 AI 搜索工具。",
+      "why_it_matters": "Agent 可利用数据索引改善资料发现效率；检索效果需实测。",
+      "category": "Developer / search",
+      "tags": [
+        "Developer",
+        "search"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/xerj-org/xerj",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "xerj-org/xerj",
+        "github_stars": 7272,
+        "stars_growth": "+1648/24h",
+        "trend_signal": "10月17日 GitHub Trending 日榜第8，+1648 stars。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "storytold/photocraft",
+      "summary": "Rust 实现的开源照片编辑器。",
+      "why_it_matters": "观察原生图像编辑工具的可扩展性与交互实现。",
+      "category": "Creative / desktop",
+      "tags": [
+        "Creative",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/photocraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/photocraft",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026年第42周 GitTrend 热门项目，周增量约 1.54 万。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "debpalash/VoiceStudio",
+      "summary": "本地语音合成、配音与转录工作台。",
+      "why_it_matters": "适合音频内容制作；性能和语言支持需按部署环境验证。",
+      "category": "Creative / audio",
+      "tags": [
+        "Creative",
+        "audio"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/debpalash/VoiceStudio",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "debpalash/VoiceStudio",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026年第42周 GitTrend 热门项目，周增量约 1.04 万。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "storytold/wordcraft",
+      "summary": "Rust 实现的开源文字处理软件。",
+      "why_it_matters": "探索传统办公软件的开放实现，兼容性需测试。",
+      "category": "Apps / productivity",
+      "tags": [
+        "Apps",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/wordcraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/wordcraft",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026年第42周 GitTrend 热门项目，周增量约 7100。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "morluto/rea",
+      "summary": "借助 Agent 探索软件行为与结构的分析工具。",
+      "why_it_matters": "对获授权的软件分析有研究价值；适用范围和风险边界需明确。",
+      "category": "Developer / analysis",
+      "tags": [
+        "Developer",
+        "analysis"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "morluto/rea",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026年第42周 GitTrend 热门榜第1，增长指标为周榜快照而非实时。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "mattpocock/skills",
+      "summary": "面向软件工程实践的 Agent Skills。",
+      "why_it_matters": "适合对照实际编码流程测试 Skill 可复用性。",
+      "category": "Skills / development",
+      "tags": [
+        "Skills",
+        "development"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mattpocock/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mattpocock/skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026年第42周 GitTrend 热门项目榜单收录。",
+        "language": "Shell"
+      }
+    }
+  ]
+}
