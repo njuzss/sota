@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T00:03:13.618Z",
+  "title": "每日前沿简报",
+  "summary": "近期研究关注智能体长期记忆与机器人高效控制。医学方面出现大规模肝癌风险预测及心血管代谢健康荟萃分析。开源社区关注许可证合规和跨平台图像编辑工具。",
+  "items": [
+    {
+      "title": "智能体长期记忆写入模型 Hy-Memory",
+      "summary": "研究提出跨多个记忆框架训练的模型，改善记忆保留与更新。作者公布了多套测试结果，尚需独立复现。",
+      "why_it_matters": "长期任务需要可靠的状态管理。",
+      "category": "AI",
+      "tags": [
+        "AI"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.22196",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    },
+    {
+      "title": "Fast-VLA 加速机器人闭环控制",
+      "summary": "论文将任务理解与动作控制分离，减少对大型视觉语言模型的重复调用。模拟测试表现良好，但真实部署仍需验证。",
+      "why_it_matters": "为低延迟机器人控制提供新架构。",
+      "category": "AI",
+      "tags": [
+        "AI"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.21389",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    },
+    {
+      "title": "近八百万人队列探索肝癌预测",
+      "summary": "研究使用韩国医保数据库比较多种肝癌预测模型。独立队列的 AUROC 为 0.8848，临床使用仍需前瞻性评估。",
+      "why_it_matters": "为非病毒性肝癌风险分层提供线索。",
+      "category": "MEDICINE",
+      "tags": [
+        "MEDICINE"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-75959-2",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "代谢健康与心血管风险荟萃分析",
+      "summary": "一项包含 44 项队列研究的综述发现代谢异常与肥胖均关联更高心血管风险。研究属于观察性证据。",
+      "why_it_matters": "提醒风险评估不应只看 BMI。",
+      "category": "MEDICINE",
+      "tags": [
+        "MEDICINE"
+      ],
+      "source_name": "International Journal of Obesity",
+      "source_url": "https://www.nature.com/articles/s41366-026-02237-6",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "GitHub 推出企业许可证合规检查",
+      "summary": "GitHub 10 月 16 日宣布开源许可证合规检查正式可用，可在 PR 中核验依赖许可证政策。功能具有企业授权条件。",
+      "why_it_matters": "供应链合规逐渐融入开发流程。",
+      "category": "TECH",
+      "tags": [
+        "TECH"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "PhotoCraft 开源 Rust 图像编辑器",
+      "summary": "PhotoCraft 提供图层、蒙版和 PSD 处理，并支持浏览器运行。项目仍处于早期开发阶段。",
+      "why_it_matters": "跨平台编辑器架构值得关注。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "OPEN_SOURCE"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/photocraft",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
