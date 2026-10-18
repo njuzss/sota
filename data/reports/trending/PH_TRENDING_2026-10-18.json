@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T00:00:41.358Z",
+  "title": "Daily Trending Projects",
+  "summary": "北京时间 10 月 18 日早间，开发者关注点一方面延伸到编码 Agent 的跨工具记忆和可执行个人工作流，另一方面涌现 ESP32 固件模拟、Lua TUI、Rust Web 框架、远程结对编程与本地模型硬件体验等小而精的工具。主要信号来自当日 GitHub Trending 和过去约三日的 Hacker News Show HN；不将项目方性能宣称视为独立证据。为避免重复，未再次收录近三日已经介绍且无明确重大变化的项目。",
+  "top_picks": [
+    "akitaonrails/ai-memory",
+    "mikroverk/esp32sim",
+    "nicorobinreal/llmspeed"
+  ],
+  "items": [
+    {
+      "title": "akitaonrails/ai-memory",
+      "summary": "为不同编码 Agent 提供可共享的长期记忆与跨工具任务交接，支持 Codex、Claude Code 等工作流。",
+      "why_it_matters": "直接解决切换编码助手时上下文丢失的问题；跨机器部署和历史记录权限值得单独评估。",
+      "category": "Agent / memory",
+      "tags": [
+        "Agent",
+        "memory",
+        "Codex",
+        "Claude Code",
+        "Rust"
+      ],
+      "source_name": "GitHub Trending / GitHub",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "akitaonrails/ai-memory",
+        "github_stars": 9876,
+        "stars_growth": "+208/24h",
+        "trend_signal": "GitHub Trending 日榜，采集于 2026-10-18 北京时间早间；页面显示 208 stars today。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "mikroverk/esp32sim",
+      "summary": "Rust 编写的 ESP32 系列固件模拟器，可在本机或浏览器运行部分未经修改的固件镜像。",
+      "why_it_matters": "硬件缺席时也能做固件原型和教学演示；各 SoC 外设支持度不同，不能取代所有真实板卡测试。",
+      "category": "Developer / embedded",
+      "tags": [
+        "Rust",
+        "ESP32",
+        "emulator",
+        "WebAssembly"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/mikroverk/esp32sim",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mikroverk/esp32sim",
+        "github_stars": 88,
+        "stars_growth": null,
+        "trend_signal": "近一日 Hacker News Show HN 约 109 points、11 comments；GitHub README 可核对支持芯片和限制。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "nicorobinreal/llmspeed",
+      "summary": "交互式比较本地大模型在不同 GPU、Mac 与 CPU 配置上的估算生成速度、首 Token 延迟和内存适配。",
+      "why_it_matters": "选购本地推理硬件前可直观比较方案；页面明确区分 measured、derived、projected，不能把预测当实测。",
+      "category": "AI / local inference tools",
+      "tags": [
+        "LLM",
+        "benchmark",
+        "hardware",
+        "TypeScript"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/nicorobinreal/llmspeed",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "nicorobinreal/llmspeed",
+        "github_stars": 73,
+        "stars_growth": null,
+        "trend_signal": "近一日 Hacker News Show HN 约 235 points、75 comments；官方站点提供实时交互。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "kiruna-labs/petal",
+      "summary": "开源结对编程屏幕共享工具，将远端共享窗口呈现为本地可操作的独立窗口。",
+      "why_it_matters": "适合远程协作与共同调试，支持 macOS/Windows 和自托管媒体服务；远程控制需注意权限边界。",
+      "category": "Apps / collaboration",
+      "tags": [
+        "desktop",
+        "pair-programming",
+        "WebRTC",
+        "open-source"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/kiruna-labs/petal",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "kiruna-labs/petal",
+        "github_stars": 353,
+        "stars_growth": null,
+        "trend_signal": "近三日 Hacker News Show HN 约 223 points、41 comments；官方提供下载和源码。",
+        "language": null
+      }
+    },
+    {
+      "title": "MadsLorentzen/ai-job-search",
+      "summary": "基于 Claude Code 的本地求职工作流，帮助评估职位、定制简历、撰写求职信和准备面试。",
+      "why_it_matters": "展示 Agent 处理个人生产力流程的端到端能力；职位采集目前偏丹麦市场，简历内容需人工复核。",
+      "category": "Productivity / Agent workflows",
+      "tags": [
+        "career",
+        "Agent",
+        "CLI",
+        "Python"
+      ],
+      "source_name": "GitHub Trending / GitHub",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "MadsLorentzen/ai-job-search",
+        "github_stars": 50253,
+        "stars_growth": "+1397/24h",
+        "trend_signal": "GitHub Trending 日榜，采集于 2026-10-18 北京时间早间；页面显示 1397 stars today。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "uji-labs/ito",
+      "summary": "Lua 声明式终端 UI 库，提供状态管理、布局控件及浏览器中的交互式预览。",
+      "why_it_matters": "用相对简洁的 Lua API 生成终端界面，适合轻量内部工具和交互原型。",
+      "category": "Developer / TUI",
+      "tags": [
+        "Lua",
+        "TUI",
+        "terminal",
+        "UI"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/uji-labs/ito",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "uji-labs/ito",
+        "github_stars": 57,
+        "stars_growth": null,
+        "trend_signal": "近三日 Hacker News Show HN 约 74 points、15 comments；官方 Playground 已开放。",
+        "language": "Lua"
+      }
+    },
+    {
+      "title": "andunieee/flipflop",
+      "summary": "基于 Iroh 的跨设备持久文件传输工具，可在局域网或互联网中的可信设备之间共享文件。",
+      "why_it_matters": "强调建立设备关系后反复传输，覆盖桌面及 Android；应检查端到端信任与平台兼容性。",
+      "category": "Apps / file sharing",
+      "tags": [
+        "Rust",
+        "P2P",
+        "files",
+        "desktop"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/andunieee/flipflop",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "andunieee/flipflop",
+        "github_stars": 216,
+        "stars_growth": null,
+        "trend_signal": "近三日 Hacker News Show HN 约 145 points、71 comments；官方仓库说明支持的传输场景。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Kapendev/parin",
+      "summary": "为 D 语言提供简洁可扩展的 2D 游戏引擎，包含图形、输入和游戏开发基础能力。",
+      "why_it_matters": "非主流语言生态中的高完成度工具尝试；适合对比 raylib 与 Godot 之间的开发体验。",
+      "category": "Creative / game development",
+      "tags": [
+        "D",
+        "2D",
+        "game-engine",
+        "WebAssembly"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/Kapendev/parin",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Kapendev/parin",
+        "github_stars": 101,
+        "stars_growth": null,
+        "trend_signal": "近一日 Hacker News Show HN 约 37 points、6 comments；仓库说明核心能力和后端限制。",
+        "language": "D"
+      }
+    },
+    {
+      "title": "Proa",
+      "summary": "面向 Rust 的 Web 界面框架，重点提供服务端渲染和选择性交互。",
+      "why_it_matters": "适合观察 Rust SSR 与前端组件化的新实现；官网性能对比由项目方提供，尚非独立基准。",
+      "category": "Developer / web framework",
+      "tags": [
+        "Rust",
+        "SSR",
+        "web",
+        "framework"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://proa.so/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "近三日 Hacker News Show HN 约 106 points、34 comments；官方展示 SSR 与交互示例。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "rStation",
+      "summary": "供多个 AI Agent 协同开展研究工作的共享实验室平台。",
+      "why_it_matters": "研究型 Agent 的共享上下文和协作界面值得关注，但公开可核验的功能细节仍有限。",
+      "category": "Agent / research collaboration",
+      "tags": [
+        "Agent",
+        "research",
+        "collaboration"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://rstation.ai/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "近三日 Hacker News Show HN 约 57 points、19 comments；官网可访问。",
+        "language": null
+      }
+    },
+    {
+      "title": "bbodi/tinywm",
+      "summary": "受 niri 启发的 macOS 滚动窗口管理器，将窗口沿水平工作带排列。",
+      "why_it_matters": "以不同于传统平铺和重叠窗口的方式管理工作空间；项目规模尚小，稳定性待检验。",
+      "category": "Apps / macOS",
+      "tags": [
+        "macOS",
+        "Swift",
+        "window-manager"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://github.com/bbodi/tinywm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "bbodi/tinywm",
+        "github_stars": 17,
+        "stars_growth": null,
+        "trend_signal": "近三日 Hacker News Show HN 收录（约 10 points）；项目仓库含可运行版本。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "Biblio Times",
+      "summary": "将用户订阅的 RSS/Atom 资讯在 iPhone、iPad 和 Mac 上排成每日数字报纸。",
+      "why_it_matters": "以排版、折页交互和设备端获取内容重塑 RSS 阅读体验；商业应用而非开源项目。",
+      "category": "Apps / reading",
+      "tags": [
+        "RSS",
+        "iOS",
+        "macOS",
+        "design"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://biblio.ink/times",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "近一日 Hacker News Show HN 新品发布；讨论热度较低，入选主要基于交互创意。",
+        "language": null
+      }
+    },
+    {
+      "title": "Wonderhop",
+      "summary": "每日四种玩法的文字竞猜游戏，围绕最常见、最罕见以及最早或最新的回答展开。",
+      "why_it_matters": "用群体回答分布创造轻量、重复可玩的互动体验，适合产品创意参考。",
+      "category": "Creative / web app",
+      "tags": [
+        "web",
+        "game",
+        "experimental"
+      ],
+      "source_name": "Hacker News / Official",
+      "source_url": "https://wonderhop.io/en/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "近两日 Hacker News Show HN 约 111 points、91 comments，讨论参与度较高。",
+        "language": null
+      }
+    }
+  ]
+}
