@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T02:20:04.227Z",
+  "title": "每日前沿简报",
+  "summary": "本期聚焦 AI 从能力展示向经济和组织影响的延伸：Anthropic 发布内部工作与就业数据，IMF 警示 AI 资本开支及循环融资风险。医疗研究方面，数字化 GLP-1 治疗的真实世界数据与个体化癌症疫苗早期试验提供了新线索。开源社区持续涌现面向垂直任务的 Claude Code 插件和智能体工具。",
+  "items": [
+    {
+      "title": "Anthropic 披露内部 AI 智能体改变岗位结构的实证研究",
+      "summary": "Anthropic 10 月 16 日发布内部就业与工作方式研究，结合员工调查、会议数据和智能体使用记录，发现交互式智能体运行小时数已远超员工工作小时数。初级技术职位招聘占比下降，但单一企业样本不能直接外推至整个劳动力市场。",
+      "why_it_matters": "提供了研究 AI 如何重塑工作组织的罕见企业内部微观证据。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "Employment",
+        "Agent"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "image_url": null,
+      "published_at": "2026-10-16T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "Anthropic 研究员工与公众对 AI 就业影响的预期落差",
+      "summary": "Anthropic 同日对比公司员工与美国劳动者对 AI 能力和未来就业的判断，发现两群体在作用机制上并非完全相反，主要差异在实际接触到的能力水平。调研不能替代长期追踪的就业数据。",
+      "why_it_matters": "解释了 AI 前沿用户与社会公众对技术冲击判断为何出现分化。",
+      "category": "AI",
+      "tags": [
+        "Economics",
+        "Labor",
+        "AI adoption"
+      ],
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/expectations-for-the-future",
+      "image_url": null,
+      "published_at": "2026-10-16T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "IMF 警示 AI 投资链条中循环融资的金融稳定风险",
+      "summary": "IMF 10 月全球金融稳定报告指出，AI 产业链中企业相互扮演客户、投资者与融资方，加之资产集中和杠杆上升，可能放大估值修正带来的冲击。报告讨论的是风险情景，并未断言危机会发生。",
+      "why_it_matters": "在 AI 资本开支高速扩张期间，融资结构风险比单纯关注模型性能更值得资本市场重视。",
+      "category": "MACRO",
+      "tags": [
+        "IMF",
+        "AI investment",
+        "Financial stability"
+      ],
+      "source_name": "IMF",
+      "source_url": "https://www.imf.org/en/Publications/GFSR/Issues/2026/10/13/global-financial-stability-report-october-2026",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "IMF 专题讨论人工智能如何影响增长、工作与全球经济",
+      "summary": "IMF 世界银行年会在 10 月 16 日举行 AI 与全球经济研讨会，聚焦生产率、劳动力替代、金融稳定、监管与国际发展差异。该活动是政策讨论而非独立实证结论。",
+      "why_it_matters": "不同经济体能否获得 AI 收益取决于配套基础设施与制度，而不只取决于模型本身。",
+      "category": "MACRO",
+      "tags": [
+        "IMF",
+        "Productivity",
+        "Labor"
+      ],
+      "source_name": "IMF",
+      "source_url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/16/ai-global-economy-212373",
+      "image_url": null,
+      "published_at": "2026-10-16T11:15:00+07:00",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "英国真实世界队列评估数字化 GLP-1 治疗",
+      "summary": "《Nature Medicine》10 月 16 日发表研究，分析英国 8127 名女性通过数字平台启动 GLP-1 受体激动剂治疗后的六个月体重变化，平均降重幅度与既往随机试验相近。该观察性队列存在选择偏倚，不能据此证明平台服务优于常规治疗。",
+      "why_it_matters": "在药物有效性之外，数字化交付方式的可及性和真实世界效果开始进入严肃评估。",
+      "category": "MEDICINE",
+      "tags": [
+        "GLP-1",
+        "Obesity",
+        "Real-world evidence"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/nm/research-articles",
+      "image_url": null,
+      "published_at": "2026-10-16T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "卵巢癌个体化新抗原疫苗一期研究展示免疫应答",
+      "summary": "《Nature Medicine》近期报告了个体化新抗原疫苗联合 PD-1 抑制在高级别浆液性卵巢癌患者中的一期临床研究，证明方案具有可实施性，部分患者产生肿瘤特异性免疫反应。这些信号尚不足以说明生存获益。",
+      "why_it_matters": "个体化癌症疫苗从概念向机制验证推进，但临床疗效仍需更高等级证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "Cancer vaccine",
+        "Ovarian cancer",
+        "Phase 1"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/nm/research-articles",
+      "image_url": null,
+      "published_at": "2026-10-14T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "Anthropic 官方 Claude Code 插件目录持续获得开发者关注",
+      "summary": "Anthropic 维护的 Claude Code 官方插件目录收录可安装插件及工作流扩展。开源项目增长反映智能体能力正在向插件和工具生态迁移，部署时仍应审查第三方插件权限。",
+      "why_it_matters": "工具集成、扩展治理与可复用技能有望决定编程智能体的实际生产力。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Claude Code",
+        "Plugins",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "anatomy：以交互等距插图解析现实机械系统",
+      "summary": "开源项目 anatomy 通过智能体技能生成机器与复杂系统的可交互等距结构图，近期出现在 GitHub 趋势追踪榜单。其实际技术精度需要逐个输出核查。",
+      "why_it_matters": "这种从文本和代码生成可讲解工程结构的形式适合科普、产品演示与教学。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Visualization",
+        "Agent skills",
+        "Education"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/wheresryan22/anatomy",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "本地求职智能体框架探索工作申请自动化",
+      "summary": "ai-job-search 项目尝试在本地以 Claude Code 评估岗位、定制履历和生成求职材料。用户仍需检查输出真实性、隐私保护和投递授权；GitHub 热度不等于求职效果已被验证。",
+      "why_it_matters": "显示垂直领域智能体正从通用聊天扩展到多步骤个人工作流程。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Job search",
+        "Local agent",
+        "Claude Code"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {}
+    }
+  ]
+}
