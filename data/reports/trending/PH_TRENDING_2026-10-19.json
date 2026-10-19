@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T00:04:51.287Z",
+  "title": "Daily Trending Projects",
+  "summary": "今日重点是 Agent 编码的人工理解校验与多模型工具链，同时出现了自托管应用、Rust 终端/向量数据库、macOS 生产力工具及程序化声音创作。热门项目与早期实验严格区分：GitHub Trending 的增长和 Hacker News 讨论是可观察信号，产品宣称不等于独立测试结论；与 10 月 15–18 日日报去重。",
+  "top_picks": [
+    "parthh01/sphinx",
+    "anomalyco/opencode",
+    "DuarteSantos8/openGym"
+  ],
+  "items": [
+    {
+      "title": "parthh01/sphinx",
+      "summary": "在 Git push 前根据提交差异向开发者提出理解检查问题的开源工具。",
+      "why_it_matters": "针对 AI 生成代码的理解断层提供具体的人工检查点；它是学习辅助而非可靠安全门禁，且会向配置的模型提供变更代码。",
+      "category": "Agent development / review",
+      "tags": [
+        "AI coding",
+        "Git hooks",
+        "code comprehension"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/parthh01/sphinx",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "parthh01/sphinx",
+        "github_stars": 85,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 热门讨论，采集快照约 238 points、81 comments。",
+        "trend_source_url": "https://news.ycombinator.com/item?id=50137950",
+        "language": null
+      }
+    },
+    {
+      "title": "anomalyco/opencode",
+      "summary": "支持终端与桌面端的开源 AI 编码 Agent，提供规划、代码编辑及多模型工作流。",
+      "why_it_matters": "适合与现有 Codex、Claude Code 进行真实仓库的任务质量和交互体验对照；不是首次发布，而是持续增长。",
+      "category": "AI / coding agent",
+      "tags": [
+        "coding agent",
+        "CLI",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "anomalyco/opencode",
+        "github_stars": 216549,
+        "stars_growth": "+1417 today (GitHub Trending snapshot)",
+        "trend_signal": "GitHub Trending 当日榜单显示 1,417 stars today；已成熟项目的新增关注，而非新项目发布。",
+        "trend_source_url": "https://github.com/trending",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "DuarteSantos8/openGym",
+      "summary": "自托管的训练计划、健身记录与体重跟踪 Web 应用。",
+      "why_it_matters": "数据可自行托管，支持动作记录、进度统计与通行密钥登录；适合想掌控数据的运动记录用户。",
+      "category": "Apps / self-hosted productivity",
+      "tags": [
+        "fitness",
+        "self-hosted",
+        "PWA"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DuarteSantos8/openGym",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "DuarteSantos8/openGym",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-18 第三方 GitHub 项目热榜收录；热度仅作为辅助信号。",
+        "trend_source_url": "https://githubrepo.cloud/",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "tashfeenahmed/freellmapi",
+      "summary": "将多个 LLM 提供方路由到兼容 OpenAI API 的本地统一入口。",
+      "why_it_matters": "可集中管理模型路由、失败回退与调用密钥，适合测试多模型开发环境；免费额度和端点数量属于项目宣称，需自行核实。",
+      "category": "AI / developer infrastructure",
+      "tags": [
+        "LLM gateway",
+        "model routing",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tashfeenahmed/freellmapi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tashfeenahmed/freellmapi",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-18 第三方 GitHub 项目热榜收录；增长数字未独立确认。",
+        "trend_source_url": "https://githubrepo.cloud/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "omnipty-terminal/omnipty",
+      "summary": "用 Rust 编写的 macOS/Linux 终端模拟器，集成分屏、工作区和文件树。",
+      "why_it_matters": "减少终端、文件浏览器与工作区管理之间的切换；新工具的稳定性和兼容性仍需测试。",
+      "category": "CLI / desktop",
+      "tags": [
+        "terminal",
+        "Rust",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/omnipty-terminal/omnipty",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "omnipty-terminal/omnipty",
+        "github_stars": 11,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 新发布，采集时约 8 points；属于早期发现，不是爆红。",
+        "trend_source_url": "https://news.ycombinator.com/item?id=50145628",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "YURIBEDRAN/rubi",
+      "summary": "为编码 Agent 构建代码知识图谱、混合搜索和上下文管理的实验性工具。",
+      "why_it_matters": "对长期代码库上下文压缩与跨会话知识保留有直接研究价值，但尚缺少独立性能验证。",
+      "category": "Skills / agent memory",
+      "tags": [
+        "knowledge graph",
+        "context",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/YURIBEDRAN/rubi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "YURIBEDRAN/rubi",
+        "github_stars": 3,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 新发布，采集时约 2 points；创意信号强于流行度信号。",
+        "trend_source_url": "https://news.ycombinator.com/item?id=50145380",
+        "language": null
+      }
+    },
+    {
+      "title": "omerfeyzioglu/glider",
+      "summary": "以对象存储作为持久层的单节点 Rust 向量数据库。",
+      "why_it_matters": "结合本地 SSD 缓存、ANN 检索与 S3 持久化，值得研究成本与故障恢复取舍；性能主张未经独立核验。",
+      "category": "Developer / database",
+      "tags": [
+        "vector database",
+        "Rust",
+        "S3"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/omerfeyzioglu/glider",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "omerfeyzioglu/glider",
+        "github_stars": 2,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 新发布，采集时约 4 points；早期技术探索。",
+        "trend_source_url": "https://news.ycombinator.com/item?id=50144906",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "finereli/whatsapp-mcp",
+      "summary": "部署在 Cloudflare Workers 的只读 WhatsApp 消息检索 MCP 服务。",
+      "why_it_matters": "展示个人消息检索与 Agent 集成方案，但非官方接口，作者说明可能违反平台条款；消息隐私和账号风险需优先评估。",
+      "category": "Plugins / MCP",
+      "tags": [
+        "MCP",
+        "messaging",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/finereli/whatsapp-mcp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "finereli/whatsapp-mcp",
+        "github_stars": 12,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 榜单约 25 points、13 comments。",
+        "trend_source_url": "https://news.ycombinator.com/item?id=50145715",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "boringbar/chest",
+      "summary": "适配 macOS 27 的开源菜单栏图标收纳工具。",
+      "why_it_matters": "用系统自身的菜单栏控制能力实现隐藏与抽屉管理，解决特定版本桌面布局问题；需授权辅助功能权限。",
+      "category": "Apps / macOS",
+      "tags": [
+        "macOS",
+        "menu bar",
+        "open source"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/boringbar/chest",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "boringbar/chest",
+        "github_stars": 1,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 新发布，采集时约 4 points；实用性优先于热度。",
+        "trend_source_url": "https://news.ycombinator.com/item?id=50142886",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "Gecit",
+      "summary": "通过局域网 QUIC 在 Windows PC 与 Mac 之间共享键鼠、剪贴板的桌面工具。",
+      "why_it_matters": "无需云账号，适合双系统桌面工作站；免费版覆盖键鼠与剪贴板，文件拖拽属于付费功能。",
+      "category": "Apps / desktop productivity",
+      "tags": [
+        "Windows",
+        "macOS",
+        "QUIC"
+      ],
+      "source_name": "Official project",
+      "source_url": "https://kasparovabi.github.io/gecit/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 新发布，采集时约 2 points；新颖但传播信号较弱。",
+        "trend_source_url": "https://news.ycombinator.com/show",
+        "language": null
+      }
+    },
+    {
+      "title": "The Duck Pond",
+      "summary": "在浏览器中实时合成鸭群鸣叫与空间声音的互动音频小作品。",
+      "why_it_matters": "没有预录音频，适合作为实时音频合成、空间声学和轻量互动体验的创意参考。",
+      "category": "Creative / experimental web",
+      "tags": [
+        "procedural audio",
+        "interactive",
+        "creative"
+      ],
+      "source_name": "Official project",
+      "source_url": "https://celphase.github.io/duck-pond/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": null,
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-19 Show HN 榜单约 167 points、43 comments，独特创意引发讨论。",
+        "trend_source_url": "https://news.ycombinator.com/show",
+        "language": null
+      }
+    }
+  ]
+}
