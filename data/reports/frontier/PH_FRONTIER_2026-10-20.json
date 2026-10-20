@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T00:36:16.278Z",
+  "title": "每日前沿简报",
+  "summary": "本期重点关注 OpenAI 面向 COBOL 等低资源编程语言的迁移评测，以及 Google Gemini Notebook 将视频和幻灯片创作拆分为可审核的生产流程。GitHub Copilot 开始退役部分旧模型，开发者需检查自动化依赖。中国最新 GDP 与工业产能利用率数据同时揭示增长韧性和行业分化。",
+  "items": [
+    {
+      "title": "OpenAI 公布低资源编程语言及 COBOL 迁移评测",
+      "summary": "OpenAI 10 月 19 日披露 GPT-6.1 Sol 在 COBOL、Fortran、OCaml 等编程语言任务上的进展，并公开 MultiLangBench 评测。其 COBOL 迁移基准采用隐藏测试核查程序输出是否等价；官方称高推理预算下准确率可达 97.9%，这仍是限定测试而非真实金融系统的全面迁移保证。",
+      "why_it_matters": "遗留关键系统现代化需求巨大，行为等价评测比单纯生成可编译代码更具实际价值。",
+      "category": "AI",
+      "tags": [
+        "OpenAI",
+        "COBOL",
+        "Legacy modernization"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/low-resource-programming-languages/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "Google Gemini Notebook 增加视频和幻灯片生成前的创作审核",
+      "summary": "Google 10 月 19 日推出创作协同工作流：用户可先审核幻灯片提纲或视频制作说明，再决定是否渲染。新功能计划在随后一周面向全球 Notebook 用户逐步推出，实际可用时间可能随账号而异。",
+      "why_it_matters": "将大模型生成流程拆成可控制的脚本、分镜和最终成品环节，尤其适合需要高质量自动化视频与幻灯片的团队。",
+      "category": "AI",
+      "tags": [
+        "Gemini Notebook",
+        "Video",
+        "Slides"
+      ],
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Copilot 正式退役部分旧模型",
+      "summary": "GitHub 10 月 19 日确认在多数 Copilot 功能中停用 Gemini 3.7 Flash、GPT-5.5、GPT-5.4 系列及 Grok 4.5，建议切换至较新型号。依赖固定模型名称的企业配置、提示词及自动化工作流需要检查兼容性。",
+      "why_it_matters": "编程助手平台的模型更新周期正在缩短，代理系统应避免将部署流程与单一旧模型强绑定。",
+      "category": "TECH",
+      "tags": [
+        "GitHub Copilot",
+        "Deprecation",
+        "Model lifecycle"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "国家统计局：前三季度中国 GDP 同比增长 4.6%",
+      "summary": "国家统计局 10 月 19 日公布，2026 年前三季度国内生产总值 1071071 亿元，按不变价格计算同比增长 4.6%。第三季度同比增长 4.5%，较第二季度的 4.3% 回升 0.2 个百分点。",
+      "why_it_matters": "提供观察中国增长韧性、需求与供给结构的最新官方基准数据；同比增速回升不等于所有行业同步改善。",
+      "category": "CHINA",
+      "tags": [
+        "GDP",
+        "China economy",
+        "NBS"
+      ],
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202610/t20261019_1965618.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "中国三季度工业产能利用率降至 73.1%",
+      "summary": "国家统计局披露，第三季度规模以上工业产能利用率为 73.1%，较上季度提高 0.1 个百分点，但同比降低 1.5 个百分点。汽车制造业为 66.2%，计算机、通信和其他电子设备制造业为 80.2%，不同产业之间的分化明显。",
+      "why_it_matters": "产能利用率能帮助识别供给压力和行业投资效率，比单一工业增加值更能揭示产业分化。",
+      "category": "MACRO",
+      "tags": [
+        "Capacity utilization",
+        "China industry",
+        "Manufacturing"
+      ],
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965611.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub 说明部分 HTTPS Git 操作可能临时要求认证",
+      "summary": "GitHub 10 月 19 日在更新日志中说明，流量异常期间，为维护 github.com 可用性，部分公开仓库的 Git over HTTPS 克隆与拉取也可能临时需要认证。该变化属于条件性保护措施，并非所有公开仓库永久改为私有访问。",
+      "why_it_matters": "对 CI、代理任务和自动拉取公开仓库的自动化流程具有潜在影响，需要区分临时认证要求与仓库权限错误。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "Git HTTPS",
+        "Automation"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/month/10-2026/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    }
+  ]
+}
