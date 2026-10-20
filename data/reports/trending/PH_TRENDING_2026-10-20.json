@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T00:36:37.806Z",
+  "title": "Daily Trending Projects",
+  "summary": "近期趋势包括 Agent 视频创作、Blender 自动化、上下文优化、开源模型网关与技能管理。部分热度信号来自10月18–19日榜单归档，不等同于10月20日实时排名；无法核实的 Star 指标保留 null。",
+  "top_picks": [
+    "alchaincyf/huashu-motion",
+    "headroomlabs-ai/headroom",
+    "LiCinCan/blender-ai-mcp-addon"
+  ],
+  "items": [
+    {
+      "title": "alchaincyf/huashu-motion",
+      "summary": "Agent 辅助制作可局部调整、带音频的产品动效视频",
+      "why_it_matters": "项目提供一个值得实际评估的创作/视频方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "创作/视频",
+      "tags": [
+        "创作",
+        "视频"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/alchaincyf/huashu-motion",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "alchaincyf/huashu-motion",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月18日发布 v0.1.0；适合开发者宣传片制作",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "headroomlabs-ai/headroom",
+      "summary": "压缩 Agent 工具输出、日志和上下文",
+      "why_it_matters": "项目提供一个值得实际评估的Agent/效率方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "Agent/效率",
+      "tags": [
+        "Agent",
+        "效率"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/headroomlabs-ai/headroom",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "headroomlabs-ai/headroom",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月18–19日仍有维护活动；性能收益需要独立测量",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "LiCinCan/blender-ai-mcp-addon",
+      "summary": "通过 MCP 将 Blender 场景操作接入 AI 助手",
+      "why_it_matters": "项目提供一个值得实际评估的3D/插件方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "3D/插件",
+      "tags": [
+        "3D",
+        "插件"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "LiCinCan/blender-ai-mcp-addon",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月18日更新；便于探索可监督的 Agent 建模",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "NVlabs/ASPIRE",
+      "summary": "面向机器人任务的 Agent 技能发现项目",
+      "why_it_matters": "项目提供一个值得实际评估的机器人/研究方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "机器人/研究",
+      "tags": [
+        "机器人",
+        "研究"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVlabs/ASPIRE",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVlabs/ASPIRE",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "mozilla-ai/otari",
+      "summary": "兼容 OpenAI API 的自托管模型网关",
+      "why_it_matters": "项目提供一个值得实际评估的开发工具/API方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "开发工具/API",
+      "tags": [
+        "开发工具",
+        "API"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mozilla-ai/otari",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mozilla-ai/otari",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Kruk2/jasna",
+      "summary": "开源视频修复工具",
+      "why_it_matters": "项目提供一个值得实际评估的创作/视频方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "创作/视频",
+      "tags": [
+        "创作",
+        "视频"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Kruk2/jasna",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Kruk2/jasna",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "claration/impactor",
+      "summary": "跨平台 iOS 家族设备应用侧载管理工具",
+      "why_it_matters": "项目提供一个值得实际评估的桌面/移动方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "桌面/移动",
+      "tags": [
+        "桌面",
+        "移动"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/claration/impactor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "claration/impactor",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "alvinunreal/lazyskills",
+      "summary": "终端内组织和管理 Agent Skills",
+      "why_it_matters": "项目提供一个值得实际评估的CLI/Skills方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "CLI/Skills",
+      "tags": [
+        "CLI",
+        "Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/alvinunreal/lazyskills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "alvinunreal/lazyskills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "iFurySt/open-computer-use",
+      "summary": "开源桌面自动化操作方案",
+      "why_it_matters": "项目提供一个值得实际评估的Agent/桌面方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "Agent/桌面",
+      "tags": [
+        "Agent",
+        "桌面"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/iFurySt/open-computer-use",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "iFurySt/open-computer-use",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "ScrapeCreators/social-media-research-skills",
+      "summary": "支持社交媒体研究流程的 Agent Skills",
+      "why_it_matters": "项目提供一个值得实际评估的Skills/研究方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "Skills/研究",
+      "tags": [
+        "Skills",
+        "研究"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ScrapeCreators/social-media-research-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月18日首次进入 GitHub Trending 历史归档",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "MadsLorentzen/ai-job-search",
+      "summary": "本地运行的 AI 求职辅助工作流",
+      "why_it_matters": "项目提供一个值得实际评估的应用/效率方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "应用/效率",
+      "tags": [
+        "应用",
+        "效率"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "MadsLorentzen/ai-job-search",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日 GitHub Trending Python 栏目热门项目",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Mag1cFall/AIStudio2API",
+      "summary": "面向开发者 API 工作流的 AI Studio 接口适配项目",
+      "why_it_matters": "项目提供一个值得实际评估的开发工具/API方向；功能、稳定性和风险边界应结合官方仓库与实际使用验证。",
+      "category": "开发工具/API",
+      "tags": [
+        "开发工具",
+        "API"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Mag1cFall/AIStudio2API",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Mag1cFall/AIStudio2API",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "10月19日首次进入 GitHub Trending 历史归档",
+        "language": "Go"
+      }
+    }
+  ]
+}
