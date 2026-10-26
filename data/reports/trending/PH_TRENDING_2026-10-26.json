@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T14:25:21.115Z",
+  "title": "Daily Trending Projects",
+  "summary": "2026年10月26日的项目热度重点表现为编码 Agent 与 IDE 融合、界面设计 Skills、Agent 安全扫描、本地优先桌面协作，以及开源机器人和跨平台生产力工具。今天的 GitHub Trending 快照具有时间敏感性，Stars 数字及单日增量为观察时点的显示值，不代表独立验证过的持续增长趋势。",
+  "top_picks": [
+    "JetBrains/thinkrail",
+    "Nutlope/hallmark",
+    "NVIDIA/SkillSpector"
+  ],
+  "items": [
+    {
+      "title": "JetBrains/thinkrail",
+      "summary": "围绕 pi 编码 Agent 打造轻量可定制 IDE，强调开发过程的可观察性与工作流。",
+      "why_it_matters": "IDE 与 Agent 的协同被重新设计；值得测试多文件编辑和人工接管体验。",
+      "category": "Developer / Agent IDE",
+      "tags": [
+        "Developer",
+        "Agent IDE"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/JetBrains/thinkrail",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "JetBrains/thinkrail",
+        "github_stars": 2333,
+        "stars_growth": "+1156/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Nutlope/hallmark",
+      "summary": "帮助 Claude Code、Cursor 与 Codex 改进 UI 视觉品质的设计 Skill。",
+      "why_it_matters": "把设计审查引入代码生成工作流，适合网页和产品演示开发。",
+      "category": "Skills / UI design",
+      "tags": [
+        "Skills",
+        "UI design"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Nutlope/hallmark",
+        "github_stars": 35170,
+        "stars_growth": "+2235/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "CSS"
+      }
+    },
+    {
+      "title": "makecindy/cindy",
+      "summary": "开箱即用的开源通用 AI Agent。",
+      "why_it_matters": "降低首次体验 Agent 的配置门槛；需实测工具权限、持久任务与稳定性。",
+      "category": "Apps / Agent",
+      "tags": [
+        "Apps",
+        "Agent"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/makecindy/cindy",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "makecindy/cindy",
+        "github_stars": 5758,
+        "stars_growth": "+1268/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "summary": "面向 AI 开发工具的设计语言与设计实践资源。",
+      "why_it_matters": "可用于改善生成界面的一致性；与 Hallmark 的具体能力应比较。",
+      "category": "Creative / design systems",
+      "tags": [
+        "Creative",
+        "design systems"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pbakaus/impeccable",
+        "github_stars": 88492,
+        "stars_growth": "+1551/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "pollen-robotics/microduck",
+      "summary": "开源的小型双足鸭形机器人项目。",
+      "why_it_matters": "将开源设计与可实际制造的机器人结合，具有教育和研究价值。",
+      "category": "Robotics / hardware",
+      "tags": [
+        "Robotics",
+        "hardware"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/pollen-robotics/microduck",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pollen-robotics/microduck",
+        "github_stars": 12150,
+        "stars_growth": "+844/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "NVIDIA/SkillSpector",
+      "summary": "面向 AI Agent Skills 的风险检测与安装前审查工具。",
+      "why_it_matters": "随着 Skills 生态增长，插件来源、权限与供应链审查逐渐重要。",
+      "category": "Security / Agent Skills",
+      "tags": [
+        "Security",
+        "Agent Skills"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/NVIDIA/SkillSpector",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVIDIA/SkillSpector",
+        "github_stars": 21751,
+        "stars_growth": "+203/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "nightly-labs/openbot",
+      "summary": "本地优先的桌面 AI Agent 工作空间，支持任务队列、文件共享与 Agent 协作。",
+      "why_it_matters": "面向持续工作的多个 Agent 提供桌面组织形式，值得评估权限隔离。",
+      "category": "Apps / desktop Agent",
+      "tags": [
+        "Apps",
+        "desktop Agent"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/nightly-labs/openbot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "nightly-labs/openbot",
+        "github_stars": 1115,
+        "stars_growth": "+86/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Panniantong/Agent-Reach",
+      "summary": "通过 CLI 为 Agent 提供多平台网页和社交内容检索入口。",
+      "why_it_matters": "解决 Agent 外部资料收集问题；兼容性和平台服务条款需要逐项确认。",
+      "category": "CLI / research",
+      "tags": [
+        "CLI",
+        "research"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Panniantong/Agent-Reach",
+        "github_stars": 102950,
+        "stars_growth": "+723/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "gitroomhq/postiz-app",
+      "summary": "支持多平台内容创作、排期和发布的开源社交媒体工具。",
+      "why_it_matters": "为产品运营和社媒发布提供可自托管工作流。",
+      "category": "Apps / productivity",
+      "tags": [
+        "Apps",
+        "productivity"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/gitroomhq/postiz-app",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "gitroomhq/postiz-app",
+        "github_stars": 37975,
+        "stars_growth": "+146/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "alchaincyf/huashu-design",
+      "summary": "在 Agent 中生成网页、App 原型、可编辑演示文稿和信息图等设计成果。",
+      "why_it_matters": "多候选设计方向及可编辑交付适合项目展示，需实际核验输出一致性。",
+      "category": "Creative / Skills",
+      "tags": [
+        "Creative",
+        "Skills"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/alchaincyf/huashu-design",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "alchaincyf/huashu-design",
+        "github_stars": 26483,
+        "stars_growth": "+177/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "TauricResearch/TradingAgents",
+      "summary": "通过多智能体协作模拟金融研究与交易分析过程的开源框架。",
+      "why_it_matters": "体现多角色协同研究机制，不能把模拟输出视为投资收益保证。",
+      "category": "AI / finance",
+      "tags": [
+        "AI",
+        "finance"
+      ],
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/TauricResearch/TradingAgents",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "TauricResearch/TradingAgents",
+        "github_stars": 115335,
+        "stars_growth": "+1376/24h",
+        "trend_signal": "GitHub Trending 2026-10-26 当日快照；Stars 与当日增量为抓取时点的公开显示值，非固定收盘数据。",
+        "language": "Python"
+      }
+    }
+  ]
+}
