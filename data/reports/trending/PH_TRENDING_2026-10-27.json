@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T00:02:54.803Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间10月27日早晨，最新可核验的10月26日榜单与社区讨论显示：Agent 的流程录制、运行沙箱、跨端访问和共享记忆持续升温，同时出现开源 Mac 浏览器、本地办公助手、自托管家庭应用与小众静态分析工具。本期优先保留未在10月26日报告出现的项目；热度来源注明观测日期，不能可靠对齐24小时窗口的星数增量均记为 null。",
+  "top_picks": [
+    "microsoft/skill-recorder",
+    "anthropics/sandbox-runtime",
+    "mantrakp04/ardia"
+  ],
+  "items": [
+    {
+      "title": "microsoft/skill-recorder",
+      "summary": "录制一次屏幕操作，再由 Copilot SDK 提炼任务意图和步骤，生成可复用的 Agent Skill 或自动化流程。",
+      "why_it_matters": "把真实操作经验转为可审查的 SKILL.md，适合办公和研发流程自动化；录制前需排除敏感窗口。",
+      "category": "Skills / Desktop Automation",
+      "tags": [
+        "Skill",
+        "Copilot",
+        "Desktop",
+        "Automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/microsoft/skill-recorder",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "microsoft/skill-recorder",
+        "github_stars": 5069,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 关注度榜第6，7日关注度排名从第11升至第6；项目方仓库已核实。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "anthropics/sandbox-runtime",
+      "summary": "使用操作系统原生隔离能力约束 Agent 进程的文件访问和网络出口，无需常规容器运行时。",
+      "why_it_matters": "Agent 可执行操作越多，越需要可配置的最小权限边界；官方标注为研究预览，需关注平台差异与限制。",
+      "category": "Agent / Security",
+      "tags": [
+        "Agent",
+        "Sandbox",
+        "Security",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anthropics/sandbox-runtime",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anthropics/sandbox-runtime",
+        "github_stars": 6599,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 加速关注榜第7；官方仓库持续说明跨平台安全模型。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "mantrakp04/ardia",
+      "summary": "基于 Chromium 的 macOS 开源浏览器，采用侧边栏地址栏、最多三栏分屏和画中画体验。",
+      "why_it_matters": "为偏爱 Arc 式工作流的 Mac 用户提供可试用替代方案；当前主要支持 Apple Silicon，部分 DRM 功能受限。",
+      "category": "Apps / Browser",
+      "tags": [
+        "macOS",
+        "Browser",
+        "Open Source",
+        "Productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mantrakp04/ardia",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mantrakp04/ardia",
+        "github_stars": 824,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 关注度榜第1，7日相对关注度显著上升；GitHub README 可核对功能与平台限制。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "liguobao/ds-harness-remote",
+      "summary": "以 P2P 优先、端到端加密的多端访问方案远程连接 DeepSeek Harness 和编码 Agent 工作区。",
+      "why_it_matters": "对跨电脑和移动端接管长时间编码任务有价值；安全、延迟与权限控制应在自有环境验证。",
+      "category": "Agent / Remote Access",
+      "tags": [
+        "DeepSeek",
+        "Codex",
+        "Remote",
+        "P2P"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/liguobao/ds-harness-remote",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "liguobao/ds-harness-remote",
+        "github_stars": 851,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 关注度榜第2，近7日排名保持靠前；中文开发者项目。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Asymptote-Labs/agent-beacon",
+      "summary": "为不同编码 Agent 提供共享、可追溯的长期记忆和经验积累层。",
+      "why_it_matters": "解决 Codex、Claude Code、Cursor 之间上下文割裂的问题；记忆正确性与隔离策略仍需实测。",
+      "category": "Agent / Memory",
+      "tags": [
+        "Agent",
+        "Memory",
+        "CLI",
+        "Cross-harness"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Asymptote-Labs/agent-beacon",
+        "github_stars": 2808,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 加速关注榜第9，连续数日进入高关注项目。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "ulsklyc/yuvomi",
+      "summary": "可自托管的家庭管理 PWA，整合待办、日历、预算、餐食和购物等功能。",
+      "why_it_matters": "提供本地掌控数据的家庭协作替代方案；需要自行维护备份和服务安全。",
+      "category": "Apps / Self-hosted",
+      "tags": [
+        "Family",
+        "PWA",
+        "Self-hosted",
+        "Productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ulsklyc/yuvomi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ulsklyc/yuvomi",
+        "github_stars": 2005,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 加速关注榜第8；GitHub 仓库确认多模块家庭规划定位。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "AgriciDaniel/claude-seo",
+      "summary": "面向 Claude Code 的 SEO 审计技能集，覆盖技术 SEO、结构化数据和 AI 搜索可发现性。",
+      "why_it_matters": "将多项网站审查整合为可复用的 Agent 工作流；SEO 建议与排名改善不能直接画等号。",
+      "category": "Skills / Marketing",
+      "tags": [
+        "SEO",
+        "Claude Code",
+        "Audit",
+        "Marketing"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/AgriciDaniel/claude-seo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "AgriciDaniel/claude-seo",
+        "github_stars": 20891,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio GitHub Trending 日榜第11，属于当日新上榜项目。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "coollabsio/coolify",
+      "summary": "通过自有服务器部署应用、数据库与服务的开源自托管 PaaS。",
+      "why_it_matters": "让个人项目或小团队以类似托管平台的体验管理部署，同时保留基础设施控制权。",
+      "category": "Developer / DevOps",
+      "tags": [
+        "Self-hosted",
+        "PaaS",
+        "Deployment",
+        "DevOps"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/coollabsio/coolify",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "coollabsio/coolify",
+        "github_stars": 64396,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio GitHub Trending 日榜第9，近期重新进入日榜；并非新发布项目。",
+        "language": "PHP"
+      }
+    },
+    {
+      "title": "mpyw/declscope",
+      "summary": "为 Go 包中的声明、方法与字段增加可由静态分析检查的文件级私有作用域约束。",
+      "why_it_matters": "可在不拆分 Go package 的情况下强化内部边界，属于小众但实用的工程质量工具。",
+      "category": "Developer / Static Analysis",
+      "tags": [
+        "Go",
+        "Linter",
+        "Architecture",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mpyw/declscope",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "mpyw/declscope",
+        "github_stars": 49,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 加速关注榜第5，但尚未进入 GitHub Trending 日榜；早期弱规模信号。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "cloudflare/security-audit-skill",
+      "summary": "将代码安全审计组织为多阶段 Agent 工作流，生成可复核、结构化的安全发现。",
+      "why_it_matters": "安全审计不能只依赖单次模型判断；该 Skill 强调独立验证与可追溯报告。",
+      "category": "Skills / Security",
+      "tags": [
+        "Security",
+        "Agent",
+        "Audit",
+        "Skill"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cloudflare/security-audit-skill",
+        "github_stars": 46932,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio GitHub Trending 连续第6日上榜，日榜排名第10；仍有持续关注。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "FrigadeHQ/hob",
+      "summary": "使用本地开放权重模型处理文件和文档的跨平台桌面 AI 助手。",
+      "why_it_matters": "离线和隐私优先的办公 Agent 值得关注，但本地模型效果受硬件影响，项目仍处早期。",
+      "category": "Apps / Local AI",
+      "tags": [
+        "Local LLM",
+        "Desktop",
+        "Privacy",
+        "Open Source"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/FrigadeHQ/hob",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "repo": "FrigadeHQ/hob",
+        "github_stars": 61,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 新登 Show HN，已确认原始 GitHub 仓库；社区讨论仍属早期，未形成强热度证据。",
+        "language": null
+      }
+    },
+    {
+      "title": "fabio-rovai/open-ontologies",
+      "summary": "对知识本体的修改进行影响范围分析、验证和回滚，并生成可复核的推理证据。",
+      "why_it_matters": "为知识图谱和规则系统引入类似 IaC 的变更治理，技术路线具有独特性。",
+      "category": "Developer / Knowledge Graph",
+      "tags": [
+        "Rust",
+        "Ontology",
+        "Formal Verification",
+        "MCP"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/fabio-rovai/open-ontologies",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "fabio-rovai/open-ontologies",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-26 Ageshio 关注度榜第10；官方仓库提供推理与证明范围的明确边界。",
+        "language": "Rust"
+      }
+    }
+  ]
+}
