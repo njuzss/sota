@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T00:04:25.101Z",
+  "title": "每日前沿简报",
+  "summary": "AI 前沿研究方面，OpenAI 披露由模型生成的数学、计算复杂性与物理学研究结果并启动外部审查，同时公开跨国工作任务使用数据。Codex Ultrafast、跨仓库安全分析和真实用户流程测试显示 Agent 正进一步进入研发与运维生产流程。医学方面关注难治性实体瘤早期免疫治疗、脓毒性休克随机试验及儿童肺炎预测模型；中国卫星互联网政策和即将举行的美联储议息会议也是重要观察点。",
+  "items": [
+    {
+      "title": "OpenAI 宣布三项 AI 数学、复杂性理论与量子场论研究结果，启动外部专家审查",
+      "summary": "OpenAI 10 月 26 日披露模型生成的局部平滑猜想证明、指数时间假说反证，以及四维量子场论存在性论证，并针对不同课题采用公开材料或专家工作组的审查机制。部分自然语言证明和 Lean 形式化材料已公开，但学界独立核验、理论解释和长期认可尚未完成；不能将官方宣称等同于公认定理。",
+      "why_it_matters": "如果经独立验证，这些成果将深刻改变数学与理论计算机科学研究；更直接的价值是形成 AI 科学发现的透明审查机制。",
+      "category": "AI",
+      "tags": [
+        "AI for Science",
+        "Formal verification",
+        "Mathematics",
+        "ETH"
+      ],
+      "source_name": "OpenAI Research",
+      "source_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "notes": "OpenAI 自述重大突破；需独立学术审查。Lean 形式化与原始研究材料公开不自动代表相关所有数学主张已获得学界认可。",
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "OpenAI Signals 开放近百国 165 类工作活动的 ChatGPT 使用数据",
+      "summary": "OpenAI 10 月 26 日发布按 O*NET 工作活动分类的匿名汇总数据，覆盖近 100 个国家的 165 类工作活动，时间从 2025 年一季度延伸至 2026 年三季度。持续覆盖的 74 个国家中，前十大活动占比均值从 56.0% 降至 51.1%；该数据反映 ChatGPT 使用模式，不直接证明就业替代或生产率提升。",
+      "why_it_matters": "为研究 AI 实际渗透哪些职业任务、国家间差异及扩散速度提供了新的可复用观察数据。",
+      "category": "MACRO",
+      "tags": [
+        "AI adoption",
+        "Labor economics",
+        "OpenAI Signals"
+      ],
+      "source_name": "OpenAI Economic Research",
+      "source_url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "Codex Ultrafast 用于 OpenAI 内部故障响应：从日志到多源根因调查",
+      "summary": "OpenAI 10 月 26 日披露工程团队使用 Codex Ultrafast 并行检索日志、Slack 和代码上下文的实践。内部受访工程师称部分安全事件调查由原先一到两小时缩短至 10–15 分钟；这是内部案例而非受控性能评测。",
+      "why_it_matters": "实时交互延迟、并行调查能力与可追溯证据链，正成为研发运维智能体能否进入生产事故处置的关键。",
+      "category": "AI",
+      "tags": [
+        "Codex",
+        "Ultrafast",
+        "Incident response",
+        "SRE"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/openai-cut-incident-investigation/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "Greptile 用 GPT-6 Astra 从代码审查走向真实用户流程测试",
+      "summary": "OpenAI 10 月 26 日介绍 Greptile 使用 GPT-6 Astra 的计算机操作能力启动开发服务器、模拟浏览器操作，并检查仅靠静态代码审查难以发现的 UI 缺陷。其知识库还通过 MCP 为 Codex 提供代码库上下文；相关成效主要来自企业案例陈述。",
+      "why_it_matters": "以运行时行为验证代码变更，比只判断补丁语法和逻辑更接近软件质量工程的真实验收需求。",
+      "category": "TECH",
+      "tags": [
+        "GPT-6 Astra",
+        "Computer use",
+        "Testing",
+        "MCP"
+      ],
+      "source_name": "OpenAI / Greptile",
+      "source_url": "https://openai.com/index/greptile-code-review-codex-astra/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "CodeRabbit 使用 GPT-6.1 Sol 做跨仓库安全分析与隔离验证",
+      "summary": "OpenAI 10 月 26 日介绍 CodeRabbit 在安全代理中使用 GPT-6.1 Sol，跨文件、依赖及关联仓库寻找潜在安全问题。针对用户选定的发现，系统可在隔离沙箱中尝试验证并生成修复 PR，最终仍由人工审查。",
+      "why_it_matters": "将 AI 安全审查从单个 PR 扩展至依赖链和可验证修复，有助于降低大规模代码库中的漏检与误报。",
+      "category": "TECH",
+      "tags": [
+        "CodeRabbit",
+        "GPT-6.1 Sol",
+        "AppSec",
+        "Code review"
+      ],
+      "source_name": "OpenAI / CodeRabbit",
+      "source_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "新型双特异性 T 细胞激动剂 invikafusp alfa 在难治性实体瘤中出现早期疗效信号",
+      "summary": "NIH 10 月 23 日介绍 START-001 一期与初步二期试验：在接受优化生物学剂量的 27 名患者中，16 人疾病未进展，4 人出现客观缓解，包含部分既往免疫治疗失败的实体瘤患者。研究主要评估安全性和初步抗肿瘤活性，缺少随机对照，尚不能推断生存获益。",
+      "why_it_matters": "选择性扩增特定 T 细胞亚群可能为免疫检查点抑制剂耐药肿瘤提供新的治疗机制。",
+      "category": "MEDICINE",
+      "tags": [
+        "Cancer immunotherapy",
+        "Phase 1/2",
+        "T cells"
+      ],
+      "source_name": "NIH / Nature Medicine",
+      "source_url": "https://www.nih.gov/news-events/news-releases/precision-t-cell-therapy-stalls-treatment-resistant-cancers-clinical-trial",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "27 例为最优生物学剂量亚组，不能外推全部患者。",
+        "publication_date": "2026-10-23"
+      }
+    },
+    {
+      "title": "脓毒性休克小型随机试验：毛细血管再充盈时间指导补液减少早期液体输入",
+      "summary": "10 月 26 日《Scientific Reports》发表单中心开放标签随机试验，85 名脓毒性休克患者分为毛细血管再充盈时间和乳酸指标指导组。前者 6 小时总输液量中位数为 1135 mL，对照为 1350 mL；试验招募不足、主要分析结局调整且注册滞后，死亡率差异无统计学确定性。",
+      "why_it_matters": "为个体化血流动力学复苏提供了探索性随机证据，也凸显小样本临床研究预注册和结局解释的重要性。",
+      "category": "MEDICINE",
+      "tags": [
+        "Septic shock",
+        "RCT",
+        "Fluid resuscitation"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-77226-w",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "结局探索性，不能据此声称降低死亡率。",
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "中国四中心儿童支原体肺炎机器学习研究完成外部验证",
+      "summary": "10 月 26 日《Scientific Reports》发表回顾性多中心研究，纳入 6587 名儿童，构建难治性肺炎支原体肺炎早期风险预测模型。随机森林模型在内部测试集 AUC 为 0.809，在两个外部队列分别为 0.774 和 0.807；跨人群校准漂移仍需处理。",
+      "why_it_matters": "展示儿科预测模型不仅要看判别能力，还必须检验外部人群的校准与临床净获益。",
+      "category": "MEDICINE",
+      "tags": [
+        "Pediatrics",
+        "Mycoplasma pneumonia",
+        "Clinical ML"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-77238-6",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "上海发布 2027—2030 年卫星互联网产业创新发展行动方案",
+      "summary": "上海市政府网站 10 月 26 日发布六部门联合印发的卫星互联网产业行动方案，提出推进卫星互联网技术攻关、网络建设和产业集群。媒体援引方案称 2030 年在轨卫星总数目标超过 3000 颗、核心产业规模超过 800 亿元；这些是规划目标而非已实现结果。",
+      "why_it_matters": "低轨卫星、星地网络、天基算力和商业航天产业链获得明确的中期政策路线。",
+      "category": "CHINA",
+      "tags": [
+        "Satellite internet",
+        "Shanghai",
+        "Industrial policy"
+      ],
+      "source_name": "上海市人民政府",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/96dc7fe4e44e4dcf90b6fcc411bef863",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-26"
+      }
+    },
+    {
+      "title": "美联储 10 月 27—28 日议息会议即将召开",
+      "summary": "美联储官方日历确认联邦公开市场委员会于 10 月 27—28 日召开例会，并安排 28 日发布声明和举行新闻发布会。截至本简报生成时会议尚未公布决议，任何加息、维持或降息判断均属预测。",
+      "why_it_matters": "利率路径及政策措辞将影响全球美元流动性、科技成长股估值和资本市场风险偏好。",
+      "category": "MACRO",
+      "tags": [
+        "Federal Reserve",
+        "FOMC",
+        "Interest rates"
+      ],
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Copilot 使用量 API 纳入 OpenCode、Codex 等外部客户端",
+      "summary": "GitHub 10 月 23 日宣布 Copilot 使用量 API 新增 totals_by_client 维度，可区分 OpenCode、Claude Code、Codex、Zed 等客户端的请求、会话和 token 使用。官方提醒请求数不等于提示词数，客户端标识也不应视为已认证身份。",
+      "why_it_matters": "企业可以跨 IDE 和代理工具评估模型调用成本、使用结构和治理需求。",
+      "category": "TECH",
+      "tags": [
+        "GitHub Copilot",
+        "Usage metrics",
+        "OpenCode",
+        "Codex"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-23"
+      }
+    },
+    {
+      "title": "GitHub Copilot 与 Teams 通知整合，可从 Issue 消息直接触发修复 PR",
+      "summary": "GitHub 10 月 23 日宣布新版 Microsoft Teams GitHub 应用支持在通知线程中通过 @GitHub 请求调查问题、修复错误、运行测试或创建 PR。功能仍需连接仓库并由团队审查合并，旧版应用计划于 11 月退役。",
+      "why_it_matters": "协作消息正在从信息提示转为可执行的开发工作入口，降低 Agent 与研发协作工具之间的切换成本。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "Teams",
+        "Copilot",
+        "Agent workflow"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-23"
+      }
+    },
+    {
+      "title": "开源 Goose v1.56.0 增强多子智能体恢复与并发控制",
+      "summary": "Goose 官方 GitHub Release 10 月 23 日发布 v1.56.0，新增失败或取消的委派子智能体恢复、子会话查看、最大并发子智能体限制，以及 Windows 桌面安装器。变更清单可验证功能已合入，但实际稳定性仍需场景测试。",
+      "why_it_matters": "Agent 运行时正从单任务执行转向可恢复、可观测、可限流的多代理编排。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Goose",
+        "Subagents",
+        "Agent runtime"
+      ],
+      "source_name": "GitHub / aaif-goose",
+      "source_url": "https://github.com/aaif-goose/goose/releases",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-23"
+      }
+    },
+    {
+      "title": "Hermes Agent v0.22.5 将插件与多后端委派能力纳入稳定发布",
+      "summary": "NousResearch 的 Hermes Agent 在 10 月 22—23 日发布 v0.22.5，汇总约 81 个 PR，涉及可插拔子代理委派后端、MCP 服务、插件安装和桌面应用等改进。发布说明同时提示部分改动的完整整理将于 v0.23.0 提供，不能把所有实验能力视为成熟生产功能。",
+      "why_it_matters": "开源个人智能体的差异化正在转向插件生态、迁移能力和多后端编排，而不只是基础模型。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Hermes Agent",
+        "Plugins",
+        "MCP",
+        "Delegation"
+      ],
+      "source_name": "GitHub / NousResearch",
+      "source_url": "https://github.com/NousResearch/hermes-agent/releases",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "publication_date": "2026-10-23"
+      }
+    },
+    {
+      "title": "MetaSkill 研究将 Agent Skills 之间的依赖关系编译为可执行 DAG",
+      "summary": "10 月 17 日的 arXiv 预印本提出 MetaSkill：保留 Skill 内部自然语言指令，将调用顺序、前序输出绑定与并行依赖转换为运行时可检查的有向无环图。作者在 20 个多 Skill 任务上报告较优的盲评偏好和更稳定的依赖执行，但尚属小规模预印本研究。",
+      "why_it_matters": "为复杂 Skill 工作流解决错序执行、上下游输出错接和可审计性提供了可验证的工程路线。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Agent Skills",
+        "DAG",
+        "Workflow orchestration"
+      ],
+      "source_name": "arXiv / MetaSkill",
+      "source_url": "https://arxiv.org/abs/2610.24723",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "notes": "预印本、任务样本有限，尚需独立复现。",
+        "publication_date": "2026-10-17"
+      }
+    }
+  ]
+}
