@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-27T23:58:33.391Z",
+  "title": "Daily Trending Projects",
+  "summary": "北京时间10月28日早晨，最新可核验的 GitHub Trending 与10月27日18:00 UTC Trendar 快照显示：可直接复用的 Agent Skills、Rust 构建效率工具、Android/TV 设备清理、可视化学习应用和数字人视频工作流获得关注。本期优先收录未在近期日报出现的项目；Trendar 增量为约24小时观测值，GitHub Trending 的今日增量为页面抓取时点值，不视为自然日收盘值。",
+  "top_picks": [
+    "t3dotgg/tstack",
+    "indexable-inc/blaze",
+    "rddmwmddr/android-ad-cleaner"
+  ],
+  "items": [
+    {
+      "title": "t3dotgg/tstack",
+      "summary": "适配 Codex 与 Claude Code 的实战 Agent Skills，覆盖 PR 提交、跨模型评审、CI 跟进和接手旧分支。",
+      "why_it_matters": "将反复出现的代码审查与 PR 生命周期操作封装成可复用流程；涉及自动合并的 Skill 应保留人工审批。",
+      "category": "Skills / coding workflow",
+      "tags": [
+        "Skills",
+        "Codex",
+        "Claude Code",
+        "GitHub",
+        "PR automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/t3dotgg/tstack",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "t3dotgg/tstack",
+        "github_stars": null,
+        "stars_growth": "+628/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +628 stars/day，仓库 README 已核对。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "indexable-inc/blaze",
+      "summary": "面向 Rust 项目的增量构建工具，提供类似 cargo 的命令与更快的编辑后重建体验。",
+      "why_it_matters": "频繁迭代 Rust 项目时，缩短编译等待有实际价值；性能倍数为项目方测试，需独立复测。",
+      "category": "Developer tools / compiler",
+      "tags": [
+        "Rust",
+        "CLI",
+        "compiler",
+        "incremental build"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/indexable-inc/blaze",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "indexable-inc/blaze",
+        "github_stars": null,
+        "stars_growth": "+837/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +837 stars/day，官方 README 提供基准方法。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "rddmwmddr/android-ad-cleaner",
+      "summary": "无需 Root 的国产 Android 手机系统广告和营销通知清理工具，提供桌面图形客户端与恢复路径。",
+      "why_it_matters": "针对日常设备使用的明确痛点；操作前应备份、核对机型，并审阅诊断日志上传选项。",
+      "category": "Apps / Android utilities",
+      "tags": [
+        "Android",
+        "macOS",
+        "Windows",
+        "ADB",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "rddmwmddr/android-ad-cleaner",
+        "github_stars": null,
+        "stars_growth": "+1325/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +1325 stars/day；仓库记录 2026-10-27 v0.2.5。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "designfuchen/word-atlas",
+      "summary": "将雅思词汇、原创插画、英美发音和 FSRS 间隔复习结合的开源背词应用。",
+      "why_it_matters": "把抽象词汇映射为可视化记忆卡与复习路径，兼具教育应用和设计实现参考价值。",
+      "category": "Apps / education",
+      "tags": [
+        "Education",
+        "Web app",
+        "TypeScript",
+        "FSRS",
+        "visual learning"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/designfuchen/word-atlas",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "designfuchen/word-atlas",
+        "github_stars": null,
+        "stars_growth": "+862/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +862 stars/day，官方 README 展示开放词库与 Web 版。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Gathin23/cleanyourtv",
+      "summary": "通过局域网管理 Android TV / Google TV 的预装应用与界面，减少冗余入口。",
+      "why_it_matters": "为老旧电视提供轻量化改造思路；设备兼容性和系统应用移除风险需要提前核查。",
+      "category": "Apps / TV utilities",
+      "tags": [
+        "Android TV",
+        "Google TV",
+        "debloat",
+        "home entertainment"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Gathin23/cleanyourtv",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Gathin23/cleanyourtv",
+        "github_stars": null,
+        "stars_growth": "+2716/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +2716 stars/day。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "pengchujin/aerial-tv",
+      "summary": "为国产 Android TV 提供无广告、支持自定义应用布局与航拍屏保的桌面启动器。",
+      "why_it_matters": "相比直接改系统组件，更偏向替换日常操作界面；对电视盒子与投影仪用户实用。",
+      "category": "Apps / TV launcher",
+      "tags": [
+        "Android TV",
+        "Kotlin",
+        "launcher",
+        "UI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pengchujin/aerial-tv",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pengchujin/aerial-tv",
+        "github_stars": null,
+        "stars_growth": "+674/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +674 stars/day。",
+        "language": "Kotlin"
+      }
+    },
+    {
+      "title": "Zagitta/gpu-unlock",
+      "summary": "探索部分 NVIDIA 消费级显卡在 FP16/BF16 等计算路径上的吞吐限制与性能调整。",
+      "why_it_matters": "对本地推理与模型训练研究有技术价值，但项目宣称的性能收益未独立核验，系统级修改有兼容与稳定性风险。",
+      "category": "Developer tools / GPU",
+      "tags": [
+        "GPU",
+        "CUDA",
+        "LLM inference",
+        "performance",
+        "C"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Zagitta/gpu-unlock",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Zagitta/gpu-unlock",
+        "github_stars": null,
+        "stars_growth": "+1931/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +1931 stars/day，性能描述以项目方文档为准。",
+        "language": "C"
+      }
+    },
+    {
+      "title": "andyhuo520/digital-human-koubo",
+      "summary": "将照片、文案、口型同步、字幕与包装模板组合为数字人口播视频的 Agent Skill。",
+      "why_it_matters": "面向创作者的可复用视频制作链路；依赖 Renoise MCP 服务及其计费，实际质量需验收。",
+      "category": "Creative tools / video",
+      "tags": [
+        "Agent Skill",
+        "video",
+        "digital human",
+        "MCP",
+        "TypeScript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/andyhuo520/digital-human-koubo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "andyhuo520/digital-human-koubo",
+        "github_stars": null,
+        "stars_growth": "+463/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +463 stars/day，官方仓库展示成片案例。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "unclebob/ub-mode",
+      "summary": "强调测试驱动、重构、复杂度控制和可验证提交的工程实践 Agent Skill。",
+      "why_it_matters": "将代码质量约束前置到 Agent 工作流，适合与现有团队规范做轻量对照，不宜机械引入全部规则。",
+      "category": "Skills / software quality",
+      "tags": [
+        "Skills",
+        "TDD",
+        "refactoring",
+        "code quality"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/unclebob/ub-mode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "unclebob/ub-mode",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜第1，增长率为估算，故不填写 stars_growth。",
+        "language": null
+      }
+    },
+    {
+      "title": "seedds/nxnative",
+      "summary": "实验性地将用户自有 Switch 游戏代码转换为可在 Apple 芯片设备上运行的应用。",
+      "why_it_matters": "涉及 ARM 原生执行、系统接口兼容与 Metal 图形转换，技术探索性强；游戏授权与设备兼容性需自行核实。",
+      "category": "Experimental / mobile runtime",
+      "tags": [
+        "iOS",
+        "macOS",
+        "Objective-C",
+        "runtime",
+        "graphics"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/seedds/nxnative",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "seedds/nxnative",
+        "github_stars": null,
+        "stars_growth": "+1843/约24h（Trendar）",
+        "trend_signal": "Trendar 2026-10-27 18:00 UTC 新项目榜；约 +1843 stars/day，官方 README 明确需用户自备合法游戏资源。",
+        "language": "Objective-C"
+      }
+    },
+    {
+      "title": "elayadesign/ai-design-skills",
+      "summary": "为 Codex、Claude Code 等 AI 编码工具提供着陆页视觉与内容结构设计 Skill。",
+      "why_it_matters": "适合需要高质量产品展示页面的开发者；目前公开 Skill 集合规模较小，重在单项实测。",
+      "category": "Skills / UI design",
+      "tags": [
+        "Skills",
+        "UI design",
+        "Codex",
+        "landing page"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/elayadesign/ai-design-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "elayadesign/ai-design-skills",
+        "github_stars": 9263,
+        "stars_growth": "+1395/Trending 今日快照",
+        "trend_signal": "GitHub Trending 2026-10-27 最新快照显示 +1395 stars today；截至抓取时总 Stars 9263。",
+        "language": null
+      }
+    },
+    {
+      "title": "HKUDS/DeepTutor",
+      "summary": "提供学习路径、测验、资料检索与持续学习记录的开源 AI 个性化辅导系统。",
+      "why_it_matters": "从单次问答转向可追踪的学习过程，适合研究教育 Agent 产品形态；教学效果需独立验证。",
+      "category": "Apps / AI education",
+      "tags": [
+        "AI tutoring",
+        "education",
+        "Python",
+        "RAG",
+        "learning"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/HKUDS/DeepTutor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "HKUDS/DeepTutor",
+        "github_stars": 45819,
+        "stars_growth": "+1587/Trending 今日快照",
+        "trend_signal": "GitHub Trending 2026-10-27 最新快照显示 +1587 stars today；截至抓取时总 Stars 45819；官方仓库记录 v1.6.15。",
+        "language": "Python"
+      }
+    }
+  ]
+}
