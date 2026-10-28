@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-28T23:56:41.765Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间10月29日早晨，近期值得关注的开源趋势从单一编码 Agent 延伸至可回溯的 Agent 运行平台、企业语义与数据治理、原生高性能桌面工具，以及可编辑的视觉创作 Skills。精选项目以10月28日的公开趋势快照和官方 README 为依据；未将榜单估算的 Stars/day 误写为精确24小时增量，并避免与10月26–28日已介绍项目重复。",
+  "top_picks": [
+    "NVIDIA/auto-ontology",
+    "ShayanAbbas1/dbdelve",
+    "CopilotKit/OpenDuet"
+  ],
+  "items": [
+    {
+      "title": "NVIDIA/auto-ontology",
+      "summary": "从企业元数据构建语义本体与知识图谱，给 Agent 提供指标定义、数据血缘和 SQL 校验能力。",
+      "why_it_matters": "分析型 Agent 的核心难题不是生成 SQL，而是理解业务口径和验证查询。项目提供 MCP、CLI 与 API，适合在复杂数据库和数据治理场景验证。",
+      "category": "AI / Data Engineering",
+      "tags": [
+        "AI",
+        "Data Engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/auto-ontology",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVIDIA/auto-ontology",
+        "github_stars": 363,
+        "stars_growth": null,
+        "trend_signal": "Ageshio 2026-10-28 日榜及关注度记录：关注度榜第2，近7日增长约86%，相对前周增长速度约14.9倍（站点计算值）。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ShayanAbbas1/dbdelve",
+      "summary": "Rust + GPUI 构建的跨平台多数据库客户端，主打低内存占用和大结果集流畅浏览。",
+      "why_it_matters": "可作为 Electron/JVM 数据库客户端的轻量替代方向，支持 PostgreSQL、MySQL、SQLite 等多种引擎；目前仍属早期，macOS 未公证版本需要谨慎安装。",
+      "category": "Desktop / Database",
+      "tags": [
+        "Desktop",
+        "Database"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ShayanAbbas1/dbdelve",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ShayanAbbas1/dbdelve",
+        "github_stars": 578,
+        "stars_growth": null,
+        "trend_signal": "Ageshio 2026-10-28 日榜及关注度记录：关注度榜第5，近7日增长约63%；属于新近受到关注的原生数据库客户端。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "CopilotKit/OpenDuet",
+      "summary": "可自托管的主动式 AI Agent 模板，允许 Agent 在独立计算机环境执行任务，并通过 Web、移动端或协作工具交互。",
+      "why_it_matters": "比单次对话更强调长期任务和人工参与的闭环，适合验证主动代理产品形态；README 标明 early development，线程与记忆依赖 CopilotKit Intelligence 项目。",
+      "category": "AI Agent / Workflow",
+      "tags": [
+        "AI Agent",
+        "Workflow"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CopilotKit/OpenDuet",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "CopilotKit/OpenDuet",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第6，显示约1.2k Stars；该站日速为估算，不作为精确增量。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Parcha-ai/agentrun",
+      "summary": "可自托管的 Agent 管理与执行平台，提供版本化工作流、运行记录和可回溯的 Agent 配置。",
+      "why_it_matters": "通过固定 revision 与运行历史提高 Agent 可复现性；目前以 pi 为主要运行底座，其他 harness 支持仍在路线图中。",
+      "category": "AI Agent / Developer Tools",
+      "tags": [
+        "AI Agent",
+        "Developer Tools"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Parcha-ai/agentrun",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Parcha-ai/agentrun",
+        "github_stars": 411,
+        "stars_growth": null,
+        "trend_signal": "Ageshio 2026-10-28 日榜及关注度记录：关注度榜第8，近7日增长约38%，相对前周速度约8.3倍；尚未进入 GitHub 日榜。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "video-db/call.md",
+      "summary": "Electron 会议助手，录音、转写并在会前、会中、会后运行实时 AI 分析。",
+      "why_it_matters": "将会议笔记推进为可操作的实时 Agent 工作流，支持 MCP 与日历整合；macOS 安装需要系统权限及服务账号，隐私处理应先评估。",
+      "category": "Productivity / Desktop",
+      "tags": [
+        "Productivity",
+        "Desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/video-db/call.md",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "video-db/call.md",
+        "github_stars": 1940,
+        "stars_growth": null,
+        "trend_signal": "Ageshio 2026-10-28 日榜及关注度记录：关注度榜中近7日增长约20%，相对前周增速约42.4倍。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "interplains/Zero-Breach-Toolkit",
+      "summary": "跨桌面与手机备份的本地只读间谍软件痕迹检查工具，覆盖已知 Pegasus、Predator 等指标。",
+      "why_it_matters": "提供离线检测和证据强度说明，对数字取证工具的透明性有参考价值；不能以未检出作为设备安全证明，受攻击者应寻求专业支持。",
+      "category": "Security / Desktop",
+      "tags": [
+        "Security",
+        "Desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "interplains/Zero-Breach-Toolkit",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第1，约2.3k Stars；榜单“+2314/day”标为估算，未当作实际24小时增量。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "anhao/ai-pose-gallery-zh",
+      "summary": "将 AI 绘画姿势参考资料汉化并整理为可搜索的零依赖静态图库，支持多视角切换。",
+      "why_it_matters": "适合角色建模、插画和摄影构图寻找动作参考；仓库 README 给出 288 组、1439 张原图，第三方素材再分发权利需自行核查。",
+      "category": "Creative / Visual Reference",
+      "tags": [
+        "Creative",
+        "Visual Reference"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anhao/ai-pose-gallery-zh",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第2，约1.8k Stars；日速是站点估算值。",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "LNPANDY/NX2Apple",
+      "summary": "用 macOS 图形界面将用户自有 Switch 游戏构建为可在 iPhone/iPad 运行的应用。",
+      "why_it_matters": "把复杂跨平台构建流程封装为桌面操作，技术实现新颖；兼容性、苹果签名要求及游戏版权边界需逐项确认。",
+      "category": "Apps / macOS / Mobile",
+      "tags": [
+        "Apps",
+        "macOS",
+        "Mobile"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/LNPANDY/NX2Apple",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "LNPANDY/NX2Apple",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第7，约1.5k Stars，日速为估算。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Motionsites-AI/claude-skill",
+      "summary": "让 Claude 参考设计案例、视频素材与网页截图迭代，生成更具电影感的 Landing Page。",
+      "why_it_matters": "与纯文本提示词不同，提供设计参考、媒体素材和视觉复查流程，适合营销页面实验；“award-level”属于项目宣传而非独立评测。",
+      "category": "Skills / Creative",
+      "tags": [
+        "Skills",
+        "Creative"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Motionsites-AI/claude-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Motionsites-AI/claude-skill",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第10，约832 Stars；为近日出现的设计 Skill。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "InukaAsith/TwinDesk",
+      "summary": "跨 macOS、Windows、Linux 与 Android 共享屏幕、文件、剪贴板、通知和输入设备的开源桌面工具。",
+      "why_it_matters": "尝试让多设备像一个工作台协作，README 声称不要求账号、云服务或同一局域网；跨网络访问和权限边界需实测。",
+      "category": "Apps / Cross-device",
+      "tags": [
+        "Apps",
+        "Cross-device"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/InukaAsith/TwinDesk",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "InukaAsith/TwinDesk",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第17，约981 Stars；日速为站点估算。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "xiaoyang111222/cn-math-taxonomy",
+      "summary": "对齐中国基础教育课程的数学、英语、物理等知识图谱，包含先修关系、练习题和自适应前置诊断。",
+      "why_it_matters": "知识图谱与错题回溯的结合具有教学产品价值；作者明确标注内容是 AI 生成初稿，不能当作已审核的标准题库。",
+      "category": "Education / Knowledge Graph",
+      "tags": [
+        "Education",
+        "Knowledge Graph"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "xiaoyang111222/cn-math-taxonomy",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第12，约4.8k Stars；日速为站点估算。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "yaojingang/GEOInflow",
+      "summary": "自托管的网站与 AI 爬虫分析平台，统一访问、AI 搜索引流、抓取日志与内容覆盖信息。",
+      "why_it_matters": "为 AI 搜索时代的网站运营提供可审计的流量和抓取证据；具体归因准确度与部署复杂度仍需验证。",
+      "category": "Developer / Analytics",
+      "tags": [
+        "Developer",
+        "Analytics"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/yaojingang/GEOInflow",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "yaojingang/GEOInflow",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第25，约687 Stars，属于早期小众信号。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "enesozturk/dimensional-drawing",
+      "summary": "把网页 UI 组件转换为标注边距、层级、圆角和布局的苹果风格技术图纸。",
+      "why_it_matters": "让界面设计规范更可视化、可交接，也适合 Agent 生成设计说明；应检验标注是否忠实于真实 DOM 与 CSS。",
+      "category": "Creative / UI Design",
+      "tags": [
+        "Creative",
+        "UI Design"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/enesozturk/dimensional-drawing",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "enesozturk/dimensional-drawing",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-28 18:00 UTC 新项目增长榜：新项目增长榜第23，约1.4k Stars，日速为估算。",
+        "language": "HTML"
+      }
+    }
+  ]
+}
