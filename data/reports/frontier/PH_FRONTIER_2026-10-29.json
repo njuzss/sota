@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T00:03:11.713Z",
+  "title": "每日前沿简报",
+  "summary": "10月28日国际 AI 与开发者生态迎来集中更新：Google 推出面向长程任务与网络安全的 Gemini 4 Carbon，GitHub Universe 发布多模型编排、智能体自动化、跨会话记忆与代码安全能力。医学领域，retatrutide 对照三期试验顶线结果及阿尔茨海默病、免疫细胞遗传学研究值得重点关注。美联储维持利率并出现加息异议票，中国最新工业企业利润数据则显示电子制造业与其他行业盈利分化。",
+  "items": [
+    {
+      "title": "Google 发布 Gemini 4 Carbon：重点提升长程 Agent 与网络安全能力",
+      "summary": "Google 10月28日发布 Gemini 4 Carbon，称其在 Artificial Analysis Intelligence Index v5.0 得分59，在漏洞发现、利用与修复等基准上取得提升。官方报告 SEC-bench Pro 88.2%、ExploitGym 54.8%，并强调持续多日的工程任务能力；这些性能数据仍需独立复核。首批仅向选定网络防御伙伴开放。",
+      "why_it_matters": "高能力模型竞争从一般推理转向长程工程执行与安全能力，受控开放也凸显双用途风险。",
+      "category": "AI",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Coding Agent",
+        "Cybersecurity"
+      ],
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub Copilot Fusion 正式发布多模型路由与编排",
+      "summary": "GitHub 10月28日宣布 Copilot Fusion 正式可用，支持 Single、Cascade、Critique 三种执行路径，并提供 Standard、High、Max 三档推理强度。GitHub 公布的编码智能体评测显示其 Max 档具有较高效率，但实际成本与效果仍依赖任务和计费配置。",
+      "why_it_matters": "将多模型选择和审查机制下沉到平台层，可能改变编程 Agent 的成本与性能优化方式。",
+      "category": "AI",
+      "tags": [
+        "Copilot Fusion",
+        "Model routing",
+        "Coding"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub intelligence 推出跨会话记忆、Dreaming 与跨仓库检索",
+      "summary": "GitHub 10月28日宣布 Copilot Memory 向付费计划正式开放，并提供可选的 Dreaming 预览能力，自动整理个人与仓库记忆、建议更新 Skills 和自定义指令。其代码检索还可跨仓库搜索符号、配置和语义相关实现，具体功能的可用性与设置有所区别。",
+      "why_it_matters": "Agent 持续记忆、项目规范演化和跨仓库上下文已成为软件研发平台竞争的重要方向。",
+      "category": "AI",
+      "tags": [
+        "Agent memory",
+        "Dreaming",
+        "Code search"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "Copilot Automations 支持团队共享、仓库归属的工作流",
+      "summary": "GitHub 10月28日开始推出 Shared Copilot Automations，允许团队共同维护基于提示词、触发器和工具的云端工作流。共享自动化属于仓库、由仓库所有者承担 AI 费用，组织仓库还需要相应管理员策略授权；目前处于逐步开放阶段。",
+      "why_it_matters": "团队级智能体从个人脚本走向可治理、可交接、可审计的持续流程。",
+      "category": "TECH",
+      "tags": [
+        "Copilot Automations",
+        "Team workflow",
+        "Governance"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub Agentic Workflows 正式可用：Markdown 描述任务、编译成 Actions",
+      "summary": "GitHub Next 的开源 Agentic Workflows 10月28日正式可用，支持用自然语言 Markdown 定义 Issue 分类、CI 故障分析、文档更新等任务，并编译为 GitHub Actions YAML。默认只读、沙箱、防火墙、输出校验和威胁检测构成多层防护，也支持自带编程智能体。",
+      "why_it_matters": "将智能体任务转化为现有 CI 基础设施中的可审查工作流，是落地 Agent 工程治理的重要路线。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "GitHub Actions",
+        "Agentic Workflows",
+        "CI"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub Agent Merge 在 PR 页面自动处理 CI 失败与合并冲突",
+      "summary": "GitHub 10月28日将 Agent Merge 集成进 Pull Request 页面，用户可选择 Watch and fix，由 Copilot 在云端处理失败的 Actions 工作流或合并冲突。该能力面向付费 Copilot 用户，并受组织策略约束；自动修复仍需结合测试和代码审查。",
+      "why_it_matters": "把 Agent 引入 PR 最后的合并阻塞环节，可能减少反复修复 CI 和冲突的人工等待。",
+      "category": "TECH",
+      "tags": [
+        "Pull requests",
+        "CI",
+        "Agent Merge"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub 预览 AI 应用代码扫描：检测提示注入与过度授权",
+      "summary": "GitHub 10月28日推出 AI 应用安全扫描公开预览，可在 PR 中识别间接提示注入、敏感信息泄露和 Agent 过度权限等风险。相关扫描与现有 CodeQL 工作流集成，但需要满足 GitHub Advanced Security 与启用条件，覆盖范围仍在扩展。",
+      "why_it_matters": "安全审查从传统代码漏洞扩展到智能体工具调用边界与不可信上下文路径。",
+      "category": "TECH",
+      "tags": [
+        "AI security",
+        "Prompt injection",
+        "Code scanning"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub Design 开源 Replica：基于真实设计系统生成交互原型",
+      "summary": "GitHub 10月28日开源 MIT 许可的 Replica，支持使用团队既有组件、设计模式和文档，通过自然语言生成可交互原型。项目可本地使用，并提供可选的自托管 Hub 供团队发布和评论；GitHub 仓库已公开，功能效果仍需实践评估。",
+      "why_it_matters": "比通用文生页面更强调组件复用和团队设计约束，对产品原型、内部工具与 AI 辅助 UI 开发有实际价值。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Replica",
+        "Prototyping",
+        "Design system"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/github/replica",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "GitHub Actions 工作流依赖锁文件正式可用",
+      "summary": "GitHub 10月28日宣布 Actions workflow lockfiles 正式可用，开发者可保留可读的标签引用，同时将 Action 及传递依赖固定到特定提交。gh actions-lock 扩展可生成锁文件，Dependabot 更新时同步维护，管理员还可设置强制策略。",
+      "why_it_matters": "降低 CI 依赖被悄然替换带来的供应链风险，但锁定版本本身不等于依赖安全。",
+      "category": "TECH",
+      "tags": [
+        "Supply chain",
+        "GitHub Actions",
+        "Lockfile"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-28-github-actions-workflow-lockfiles-are-generally-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "礼来三靶点减重药 retatrutide 头对头三期试验优于司美格鲁肽",
+      "summary": "礼来10月28日公布 TRANSCEND-T2D-2 头对头三期试验顶线结果：1298名2型糖尿病成人随机接受 retatrutide 或司美格鲁肽2 mg。80周时两种 retatrutide 剂量平均 HbA1c 降低2.2个百分点，对照为1.8个百分点；12 mg组平均减重20.9%，对照为9.4%。完整论文尚未发表，且药物仍未获批。",
+      "why_it_matters": "三重受体激动剂的直接对照数据对糖尿病和肥胖药物竞争格局具有重要意义，但需关注停药率与长期安全性。",
+      "category": "MEDICINE",
+      "tags": [
+        "Retatrutide",
+        "Phase 3",
+        "Type 2 diabetes"
+      ],
+      "source_name": "Eli Lilly",
+      "source_url": "https://investor.lilly.com/news-releases/news-release-details/lillys-retatrutide-delivered-greater-a1c-reduction-and-more",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "Nature 大规模阿尔茨海默病遗传研究发现48个新风险位点",
+      "summary": "10月28日《Nature》发表跨祖源 GWAS，整合109479例确诊病例、74141例代理病例及数百万对照，合计识别127个风险位点，其中48个为新位点。研究发现小胶质细胞上调基因和神经元下调基因与遗传风险富集有关；多数样本来自欧洲祖源，位点关联不能直接证明致病机制。",
+      "why_it_matters": "为阿尔茨海默病的免疫细胞机制和潜在新药靶点提供更大规模的遗传学线索。",
+      "category": "MEDICINE",
+      "tags": [
+        "Alzheimer",
+        "GWAS",
+        "Microglia"
+      ],
+      "source_name": "Nature",
+      "source_url": "https://www.nature.com/articles/s41586-026-11206-y",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "TenK10K：540万免疫细胞解析常见与罕见变异的表达调控",
+      "summary": "《Nature》10月28日发表 TenK10K 一期研究，结合1925名参与者的全基因组测序和540万免疫细胞的单细胞转录组，覆盖28类免疫细胞。研究为83%的受检基因找到常见变异表达调控信号，并观察到显著细胞类型特异性；该阶段参与者主要为欧洲祖源。",
+      "why_it_matters": "大规模单细胞遗传学有助于将疾病关联位点映射到具体免疫细胞状态和候选分子机制。",
+      "category": "MEDICINE",
+      "tags": [
+        "Single-cell",
+        "eQTL",
+        "Immunogenomics"
+      ],
+      "source_name": "Nature",
+      "source_url": "https://www.nature.com/articles/s41586-026-10721-2",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "日本全国病例对照研究：儿童既往抗生素使用与川崎病相关",
+      "summary": "10月28日《Scientific Reports》发表日本数据库匹配病例对照研究，纳入17410例川崎病患儿与68621名对照。研究观察到口服抗生素暴露与较高川崎病发生比值相关（OR 1.22，95%CI 1.16–1.27）；感染本身及处方原因等残余混杂无法排除。",
+      "why_it_matters": "提示肠道菌群和儿童感染治疗史值得进一步机制研究，但不能据此认定抗生素导致川崎病或改变必要的抗感染治疗。",
+      "category": "MEDICINE",
+      "tags": [
+        "Kawasaki disease",
+        "Antibiotics",
+        "Case-control"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-74617-x",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "美联储10月会议维持3.75%—4.00%利率区间，出现两张加息异议票",
+      "summary": "美联储10月28日声明以10比2维持联邦基金利率目标区间3.75%—4.00%，两名委员倾向加息25个基点。声明称经济活动增长强劲、通胀仍偏高，并强调需要积累更多数据决定后续政策。",
+      "why_it_matters": "货币政策路径的不确定性直接影响美元利率、全球风险资产定价和科技投资融资成本。",
+      "category": "MACRO",
+      "tags": [
+        "FOMC",
+        "Interest rates",
+        "US economy"
+      ],
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-28"
+      }
+    },
+    {
+      "title": "中国前三季度工业企业利润同比增长15.5%，电子制造业贡献突出",
+      "summary": "国家统计局10月27日公布，1—9月全国规模以上工业企业利润同比增长15.5%，其中计算机、通信和其他电子设备制造业增长103.8%，汽车制造业下降22.8%。数据反映产业盈利明显分化，电子行业高增速不能直接代表全部制造业景气同步改善。",
+      "why_it_matters": "为观察中国科技制造业盈利与产业链资本开支提供新的官方统计依据。",
+      "category": "CHINA",
+      "tags": [
+        "China industry",
+        "Electronics",
+        "Corporate profits"
+      ],
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261027_1965697.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-27"
+      }
+    }
+  ]
+}
