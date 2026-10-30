@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T00:02:23.127Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间10月30日早晨可核验的10月29日榜单与社区快照显示：Agent 管理与长期记忆受到强烈关注，Office SDK 与 Agent 结合加速；TypeScript 原生编译、跨 Agent 协作、iOS 游戏兼容层和轻量 3D 教学工具则体现技术多样性。所有 Stars 与24小时增量均指明观察快照；不同来源和时点不可直接相减。",
+  "top_picks": [
+    "paperclipai/paperclip",
+    "vectorize-io/hindsight",
+    "dream-num/univer"
+  ],
+  "items": [
+    {
+      "title": "paperclipai/paperclip",
+      "summary": "开源 AI Agent 团队管理平台，将目标、角色、任务、预算、审批与执行历史集中在一个工作台。",
+      "why_it_matters": "从单 Agent 会话走向持续运营的多 Agent 组织，适合研究任务治理、成本控制与可审计协作；部署前应检查权限与外部连接。",
+      "category": "Agent orchestration",
+      "tags": [
+        "AI Agent",
+        "Multi-agent",
+        "Governance",
+        "Self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/paperclipai/paperclip",
+      "image_url": "https://raw.githubusercontent.com/paperclipai/paperclip/master/doc/assets/banner.jpg",
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "paperclipai/paperclip",
+        "github_stars": 89005,
+        "stars_growth": "+2527/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档榜首，归档显示当日新增 2,527 Stars；数字为该日快照而非当前总数。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "vectorize-io/hindsight",
+      "summary": "面向 AI Agent 的长期记忆系统，提供记忆存储、检索与持续学习接口。",
+      "why_it_matters": "Agent 记忆不应只是堆叠历史对话；其记忆组织、学习机制与公开评测值得与现有 RAG 方案比较，性能结论仍需复现。",
+      "category": "AI memory",
+      "tags": [
+        "Agent",
+        "Memory",
+        "RAG",
+        "Research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vectorize-io/hindsight",
+      "image_url": "https://raw.githubusercontent.com/vectorize-io/hindsight/main/hindsight-docs/static/img/hindsight-github-banner.png",
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "vectorize-io/hindsight",
+        "github_stars": 36126,
+        "stars_growth": "+4463/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档第 2，归档显示当日新增 4,463 Stars；不将项目方 benchmark 当成独立验证。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "dream-num/univer",
+      "summary": "可嵌入的 Office SDK，将表格、文档、幻灯片、画布和多维表整合到统一运行时。",
+      "why_it_matters": "为 Agent 处理可编辑办公产物提供真正的应用层能力，而不只生成静态文件；值得测试表格公式、版本控制和人机协同。",
+      "category": "Office SDK / productivity",
+      "tags": [
+        "Office",
+        "Spreadsheets",
+        "Agent",
+        "TypeScript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/dream-num/univer",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "dream-num/univer",
+        "github_stars": 19989,
+        "stars_growth": "+920/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档第 8，当日快照新增 920 Stars；历史成熟项目因 Agent Office 定位再次受到关注。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "vercel-labs/scriptc",
+      "summary": "实验性 TypeScript/JavaScript 编译器，可生成无需 Node.js 运行时的原生可执行文件与 WebAssembly。",
+      "why_it_matters": "以类型检查信息辅助生成机器码，代表 JS/TS 部署模式的新探索；目前仅支持语言与 Node API 的子集，需先做兼容性覆盖检查。",
+      "category": "Compiler / developer tools",
+      "tags": [
+        "TypeScript",
+        "Compiler",
+        "WebAssembly",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vercel-labs/scriptc",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "vercel-labs/scriptc",
+        "github_stars": 5285,
+        "stars_growth": "+76/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档第 6，显示当日新增 76 Stars；技术新颖性强于短期热度。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "mvschwarz/openrig",
+      "summary": "用 YAML 定义多 Agent 团队，将 Claude Code 与 Codex 等编码工具纳入一个可持续运行的协作系统。",
+      "why_it_matters": "相较单独开多个终端，它关注团队角色、状态、任务交接与可观察性，适合小范围评估多 Agent 软件工程。",
+      "category": "Agent orchestration / CLI",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "Multi-agent",
+        "TUI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mvschwarz/openrig",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mvschwarz/openrig",
+        "github_stars": 747,
+        "stars_growth": "+114/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档第 7，显示当日新增 114 Stars；仍属于早期项目。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "willfaust/Madeira",
+      "summary": "在不越狱的 iPhone 上尝试运行未修改的 Windows PC 游戏，组合 FEX-Emu、Wine 和 Metal 图形转换。",
+      "why_it_matters": "在 iOS 限制环境下进行 x86-64 到 ARM64 的翻译和 Direct3D 图形适配，工程挑战独特；游戏兼容性和性能波动很大。",
+      "category": "Emulation / gaming",
+      "tags": [
+        "iOS",
+        "Emulation",
+        "Wine",
+        "Metal"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/willfaust/Madeira",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "willfaust/Madeira",
+        "github_stars": 735,
+        "stars_growth": "+171/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档第 9，显示当日新增 171 Stars；README 明确标为研究项目。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "C"
+      }
+    },
+    {
+      "title": "InfinityLoop1308/PipePipe",
+      "summary": "基于 NewPipe 思路的开源 Android 媒体浏览与播放应用，扩展了弹幕、过滤、后台播放与插件等功能。",
+      "why_it_matters": "Android 端高度可定制的媒体客户端案例，兼顾用户体验与插件生态；使用时需遵守服务条款及版权要求。",
+      "category": "Android app / media",
+      "tags": [
+        "Android",
+        "Media",
+        "Open source",
+        "Plugins"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/InfinityLoop1308/PipePipe",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "InfinityLoop1308/PipePipe",
+        "github_stars": 6463,
+        "stars_growth": "+139/24h",
+        "trend_signal": "2026-10-29 GitHub Trending 归档第 5，显示当日新增 139 Stars；语言按榜单主语言口径记录。",
+        "trend_source_url": "https://www.github-trending-archives.com/",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "CopilotKit/OpenBot",
+      "summary": "可自托管的 AI 同事工作台，为每个 Agent 提供独立浏览器、文件与受控工具，并记录操作。",
+      "why_it_matters": "把 Agent 执行环境与审批、审计结合，适合研究受监督的 Computer Use；项目仍标注 beta。",
+      "category": "Agent workspace / self-hosted",
+      "tags": [
+        "Computer Use",
+        "AG-UI",
+        "Self-hosted",
+        "Security"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CopilotKit/OpenBot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "CopilotKit/OpenBot",
+        "github_stars": 8062,
+        "stars_growth": "+240/24h",
+        "trend_signal": "GitHub Trending 近期公开页面显示当日新增 240 Stars；该项目不同于前一期的 CopilotKit/OpenDuet。",
+        "trend_source_url": "https://github.com/trending",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "milind-soni/OpenMausBot",
+      "summary": "以聊天联系人形式组织多个本地 AI Bot 的桌面应用，支持 Claude、Codex 及独立任务环境。",
+      "why_it_matters": "将 Agent 从开发者终端变为可见、可审批的桌面协作对象；跨模型与执行隔离能力值得实际检验。",
+      "category": "Desktop app / Agent",
+      "tags": [
+        "Electron",
+        "Desktop",
+        "Codex",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/milind-soni/OpenMausBot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "milind-soni/OpenMausBot",
+        "github_stars": 7391,
+        "stars_growth": "+1190/24h",
+        "trend_signal": "GitHub Trending 近期公开页面显示当日新增 1,190 Stars；README 明确说明为独立社区项目。",
+        "trend_source_url": "https://github.com/trending",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Donchitos/Claude-Code-Game-Studios",
+      "summary": "把 Claude Code 组织成游戏开发工作室，提供分工明确的 Agent、Skills、规则与审查流程。",
+      "why_it_matters": "对 3D/游戏项目的多阶段制作有启发，但大量角色不等于高质量成品，需评估任务协调成本。",
+      "category": "Creative / game development",
+      "tags": [
+        "GameDev",
+        "Claude Code",
+        "Skills",
+        "Multi-agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Donchitos/Claude-Code-Game-Studios",
+        "github_stars": 29072,
+        "stars_growth": "+538/24h",
+        "trend_signal": "GitHub Trending 近期公开页面显示当日新增 538 Stars；仓库 README 列出游戏研发工作流与分工。",
+        "trend_source_url": "https://github.com/trending",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "expo/skills",
+      "summary": "Expo 团队维护的官方 Agent Skills，覆盖 React Native/Expo 开发、升级、调试和 EAS 部署。",
+      "why_it_matters": "官方知识与工程约束打包成可复用 Skills，适合比较 Agent 编码对框架 API 的正确使用率。",
+      "category": "Official Skills / mobile",
+      "tags": [
+        "Expo",
+        "React Native",
+        "Skills",
+        "Mobile"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/expo/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "expo/skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-29 TopGit 的 GitHub Trending 快照收录；官方 README 可验证功能与安装方式。",
+        "trend_source_url": "https://topgit.dev/trending",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "macro-inc/macro",
+      "summary": "将邮件、聊天、文档、任务、Agent 和 CRM 整合到共享上下文的团队工作空间。",
+      "why_it_matters": "统一数据与跨应用搜索可减少 Agent 工作流中的上下文割裂；需区分开源仓库能力与托管服务能力。",
+      "category": "Productivity / collaboration",
+      "tags": [
+        "Workspace",
+        "Productivity",
+        "AI",
+        "Collaboration"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/macro-inc/macro",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "macro-inc/macro",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-10-29 TopGit 的 GitHub Trending 快照收录，项目 README 介绍了统一工作空间架构。",
+        "trend_source_url": "https://topgit.dev/trending",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "l0ng-ai/openidea",
+      "summary": "尝试以 Rust 原生内核重建 IntelliJ 风格 IDE，覆盖编辑器、调试、Git、终端与数据库工具。",
+      "why_it_matters": "聚焦大型 IDE 的启动速度和资源开销；项目提供自测基准，但与 IntelliJ 的性能对比尚需独立复测。",
+      "category": "Desktop IDE",
+      "tags": [
+        "IDE",
+        "Rust",
+        "Developer tools",
+        "Desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/l0ng-ai/openidea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "l0ng-ai/openidea",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-29 18:00 UTC 快照列为新项目增长榜；语言按其 GitHub 主语言统计，架构自述含 Rust 内核。",
+        "trend_source_url": "https://trendar.org/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "smithjohn78390/tongjiang-lab",
+      "summary": "中文高中物理、化学、生物与地理交互式 3D 课程库，每课可独立离线运行。",
+      "why_it_matters": "单文件 HTML + 3D 可交互教学的交付模式轻便，适合研究教育可视化和离线传播；科学内容仍需逐课审校。",
+      "category": "Creative / education",
+      "tags": [
+        "3D",
+        "Education",
+        "HTML",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/smithjohn78390/tongjiang-lab",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "smithjohn78390/tongjiang-lab",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-29 18:00 UTC 新项目榜收录，增速为估算值，故未填入精确 Stars 增量。",
+        "trend_source_url": "https://trendar.org/",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "anonnerdfrenzy/survival-llm",
+      "summary": "可离线运行的本地 AI 问答与应急知识库，支持引用来源和导入个人文档。",
+      "why_it_matters": "强调离线、隐私与可追溯引文，适合评估无网络场景的检索增强问答；医疗应急建议不能替代专业指导。",
+      "category": "Local AI / knowledge",
+      "tags": [
+        "Offline",
+        "Local LLM",
+        "RAG",
+        "Privacy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anonnerdfrenzy/survival-llm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anonnerdfrenzy/survival-llm",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-29 18:00 UTC 新项目榜收录，精确 Stars 和同口径增长未独立核实。",
+        "trend_source_url": "https://trendar.org/",
+        "language": "Python"
+      }
+    }
+  ]
+}
