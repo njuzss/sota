@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T07:56:37.044+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月1日早间观察（最近可用趋势快照为10月31日）：新项目热度从通用聊天 Agent 转向主动研发代理、Android 手机自动操作、可复用的设计与代码审查 Skills，以及面向浏览器、3D 创作和法律版本管理的专用工具。优先收录近期新建且有实际仓库内容的项目；Stars 为 GitHub API 本次读取值，增速仅在第三方追踪器给出非估算值或 GitHub Trending 日榜显示值时填写，二者不应混作同一统计口径。",
+  "top_picks": [
+    "heydamir/unslop",
+    "wangzan101/Mika",
+    "haydenschmitty/floorplan"
+  ],
+  "items": [
+    {
+      "title": "heydamir/unslop",
+      "summary": "面向 Claude 的 UI 设计复核 Skill：先识别模板化 AI 界面，再提出设计方向并分轮修正网页、仪表盘和产品界面。",
+      "why_it_matters": "提供可实际试用的视觉审查工作流，比单纯追加“更精美”提示词更可控；README 明确支持 React、Vue、Svelte、Tailwind 与静态页面，效果仍需人工评审。",
+      "category": "Agent Skill / UI Design",
+      "tags": [
+        "Claude Code",
+        "Skill",
+        "UI设计",
+        "前端"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/heydamir/unslop",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "heydamir/unslop",
+        "github_stars": 3428,
+        "stars_growth": "+2336/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 新仓库榜 2026-10-31 18:00 UTC 第2；仓库于10月29日创建，短期获得开发者关注。",
+        "language": "JavaScript",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "wangzan101/Mika",
+      "summary": "Android 端 AI 助理，借助后台虚拟屏幕与授权操作 App、网页和文件；官方提供 APK 与多语言说明。",
+      "why_it_matters": "将 Computer Use 从电脑扩展到日常手机；值得在测试设备上验证后台操作、暂停接管和隐私边界。涉及聊天、购物等敏感操作时应限制授权。",
+      "category": "Android / AI Agent",
+      "tags": [
+        "Android",
+        "Kotlin",
+        "Computer Use",
+        "手机自动化"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/wangzan101/Mika",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "wangzan101/Mika",
+        "github_stars": 2703,
+        "stars_growth": "+1586/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第3；10月29日新建，近期快速传播。",
+        "language": "Kotlin",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "deepseek-ai/dsh-superagent-prototype",
+      "summary": "DeepSeek 账号发布的主动式编码 Agent 研究原型，监听 GitHub（可选飞书）授权请求，独立工作并回传 PR 等结果。",
+      "why_it_matters": "探索从被动对话走向受规则约束的持续研发代理；README 明确写明不是正式 DeepSeek 产品，也不适合直接生产部署，论文设想不等于已实现功能。",
+      "category": "Agent / Research Prototype",
+      "tags": [
+        "Agent",
+        "DeepSeek Harness",
+        "GitHub",
+        "自动化研发"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "deepseek-ai/dsh-superagent-prototype",
+        "github_stars": 2224,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第1，仓库于10月31日创建；新项目的日增长速率为估算，不能当作实测24小时增量。",
+        "language": "TypeScript",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "patch-gg/pixelfx",
+      "summary": "可实时预览、重配色并导出 sprite sheet 的代码化像素特效库；README 当前列出244种效果并提供生成新效果的 Claude Code Skill。",
+      "why_it_matters": "从可编辑代码生成视觉资产，而非只交付不可控图片；适合小游戏、交互原型与动效素材实验。",
+      "category": "Creative Tool / Pixel Art",
+      "tags": [
+        "像素艺术",
+        "动画",
+        "游戏开发",
+        "Claude Code Skill"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/patch-gg/pixelfx",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "patch-gg/pixelfx",
+        "github_stars": 1393,
+        "stars_growth": "+1006/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第4；10月30日新建并开放在线画廊。",
+        "language": "JavaScript",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "lexifina/global-law",
+      "summary": "尝试以 Git 历史和司法辖区子模块组织法律文本与生效时间，追踪法条随时间的变化。",
+      "why_it_matters": "把法律版本溯源变成可审查的数据工程问题；目前覆盖范围、法源准确性和各国数据许可均须逐项核验，不能等同于完整全球法律库。",
+      "category": "Open Data / Legal Tech",
+      "tags": [
+        "法律数据",
+        "Git",
+        "版本控制",
+        "开放数据"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lexifina/global-law",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "lexifina/global-law",
+        "github_stars": 1397,
+        "stars_growth": "+695/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第8；作者10月28日在 Hacker News 的美国法典讨论后发布全球扩展仓库。",
+        "language": "HTML",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "ccch1mneyyy/dsh-Go",
+      "summary": "DeepSeek Harness 的 Android 客户端，支持手机本地运行 Agent 或远程控制电脑上的 DSH。",
+      "why_it_matters": "为移动场景下的编码 Agent 提供可用入口；与纯远程控制应用相比还探索本机执行，但需关注授权、网络暴露和运行资源。",
+      "category": "Mobile App / Coding Agent",
+      "tags": [
+        "Android",
+        "Flutter",
+        "DeepSeek Harness",
+        "远程控制"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ccch1mneyyy/dsh-Go",
+        "github_stars": 3586,
+        "stars_growth": "+1189/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第9；10月25日创建，近期继续上升。",
+        "language": "Dart",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "haydenschmitty/floorplan",
+      "summary": "让 Claude 或 Codex 读取代码仓库并生成可交互的系统架构地图，为文件、模块和网络请求标注通俗名称及关系。",
+      "why_it_matters": "对大型代码库的交接、审计与 Agent 理解过程有直接价值；README 提供演示和 Codex 使用说明，自动生成关系仍需抽样核对。",
+      "category": "Developer Tool / Code Visualization",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "架构图",
+        "代码理解"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/haydenschmitty/floorplan",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "haydenschmitty/floorplan",
+        "github_stars": 813,
+        "stars_growth": "+143/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第20；10月27日创建并持续更新。",
+        "language": "JavaScript",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "daveebbelaar/bama",
+      "summary": "Build Any Mac App：以一组 Agent Skills 协助调研、设计、开发和测试 Swift/SwiftUI 原生 macOS 应用。",
+      "why_it_matters": "对希望用编码 Agent 制作原生 Mac 工具的开发者有实践价值；README 要求 macOS 26+，它是开发工作流而非现成应用。",
+      "category": "Agent Skills / macOS",
+      "tags": [
+        "SwiftUI",
+        "macOS",
+        "Agent Skills",
+        "原生应用"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/daveebbelaar/bama",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "daveebbelaar/bama",
+        "github_stars": 1087,
+        "stars_growth": "+151/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第26；10月24日创建。",
+        "language": "Swift",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "lightpanda-io/browser",
+      "summary": "从头用 Zig 实现的轻量无头浏览器，面向抓取与 Agent 自动化，提供 CDP 兼容接口。",
+      "why_it_matters": "提供 Chromium 之外的浏览器自动化底座；README 中的速度、内存优势属于项目方基准，需用目标网站独立复测兼容性与性能。",
+      "category": "Browser / Automation Infrastructure",
+      "tags": [
+        "Zig",
+        "Headless Browser",
+        "CDP",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/lightpanda-io/browser",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "lightpanda-io/browser",
+        "github_stars": 39226,
+        "stars_growth": "+626/2026-10-31 GitHub Trending 日榜",
+        "trend_signal": "GitHub Trending 2026-10-31 07:00 UTC 第15；当日榜单显示新增626 Stars。",
+        "language": "Zig",
+        "trend_source_url": "https://githubtrending.today/archive/2026-10-31/",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "kevinraymond/florilegium",
+      "summary": "使用 Lua 参数曲线和布局算法生成 Delft-blue 风格的花卉页边装饰，无需外部图片资源。",
+      "why_it_matters": "把生成艺术融入可复现的文档排版流水线；README 提供浏览器试玩、SVG 和 LaTeX/Typst 导出方向。",
+      "category": "Creative Tool / Typesetting",
+      "tags": [
+        "LuaLaTeX",
+        "程序生成",
+        "排版",
+        "SVG"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/kevinraymond/florilegium",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "kevinraymond/florilegium",
+        "github_stars": 1152,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第6；项目源自近期 r/LaTeX 讨论，增长速率被标为估算。",
+        "language": "Lua",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "deepopen-com/deepopen-3d-webs",
+      "summary": "光域造景：用参考图、提示词与相机轨迹生成可预览的 3D 场景结果，支持颜色/深度动画及高斯点云展示。",
+      "why_it_matters": "把单图到可浏览空间的流程组织在一个工作台；README 说明默认可使用 Demo，完整生成需要 GPU 和模型权重，不能把演示等同于本地即用。",
+      "category": "Creative Tool / 3D",
+      "tags": [
+        "3D生成",
+        "Gaussian Splatting",
+        "深度图",
+        "Docker"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/deepopen-com/deepopen-3d-webs",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "deepopen-com/deepopen-3d-webs",
+        "github_stars": 1130,
+        "stars_growth": "+338/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第13；10月26日创建。",
+        "language": "Python",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "morganlinton/BeautifulRust",
+      "summary": "三套面向 Rust 编写、审查、迁移的 Agent Skills，并提供可纳入 CI 的 Clippy 规则配置。",
+      "why_it_matters": "把 Rust 风格规范与可执行静态检查结合，适合 Codex/Claude 的 Rust 项目代码评审和重构；项目自述测试结果仍需在实际仓库复核。",
+      "category": "Agent Skills / Rust",
+      "tags": [
+        "Rust",
+        "Clippy",
+        "代码审查",
+        "跨语言迁移"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morganlinton/BeautifulRust",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "morganlinton/BeautifulRust",
+        "github_stars": 1618,
+        "stars_growth": "+154/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第21；10月23日创建并持续维护。",
+        "language": "Python",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "qybaihe/bla",
+      "summary": "BLA（Blind LLM Agents）研究通过资源预算限制、诱饵与分析噪声降低自动化逆向 Agent 的有效性。",
+      "why_it_matters": "代表软件防护与 AI 自动逆向工具之间的新型攻防议题；防护有效性主要来自项目自述，尚不能视为独立安全验证。",
+      "category": "Security / Software Protection",
+      "tags": [
+        "软件保护",
+        "逆向分析",
+        "LLM Agent",
+        "研究"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/qybaihe/bla",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "qybaihe/bla",
+        "github_stars": 1704,
+        "stars_growth": "+366/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第18；10月25日创建，受到逆向分析工具热度带动。",
+        "language": "JavaScript",
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    },
+    {
+      "title": "aschmelyun/print-my-profile-pic",
+      "summary": "给仓库点 Star 后，作者的 Raspberry Pi 接收 GitHub Webhook，并将点赞者头像打印成收据贴在墙上。",
+      "why_it_matters": "一个有趣且可复刻的 GitHub 事件到物理世界互动案例，展示 Webhook、隧道、树莓派和 ESC/POS 打印链路。",
+      "category": "Experimental / Maker",
+      "tags": [
+        "GitHub Webhook",
+        "Raspberry Pi",
+        "热敏打印",
+        "创意"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/aschmelyun/print-my-profile-pic",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "aschmelyun/print-my-profile-pic",
+        "github_stars": 1634,
+        "stars_growth": "+389/约24h（Trendar 2026-10-31 18:00 UTC）",
+        "trend_signal": "Trendar 2026-10-31 18:00 UTC 第15；10月27日创建，传播主要来自趣味性。",
+        "language": null,
+        "trend_source_url": "https://trendar.org/trending",
+        "github_stars_observed_at": "2026-11-01T07:56:37.044+08:00"
+      }
+    }
+  ]
+}
