@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-01",
+  "generated_at": "2026-10-31T23:57:48.177Z",
+  "title": "每日前沿简报",
+  "summary": "本期最重要的变化来自两条线索：国家统计局公布10月制造业PMI降至49.3%，而具身智能数据集质量行业标准于11月1日正式实施。医疗AI研究同时揭示临床大模型推理对提示格式高度敏感，以及基层漏转诊监测、感染复评预测等真实场景的效益与边界。新发表的移植免疫机制、人工叶片制氢和有机合成论文提供了基础科学进展；开源社区则继续探索本地多智能体工作台和插件化运行时。",
+  "items": [
+    {
+      "title": "中国10月制造业PMI降至49.3%，新订单与生产双双跌破荣枯线",
+      "summary": "国家统计局10月31日发布的官方调查显示，制造业PMI由9月50.1%降至49.3%，生产指数49.8%、新订单指数49.4%。非制造业商务活动指数为49.7%，综合PMI产出指数也为49.7%；这些是扩散指数，并非产出同比增速。",
+      "why_it_matters": "制造业与服务业景气同时走弱，为判断内需、工业利润和后续宏观政策提供高频信号。",
+      "category": "MACRO",
+      "tags": [
+        "中国经济",
+        "PMI",
+        "制造业",
+        "景气度"
+      ],
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "具身智能数据集质量行业标准 YD/T 6771—2026 今日起实施",
+      "summary": "全国标准信息公共服务平台确认，《人工智能 关键基础技术 具身智能数据集质量要求及评价方法》于2026年11月1日实施。标准覆盖数据生产操作规范、组织机制保障与质量评价指标，属于推荐性通信行业标准，而非强制性法律要求。",
+      "why_it_matters": "具身智能从争夺数据时长走向质量可评估与跨机构验收，可能影响机器人训练数据的采购和交付。",
+      "category": "CHINA",
+      "tags": [
+        "具身智能",
+        "行业标准",
+        "数据集",
+        "机器人"
+      ],
+      "source_name": "全国标准信息公共服务平台",
+      "source_url": "https://std.samr.gov.cn/hb/search/stdHBDetailed?id=5A166B0E8C472BDAE06397BE0A0A0423",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "effective_date": "2026-11-01",
+        "standard_id": "YD/T 6771-2026",
+        "notes": "2026-07-15发布，2026-11-01实施；不应表述为今日首次发布。"
+      }
+    },
+    {
+      "title": "医疗大模型推理稳定性研究：仅改变提示格式即可使分期准确率波动逾50%",
+      "summary": "《npj Digital Medicine》10月31日发表研究，对GPT-5、MedGemma-27B和OpenBioLLM施加3035次临床任务扰动，发现部分场景的肿瘤分期准确率仅因提示格式改变就出现超过50%的波动。研究进一步使用稀疏自编码器分析内部表征，提示不同模型架构需要差异化安全验证；结果不能直接外推至所有模型。",
+      "why_it_matters": "医疗AI部署不能只看静态题库分数，提示稳健性和模型特异的安全验证同样关键。",
+      "category": "AI",
+      "tags": [
+        "Medical LLM",
+        "Mechanistic interpretability",
+        "Robustness",
+        "Clinical AI"
+      ],
+      "source_name": "npj Digital Medicine",
+      "source_url": "https://www.nature.com/articles/s41746-026-03423-6",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "新加坡基层诊所AI漏转诊监测：检出增加但敏感度不足一半",
+      "summary": "10月30日《npj Digital Medicine》准实验研究在新加坡7家诊所每周扫描约2.5万份病历，估计漏转诊检出量提高约7倍。系统特异度99.9%，但敏感度仅48.8%；缺乏随机分配和跨地区验证，不能作为独立排除漏转诊的工具。",
+      "why_it_matters": "这是AI嵌入医疗安全工作流的真实场景证据，同时揭示高特异度与漏检风险可能并存。",
+      "category": "MEDICINE",
+      "tags": [
+        "Patient safety",
+        "Clinical NLP",
+        "Referral",
+        "Real-world study"
+      ],
+      "source_name": "npj Digital Medicine",
+      "source_url": "https://www.nature.com/articles/s41746-026-03444-1",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-30"
+      }
+    },
+    {
+      "title": "慢性乙肝住院风险模型：解释性特征工程在外部验证中接受检验",
+      "summary": "《npj Digital Medicine》10月31日发表研究，使用22001名患者的36024份住院记录构建肝硬化、肝细胞癌及疾病未进展的多结局分类模型。作者结合SHAP主效应和交互效应压缩特征，并进行了时间及外部验证；模型的住院分类性能不等于前瞻性预测个人未来患癌风险。",
+      "why_it_matters": "展示如何在临床AI中兼顾特征精简、解释性与验证设计，而不只追求黑箱AUC。",
+      "category": "MEDICINE",
+      "tags": [
+        "Hepatitis B",
+        "Explainable AI",
+        "Risk stratification",
+        "SHAP"
+      ],
+      "source_name": "npj Digital Medicine",
+      "source_url": "https://www.nature.com/articles/s41746-026-03439-y",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "癌症患者抗生素治疗后持续发热预测：外部验证AUROC 0.78",
+      "summary": "10月31日《npj Digital Medicine》报告使用两家大学医院电子病历预测癌症患者开始静脉抗生素48–72小时后是否持续发热。最佳模型内部AUROC为0.82、外部为0.78，体温轨迹最具预测价值；作者强调只能辅助复评，不能据此单独停药或排除感染。",
+      "why_it_matters": "提供一个可检验的临床决策辅助方向，潜在价值在于减少不必要的升级抗菌治疗与影像检查。",
+      "category": "MEDICINE",
+      "tags": [
+        "Antibiotic stewardship",
+        "Oncology",
+        "EHR",
+        "External validation"
+      ],
+      "source_name": "npj Digital Medicine",
+      "source_url": "https://www.nature.com/articles/s41746-026-03449-w",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "日本18.9万次远程呼吸道就诊研究：既往就诊关系与更低住院风险相关",
+      "summary": "《Scientific Reports》10月31日发表日本全国医保索赔数据的回顾性队列，涵盖189377次急性呼吸道感染首次远程就诊。此前12个月曾在同机构就诊者14天住院率0.4%，无既往关系者0.9%，调整后风险比0.71；观察性关联不等于连续照护必然导致风险降低。",
+      "why_it_matters": "为远程医疗平台选择就诊机构和维持医患连续性提供了有规模的现实世界线索。",
+      "category": "MEDICINE",
+      "tags": [
+        "Telemedicine",
+        "Continuity of care",
+        "Respiratory infection",
+        "Cohort"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-78410-8",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "肾移植十年后仍存在干样CD8 T细胞库，持续补充排斥效应细胞",
+      "summary": "10月31日《Nature Communications》结合移植约10年后发生排斥的人肾移植样本和小鼠模型，发现循环中的TCF1阳性干样CD8 T细胞可持续分化为移植物内的细胞毒性效应细胞。人类样本规模有限，机制证据包含动物实验，尚非新疗法有效性的临床证明。",
+      "why_it_matters": "为慢性移植排斥为何长期存在提供了更具体的免疫细胞维持机制。",
+      "category": "MEDICINE",
+      "tags": [
+        "Transplant rejection",
+        "CD8 T cells",
+        "Immunology",
+        "Stem-like cells"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-79209-x",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "心脏性猝死预防：模拟研究提出ICD获益所需的风险阈值",
+      "summary": "《Scientific Reports》10月31日基于18项既往随机试验参数和竞争死亡风险开展模拟，在特定假设下提出年均猝死风险约3%可能是植入式除颤器获得有临床意义获益的实用阈值。结果依赖模型假设、非前瞻性治疗阈值验证，不能替代现行指南或个体化决策。",
+      "why_it_matters": "提醒风险预测模型的阈值应连接真实干预收益，而非只优化分类准确率。",
+      "category": "MEDICINE",
+      "tags": [
+        "Sudden cardiac death",
+        "ICD",
+        "Risk threshold",
+        "Simulation"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-78332-5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "68人随机试验：血液透析移动应用改善短期症状负担和依从性评分",
+      "summary": "《Scientific Reports》10月30日发表土耳其两中心随机对照试验，68名血透患者分配至8周应用培训与咨询或常规护理。干预组症状负担和依从性评分优于对照组，但样本小、随访短，生化指标等探索性结果需要更大试验确认。",
+      "why_it_matters": "提供数字化慢病管理的随机证据，同时提醒不应将短期问卷改善直接等同于长期临床结局获益。",
+      "category": "MEDICINE",
+      "tags": [
+        "Hemodialysis",
+        "mHealth",
+        "RCT",
+        "Adherence"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-67620-9",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-30"
+      }
+    },
+    {
+      "title": "人工叶片：有序分子界面提升光电化学制氢效率",
+      "summary": "《Nature Communications》10月31日研究在BiVO4光阳极和析氧催化层之间引入有序自组装分子桥，增强电荷定向迁移并抑制复合。集成硅电池的1.5平方厘米人工叶片报告太阳能制氢效率8.75%、稳定运行超过60小时，仍属于实验室小面积验证。",
+      "why_it_matters": "界面分子工程可能成为提升太阳能直接制氢效率的重要路线，但商业规模化与耐久性尚未证明。",
+      "category": "TECH",
+      "tags": [
+        "Solar hydrogen",
+        "Photoelectrochemistry",
+        "Materials",
+        "Artificial leaf"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-79023-5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "新合成化学：普通醇可经形式1,1-消除转化为卡宾前体",
+      "summary": "《Nature Communications》10月31日提出通过氧化还原试剂、氢原子转移与铁催化，将常见醇底物转化为可用于环丙烷化的卡宾等价物。研究展示了较广泛官能团兼容性与药物相关分子合成用途，但尚未验证大规模生产经济性。",
+      "why_it_matters": "为药物发现和组合化学扩展可用分子空间，属于底层化学方法创新而非现成药物突破。",
+      "category": "TECH",
+      "tags": [
+        "Organic synthesis",
+        "Carbenes",
+        "Drug discovery",
+        "Catalysis"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-79130-3",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "source_published_date": "2026-10-31"
+      }
+    },
+    {
+      "title": "Orkas：本地优先桌面多智能体工作台近期受到关注",
+      "summary": "Orkas开源仓库提供桌面Commander与16类专用智能体，可编排Codex、Claude Code、OpenCode等CLI，包含项目任务、定时执行和本地数据管理。官方README同时说明部分云同步与协作功能仅存在于打包版本；近期社区关注度不能证明任务成功率或安全性。",
+      "why_it_matters": "适合观察桌面智能体从单轮问答向跨工具、跨任务持续协作演进的产品形态。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Orkas",
+        "Local-first",
+        "Multi-agent",
+        "Desktop"
+      ],
+      "source_name": "GitHub / Orkas-AI",
+      "source_url": "https://github.com/Orkas-AI/Orkas",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "功能依据项目README，未独立审计生产可用性或模型性能；近期热度为第三方社区跟踪。"
+      }
+    },
+    {
+      "title": "DeepSeek Harness：基于Cordis的插件优先智能体框架",
+      "summary": "DeepSeek公开的DeepSeek Harness将工具、会话、模型适配等能力设计为可组合插件，并提供Web界面及插件开发文档。官方明确仍处开发者预览阶段，未来可能出现不兼容变更；项目受关注不等于架构已获大规模生产验证。",
+      "why_it_matters": "对于构建可扩展、可治理的智能体运行时，显式服务依赖与插件生命周期管理值得开发者研究。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "DeepSeek",
+        "Agent harness",
+        "Cordis",
+        "Plugins"
+      ],
+      "source_name": "GitHub / deepseek-ai",
+      "source_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "项目存在与设计来自官方README；性能、稳定性未独立验证。"
+      }
+    }
+  ]
+}
