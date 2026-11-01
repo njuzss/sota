@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-01T23:58:52.011Z",
+  "title": "每日前沿简报",
+  "summary": "本期最值得关注的是 AI 能力评测从平均分转向社会推理、长链奖励和高风险智能体的停机判断，具身智能研究则探索跨机器人动作迁移。医学研究揭示 ALS 共同保护通路、纤维化跨器官遗传关联和新的肿瘤干预机制，但多为临床前或关联证据。欧洲央行的通胀预期、AI 采用研究及数字欧元基础设施进展，与开发者生态中 T3 Code 和 RTK 的更新，共同构成值得跟踪的技术与宏观变化。",
+  "items": [
+    {
+      "title": "SocialArena：以真实人类标注评测大模型的社会智能",
+      "summary": "10月29日提交的 SocialArena 提出角色扮演、心理状态推理与行为推理三维框架，使用覆盖多场景的对话任务和人类成对偏好标注。作者报告投入约13.24万美元组织标注，并称论文入选 EMNLP 2026 oral；评测框架的跨模型可重复性仍需独立检验。",
+      "why_it_matters": "陪伴、教育与心理健康场景不能只看知识问答准确率，社会推理能力需要更贴近真实交互的评价。",
+      "category": "AI",
+      "tags": [
+        "SocialArena",
+        "LLM evaluation",
+        "Social intelligence"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39247",
+      "image_url": null,
+      "published_at": "2026-10-29T03:00:43Z",
+      "evidence": "moderate",
+      "extra": {
+        "notes": "论文作者的实验与标注成本属于自报告，不能视为独立复现。"
+      }
+    },
+    {
+      "title": "H²R：用分层提示奖励训练数学推理模型",
+      "summary": "10月29日的预印本提出 Hierarchical Hint-based Reward，把数学问题的中间子目标纳入强化学习奖励。作者在自建 HiMath 上报告 Qwen2.5-Math-7B 准确率由30.4%升至39.1%，使用 oracle 提示时可至45.6%；这是特定基准上的作者结果。",
+      "why_it_matters": "相比只奖励最终答案，可靠的中间验证点可能改善长链推理与可检查性。",
+      "category": "AI",
+      "tags": [
+        "Reasoning",
+        "RLVR",
+        "Math"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39934",
+      "image_url": null,
+      "published_at": "2026-10-29T12:36:21Z",
+      "evidence": "weak",
+      "extra": {
+        "notes": "未经独立复现的预印本；oracle 提示条件不能等同实际部署表现。"
+      }
+    },
+    {
+      "title": "OpenGray：放疗智能体高分背后仍可能漏判必须停机的情形",
+      "summary": "10月27日预印本构建包含剂量目标矛盾和可行对照的放疗规划决策基准，在30名患者的任务上比较规则系统与大模型智能体。部分系统整体决策准确率超过90%，但对需上报的约束冲突识别率显著偏低，作者主张增加显式停止和请求人工审核动作。",
+      "why_it_matters": "高风险 Agent 的质量门槛不仅是平均准确率，更包括能否识别不可行约束并安全中止。",
+      "category": "AI",
+      "tags": [
+        "Agent safety",
+        "Radiotherapy",
+        "Benchmark"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37081",
+      "image_url": null,
+      "published_at": "2026-10-27T11:42:47Z",
+      "evidence": "moderate",
+      "extra": {
+        "notes": "预印本及有限任务集，不代表临床部署验证。"
+      }
+    },
+    {
+      "title": "CoAWM：跨机器人形态和控制频率的连续动作世界模型",
+      "summary": "10月29日预印本提出 Continuous-Action World Models，将不同机器人轨迹和采样频率映射到共享潜在函数空间，再由观测、语言指令和机器人状态预测连续动作。方法尝试降低不同机器人数据之间的迁移障碍，真实复杂环境中的泛化仍待验证。",
+      "why_it_matters": "跨本体迁移是具身智能规模化训练的重要瓶颈，这类共享动作表示值得持续追踪。",
+      "category": "AI",
+      "tags": [
+        "Embodied AI",
+        "World models",
+        "Robotics"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.40401",
+      "image_url": null,
+      "published_at": "2026-10-29T16:34:54Z",
+      "evidence": "weak",
+      "extra": {
+        "notes": "预印本，效果属于作者报告。"
+      }
+    },
+    {
+      "title": "系统综述梳理合成临床文本：生成质量之外更需评估隐私与用途",
+      "summary": "《npj Digital Medicine》10月31日发表系统综述，整理合成临床文本的生成目的、技术路线与评价方法。合成数据可缓解医疗自然语言处理中的数据稀缺与共享限制，但不能假定生成文本天然不泄露隐私或保留全部临床真实性。",
+      "why_it_matters": "医疗 AI 数据治理应同时检验下游效用、临床一致性和隐私风险，而非只看文本流畅性。",
+      "category": "MEDICINE",
+      "tags": [
+        "Synthetic data",
+        "Clinical NLP",
+        "Systematic review"
+      ],
+      "source_name": "npj Digital Medicine",
+      "source_url": "https://www.nature.com/articles/s41746-026-03438-z",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-10-31",
+        "notes": "综述性证据，不代表所有合成数据方案均安全有效。"
+      }
+    },
+    {
+      "title": "ALS 患者来源运动神经元筛选提示 SIRT1 激活具有跨基因型保护潜力",
+      "summary": "《Cell Death & Disease》10月31日发表研究，利用散发性及家族性 ALS 的 iPSC 运动神经元筛选512种天然产物。作者发现 hopeaphenol 等 SIRT1 相关活性物质在多个基因型细胞模型中改善神经元损伤及兴奋性，并用 SRT2104 进行进一步机制验证；尚无人类疗效证据。",
+      "why_it_matters": "从多基因型患者细胞寻找共同可干预通路，有助于突破 ALS 病因异质性造成的研发障碍。",
+      "category": "MEDICINE",
+      "tags": [
+        "ALS",
+        "SIRT1",
+        "iPSC"
+      ],
+      "source_name": "Cell Death & Disease",
+      "source_url": "https://www.nature.com/articles/s41419-026-09384-8",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "published_date": "2026-10-31",
+        "notes": "细胞模型和机制性研究，不能推断患者可获得临床获益。"
+      }
+    },
+    {
+      "title": "跨五大队列遗传研究发现多种纤维化疾病共享风险位点",
+      "summary": "《Nature Communications》10月31日对18项纤维化相关表型开展跨队列全基因组荟萃分析，报告654项显著关联，其中139项为相应表型此前未报道的关联。研究提示细胞外基质、炎症与 Wnt 等通路存在跨器官共性，但遗传相关性不等于可直接转化的治疗靶点。",
+      "why_it_matters": "跨疾病共性可能为肺、肝及其他器官纤维化的机制研究提供更具系统性的候选路径。",
+      "category": "MEDICINE",
+      "tags": [
+        "GWAS",
+        "Fibrosis",
+        "Genetics"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-79052-0",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-10-31",
+        "notes": "遗传关联研究，不应直接解释为因果治疗效应。"
+      }
+    },
+    {
+      "title": "PLK4 抑制剂在近二倍体实体瘤模型中展现新的抗癌机制",
+      "summary": "《Communications Medicine》10月31日发表 EXEL-0667 和 EXEL-1855 的临床前研究。作者发现部分 PLK4 抑制可导致中心体扩增，并在 TP53 野生型、近二倍体的若干肿瘤模型中观察到抗肿瘤活性；证据来自细胞与小鼠模型。",
+      "why_it_matters": "该结果拓宽了中心体干预的潜在适应证，但距离有效且安全的人体治疗仍有明显距离。",
+      "category": "MEDICINE",
+      "tags": [
+        "Oncology",
+        "PLK4",
+        "Preclinical"
+      ],
+      "source_name": "Communications Medicine",
+      "source_url": "https://www.nature.com/articles/s43856-026-01975-y",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "published_date": "2026-10-31",
+        "notes": "研究主要由相关药物开发企业人员完成，临床有效性尚未确立。"
+      }
+    },
+    {
+      "title": "欧洲央行调查：能源冲击推动欧元区通胀预期再上修",
+      "summary": "欧洲央行第四季度专业预测者调查将2026年和2027年总体通胀预期分别上调至3.0%和2.6%，2028年仍为2.0%。调查同时预计2026年实际 GDP 增长1.0%、2027年1.3%；这些是受访者预测而非已实现数据。",
+      "why_it_matters": "能源价格和通胀预期的重新定价将影响欧元区利率路径及全球资产定价。",
+      "category": "MACRO",
+      "tags": [
+        "ECB",
+        "Inflation expectations",
+        "Energy"
+      ],
+      "source_name": "European Central Bank",
+      "source_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2026q4.en.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-30",
+        "notes": "strong 指调查数据本身可信，并非预测一定兑现。"
+      }
+    },
+    {
+      "title": "欧洲央行披露欧洲 AI 采用率与生产率关联的调查证据",
+      "summary": "欧洲央行执行董事 Philip Lane 在10月30日演讲中综合 ECB 调查与投资数据，指出欧元区实际数字投资自2014年以来增长约73%，AI 采用将是未来生产率的重要变量。员工自报节省工时与积极态度并不能直接证明宏观生产率已同步增长。",
+      "why_it_matters": "AI 投资热潮能否转化为真实生产率，是资本市场和政策研究的核心待验证命题。",
+      "category": "MACRO",
+      "tags": [
+        "AI adoption",
+        "Productivity",
+        "Euro area"
+      ],
+      "source_name": "European Central Bank",
+      "source_url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-10-30",
+        "notes": "演讲结合官方统计和调查，因果影响仍存在不确定性。"
+      }
+    },
+    {
+      "title": "数字欧元进入网络服务商选定阶段，但发行仍未获最终决定",
+      "summary": "欧洲央行10月30日宣布选定由 Nexi 与德国电信、以及 Telefónica 与 Indra 等组成的两组网络服务提供商，为数字欧元试点及潜在发行提供连接。相关服务商预计到2029年可支持潜在发行，但是否正式发行仍取决于欧洲央行后续决定。",
+      "why_it_matters": "数字货币的支付清算与接入架构正从政策讨论走向可实施的基础设施准备。",
+      "category": "MACRO",
+      "tags": [
+        "Digital euro",
+        "Payments",
+        "CBDC"
+      ],
+      "source_name": "European Central Bank",
+      "source_url": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews261030.en.html",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-30",
+        "notes": "网络服务采购不等于数字欧元已经发行。"
+      }
+    },
+    {
+      "title": "GitHub Webhook IP 地址范围扩充，静态防火墙白名单需同步",
+      "summary": "GitHub 10月29日更新 Meta API 的 hooks 字段，新增 Webhook 投递所使用的 IP 网段。依赖静态 CIDR 白名单接收 Webhook 的系统应更新规则，动态读取 Meta API 的系统通常无需人工变更。",
+      "why_it_matters": "事件驱动 CI/CD 和自动化 Agent 流程可能因网络白名单滞后而静默丢失回调。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "Webhook",
+        "DevOps"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-10-29"
+      }
+    },
+    {
+      "title": "T3 Code 发布 v0.1.6 并持续更新多智能体图形工作台",
+      "summary": "开源 T3 Code 于10月31日发布 v0.1.6，支持在侧边对话提问、固定项目、查看本地提交差异以及通过 1Password 管理凭据。11月1日的 nightly 继续完善子任务审批、预览与定时任务；nightly 不应视为稳定版能力保证。",
+      "why_it_matters": "将 Codex、Claude Code 等命令行智能体统一接入可视化桌面与移动界面，是开发者工作流的一条实用路线。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "T3 Code",
+        "Coding agents",
+        "Desktop"
+      ],
+      "source_name": "GitHub Releases",
+      "source_url": "https://github.com/pingdotgg/t3code/releases",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "published_date": "2026-11-01",
+        "notes": "v0.1.6 稳定版发布于10月31日；11月1日为 nightly 更新。"
+      }
+    },
+    {
+      "title": "RTK：在智能体与终端之间压缩命令输出以节省上下文",
+      "summary": "Rust Token Killer (RTK) 是一个以 Rust 实现的 CLI 代理，可对 Git、测试、构建等命令输出过滤噪声并保留关键信息，支持多种编码智能体。项目声称常见命令可大幅减少输出 token，但文档也明确提示命令输出压缩比例不等于最终 API 费用节省比例。",
+      "why_it_matters": "相比一味扩大上下文，优化工具输出的信息密度可能更直接改善长时间 Agent 任务的成本和可靠性。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Rust",
+        "Token efficiency",
+        "Agent tools"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rtk-ai/rtk",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "项目自述节省幅度未独立复核；近期关注不等于当日首次发布。"
+      }
+    },
+    {
+      "title": "中国人形机器人产业焦点转向具身智能软件与真实任务泛化",
+      "summary": "路透社11月1日走访中国机器人产业链，指出企业竞争正从灵巧硬件演示转向能在陌生场景理解和执行任务的具身智能。报道引述行业数据称2026年上半年相关投资达到935亿元、涉及322笔交易；数据口径与商业化进度仍需审慎解读。",
+      "why_it_matters": "机器人真正的规模化价值取决于跨场景泛化和经济性，而非单次展示动作的复杂程度。",
+      "category": "CHINA",
+      "tags": [
+        "China",
+        "Embodied AI",
+        "Robotics"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "published_date": "2026-11-01",
+        "notes": "投资数据来自报道引用的行业统计，非统一官方核算；技术突破时间存在争议。"
+      }
+    }
+  ]
+}
