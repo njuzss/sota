@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-02T23:59:34.510Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间 2026-11-03 早晨，可核验的 11 月 2 日趋势显示：Agent 正从单次代码生成扩展到桌面可操作性、并行工作树和跨会话成本治理；内容感知 diff、可验证动画、3D 发束生成及可编辑视频成为创作工具的新方向。优先选取有官方功能说明、近期榜单或明确更新的项目，剔除最近几天重复报道且缺乏实质新进展的热门仓库。Stars 和增量保留来源快照日期与口径，不推断 24 小时精确增速。",
+  "top_picks": [
+    "vercel-labs/agent-desktop",
+    "microsoft/TokenEconomizer",
+    "max-sixty/worktrunk"
+  ],
+  "items": [
+    {
+      "title": "vercel-labs/agent-desktop",
+      "summary": "Rust 编写的跨平台桌面操作 CLI/C 库，通过操作系统无障碍树读取 UI 并以快照 ref 执行点击、输入和验证，不依赖像素坐标。",
+      "why_it_matters": "为编码 Agent 提供结构化桌面控制；失效 ref、错误恢复建议和跨平台支持比纯截图点击更适合可审计的自动化。仍受应用无障碍支持和操作系统权限限制。",
+      "category": "Agent / Desktop automation",
+      "tags": [
+        "Agent",
+        "Computer Use",
+        "CLI",
+        "Rust",
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vercel-labs/agent-desktop",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "vercel-labs/agent-desktop",
+        "github_stars": 9460,
+        "stars_growth": "+2243 (2026-11-02 GitStock daily snapshot)",
+        "trend_signal": "2026-11-02 GitStock GitHub Trending 日榜第 1，显示 2,243 stars today；项目 README 核验 CLI、FFI 和三平台支持。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "microsoft/TokenEconomizer",
+      "summary": "微软研究团队开源的编码 Agent 成本控制插件，利用跨会话微技能、未使用工具裁剪和失败循环干预减少重复开销。",
+      "why_it_matters": "针对长期编码任务的重复上下文和失败重试；论文与仓库提供可复现实验，所报 18.4–30.9% 平均成本下降属于作者测试，不代表所有项目均能达到。",
+      "category": "Agent / Cost optimization",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "Agent",
+        "Plugin",
+        "Token cost",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/microsoft/TokenEconomizer",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "microsoft/TokenEconomizer",
+        "github_stars": null,
+        "stars_growth": "+862 (2026-11-02 Daily Launch GitHub snapshot)",
+        "trend_signal": "Daily Launch 2026-11-02 07:33 UTC 记录单日新增 862 stars，10/31、11/01 亦连续上榜；仓库披露支持 Codex、Claude Code、Copilot CLI 和 Pi。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "max-sixty/worktrunk",
+      "summary": "把 Git worktree 创建、切换、状态查看和合并封装为简洁 CLI，方便多个编码 Agent 并行开发而互不覆盖工作目录。",
+      "why_it_matters": "对同时运行 Codex/Claude Code 多任务的开发者有直接价值，支持 hooks、缓存复用、合并清理和 Windows/macOS/Linux 安装路径。",
+      "category": "CLI / Developer workflow",
+      "tags": [
+        "Git",
+        "Worktree",
+        "CLI",
+        "Parallel Agents",
+        "Rust"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/max-sixty/worktrunk",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "max-sixty/worktrunk",
+        "github_stars": 10003,
+        "stars_growth": "+136 (2026-11-02 GitStock daily snapshot)",
+        "trend_signal": "GitStock 2026-11-02 GitHub Trending 日榜第 12，显示 136 stars today；官方 README 核验核心命令。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "D4Vinci/Scrapling",
+      "summary": "支持自适应元素定位、浏览器抓取、异步爬虫、代理轮换及 MCP 接入的 Python 网页数据采集框架。",
+      "why_it_matters": "适合持续跟踪网站变化和研究资料收集，减少选择器失效造成的维护成本；站点访问与反机器人限制仍须遵守。",
+      "category": "Developer / Web data",
+      "tags": [
+        "Web scraping",
+        "Python",
+        "MCP",
+        "CLI",
+        "Data collection"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/D4Vinci/Scrapling",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "D4Vinci/Scrapling",
+        "github_stars": 92759,
+        "stars_growth": "+858 (2026-11-02 GitStock daily snapshot)",
+        "trend_signal": "GitStock 2026-11-02 GitHub Trending 日榜第 3，显示 858 stars today；官方 README 确认功能。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ivankovic/omnidiff",
+      "summary": "Rust 内容感知 diff 工具，除源代码结构化差异外，还能对图片、字体、压缩包和 PDF 做类型化比较，支持 TUI、Git 和 jj。",
+      "why_it_matters": "有助于审查 Agent 生成的多模态资产变更；仓库提供性能与准确率测试，但相关指标由作者自测，尚需独立复验。",
+      "category": "CLI / Code review",
+      "tags": [
+        "Rust",
+        "TUI",
+        "Git diff",
+        "Code review",
+        "Developer tools"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ivankovic/omnidiff",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "ivankovic/omnidiff",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-01 Show HN 发布，Daily Launch 2026-11-02 记录 216 HN points、当日第 10 名；官方仓库核验功能。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "hyz317/HairDeck",
+      "summary": "清华等研究者提出的单图生成风格化 Hair Cards 与弹簧骨骼链方案，可导出 GLB、VRM 和头部转动预览。",
+      "why_it_matters": "把发束几何、UV 和可动画骨骼同时生成，适合风格化 Avatar 资产实验；目前需要 NVIDIA CUDA GPU，不应当作照片级头发拟合的成熟替代。",
+      "category": "Creative / 3D research",
+      "tags": [
+        "3D",
+        "Hair cards",
+        "Avatar",
+        "Blender",
+        "VRM",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/hyz317/HairDeck",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "hyz317/HairDeck",
+        "github_stars": 675,
+        "stars_growth": null,
+        "trend_signal": "2026-10-30 公开代码与权重，官方 README 2026-11-02 新增 Windows 支持；Daily Launch 11/02 记录上线三天 675 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "JustVugg/colibri",
+      "summary": "以纯 C 和按需磁盘流式读取专家权重的方式运行大型 MoE 模型，提供 CPU/Vulkan/CUDA 路径与本地 API。",
+      "why_it_matters": "为 RAM 较小但磁盘容量充足的设备提供大模型实验路径；超大模型仍可能极慢，仓库性能数据是特定硬件实测而非通用速度保证。",
+      "category": "AI / Local inference",
+      "tags": [
+        "MoE",
+        "Local LLM",
+        "Inference",
+        "C",
+        "CPU",
+        "GPU"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JustVugg/colibri",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "JustVugg/colibri",
+        "github_stars": 46502,
+        "stars_growth": "+655 (2026-11-02 GitStock daily snapshot)",
+        "trend_signal": "GitStock 2026-11-02 GitHub Trending 日榜第 10，显示 655 stars today；README 列出多模型与硬件测量。",
+        "language": "C"
+      }
+    },
+    {
+      "title": "storytold/craft-anything",
+      "summary": "集成桌面应用、CLI 和 MCP 的软件行为观察与重建工作台，按“研究—构建—对照—修正”流程辅助开发。",
+      "why_it_matters": "强调对生成结果做证据化对照而非一次生成即完成；仓库明确处于 early alpha，Codex 适配尚未在真实安装上充分验证，使用需尊重软件许可。",
+      "category": "Creative / Software analysis",
+      "tags": [
+        "Rust",
+        "Desktop App",
+        "MCP",
+        "Agent",
+        "Clean room"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/craft-anything",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/craft-anything",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Daily Launch 2026-11-02 新入榜第 5，记录首日显著 GitHub 关注；官方 README 核验项目状态与功能边界。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "caru-ini/stack-diagram",
+      "summary": "用一句自然语言描述技术栈，由 Agent Skill 生成带官方品牌 Logo、兼容深浅主题的架构示意图。",
+      "why_it_matters": "对技术文档、演讲与产品介绍可快速产出统一风格的架构图；复杂拓扑仍需人工核对，不能替代架构事实审查。",
+      "category": "Skills / Visualization",
+      "tags": [
+        "Skills",
+        "Architecture",
+        "Diagram",
+        "TypeScript",
+        "Codex"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/caru-ini/stack-diagram",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "caru-ini/stack-diagram",
+        "github_stars": 709,
+        "stars_growth": null,
+        "trend_signal": "2026-11-01 新建仓库，Daily Launch 2026-11-02 记录 709 stars in 1 day；官方 README 核验 Codex 等 Skills 接入。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "NiazMorshed2007/reanimate",
+      "summary": "从网页、录屏、GIF 或 Lottie 采集动画轨迹，再让编码 Agent 复现并用逐帧录制、时序和像素比较反复校正。",
+      "why_it_matters": "把动画复刻从主观观感推进到可测量的验证闭环；目前主要在 Claude Code 上测试，依赖 Bun、Chromium 和 ffmpeg。",
+      "category": "Skills / Motion design",
+      "tags": [
+        "Skills",
+        "Animation",
+        "Web",
+        "Playwright",
+        "JavaScript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NiazMorshed2007/reanimate",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NiazMorshed2007/reanimate",
+        "github_stars": 773,
+        "stars_growth": null,
+        "trend_signal": "2026-10-29 发布，Daily Launch 2026-11-02 记录四天累计 773 stars、首次入榜；官方仓库展示复现和对照流程。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "openfilm/openfilm",
+      "summary": "让编码 Agent 用 HTML/CSS/JS 组织镜头并渲染视频，同时提供本地 Studio 时间线编辑、逐帧检查和 MP4 导出。",
+      "why_it_matters": "同时具备代码生成与可视化后期修改，适合产品短片和虚实混剪原型；依赖 Node、ffmpeg 和 Chromium，复杂媒体生成可选外部服务。",
+      "category": "Creative / Video tools",
+      "tags": [
+        "Video",
+        "Codex",
+        "Skills",
+        "Editor",
+        "TypeScript",
+        "Local first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/openfilm/openfilm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "openfilm/openfilm",
+        "github_stars": null,
+        "stars_growth": "+204 (2026-11-02 Daily Launch GitHub snapshot)",
+        "trend_signal": "Daily Launch 2026-11-02 记录 +204 stars，持续多日进入新产品观察榜；官方 README 核验 CLI、Skill 与 Studio。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "kornia/kornia",
+      "summary": "面向 PyTorch 的可微分图像处理与几何视觉库，覆盖相机、投影、图像变换、增强及空间 AI 研究组件。",
+      "why_it_matters": "在机器人、三维视觉与图像几何处理中有实际研究基础；近期强调约定一致性、测试和可复现基准，而非盲目扩展模型清单。",
+      "category": "Research / Computer vision",
+      "tags": [
+        "Computer vision",
+        "Spatial AI",
+        "PyTorch",
+        "Python",
+        "3D geometry"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/kornia/kornia",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "kornia/kornia",
+        "github_stars": 12115,
+        "stars_growth": "+412 (2026-11-02 GitStock daily snapshot)",
+        "trend_signal": "GitStock 2026-11-02 GitHub Trending 日榜第 9，显示 412 stars today；官方仓库提供 2026-10-21 测试与路线图。",
+        "language": "Python"
+      }
+    }
+  ]
+}
