@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T08:05:55+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间11月2日早晨，值得关注的方向从单一编码 Agent 转向桌面多 Agent 编排、跨工具会话可观察性与规范驱动的交付治理；同时，Markdown 知识库、Mac 菜单栏工具、离线语音输入、交互式教育和本地大模型推理保持热度。热度采用11月1日定时快照与11月2日早晨 GitHub Trending 观察，数字均注明时点；部分新项目仅具早期加速信号，未夸大为主榜爆红。",
+  "top_picks": [
+    "Orkas-AI/Orkas",
+    "kenn-io/agentsview",
+    "refactoringhq/tolaria"
+  ],
+  "items": [
+    {
+      "title": "Orkas-AI/Orkas",
+      "summary": "开源、本地优先的桌面 AI 团队：Commander 将目标拆为待办，并协调内置专家与 Codex、Claude Code、OpenCode 等 CLI Agent。",
+      "why_it_matters": "把多 Agent 编排、项目记忆、任务队列和定时执行集成到桌面；适合评估持续性工作流。开源构建与商业打包版的共享项目、云同步能力不同，使用前应区分。",
+      "category": "AI / Agent desktop",
+      "tags": [
+        "Agent",
+        "Desktop",
+        "Local-first",
+        "Multi-agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Orkas-AI/Orkas",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "Orkas-AI/Orkas",
+        "github_stars": 6785,
+        "stars_growth": "+1044 (2026-11-01 GitHub Trending snapshot)",
+        "trend_signal": "2026-11-01 GitHub Trending 日榜第11位，首次上榜；归档显示当日 +1044 stars，Ageshio 同日记录加速上升。",
+        "language": "JavaScript",
+        "trend_source_url": "https://githubtrending.today/archive/2026-11-01/"
+      }
+    },
+    {
+      "title": "kenn-io/agentsview",
+      "summary": "在本地归档、检索多个编码 Agent 的会话、Token 用量和成本，并提供 Web 仪表盘与只读 MCP 查询。",
+      "why_it_matters": "让跨 Agent 的会话审计、成本归因和历史检索变得可操作；适合多项目长期编码。启用云会话同步和远程访问时应审查数据边界。",
+      "category": "Developer Tools / Agent observability",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "Analytics",
+        "Local-first",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/kenn-io/agentsview",
+      "image_url": "https://agentsview.io/assets/generated/screenshots/dashboard.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "kenn-io/agentsview",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "官方 v0.46.0 于 2026-10-23 发布，新增 Claude.ai/可选 Codex 云会话导入、SSH 同步和 MCP 只读访问；近期趋势镜像收录，增量未核实。",
+        "language": "Go",
+        "trend_source_url": "https://github.com/kenn-io/agentsview/releases"
+      }
+    },
+    {
+      "title": "refactoringhq/tolaria",
+      "summary": "跨桌面与移动设备的 Markdown 知识库管理工具，面向个人笔记、团队文档及 AI 上下文资料。",
+      "why_it_matters": "以纯 Markdown 管理长期知识资产，可与现有笔记工作流对照评估；仍处 Alpha 阶段，导入旧笔记前应备份。",
+      "category": "Productivity / Markdown knowledge",
+      "tags": [
+        "Markdown",
+        "Knowledge Base",
+        "Desktop",
+        "Mobile",
+        "Local-first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/refactoringhq/tolaria",
+      "image_url": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "refactoringhq/tolaria",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-01 发布多轮 Alpha 预览版，重点修复移动端深链接、笔记选择及 Unicode 路径；近期趋势镜像收录但精确日增量未核实。",
+        "language": "TypeScript",
+        "trend_source_url": "https://github.com/refactoringhq/tolaria/releases"
+      }
+    },
+    {
+      "title": "mattpocock/skills",
+      "summary": "一套小型、可组合、模型无关的工程 Skills，强调可审查、可改造的日常开发实践。",
+      "why_it_matters": "区别于接管整套流程的重型框架，方便开发者选择性引入设计、编码和验证习惯；应检查 Skill 指令与既有项目规则冲突。",
+      "category": "Skills / Software engineering",
+      "tags": [
+        "Agent Skills",
+        "Coding",
+        "Developer Workflow"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mattpocock/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "mattpocock/skills",
+        "github_stars": 308602,
+        "stars_growth": "+883 (2026-11-01 GitHub Trending snapshot)",
+        "trend_signal": "2026-11-01 GitHub Trending 日榜第2位，较前一日上升6名；归档显示 +883 stars。",
+        "language": "Shell",
+        "trend_source_url": "https://githubtrending.today/archive/2026-11-01/"
+      }
+    },
+    {
+      "title": "THU-MAIC/OpenMAIC",
+      "summary": "把课程主题或资料生成多智能体互动课堂，包含幻灯片、测验、模拟、白板和语音讨论。",
+      "why_it_matters": "相较静态 AI 讲义，更强调互动学习和可导出的课程资产；适合教育演示及交互式内容研究。",
+      "category": "Creative / Interactive education",
+      "tags": [
+        "Education",
+        "Multi-agent",
+        "Interactive",
+        "Chinese"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/THU-MAIC/OpenMAIC",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "THU-MAIC/OpenMAIC",
+        "github_stars": 42267,
+        "stars_growth": "+116 (2026-11-01 GitHub Trending snapshot)",
+        "trend_signal": "2026-11-01 GitHub Trending 日榜第12位；官方 2026-10-29 v1.3.0 增加知识库和 Pro 工作台能力。",
+        "language": "TypeScript",
+        "trend_source_url": "https://githubtrending.today/archive/2026-11-01/"
+      }
+    },
+    {
+      "title": "vorssaint/vorssaint-utils",
+      "summary": "把应用音量控制、系统监控、窗口管理、剪贴板历史和卸载等功能整合进可按需安装的菜单栏工具。",
+      "why_it_matters": "对 Mac 用户有直接价值，特别是内存压力、窗口切换和日常系统监控；需要按功能授予辅助功能等系统权限。",
+      "category": "Apps / macOS utilities",
+      "tags": [
+        "macOS",
+        "Menu Bar",
+        "System Monitor",
+        "Productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vorssaint/vorssaint-utils",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "vorssaint/vorssaint-utils",
+        "github_stars": 32034,
+        "stars_growth": "+501 (2026-11-01 GitHub Trending snapshot)",
+        "trend_signal": "2026-11-01 GitHub Trending 日榜第14位，归档 +501 stars；官方 v3.4.3 于 10月30日发布。",
+        "language": "Swift",
+        "trend_source_url": "https://githubtrending.today/archive/2026-11-01/"
+      }
+    },
+    {
+      "title": "shiyu-coder/Kronos",
+      "summary": "面向金融市场时间序列建模的开源基础模型与研究代码，关注行情序列表示和预测任务。",
+      "why_it_matters": "可用于金融时间序列模型研究与基准对比，但研究模型的表现不等于可直接实现的投资收益。",
+      "category": "Research / Financial AI",
+      "tags": [
+        "Finance",
+        "Time Series",
+        "Foundation Model",
+        "Research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shiyu-coder/Kronos",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "shiyu-coder/Kronos",
+        "github_stars": 45026,
+        "stars_growth": "+611 (GitHub Trending live observation 2026-11-02 00:03 UTC)",
+        "trend_signal": "2026-11-02 00:03 UTC GitHub Trending 页面列示 45026 stars、611 stars today；属于观察时点数据。",
+        "language": "Python",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "beenuar/AiSOC",
+      "summary": "可自托管的 AI 安全运营中心，汇总告警、关联威胁并让 Agent 生成可审计的调查记录和待批准响应。",
+      "why_it_matters": "将安全运营中的人机协作和决策可追溯性产品化；项目的检测覆盖率、误报和生产安全性仍需独立评估。",
+      "category": "Security / AI operations",
+      "tags": [
+        "Security",
+        "SOC",
+        "Agent",
+        "Self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/beenuar/AiSOC",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "beenuar/AiSOC",
+        "github_stars": 5929,
+        "stars_growth": "+436 (GitHub Trending live observation 2026-11-02 00:03 UTC)",
+        "trend_signal": "2026-11-02 00:03 UTC GitHub Trending 页面列示 5929 stars、436 stars today；官方 README 描述可审计调查和人工审批。",
+        "language": "Python",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "FlashML-org/FreeToken",
+      "summary": "面向消费级 GPU/CPU/内存协同运行大规模 MoE 模型的推理引擎，提供桌面应用和 CLI。",
+      "why_it_matters": "探索在有限显存下运行大型开源权重模型的可行性；性能、可支持模型与硬件要求应以实测为准。",
+      "category": "Local AI / Inference",
+      "tags": [
+        "MoE",
+        "Local LLM",
+        "Inference",
+        "GPU"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/FlashML-org/FreeToken",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "FlashML-org/FreeToken",
+        "github_stars": 15158,
+        "stars_growth": "+232 (GitHub Trending live observation 2026-11-02 00:03 UTC)",
+        "trend_signal": "2026-11-02 00:03 UTC GitHub Trending 页面列示 15158 stars、232 stars today；官方项目提供论文与本地运行说明。",
+        "language": "Python",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "cjpais/Handy",
+      "summary": "完全离线的跨平台语音转文字工具，通过快捷键录音并将结果直接输入当前应用。",
+      "why_it_matters": "对频繁写文档或使用 Agent 的用户有低门槛的输入效率价值；支持 Whisper/Parakeet 等本地识别方案。",
+      "category": "Apps / Offline voice",
+      "tags": [
+        "Speech-to-Text",
+        "Desktop",
+        "Privacy",
+        "Offline"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cjpais/Handy",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "cjpais/Handy",
+        "github_stars": 36155,
+        "stars_growth": "+383 (GitHub Trending live observation 2026-11-02 00:03 UTC)",
+        "trend_signal": "2026-11-02 00:03 UTC GitHub Trending 页面列示 36155 stars、383 stars today；项目 README 明确本地离线转录。",
+        "language": "Rust",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "HKUDS/DeepTutor",
+      "summary": "利用多智能体检索与学习记忆提供个性化辅导和持续学习支持的开源系统。",
+      "why_it_matters": "对知识学习场景，长期学习状态和多步骤研究能力比单次问答更有探索价值；学习效果仍需实测。",
+      "category": "AI / Personalized learning",
+      "tags": [
+        "Education",
+        "RAG",
+        "Research",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/HKUDS/DeepTutor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "HKUDS/DeepTutor",
+        "github_stars": 53051,
+        "stars_growth": "+1034 (2026-11-01 GitHub Trending snapshot)",
+        "trend_signal": "2026-11-01 GitHub Trending 日榜第10位，归档 +1034 stars；同日发布 v1.7.1。",
+        "language": "Python",
+        "trend_source_url": "https://githubtrending.today/archive/2026-11-01/"
+      }
+    },
+    {
+      "title": "fabio-rovai/open-ontologies",
+      "summary": "以单个 Rust 可执行文件为生产本体变更提供计划、影响范围分析、回滚与可独立核验的证明。",
+      "why_it_matters": "对语义层和数据治理提供更可审计的变更流程，适合复杂系统的 schema/ontology 演进研究。",
+      "category": "Developer Tools / Data governance",
+      "tags": [
+        "Rust",
+        "Ontology",
+        "Audit",
+        "Data Engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/fabio-rovai/open-ontologies",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "fabio-rovai/open-ontologies",
+        "github_stars": 2632,
+        "stars_growth": null,
+        "trend_signal": "2026-11-01 Ageshio 加速榜显示近7天相对增长约49%，但未列出可核实的24小时新增数量；属于非主榜早期信号。",
+        "language": "Rust",
+        "trend_source_url": "https://ageshio.dev/"
+      }
+    },
+    {
+      "title": "pullboard-dev/pullboard",
+      "summary": "以愿景、规格和独立检查驱动多个编码 Agent 的任务队列与交付治理工具。",
+      "why_it_matters": "把规范约束、自动执行和独立评审纳入一个可复核流程；处于早期阶段，应验证隔离、合并审批与失败恢复。",
+      "category": "Agent / Software delivery",
+      "tags": [
+        "Agent",
+        "Coding",
+        "Specification",
+        "Review"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pullboard-dev/pullboard",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pullboard-dev/pullboard",
+        "github_stars": 471,
+        "stars_growth": null,
+        "trend_signal": "2026-11-01 Ageshio 加速榜记录约44% 的7天相对增长，明确注明尚未进入 GitHub Trending 主榜；热度信号较早期。",
+        "language": "JavaScript",
+        "trend_source_url": "https://ageshio.dev/"
+      }
+    }
+  ]
+}
