@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T07:59:01.774+08:00",
+  "title": "每日前沿简报",
+  "summary": "今天最重要的变化来自临床研究与政策端：两项白癜风三期试验、结肠癌新辅助免疫治疗探索和CAR-T长期毒性机制研究集中发布；中国央行隔夜逆回购新框架正式落地，证监会同步宣布稳市工具优化。开发者侧，GitHub宣布公开仓库高风险Actions事件的默认阻断日期，多个自托管与持久记忆智能体项目在趋势榜升温。医疗模型基准污染审计及生成式气象模型研究提醒我们，前沿AI的评价体系与可靠性同样重要。",
+  "items": [
+    {
+      "title": "医疗大模型微调评测暴露训练集污染：多个基准重叠超过70%",
+      "summary": "11月2日《Scientific Reports》研究重新审计一款基于Qwen3-8B的医学微调模型，发现PubMedQA、MedQA和MMLU医学题集与训练语料的精确题干重叠均超过70%。在未标记重叠的1,838道MedXpertQA题上，微调模型准确率为20.8%，基础模型为15.6%，改善幅度小于原先宣称。作者承认训练语料无法完整公开，限制第三方复核。",
+      "why_it_matters": "直接挑战医疗AI论文中常见的“刷榜即能力提升”推论，强调去污染评测和完整推理协议的重要性。",
+      "category": "AI",
+      "tags": [
+        "医疗AI",
+        "Benchmark contamination",
+        "Qwen3",
+        "Evaluation"
+      ],
+      "source_name": "Scientific Reports",
+      "source_url": "https://www.nature.com/articles/s41598-026-77367-y",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "GAP生成式天气模型尝试统一资料同化、预报和气候模拟",
+      "summary": "11月2日发表于《npj Climate and Atmospheric Science》的研究提出Generative Assimilation and Prediction（GAP），通过共享的概率大气状态表示连接观测资料同化、天气预报和气候模拟。论文旨在缓解传统自回归天气AI误差累积和数据同化割裂问题；实际泛化及长期气候预测表现仍需更多独立验证。",
+      "why_it_matters": "把AI气象从单纯预测下一帧推进到统一状态估计与生成建模，是科学基础模型的重要方向。",
+      "category": "AI",
+      "tags": [
+        "Weather AI",
+        "Generative models",
+        "Data assimilation"
+      ],
+      "source_name": "npj Climate and Atmospheric Science",
+      "source_url": "https://www.nature.com/articles/s41612-026-01585-4",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "两项三期随机试验：口服JAK1抑制剂povorcitinib改善白癜风复色",
+      "summary": "11月2日《Nature Medicine》发表STOP-V1和STOP-V2两项双盲安慰剂对照三期试验，共纳入916名中重度非节段型白癜风成人。52周时面部白癜风面积评分改善至少75%的比例，两试验用药组均为18.9%，安慰剂组分别为6.8%和3.1%；总体不良事件发生率相近，但长期JAK类安全性仍需持续观察。",
+      "why_it_matters": "双试验一致达到主要终点，为需要系统治疗的白癜风患者增加有证据支撑的候选方案。",
+      "category": "MEDICINE",
+      "tags": [
+        "Vitiligo",
+        "Phase 3",
+        "JAK1",
+        "RCT"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04739-2",
+      "evidence": "strong",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "UNICORN二期试验：结肠癌新辅助双免疫治疗在pMMR人群出现应答信号",
+      "summary": "11月2日《Nature Medicine》报道56名局部进展期可切除结肠癌患者的开放标签、非随机二期研究。pMMR队列中，botensilimab联合balstilimab的主要病理缓解率为36%，单药为0%；dMMR联合组为100%，但各组仅14人，样本小且不能直接比较疗效。",
+      "why_it_matters": "为通常对传统免疫检查点治疗不敏感的pMMR结肠癌提供新辅助治疗探索方向，但尚非改变标准治疗的随机证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "Colon cancer",
+        "pMMR",
+        "Immunotherapy",
+        "Phase 2"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04710-1",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "CAR19治疗后克隆性造血与长期血细胞减少症关联被进一步揭示",
+      "summary": "11月2日《Nature Genetics》研究比较CD19 CAR-T治疗的淋巴瘤患者与倾向评分匹配的自体造血干细胞移植对照。研究观察到CAR-T组免疫重建受损和感染增多，并将持续性血细胞减少与克隆性细胞减少及干扰素介导的炎症联系起来；这是机制和关联证据，不意味着每名患者都会发生继发血液肿瘤。",
+      "why_it_matters": "为CAR-T长期毒性监测、患者分层与造血系统随访提供可检验的生物学线索。",
+      "category": "MEDICINE",
+      "tags": [
+        "CAR-T",
+        "Clonal hematopoiesis",
+        "Lymphoma",
+        "Safety"
+      ],
+      "source_name": "Nature Genetics",
+      "source_url": "https://www.nature.com/articles/s41588-026-02795-5",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "GBD全球宫颈癌负担研究：2023年估计新增88.7万例",
+      "summary": "11月2日《Nature Medicine》发布覆盖204个国家和地区的GBD模型研究，估计2023年全球宫颈癌新增88.7万例、死亡36.9万例。低收入国家年龄标化发病率和死亡率分别超过高收入国家四倍和七倍；这些是带不确定区间的模型估计，而非逐例登记计数。",
+      "why_it_matters": "提示HPV疫苗接种、筛查与治疗可及性的全球差距仍然巨大，可为公共卫生资源配置提供依据。",
+      "category": "MEDICINE",
+      "tags": [
+        "Cervical cancer",
+        "GBD",
+        "HPV",
+        "Health equity"
+      ],
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04729-4",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "RetiME：视网膜照片AI预测死亡风险轨迹并完成跨地区外部验证",
+      "summary": "11月2日《Nature Biomedical Engineering》提出RetiME模型，利用眼底照片预测个体全因及病因特异死亡风险，训练于欧洲队列并在东南亚、欧亚及北美三个独立队列验证。模型还将风险轨迹划分为心代谢、神经退行性和肿瘤等不同模式；研究为观察性预测验证，尚未证明用于筛查可改善临床结局。",
+      "why_it_matters": "非侵入性、低成本影像可能成为综合健康风险评估的新入口，但需警惕把统计寿命轨迹误解为个人死亡日期。",
+      "category": "MEDICINE",
+      "tags": [
+        "Retina",
+        "AI biomarker",
+        "Longevity",
+        "External validation"
+      ],
+      "source_name": "Nature Biomedical Engineering",
+      "source_url": "https://www.nature.com/articles/s41551-026-01822-4",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "中国β地中海贫血1429人基因组图谱揭示表型差异修饰因子",
+      "summary": "11月2日《Nature Communications》公布1020名中国β地中海贫血患者及409名未患病父母的高深度基因组图谱，关联77项临床性状。研究鉴定多个表型关联位点，并通过功能实验提示PIK3C3及非编码区域可能调节疾病严重程度；潜在精准治疗靶点仍处早期研究阶段。",
+      "why_it_matters": "将单基因病“同一主突变、不同严重度”的问题推进到全基因组修饰因子层面，具有中国人群代表性。",
+      "category": "MEDICINE",
+      "tags": [
+        "β-thalassemia",
+        "Genomics",
+        "China cohort",
+        "PIK3C3"
+      ],
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-79107-2",
+      "evidence": "moderate",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "GitHub宣布12月2日起默认阻断公开仓库pull_request_target工作流",
+      "summary": "GitHub 11月2日宣布，自12月2日起，公开仓库的pull_request_target事件默认被Actions策略阻断，除非明确放行。11月9日和16日安排两次临时阻断演练，私有与内部仓库不受此变更影响；此前拟定的11月2日强制日期已延后。",
+      "why_it_matters": "这一高风险事件能在基础仓库权限上下文访问密钥，CI维护者需提前审计来自fork的代码执行和工作流策略。",
+      "category": "TECH",
+      "tags": [
+        "GitHub Actions",
+        "CI security",
+        "pull_request_target",
+        "Breaking change"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/",
+      "evidence": "strong",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "GitHub安全风险评估增加仓库保护状态维度",
+      "summary": "GitHub 11月2日宣布，代码安全和密钥风险评估将区分发现位于受保护还是未受保护仓库，帮助组织定位安全覆盖缺口。功能现面向GitHub Enterprise Cloud和Team提供，GitHub Enterprise Server的密钥风险评估支持计划在3.24版本加入。",
+      "why_it_matters": "让组织级DevSecOps审计从发现漏洞延伸到检查仓库保护措施是否真正覆盖高风险资产。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "DevSecOps",
+        "Secret scanning",
+        "Governance"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status/",
+      "evidence": "strong",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "美国10月ISM制造业PMI升至55.5，价格指数仍高达75.2",
+      "summary": "美国供应管理协会11月2日发布10月制造业PMI为55.5，高于9月54.5，连续第十个月扩张。生产指数59.0、新订单55.5，而价格指数75.2虽较前月回落仍显示显著成本压力；PMI是采购经理扩散指数，不等同于产出同比增长率。",
+      "why_it_matters": "制造业需求和生产偏强、成本压力仍高的组合影响市场对美联储政策路径和企业利润率的判断。",
+      "category": "MACRO",
+      "tags": [
+        "US",
+        "ISM PMI",
+        "Manufacturing",
+        "Inflation"
+      ],
+      "source_name": "Institute for Supply Management",
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+      "evidence": "strong",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "中国央行隔夜逆回购新机制落地，首日操作5410亿元",
+      "summary": "11月2日中国人民银行按新机制开展5410亿元隔夜逆回购，操作利率为1.25%，采用固定利率、数量招标。此前宣布从11月2日起每个工作日开展隔夜操作，7天逆回购转向特定时点的数量招标；这是利率调控框架换锚，不应简单等同于降息。",
+      "why_it_matters": "隔夜政策利率成为更明确的货币市场定价锚，影响短端资金利率、银行负债成本和货币政策传导。",
+      "category": "MACRO",
+      "tags": [
+        "PBOC",
+        "Overnight repo",
+        "Interest rates",
+        "China"
+      ],
+      "source_name": "新华社（北京市政府转载）",
+      "source_url": "https://www.beijing.gov.cn/ywdt/zybwdt/202611/t20261102_4928131.html",
+      "evidence": "strong",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "证监会公布资本市场稳市组合：回购再贷款降至1%，第三批互换便利启动",
+      "summary": "证监会11月2日公告，股票回购增持再贷款转为长期制度性安排，利率降至1%；31家证券和基金机构获准参与第三批互换便利，申请额度超过1000亿元。首批18只主动ETF截至11月2日募集资金超过350亿元；融资融券风控指标调整尚在研究，不能视作已经落地。",
+      "why_it_matters": "政策从流动性工具、上市公司回购和ETF供给多渠道稳定资本市场，但政策额度不等于实际买入金额。",
+      "category": "CHINA",
+      "tags": [
+        "CSRC",
+        "A shares",
+        "Share buyback",
+        "ETF",
+        "Policy"
+      ],
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7668092/content.shtml",
+      "evidence": "strong",
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day"
+      }
+    },
+    {
+      "title": "claude-mem：跨Codex、Claude Code等智能体的持久记忆工具受到关注",
+      "summary": "GitHub仓库thedotmack/claude-mem提供跨会话记录、压缩与检索智能体执行历史的方案，README列出对Claude Code、Codex、Gemini、OpenCode等环境的支持。项目在11月2日的第三方GitHub趋势快照中居AI Agents分类前列；长期记忆准确性、隐私和跨平台兼容性仍需实测。",
+      "why_it_matters": "会话间记忆是长周期软件开发智能体的基础能力，但需要同时审查存储权限和错误记忆累积。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Agent memory",
+        "Codex",
+        "Claude Code",
+        "Open source"
+      ],
+      "source_name": "GitHub / thedotmack",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "evidence": null,
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day",
+        "notes": "项目功能来自仓库自述，热度参考2026-11-02第三方GitHub趋势快照；未对安全性和效果做独立验证。"
+      }
+    },
+    {
+      "title": "AiSOC：可自托管的AI安全运营中心尝试把告警分诊与审计链结合",
+      "summary": "开源项目beenuar/AiSOC集成告警聚合、LLM辅助分诊、MITRE ATT&CK调查与可回放决策记录，并提供MCP接口。仓库在11月2日GitHub趋势快照中受到关注；其零API密钥部署与安全效果属于项目声明，尚不等同于独立生产环境验证。",
+      "why_it_matters": "可审计的安全智能体比黑盒自动化更适合企业内网与合规敏感场景，值得进行隔离环境评估。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "SOC",
+        "Security agent",
+        "MCP",
+        "Self-hosted"
+      ],
+      "source_name": "GitHub / beenuar",
+      "source_url": "https://github.com/beenuar/AiSOC",
+      "evidence": null,
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day",
+        "notes": "项目功能来自仓库自述，热度参考2026-11-02第三方GitHub趋势快照；未对安全性和效果做独立验证。"
+      }
+    },
+    {
+      "title": "OpenMausBot：带虚拟机工作环境的开源计算机使用智能体热度上升",
+      "summary": "GitHub项目milind-soni/OpenMausBot定位为可自托管的计算机使用智能体，为Bot提供虚拟机及文件、浏览器等执行环境。11月2日AI Agents趋势榜显示其短期关注度增长；项目描述与实际安全隔离能力需要分别验证。",
+      "why_it_matters": "让智能体拥有独立可控执行环境有助于任务自动化，但需要检查虚拟机隔离、网络权限与操作审计。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Computer use",
+        "Virtual machine",
+        "Agent",
+        "Self-hosted"
+      ],
+      "source_name": "GitHub / milind-soni",
+      "source_url": "https://github.com/milind-soni/OpenMausBot",
+      "evidence": null,
+      "image_url": null,
+      "published_at": null,
+      "extra": {
+        "published_date": "2026-11-02",
+        "date_precision": "day",
+        "notes": "项目功能来自仓库自述，热度参考2026-11-02第三方GitHub趋势快照；未对安全性和效果做独立验证。"
+      }
+    }
+  ]
+}
