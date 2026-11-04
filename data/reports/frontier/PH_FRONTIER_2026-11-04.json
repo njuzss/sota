@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T08:03:58+08:00",
+  "title": "每日前沿简报",
+  "summary": "GitHub 为智能体技能依赖管理引入 Dependabot 更新支持，Copilot 同时接入 JetBrains Air，显示跨工具智能体协作与治理正在加速。CodeQL 新增可配置的 LLM 生成数据威胁模型，强化 AI 软件供应链安全。中国自动驾驶仿真与 AI Token 消费化出现新动向，而 AI 基础设施融资集中及亚洲制造业压力值得跟踪。",
+  "items": [
+    {
+      "title": "Dependabot 开始支持 Agent Package Manager 的智能体依赖更新",
+      "summary": "GitHub 11月3日宣布 Dependabot 可更新 apm.yml 中声明的受支持 Git 依赖，并在存在锁文件时重建 apm.lock.yaml。此次只覆盖版本更新，不包括安全更新。",
+      "why_it_matters": "Agent skills、提示词和指令也开始纳入可追踪的软件供应链版本管理。",
+      "category": "TECH",
+      "tags": [
+        "APM",
+        "Dependabot",
+        "Agent skills"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "GitHub Copilot 接入 JetBrains Air，支持本地及隔离云端编码任务",
+      "summary": "GitHub 11月3日宣布 Copilot 可通过 Agent Client Protocol 在 JetBrains Air 中运行。开发者可并行管理智能体任务，云端执行使用隔离容器，企业云端功能有组织和订阅限制。",
+      "why_it_matters": "ACP 生态进一步扩大，跨 IDE 智能体执行与评审正在标准化。",
+      "category": "AI",
+      "tags": [
+        "Copilot",
+        "ACP",
+        "JetBrains"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "CodeQL 2.27.3 新增面向 LLM 生成数据的可选威胁模型",
+      "summary": "GitHub 11月3日发布 CodeQL 2.27.3，支持 Python 3.15、JSON 数据扩展与可选 ai 威胁模型。该模型不预置来源规则，需要用户通过数据扩展定义信任边界。",
+      "why_it_matters": "为检测 AI 生成内容进入应用后的数据流风险提供可定制静态分析入口。",
+      "category": "TECH",
+      "tags": [
+        "CodeQL",
+        "LLM security",
+        "Python"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "Dependabot 正式支持 Python 3.15 依赖更新",
+      "summary": "GitHub 11月3日确认 Dependabot 可处理 Python 3.15 项目的依赖版本更新。该功能面向 github.com 用户开放，并计划进入 GHES 3.24。",
+      "why_it_matters": "Python 版本升级后自动依赖维护能力同步跟进，降低工具链迁移摩擦。",
+      "category": "TECH",
+      "tags": [
+        "Python 3.15",
+        "Dependabot"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "GitHub Desktop 引入短期身份验证令牌",
+      "summary": "GitHub 11月2日发布 GitHub Desktop 短期令牌相关改进，降低长期凭据暴露的潜在风险。具体行为和迁移细节应以官方公告为准。",
+      "why_it_matters": "开发者桌面工具的凭据生命周期缩短，有助于降低泄露后的持续可用窗口。",
+      "category": "TECH",
+      "tags": [
+        "GitHub Desktop",
+        "Authentication"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "百度发布 Apollo World 自动驾驶仿真系统",
+      "summary": "11月3日路透社报道，百度发布用于训练无人驾驶出租车的 Apollo World 仿真系统，可模拟道路环境变化。百度声称系统每日可生成多达10万公里的模拟驾驶数据；这一性能数字属于企业陈述，尚不等同于真实道路安全验证。",
+      "why_it_matters": "仿真数据规模与真实道路泛化能力的差距，是自动驾驶商业化的核心瓶颈。",
+      "category": "CHINA",
+      "tags": [
+        "Baidu",
+        "Robotaxi",
+        "Simulation"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/technology/chinas-baidu-launches-ai-model-simulating-road-environment-robotaxis-2026-11-03/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "中国金融监管官员警示 AI 投资集中与杠杆风险",
+      "summary": "11月3日路透社报道，中国国家金融监督管理总局副局长肖远企在香港金融领袖峰会上警示全球 AI 投资过度集中可能推高杠杆和传统行业融资成本。这属于监管官员风险判断，并非已证实的系统性危机。",
+      "why_it_matters": "AI 资本开支的融资结构与风险外溢正进入金融监管讨论。",
+      "category": "MACRO",
+      "tags": [
+        "AI capex",
+        "Financial stability"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/ai-investment-is-becoming-overly-concentrated-chinese-official-says-2026-11-03/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "中国双十一出现面向消费者的 AI Token 套餐销售",
+      "summary": "路透社11月3日报道，直播电商开始销售 AI 计算额度和 QwenWork 月度会员套餐。报道援引阿里巴巴数据称10月1日至20日 Token 套餐销售环比增长450%；该数字为平台披露，尚不能代表行业整体。",
+      "why_it_matters": "AI 推理费用开始以可预付、可促销的消费品形态进入大众零售。",
+      "category": "CHINA",
+      "tags": [
+        "AI tokens",
+        "QwenWork",
+        "Ecommerce"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/chinas-lipstick-king-touts-ai-tokens-first-singles-day-festival-2026-11-03/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "亚洲制造业扩张趋缓，AI 芯片需求支撑面临考验",
+      "summary": "路透社11月2日综合多国10月采购经理指数，指出中国、日本、韩国和台湾部分制造业增长动能减弱，能源价格上涨增加成本压力。各经济体 PMI 口径和周期不同，不宜直接横向比较。",
+      "why_it_matters": "芯片与 AI 基建需求能否抵消能源冲击，是亚洲制造业及出口链条的重要变量。",
+      "category": "MACRO",
+      "tags": [
+        "Asia PMI",
+        "Semiconductors",
+        "Energy"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/global-economy-asias-factory-activity-feels-fading-glimmer-ai-boom-2026-11-02/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    },
+    {
+      "title": "AI 基础设施融资规模上升，金融机构提示回报兑现风险",
+      "summary": "路透社11月3日报道，多位金融机构高管认为 AI 数据中心和电力基础设施仍需大量融资，同时提醒资本成本、收入预期及估值风险。报道引用的投资预测并非已实现支出。",
+      "why_it_matters": "从模型能力竞赛转向资金成本、自由现金流和电力供给约束的产业竞争。",
+      "category": "MACRO",
+      "tags": [
+        "AI infrastructure",
+        "Capital markets"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/blackstone-president-says-more-tech-sector-fundraising-ahead-keep-up-with-ai-2026-11-03/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "原始网页确认事件日期为2026年11月2日或3日；未确认精确时刻，published_at留空。"
+      }
+    }
+  ]
+}
