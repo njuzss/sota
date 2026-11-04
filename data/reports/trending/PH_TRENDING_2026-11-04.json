@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T00:04:43.994Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间11月4日早晨，最新可核实的11月3日 GitHub Trending 归档显示：编码 Agent 的专业化、Skills 设计质量和跨会话记忆持续受到关注，同时 Linux 桌面、游戏开发 Agent 与模型实验工具也有显著热度。为避免将昨日榜单误写为今日实时数据，所有增长指标明确标注日榜或周榜时间窗；精确总 Stars 未核验时为 null。部分高增长项目因明显持续热度而复选。",
+  "top_picks": [
+    "Donchitos/Claude-Code-Game-Studios",
+    "pingdotgg/t3code",
+    "AgriciDaniel/claude-seo"
+  ],
+  "items": [
+    {
+      "title": "pingdotgg/t3code",
+      "summary": "编码 Agent 相关的 TypeScript 项目；仓库在趋势榜上快速获得关注，具体功能以 README 为准。",
+      "why_it_matters": "在该细分领域具有技术或产品研究价值，热度并不等于成熟度。",
+      "category": "开发者工具",
+      "tags": [
+        "开发者工具"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/pingdotgg/t3code",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pingdotgg/t3code",
+        "github_stars": null,
+        "stars_growth": "+3229/day",
+        "trend_signal": "11月3日 GitHub Trending 第7位，归档显示新增3229 stars；仓库简介为空，功能仍需进一步审查。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Donchitos/Claude-Code-Game-Studios",
+      "summary": "以多 Agent 和工作流 Skills 组织游戏开发流程。",
+      "why_it_matters": "可用于评估 Agent 工作流的实用性、协作边界与权限风险。",
+      "category": "Agent/游戏开发",
+      "tags": [
+        "Agent",
+        "游戏开发"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Donchitos/Claude-Code-Game-Studios",
+        "github_stars": null,
+        "stars_growth": "+1379/day",
+        "trend_signal": "11月3日 Trending 第5位，归档显示新增1379 stars；49 agents/72 skills 是仓库自述。",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "hyprwm/Hyprland",
+      "summary": "高度可定制的 Wayland 动态平铺窗口合成器。",
+      "why_it_matters": "在该细分领域具有技术或产品研究价值，热度并不等于成熟度。",
+      "category": "Linux/桌面",
+      "tags": [
+        "Linux",
+        "桌面"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/hyprwm/Hyprland",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "hyprwm/Hyprland",
+        "github_stars": null,
+        "stars_growth": "+509/day",
+        "trend_signal": "11月3日 Trending 第4位，归档显示新增509 stars；成熟项目再获关注。",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "karpathy/nanochat",
+      "summary": "精简的语言模型训练与对话实验项目。",
+      "why_it_matters": "在该细分领域具有技术或产品研究价值，热度并不等于成熟度。",
+      "category": "AI/教育",
+      "tags": [
+        "AI",
+        "教育"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/karpathy/nanochat",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "karpathy/nanochat",
+        "github_stars": null,
+        "stars_growth": "+321/day",
+        "trend_signal": "11月3日 Trending 第14位，归档显示新增321 stars；适合理解端到端模型流程。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "p-e-w/heretic",
+      "summary": "无需训练的语言模型行为修改研究工具。",
+      "why_it_matters": "在该细分领域具有技术或产品研究价值，热度并不等于成熟度。",
+      "category": "AI/模型工具",
+      "tags": [
+        "AI",
+        "模型工具"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/p-e-w/heretic",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "p-e-w/heretic",
+        "github_stars": null,
+        "stars_growth": "+420/day",
+        "trend_signal": "11月3日 Trending 第15位，归档显示新增420 stars；输出变化不等于安全性改善。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "AgriciDaniel/claude-seo",
+      "summary": "针对技术 SEO、结构化数据和搜索优化的 Claude Code Skills。",
+      "why_it_matters": "在该细分领域具有技术或产品研究价值，热度并不等于成熟度。",
+      "category": "Skills/营销",
+      "tags": [
+        "Skills",
+        "营销"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/AgriciDaniel/claude-seo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "AgriciDaniel/claude-seo",
+        "github_stars": null,
+        "stars_growth": "+4091/week",
+        "trend_signal": "11月3日 GitHub Trending 周榜第4位，归档显示周增4091 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Nutlope/hallmark",
+      "summary": "用于 Claude Code、Cursor、Codex 的界面设计改进 Skill。",
+      "why_it_matters": "适合改善 AI 生成界面的质量，但需要实际验证视觉一致性与可维护性。",
+      "category": "Skills/设计",
+      "tags": [
+        "Skills",
+        "设计"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Nutlope/hallmark",
+        "github_stars": null,
+        "stars_growth": "+10517/week",
+        "trend_signal": "11月3日 GitHub Trending 周榜第1位，周增10517 stars；此前已介绍，本期因周度显著增长再次跟进。",
+        "language": "CSS"
+      }
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "summary": "为编码 Agent 提供设计词汇、审查与界面精修指导。",
+      "why_it_matters": "适合改善 AI 生成界面的质量，但需要实际验证视觉一致性与可维护性。",
+      "category": "Skills/设计",
+      "tags": [
+        "Skills",
+        "设计"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pbakaus/impeccable",
+        "github_stars": null,
+        "stars_growth": "+11754/week",
+        "trend_signal": "11月3日 GitHub Trending 周榜第3位，周增11754 stars；此前已介绍，本期因周度显著增长再次跟进。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "thedotmack/claude-mem",
+      "summary": "为编码 Agent 保存跨会话上下文的记忆插件。",
+      "why_it_matters": "可用于评估 Agent 工作流的实用性、协作边界与权限风险。",
+      "category": "Agent/记忆",
+      "tags": [
+        "Agent",
+        "记忆"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "thedotmack/claude-mem",
+        "github_stars": null,
+        "stars_growth": "+1803/day",
+        "trend_signal": "11月3日 Trending 第2位，归档显示新增1803 stars；此前已介绍，本期仅因持续高增长再次跟进。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "summary": "用于组织与管理多个工作 Agent 的开源应用。",
+      "why_it_matters": "可用于评估 Agent 工作流的实用性、协作边界与权限风险。",
+      "category": "Agent/协作",
+      "tags": [
+        "Agent",
+        "协作"
+      ],
+      "source_name": "GitHub Trending archive (2026-11-03)",
+      "source_url": "https://github.com/paperclipai/paperclip",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "paperclipai/paperclip",
+        "github_stars": null,
+        "stars_growth": "+412/day",
+        "trend_signal": "11月3日 Trending 第13位，归档显示新增412 stars；此前已介绍，本期作为生态持续关注项。",
+        "language": "TypeScript"
+      }
+    }
+  ]
+}
