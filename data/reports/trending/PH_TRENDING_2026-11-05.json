@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-04T23:57:49.180Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间 11 月 5 日早晨，新增关注点从通用 Agent 框架转向可执行的桌面隔离、低延迟远程控制、视频逐镜拆解、云服务本地模拟与生产级工程 Skills。热度信号以 11 月 4 日 GitHub Trending 和带 UTC 时间的第三方 Stars 快照为主；Stars 部分日增量不等于严格滚动 24 小时增长，无法确认的指标为 null。",
+  "top_picks": [
+    "govijr/terminal-mac",
+    "JuneYaooo/rea-video",
+    "tembo/voxl"
+  ],
+  "items": [
+    {
+      "title": "tembo/voxl",
+      "summary": "低延迟浏览器远程桌面串流工具，Rust 实现，面向跨平台桌面控制与 computer-use 场景。",
+      "why_it_matters": "新近出现显著 Stars 加速；适合研究 Agent 远程操作桌面时的传输延迟与部署成本。",
+      "category": "Desktop / remote control",
+      "tags": [
+        "Desktop",
+        "remote control"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tembo/voxl",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "tembo/voxl",
+        "github_stars": 991,
+        "stars_growth": "+979 since midnight US Pacific (partial day)",
+        "trend_signal": "trendrepo.dev 2026-11-04 23:20 UTC 快照：当日 +979 Stars（太平洋时区部分日），非 24 小时增量。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "JuneYaooo/rea-video",
+      "summary": "逐镜头拆解实拍、AI、3D 和代码动效视频，生成复刻路线与 HTML 报告。",
+      "why_it_matters": "为视频制作提供可审计的镜头、剪辑和声音拆解；项目自测准确率不能视为第三方验证。",
+      "category": "Creative / video",
+      "tags": [
+        "Creative",
+        "video"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JuneYaooo/rea-video",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "JuneYaooo/rea-video",
+        "github_stars": 915,
+        "stars_growth": "+660 since midnight US Pacific (partial day)",
+        "trend_signal": "trendrepo.dev 2026-11-04 23:20 UTC 快照：当日 +660 Stars；项目 README 有可操作示例。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "govijr/terminal-mac",
+      "summary": "在隔离的 macOS 虚拟机内让 Agent 通过终端和 MCP 操作桌面。",
+      "why_it_matters": "通过 Apple Virtualization 隔离真实桌面；仍属早期候选版，首次启动需人工授权。",
+      "category": "macOS / computer use",
+      "tags": [
+        "macOS",
+        "computer use"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/govijr/terminal-mac",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "govijr/terminal-mac",
+        "github_stars": 1478,
+        "stars_growth": "+782 since midnight US Pacific (partial day)",
+        "trend_signal": "trendrepo.dev 2026-11-04 23:20 UTC 当日 +782 Stars；README 说明 Apple silicon、macOS 14+ 要求。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "semantica-agi/semantica",
+      "summary": "为 AI Agent 提供图结构语义上下文与可追溯推理基础设施。",
+      "why_it_matters": "面向复杂数据治理与上下文检索，值得对比传统 RAG 的可解释性和维护成本。",
+      "category": "AI / knowledge graphs",
+      "tags": [
+        "AI",
+        "knowledge graphs"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/semantica-agi/semantica",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "semantica-agi/semantica",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-04 榜单出现，第三方归档显示 +884 当日 Stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "floci-io/floci",
+      "summary": "面向本地开发与测试的 AWS 服务模拟器替代方案。",
+      "why_it_matters": "可减少云端集成测试依赖，适合在 CI 中检验兼容性和模拟覆盖范围。",
+      "category": "Developer tools / cloud",
+      "tags": [
+        "Developer tools",
+        "cloud"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/floci-io/floci",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "floci-io/floci",
+        "github_stars": 29541,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-04 榜单收录，显示 +1,082 当日 Stars。",
+        "language": "Java"
+      }
+    },
+    {
+      "title": "spotify/portal-ai-plugins",
+      "summary": "把 Spotify Portal CLI 工作流接入 Claude Code、Codex、Cursor 和 pi。",
+      "why_it_matters": "展示真实内部开发平台如何通过 Skills 和插件向编码 Agent 暴露流程。",
+      "category": "Plugins / developer productivity",
+      "tags": [
+        "Plugins",
+        "developer productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/spotify/portal-ai-plugins",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "spotify/portal-ai-plugins",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Ageshio 2026-11-04 日榜新进入第 7 位；官方 README 描述插件支持的 Agent。",
+        "language": null
+      }
+    },
+    {
+      "title": "scenario-labs/skills",
+      "summary": "提供图像、视频、音频与 3D 生成 Skills，并通过 MCP 衔接创意软件。",
+      "why_it_matters": "适合 Blender、游戏资产及品牌素材的一致性生成工作流，需确认模型调用成本。",
+      "category": "Creative / Skills",
+      "tags": [
+        "Creative",
+        "Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/scenario-labs/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "scenario-labs/skills",
+        "github_stars": 2372,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-04 榜单出现，显示 +224 当日 Stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Thysrael/Horizon",
+      "summary": "开源 AI 新闻雷达，生成中英文每日简报。",
+      "why_it_matters": "从订阅源到摘要的自动化链路可供自建信息流参考，需核验来源质量与去重策略。",
+      "category": "Apps / information",
+      "tags": [
+        "Apps",
+        "information"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Thysrael/Horizon",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Thysrael/Horizon",
+        "github_stars": 12444,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-04 榜单出现，显示 +121 当日 Stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "The-PR-Agent/pr-agent",
+      "summary": "为 Pull Request 提供自动审查与改进建议的开源 Agent。",
+      "why_it_matters": "将代码评审纳入 Agent 工作流；需要检验误报率、私有代码权限和 CI 成本。",
+      "category": "Developer tools / code review",
+      "tags": [
+        "Developer tools",
+        "code review"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/The-PR-Agent/pr-agent",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "The-PR-Agent/pr-agent",
+        "github_stars": 14695,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-04 榜单出现，显示 +279 当日 Stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "FareedKhan-dev/kimi-k3-in-c",
+      "summary": "探索在低内存 CPU 上运行超大参数量模型的便携 C99 推理实现。",
+      "why_it_matters": "硬件约束下的模型推理工程很有研究价值，但 README 的极限指标须独立复测。",
+      "category": "AI / local inference",
+      "tags": [
+        "AI",
+        "local inference"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "FareedKhan-dev/kimi-k3-in-c",
+        "github_stars": 10233,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-04 榜单出现，显示 +351 当日 Stars。",
+        "language": "C"
+      }
+    },
+    {
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "summary": "LLM 驱动的多市场股票研究与新闻分析自动化系统。",
+      "why_it_matters": "结合行情、新闻与自动化报告，可借鉴任务调度和数据溯源；不应将分析输出视为投资建议。",
+      "category": "Apps / finance",
+      "tags": [
+        "Apps",
+        "finance"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ZhuLinsen/daily_stock_analysis",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-04 GitHub Trending 第三方归档显示 +731 当日 Stars。",
+        "language": null
+      }
+    },
+    {
+      "title": "addyosmani/agent-skills",
+      "summary": "面向 AI 编码 Agent 的生产级工程 Skills 与质量门禁。",
+      "why_it_matters": "工程实践可直接移植到 Codex/Claude Code；需比较与已有 Skills 的重叠及效果。",
+      "category": "Skills / engineering",
+      "tags": [
+        "Skills",
+        "engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/addyosmani/agent-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "addyosmani/agent-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-04 GitHub Trending 归档显示 +571 当日 Stars；此前四期未收录。",
+        "language": "JavaScript"
+      }
+    }
+  ]
+}
