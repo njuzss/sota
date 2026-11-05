@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T00:01:13.642Z",
+  "title": "每日前沿简报",
+  "summary": "截至北京时间11月5日早晨，最值得关注的新进展集中在 AI 开发工具、安全治理与跨境算力政策。GitHub 将 Copilot 引入 Xcode 内置助手并更新 CodeQL，腾讯推出强调防御性训练数据的网络安全模型。海外算力租赁限制及 AI 基础设施回报争论继续影响产业资本配置；医药领域则出现罕见病与肥胖治疗资产的重大潜在收购消息。",
+  "items": [
+    {
+      "title": "GitHub Copilot 进入 Xcode 内置编码助手",
+      "summary": "GitHub 11月4日宣布 Copilot 可直接用于 Xcode 27.3 beta 的内置编码助手，目前处于公开预览。原有 Copilot for Xcode 扩展仍可独立使用，系统要求为 macOS Tahoe 26.6 或更新版本。",
+      "why_it_matters": "原生 IDE 智能体集成进一步降低苹果平台开发者的工具切换成本。",
+      "category": "TECH",
+      "tags": [
+        "GitHub Copilot",
+        "Xcode",
+        "IDE"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "CodeQL 2.27.4 改进 Java、Rust、C++ 安全扫描准确率",
+      "summary": "GitHub 11月4日发布 CodeQL 2.27.4，补充 Java 日志注入与路径注入的净化识别，减少 Rust 和 C++ 多项查询的误报。CLI 还强化了符号链接越界检查并调整机器可读输出处理。",
+      "why_it_matters": "降低静态扫描误报有助于大型 Java 服务与多语言代码库的持续安全治理。",
+      "category": "TECH",
+      "tags": [
+        "CodeQL",
+        "SAST",
+        "Java"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata/",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "腾讯发布限制攻击性训练数据的网络安全模型 Hy4",
+      "summary": "路透社11月4日报道腾讯推出 Hy4，声称训练时主要采用发现和修复漏洞等防御用途数据，并排除攻击工具制作等内容。腾讯表示内部测试未发现网络攻击能力明显增强，计划公开权重和安全报告；目前这些安全结论主要来自厂商自测。",
+      "why_it_matters": "展示了模型能力开放与双重用途安全风险之间的新权衡，但仍需独立红队验证。",
+      "category": "CHINA",
+      "tags": [
+        "Tencent",
+        "Cybersecurity",
+        "Model safety"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "甲骨文据报取消向腾讯提供海外 AI 算力的重大租赁协议",
+      "summary": "《金融时报》11月4日报道，甲骨文取消一项估值约70亿美元、涉及东南亚数据中心先进 AI 芯片的腾讯租赁安排，背景涉及美国政策压力和中国国产算力导向。该交易细节来自媒体调查，尚不等同于双方正式确认。",
+      "why_it_matters": "先进算力出口管制的影响正在向海外云算力租赁和跨境基础设施扩散。",
+      "category": "MACRO",
+      "tags": [
+        "Oracle",
+        "Tencent",
+        "Export controls"
+      ],
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/c5a6a738-cd78-4a8e-a814-57a7473ebb9c",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "阿斯利康据报提出收购罕见病与肥胖症药企 Rhythm",
+      "summary": "路透社11月4日报道，阿斯利康对 Rhythm Pharmaceuticals 提出最高约100亿美元的非约束性收购方案，可能包含里程碑付款。公司尚未确认达成交易，不能将报价视为完成收购。",
+      "why_it_matters": "罕见病相关肥胖治疗资产受到大型制药企业关注，反映肥胖药物赛道继续细分。",
+      "category": "MEDICINE",
+      "tags": [
+        "Obesity",
+        "Rare disease",
+        "M&A"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/astrazeneca-made-10-billion-bid-rhythm-pharmaceuticals-wsj-reports-2026-11-04/",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "香港金融领袖峰会聚焦 AI 投资回报不确定性",
+      "summary": "路透社11月4日评论梳理香港金融领袖峰会讨论：多位投资人认为当前算力需求强劲，但未来技术路线和投资回报仍存在较大不确定性。相关判断属于市场观点，不应作为已经证实的泡沫结论。",
+      "why_it_matters": "有助于区分 AI 基础设施短期供需紧张与长期资本回报两种不同命题。",
+      "category": "MACRO",
+      "tags": [
+        "AI capex",
+        "Hong Kong",
+        "Valuation"
+      ],
+      "source_name": "Reuters Breakingviews",
+      "source_url": "https://www.reuters.com/commentary/breakingviews/hong-kong-summit-exposes-wall-street-ai-confusion-2026-11-04/",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
