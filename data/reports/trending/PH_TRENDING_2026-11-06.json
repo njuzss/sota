@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T07:57:24+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间 11 月 6 日早晨，值得关注的新增项目集中在 Agent 后台调度与软件复刻闭环、Rust 原生生产力工具、跨平台实时翻译和可编辑 3D 创作 Skills。主要依据 11 月 5 日 18:00 UTC Trendar 新仓库增长快照和 GitHub 官方仓库元数据、README；增长速度为第三方估计，不等同于严格 24 小时 Stars 变化。避免重复最近日报已覆盖的项目。",
+  "top_picks": [
+    "storytold/craft-anything",
+    "KKKKhazix/agent-autoloop",
+    "s1dashu/quiet-md"
+  ],
+  "items": [
+    {
+      "title": "storytold/craft-anything",
+      "summary": "以 Rust 实现的跨平台软件观察与复刻工作台：检查网站、应用和游戏，再由编码 Agent 构建并对照验证。",
+      "why_it_matters": "将观察、构建、差异校验串成闭环；目前是 early alpha，软件复刻涉及知识产权与安全边界。",
+      "category": "AI / developer tools",
+      "tags": [
+        "Rust",
+        "Agent",
+        "reverse engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/craft-anything",
+      "image_url": "https://raw.githubusercontent.com/storytold/craft-anything/main/docs/images/project-website.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/craft-anything",
+        "github_stars": 14926,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目增长榜第 1；约 14.5k Stars、约 +3639/day（采样估计，非严格 24h）。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "KKKKhazix/agent-autoloop",
+      "summary": "轻量事件驱动的命令行 Agent 后台调度器，支持定时触发、人工审批卡片与恢复执行。",
+      "why_it_matters": "非常适合夜间批量运行编码 Agent；需验证 CLI 兼容性、权限控制和生产环境稳定性，官方暂不支持原生 Windows。",
+      "category": "AI / automation",
+      "tags": [
+        "Agent",
+        "CLI",
+        "scheduler",
+        "Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/KKKKhazix/agent-autoloop",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "KKKKhazix/agent-autoloop",
+        "github_stars": 3224,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 5；约 +822/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "s1dashu/quiet-md",
+      "summary": "Rust + GPUI 原生笔记软件，macOS/Windows 本地优先，使用飞书 DocxXML 格式。",
+      "why_it_matters": "摆脱 Electron 的本地笔记体验值得试用；项目处于 Beta，性能数据来自项目方。",
+      "category": "Apps / productivity",
+      "tags": [
+        "Rust",
+        "GPUI",
+        "notes",
+        "local-first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/s1dashu/quiet-md",
+      "image_url": "https://raw.githubusercontent.com/s1dashu/quiet-md/main/docs/images/home.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "s1dashu/quiet-md",
+        "github_stars": 1049,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 9；约 +673/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "wquguru/cicada",
+      "summary": "跨平台实时字幕、同声传译和会议纪要工具，支持 Mac、Windows、Linux、Android。",
+      "why_it_matters": "Mac Apple Silicon 可本地语音识别；其他平台或高级纪要可能需要 API key，会议隐私应逐项确认。",
+      "category": "Apps / accessibility",
+      "tags": [
+        "transcription",
+        "translation",
+        "meeting",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/wquguru/cicada",
+      "image_url": "https://raw.githubusercontent.com/wquguru/cicada/main/docs/demo.gif",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "wquguru/cicada",
+        "github_stars": 1480,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 17；约 +406/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "elvarofficial/teardown",
+      "summary": "Claude Code Skill 将机械结构生成可拆解、可交互的离线 3D 仿真网页，并可录制视频。",
+      "why_it_matters": "将 Three.js、镜头录制与物理结构讲解组合成可复用工作流；依赖 Node、Playwright 等工具。",
+      "category": "Skills / 3D creative",
+      "tags": [
+        "Skills",
+        "3D",
+        "Three.js",
+        "education"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/elvarofficial/teardown",
+      "image_url": "https://raw.githubusercontent.com/elvarofficial/teardown/main/docs/bee.gif",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "elvarofficial/teardown",
+        "github_stars": 2174,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 18；约 +270/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "Verlintas/NOIR",
+      "summary": "通过 ADB 审计 Android 应用权限、APK 内网络端点和潜在数据流向，生成可回滚建议。",
+      "why_it_matters": "为个人设备提供本地隐私排查；静态端点和权限只能推断潜在风险，不能证明实际数据外传。",
+      "category": "Security / Android",
+      "tags": [
+        "Android",
+        "privacy",
+        "ADB",
+        "audit"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Verlintas/NOIR",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Verlintas/NOIR",
+        "github_stars": 2466,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 14；约 +447/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Kotlin"
+      }
+    },
+    {
+      "title": "mromidev/claude-animated-shorts",
+      "summary": "使用 Claude Skill、Three.js 与 Remotion 制作 2D 人物加 3D 场景的动画短片。",
+      "why_it_matters": "把生成式视频工作流转成可编辑代码与可复现渲染，适合短视频原型。",
+      "category": "Creative / video",
+      "tags": [
+        "Skills",
+        "Remotion",
+        "Three.js",
+        "animation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mromidev/claude-animated-shorts",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mromidev/claude-animated-shorts",
+        "github_stars": 1735,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 19；约 +227/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "andrew-babo/muse4ai",
+      "summary": "通过本地 Windows 桥接程序把 Muse 图片和视频生成能力暴露为 REST 与 MCP 接口。",
+      "why_it_matters": "为 Agent 自动生成创作资产提供集成路径；需要检查第三方服务依赖和权限。",
+      "category": "Plugins / creative",
+      "tags": [
+        "MCP",
+        "Windows",
+        "video",
+        "image"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/andrew-babo/muse4ai",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "andrew-babo/muse4ai",
+        "github_stars": 809,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 16；约 +338/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "anthropics/FlashProve",
+      "summary": "探索 AI 推理零知识证明的 Lean 研究原型，仓库明确标注不再维护。",
+      "why_it_matters": "具有可验证推理的研究启发性，但不适合直接当作持续维护的生产组件。",
+      "category": "Research / formal verification",
+      "tags": [
+        "Lean",
+        "zero-knowledge",
+        "AI",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anthropics/FlashProve",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anthropics/FlashProve",
+        "github_stars": 908,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 22；约 +160/day 估算；官方声明 not maintained。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Lean"
+      }
+    },
+    {
+      "title": "Tencent/WeVisOne-VL",
+      "summary": "微信视觉团队的视觉语言模型研究项目，统一点、框、掩码与 alpha matte 等视觉感知任务。",
+      "why_it_matters": "对视觉定位、分割与素材处理有潜在研究价值；效果需依据论文与可复现实验评估。",
+      "category": "AI / computer vision",
+      "tags": [
+        "VLM",
+        "segmentation",
+        "vision",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Tencent/WeVisOne-VL",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Tencent/WeVisOne-VL",
+        "github_stars": 1011,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 28；约 +103/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "ccch1mneyyy/dsh-Go",
+      "summary": "将 DeepSeek Harness 工作流带到手机本地，并支持远程控制电脑。",
+      "why_it_matters": "移动端 Agent 操作形态新颖，但应优先检查远程控制认证、命令授权与日志。",
+      "category": "Mobile / AI agent",
+      "tags": [
+        "Dart",
+        "mobile",
+        "Agent",
+        "remote"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ccch1mneyyy/dsh-Go",
+        "github_stars": 11417,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 4；约 +1996/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "Dart"
+      }
+    },
+    {
+      "title": "patch-gg/pixelfx",
+      "summary": "包含 244 个程序化像素特效及扩展 Claude Code Skill 的创意代码项目。",
+      "why_it_matters": "适合游戏特效、动效素材与可复用生成式设计；效果数量来自项目自述。",
+      "category": "Creative / game dev",
+      "tags": [
+        "pixel-art",
+        "effects",
+        "JavaScript",
+        "Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/patch-gg/pixelfx",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "patch-gg/pixelfx",
+        "github_stars": 5250,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-05 18:00 UTC 新项目榜第 15；约 +594/day 估算。 GitHub stars 为 2026-11-06 约 07:56–08:00 CST 的 API 读取值。",
+        "language": "JavaScript"
+      }
+    }
+  ]
+}
