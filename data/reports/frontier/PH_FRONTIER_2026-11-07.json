@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-06T23:58:40.719Z",
+  "title": "每日前沿简报",
+  "summary": "本期最重要的新证据来自METR对AI辅助AI研发加速的独立评估，但关键材料删节使外部复核受限。开发者基础设施开始回应智能体并发和Copilot治理需求，医疗真实世界研究则仍处于项目启动阶段。贸易摩擦与AI投资回报疑虑继续构成宏观风险变量。",
+  "items": [
+    {
+      "title": "独立评估：Anthropic AI研发能力进步速度约翻倍",
+      "summary": "METR在获得内部数据访问后估计，Anthropic在可明确验证任务上的能力进步速度约为此前的1.9倍（95%区间1.5—2.8）。评估认为AI辅助研发可能是主要驱动，但关键证据有删节，无法独立完整复核。",
+      "why_it_matters": "这是少见的第三方深入审计AI反哺AI研发的实证材料，须区分能力增长加速与完全自主研发。",
+      "category": "AI",
+      "tags": [
+        "METR",
+        "AI研发",
+        "独立评估"
+      ],
+      "source_name": "METR",
+      "source_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "image_url": null,
+      "published_at": "2026-11-05T00:00:00Z",
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "GitHub披露面向海量智能体并发提交的新Git存储架构",
+      "summary": "GitHub工程团队介绍了新Git存储架构，目标是支持数千智能体同时向单个仓库推送。该架构回应AI编码工作流带来的高并发写入和存储扩展问题，属于工程方案披露而非独立压力测试。",
+      "why_it_matters": "Agent编程规模化后，仓库写入、冲突处理与可观测性成为底层基础设施问题。",
+      "category": "TECH",
+      "tags": [
+        "Git",
+        "Agent",
+        "基础设施"
+      ],
+      "source_name": "GitHub Engineering",
+      "source_url": "https://github.blog/latest/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Copilot代码审查反馈采纳率进入用量API",
+      "summary": "GitHub更新企业和组织级Copilot使用指标，增加代码审查反馈及其处理情况。管理者可据此从调用量转向衡量审查建议是否真正被解决。",
+      "why_it_matters": "相比生成代码数量，反馈闭环指标更接近可治理的工程效能。",
+      "category": "TECH",
+      "tags": [
+        "Copilot",
+        "代码审查",
+        "工程效能"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/month/11-2026/",
+      "image_url": null,
+      "published_at": "2026-11-05T00:00:00Z",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub用量API标记遥测缺失及客户端版本不达标",
+      "summary": "GitHub为Copilot用量API增加用户遥测缺失与IDE版本门槛提示。该变更有助于解释企业用量报表中的统计缺口，避免把采集缺失误判为零使用。",
+      "why_it_matters": "企业内部推广AI工具时，先确认数据完整性才能可靠评价效率。",
+      "category": "TECH",
+      "tags": [
+        "Copilot",
+        "遥测",
+        "指标质量"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/month/11-2026/",
+      "image_url": null,
+      "published_at": "2026-11-05T00:00:00Z",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "远程医疗平台Ro推出AI辅助真实世界疗效研究业务",
+      "summary": "Ro宣布建立医疗研究业务，拟分析平台患者治疗数据与结局，并探索与药企合作。该计划可能支持肥胖药物真实世界证据积累，但目前属于业务启动，不能视为已经证实临床疗效。",
+      "why_it_matters": "GLP-1等药物长期效果、覆盖决策和患者选择越来越依赖高质量真实世界研究。",
+      "category": "MEDICINE",
+      "tags": [
+        "真实世界证据",
+        "GLP-1",
+        "数字医疗"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/ro-launches-healthcare-research-unit-plans-offer-data-drugmakers-2026-11-06/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "中国对欧盟及日本ENB产品启动反倾销调查",
+      "summary": "据报道，中国商务部11月6日对来自欧盟和日本的乙叉降冰片烯（ENB）发起反倾销调查。调查将覆盖指定倾销和产业损害期间，启动调查并不等于已认定存在倾销。",
+      "why_it_matters": "这一关键合成橡胶原料的贸易摩擦可能影响化工供应链和下游成本。",
+      "category": "CHINA",
+      "tags": [
+        "反倾销",
+        "化工",
+        "国际贸易"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/china-launches-anti-dumping-probe-into-eu-japan-enb-imports-2026-11-06/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "中美就稀土与农产品贸易承诺再度交涉",
+      "summary": "美国财政及贸易官员在11月6日通话中敦促中方履行关键矿产和农产品采购承诺。相关表述主要来自美方，具体执行情况和双方解释仍待进一步核对。",
+      "why_it_matters": "关键矿产供应与贸易安排直接影响科技制造供应链和宏观风险溢价。",
+      "category": "MACRO",
+      "tags": [
+        "稀土",
+        "中美贸易",
+        "供应链"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/us-urged-beijing-implement-commitments-busan-trade-deal-treasury-says-2026-11-06/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "全球市场对AI投资回报的担忧向增长预期传导",
+      "summary": "路透分析指出，科技股抛售使市场焦点由通胀部分转向经济增长及AI资本开支可持续性。央行政策预期变化是市场定价而非已确定的政策决定。",
+      "why_it_matters": "AI资本开支既是科技估值变量，也可能通过投资、就业和金融条件影响宏观经济。",
+      "category": "MACRO",
+      "tags": [
+        "AI资本开支",
+        "美股",
+        "利率"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/trader-angst-pivots-inflation-growth-tech-rout-deepens-2026-11-06/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
