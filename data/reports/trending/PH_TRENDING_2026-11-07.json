@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T07:58:11+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月6日的公开榜单显示，Agent 安全审计和官方 Skills 继续获得关注；更值得试用的新方向是可编辑程序化 3D 与浏览器虚拟角色。另有光盘实体创作、云服务本地模拟、知识图谱和中文金融工具上榜。本期优先选择近期未重复介绍的项目；榜单增量保留快照时间，未取得可复核的严格24小时增长值统一填 null。",
+  "top_picks": [
+    "Sandflow-ai/sand3d",
+    "cloudflare/security-audit-skill",
+    "livliv-dev/player"
+  ],
+  "items": [
+    {
+      "title": "cloudflare/security-audit-skill",
+      "summary": "编码 Agent 的分阶段安全审计 Skill，覆盖架构摸排、覆盖率驱动排查、独立验证与结构化报告。",
+      "why_it_matters": "将漏洞发现流程变成可审计的工程产物；需要人工复核，不能把自动报告等同于安全保证。",
+      "category": "Skills / security",
+      "tags": [
+        "security",
+        "Agent",
+        "audit"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cloudflare/security-audit-skill",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "HotRepo 2026-11-06 23:00 UTC 日榜第1，记录当日 +2524 stars；官方 README 核实六阶段流程。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "Sandflow-ai/sand3d",
+      "summary": "为 LLM 设计的 Python 程序化 3D 建模库，在 Blender bpy 上表达轮廓、实体、关节与装配。",
+      "why_it_matters": "适合让 Agent 生成可编辑、可追溯的 3D 资产，而非仅生成不可修改的网格。",
+      "category": "Creative / 3D",
+      "tags": [
+        "Blender",
+        "3D",
+        "Python",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Sandflow-ai/sand3d",
+      "image_url": "https://raw.githubusercontent.com/Sandflow-ai/sand3d/main/docs/readme/hero.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Sandflow-ai/sand3d",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-06 18:00 UTC 新仓库榜第9，约 +545/day（估算）。",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "livliv-dev/player",
+      "summary": "浏览器端轻量 2.5D 虚拟角色播放器，支持口型同步、摄像头表情跟踪和 VRM/PNGTuber。",
+      "why_it_matters": "可以直接嵌入网站、直播叠层与交互应用；需实测角色质量和浏览器性能。",
+      "category": "Creative / web",
+      "tags": [
+        "avatar",
+        "WebGL",
+        "lip-sync",
+        "TypeScript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/livliv-dev/player",
+      "image_url": "https://raw.githubusercontent.com/livliv-dev/player/main/media/demo.gif",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "livliv-dev/player",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-06 18:00 UTC 新仓库榜第5，约 +737/day（估算）。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "scenario-labs/skills",
+      "summary": "通过 Agent Skills 与 Scenario 服务生成、编辑图片、视频、音频及 3D 内容，并对接 DCC 工具。",
+      "why_it_matters": "把创作模型选择和 DCC 操作封装为技能；涉及第三方 API 费用和数据流转。",
+      "category": "Skills / creative",
+      "tags": [
+        "Skills",
+        "MCP",
+        "Blender",
+        "creative"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/scenario-labs/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "scenario-labs/skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "HotRepo 2026-11-06 23:00 UTC 日榜第8，记录 +667 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "google/skills",
+      "summary": "Google 产品与云服务的可安装 Agent Skills 集合，可使用 skills CLI 安装和更新。",
+      "why_it_matters": "官方维护的技能集合有助于减少 Agent 对云平台配置与 API 的猜测。",
+      "category": "Skills / cloud",
+      "tags": [
+        "Google Cloud",
+        "Skills",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/google/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "google/skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-06 日榜出现，约 +532 stars；官方 README 提供安装命令。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "summary": "跨平台光盘盘面可见图像生成与刻录工具，面向 CD、DVD 和部分蓝光介质。",
+      "why_it_matters": "非 AI 的有趣实体媒介创作工具，利用普通刻录设备制作可见图案；应确认介质兼容与刻录风险。",
+      "category": "Apps / creative",
+      "tags": [
+        "C#",
+        "optical-disc",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "image_url": "https://raw.githubusercontent.com/JiaFeiMiao-K-Cat/DiscImageStudio/main/docs/images/DiscImageStudio_Banner_2.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "HotRepo 2026-11-06 23:00 UTC 日榜第6，记录 +984 stars。",
+        "language": "C#"
+      }
+    },
+    {
+      "title": "floci-io/floci",
+      "summary": "无需云账号的本地 AWS 服务模拟环境，面向开发测试和 CI。",
+      "why_it_matters": "减少依赖真实云账号的测试成本，但不能替代对真实 AWS 行为的最终验证。",
+      "category": "Developer tools / DevOps",
+      "tags": [
+        "AWS",
+        "local",
+        "CI",
+        "Docker"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/floci-io/floci",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "floci-io/floci",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "HotRepo 2026-11-06 23:00 UTC 日榜第7，记录 +779 stars。",
+        "language": "Java"
+      }
+    },
+    {
+      "title": "semantica-agi/semantica",
+      "summary": "面向 AI 上下文和知识图谱的 graph-native 基础设施，强调可追踪的语义关系。",
+      "why_it_matters": "为 RAG 与 Agent 提供结构化上下文路径，但可扩展性和准确性需独立评测。",
+      "category": "AI / knowledge",
+      "tags": [
+        "knowledge-graph",
+        "RAG",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/semantica-agi/semantica",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "semantica-agi/semantica",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "trending.magikaru.com 2026-11-06 日榜第2，记录 +884 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "summary": "中文开源的 LLM 股票分析工作流，聚合行情与新闻并生成分析看板和自动推送。",
+      "why_it_matters": "适合研究个人金融数据管道；自动生成观点不应直接作为交易决策。",
+      "category": "Apps / finance",
+      "tags": [
+        "A股",
+        "LLM",
+        "dashboard",
+        "automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ZhuLinsen/daily_stock_analysis",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "trending.magikaru.com 2026-11-06 日榜新入榜，记录 +731 stars。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ConardLi/garden-skills",
+      "summary": "为 Claude Code、Cursor、Codex 提供设计、视频、图像与内容制作 Skills 的集合。",
+      "why_it_matters": "可复用创意工作流，适合比较不同 Agent 的素材产出和设计审查能力。",
+      "category": "Skills / productivity",
+      "tags": [
+        "Skills",
+        "Codex",
+        "design",
+        "video"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ConardLi/garden-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ConardLi/garden-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "HotRepo 2026-11-06 23:00 UTC 日榜第21，记录 +175 stars。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "vitali87/code-graph-rag",
+      "summary": "结合代码结构图谱与检索的代码库上下文工具，辅助理解大型仓库。",
+      "why_it_matters": "在多模块项目中可改善跨文件依赖检索；检索收益和索引成本需要实测。",
+      "category": "Developer tools / RAG",
+      "tags": [
+        "code-graph",
+        "RAG",
+        "repository"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vitali87/code-graph-rag",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "vitali87/code-graph-rag",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "trending.magikaru.com 2026-11-06 榜单显示为较大排名上升项目；官方仓库 README 已核实。",
+        "language": null
+      }
+    },
+    {
+      "title": "nushell/nushell",
+      "summary": "以结构化数据为核心的跨平台 Shell，支持对命令输出进行管道过滤与转换。",
+      "why_it_matters": "适合把 CLI 自动化从脆弱文本解析转向结构化数据操作；成熟项目非新发布。",
+      "category": "CLI / productivity",
+      "tags": [
+        "Rust",
+        "shell",
+        "structured-data"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/nushell/nushell",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "nushell/nushell",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "HotRepo 2026-11-06 23:00 UTC 日榜第20，记录 +177 stars；属于成熟项目再次上榜。",
+        "language": "Rust"
+      }
+    }
+  ]
+}
