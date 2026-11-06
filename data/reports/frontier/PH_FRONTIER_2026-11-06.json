@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T00:03:31.746Z",
+  "title": "每日前沿简报",
+  "summary": "本期最值得关注的是头颈癌新药的FDA加速批准，以及工业机器人并购、AI芯片流通所反映的跨境技术监管变化。美国科技股和中国清洁能源板块出现与政策预期相关的显著波动，但市场解释仍需与已确认事实区分。医学与食品监管方面亦有新的官方更新；由于缺乏可靠的新近一手证据，本期不以旧AI项目凑数。",
+  "items": [
+    {
+      "title": "FDA加速批准Rybrevant Faspro用于经治复发或转移性头颈鳞癌",
+      "summary": "美国FDA批准该EGFR/MET靶向药用于化疗及免疫治疗后进展的特定成人患者。102人研究中客观缓解率为42%，缓解者中56%的缓解持续至少六个月；加速批准仍需确证性试验。",
+      "why_it_matters": "为治疗选择有限的人群提供新方案，但肿瘤缩小不等于已证明延长生存。",
+      "category": "MEDICINE",
+      "tags": [
+        "FDA",
+        "头颈癌",
+        "加速批准"
+      ],
+      "source_name": "Reuters（援引FDA批准）",
+      "source_url": "https://www.reuters.com/legal/litigation/fda-grants-jj-accelerated-approval-head-neck-cancer-treatment-2026-11-05/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "二手报道；审批事实与试验数据可核对，但尚未直接取得FDA批准原文。"
+      }
+    },
+    {
+      "title": "中国否决软银收购ABB机器人业务交易",
+      "summary": "据报道，中国监管部门阻止软银以54亿美元收购ABB机器人业务，ABB确认交易遭遇中国监管阻碍。该业务在中国拥有重要运营和市场份额，交易各方仍在沟通。",
+      "why_it_matters": "体现具身智能、工业机器人和跨境数据相关并购的监管风险正在成为交易关键变量。",
+      "category": "CHINA",
+      "tags": [
+        "机器人",
+        "跨境并购",
+        "监管"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "阻止交易的事实有公司确认；具体监管动机部分来自媒体及匿名消息。"
+      }
+    },
+    {
+      "title": "英伟达H200芯片据报积压香港，内地进口审批未放行",
+      "summary": "路透报道称约60万枚H200芯片在香港等待运往内地，因大规模进口尚未获批。部分企业据报获得有限数量供应，相关数量尚缺独立官方确认。",
+      "why_it_matters": "AI算力供应同时受到美国出口许可与中国进口政策制约，可能影响训练成本和国产替代节奏。",
+      "category": "CHINA",
+      "tags": [
+        "NVIDIA",
+        "H200",
+        "AI算力"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "库存数量和审批情况属于媒体消息，非公开监管统计。"
+      }
+    },
+    {
+      "title": "美国中期选举后AI科技股大幅调整，资本开支预期受冲击",
+      "summary": "金融时报报道美股经历剧烈调整，纳斯达克100指数单日下跌6.4%，标普500指数下跌4.4%。报道将市场担忧与选举后AI数据中心投资政策不确定性联系起来，但因果解释尚未证实。",
+      "why_it_matters": "AI基础设施投资高度集中，政策与融资预期变化可能快速传导至全球科技估值。",
+      "category": "MACRO",
+      "tags": [
+        "美股",
+        "AI投资",
+        "市场波动"
+      ],
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/7d123a1c-d627-44c4-adf5-48b75d3313b0",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "市场变动为报道数据；政策影响为市场解读，不应当作已出台政策。"
+      }
+    },
+    {
+      "title": "中国清洁能源板块上涨，市场押注美国政策变化",
+      "summary": "路透报道11月5日中国新能源相关股票明显上涨，部分投资者预期美国中期选举后清洁能源政策可能变化。现有贸易关税及市场准入限制并未因此取消。",
+      "why_it_matters": "区分政策预期驱动的估值重估与实际出口订单改善，有助于避免把短期行情当作基本面确认。",
+      "category": "MACRO",
+      "tags": [
+        "新能源",
+        "A股",
+        "美国政策"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/chinas-cleantech-stocks-jump-investors-bet-us-policy-shift-2026-11-05/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "上涨数据为市场事实；政策利好仍是预期。"
+      }
+    },
+    {
+      "title": "FDA更新医疗器械质量管理体系法规常见问题",
+      "summary": "FDA医疗器械动态页面于11月5日列出质量管理体系法规FAQ更新。企业可据此检查监管解释及质量体系实施要求；本条不将FAQ更新误写为法规正式修订。",
+      "why_it_matters": "医疗器械质量体系的解释性更新可能影响合规实施细节，值得研发和监管团队跟踪。",
+      "category": "MEDICINE",
+      "tags": [
+        "FDA",
+        "医疗器械",
+        "QMSR"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "FDA将讨论食品批次级追溯规则的执行弹性",
+      "summary": "FDA定于美国东部时间11月6日召开线上公开会议，讨论食品批次追踪和法规实施难点。会议在北京时间当天早晨尚未举行，不能把计划议程当作会议结论。",
+      "why_it_matters": "食品追溯规则将影响供应链数据互通和召回响应效率，兼具公共卫生与数字化治理价值。",
+      "category": "MEDICINE",
+      "tags": [
+        "食品安全",
+        "追溯",
+        "FDA"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/food/workshops-meetings-webinars-food-and-dietary-supplements/fda-public-meeting-challenges-and-solutions-lot-level-food-traceability-11062026",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "前瞻性日程，非已发生研究结果。"
+      }
+    }
+  ]
+}
