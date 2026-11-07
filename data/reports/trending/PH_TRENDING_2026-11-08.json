@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-07T23:58:47.145Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间11月8日早晨，近期项目热度继续集中在 Agent 可操作的基础设施：无头 3D 渲染、原生 UI 的自动化接口和自然语言 E2E 测试。同时 Rust/GPUI 桌面生态、可编辑 PPT、本地音乐及智能家居也出现值得试用的项目。本期避开最近几天已报道的主流热门仓库；不同来源的增长周期不混用，缺少可复核精确数值的字段为 null。",
+  "top_picks": [
+    "voyager-so/vork",
+    "anomalyco/rune",
+    "tester-army/e2e"
+  ],
+  "items": [
+    {
+      "title": "voyager-so/vork",
+      "summary": "面向 Agent 的无头 3D/VFX 渲染内核，可通过命令行初始化镜头、渲染预览并检查结果。",
+      "why_it_matters": "把可脚本化的视觉制作与 Agent 迭代连接起来；当前为研究预览，实际画质和管线稳定性待测。",
+      "category": "Creative / 3D",
+      "tags": [
+        "3D",
+        "VFX",
+        "Agent",
+        "Rust"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/voyager-so/vork",
+      "image_url": "https://raw.githubusercontent.com/voyager-so/vork/main/docs/images/readme-header-light.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "voyager-so/vork",
+        "github_stars": 773,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-07 18:00 UTC 新仓库榜第5，773 stars；榜单日速为估算，不当作实测增长。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "anomalyco/rune",
+      "summary": "Rust 原生 GPU UI 框架，覆盖桌面和 Web，并支持无头渲染、元素树导出及脚本输入。",
+      "why_it_matters": "将桌面 GUI 自动化测试和 Agent 可操作性内建到 UI 框架，适合 AI 原生桌面工具原型。",
+      "category": "Developer tools / UI",
+      "tags": [
+        "Rust",
+        "GUI",
+        "headless",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anomalyco/rune",
+      "image_url": "https://raw.githubusercontent.com/anomalyco/rune/main/demo/rune-poster.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anomalyco/rune",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitTrend 2026-11-06 榜单新项目，标记约 +2.1k 当日增长；README 验证无头能力。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "tester-army/e2e",
+      "summary": "使用自然语言目标驱动 Web 与移动端应用的端到端测试框架，并通过断言验证结果。",
+      "why_it_matters": "适合减少 UI 自动化脚本维护负担，但需核验执行可重复性与误报率。",
+      "category": "Developer tools / testing",
+      "tags": [
+        "testing",
+        "Agent",
+        "E2E",
+        "mobile"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tester-army/e2e",
+      "image_url": "https://raw.githubusercontent.com/tester-army/e2e/main/.github/assets/readme-banner.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tester-army/e2e",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 近7日开发工具类 +1,045 stars；官方 README 验证产品定位。",
+        "language": null
+      }
+    },
+    {
+      "title": "longbridge/gpui-kit",
+      "summary": "Rust GPUI 桌面组件与应用框架，包含 UI 组件、可访问性、集成测试及可选 JS 扩展运行时。",
+      "why_it_matters": "对高性能原生桌面应用开发有直接价值，尤其是需要编辑器和复杂状态管理的工具。",
+      "category": "Developer tools / desktop",
+      "tags": [
+        "Rust",
+        "GPUI",
+        "desktop",
+        "accessibility"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/longbridge/gpui-kit",
+      "image_url": "https://raw.githubusercontent.com/longbridge/gpui-kit/main/website/public/logo.svg",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "longbridge/gpui-kit",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 近7日开发工具类 +979 stars；README 说明 75+ 组件。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "hugohe3/ppt-master",
+      "summary": "从文档生成可编辑的原生 PowerPoint 的 AI 项目。",
+      "why_it_matters": "相比生成不可编辑图片式幻灯片，原生对象输出更适合正式演讲稿与模板复用；版式仍需人工复核。",
+      "category": "Productivity / presentations",
+      "tags": [
+        "PowerPoint",
+        "AI",
+        "document",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/hugohe3/ppt-master",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "hugohe3/ppt-master",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 近7日工作应用类 +2,889 stars；官方 README 核实原生 PPT 定位。",
+        "language": null
+      }
+    },
+    {
+      "title": "egoist/mygo-music",
+      "summary": "无 WebView 的 Go 原生桌面音乐播放器，本地音乐即装即用，在线内容和播客由插件扩展。",
+      "why_it_matters": "插件化本地优先音乐应用的少见尝试，还支持本地转写播客字幕。",
+      "category": "Apps / music",
+      "tags": [
+        "Go",
+        "desktop",
+        "plugins",
+        "local-first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/egoist/mygo-music",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "egoist/mygo-music",
+        "github_stars": 701,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-07 18:00 UTC 新仓库榜第9，701 stars；增长估算未作为精确指标。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "mbillow/localthings",
+      "summary": "通过局域网将三星家电接入 Home Assistant，无须云端账户。",
+      "why_it_matters": "改善智能家居对厂商云的依赖，适合强调本地控制和隐私的家庭。",
+      "category": "Apps / smart home",
+      "tags": [
+        "Home Assistant",
+        "IoT",
+        "local-first",
+        "privacy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mbillow/localthings",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mbillow/localthings",
+        "github_stars": 1000,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 日榜第12，首次进入该榜单；README 核实本地接入。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "dsx-ai-factory/nvke",
+      "summary": "在自有 NVIDIA GPU 基础设施上提供 Kubernetes 集群管理平面，支持本地模拟评估。",
+      "why_it_matters": "为 GPU 集群平台工程提供自建控制面路线；官方明确是 Preview，不建议生产部署。",
+      "category": "Infrastructure / GPU",
+      "tags": [
+        "Kubernetes",
+        "GPU",
+        "Go",
+        "DevOps"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/dsx-ai-factory/nvke",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "dsx-ai-factory/nvke",
+        "github_stars": 459,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 日榜第15，首次进入该榜单；README 标明 Preview。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "DuarteSantos8/openGym",
+      "summary": "可自行托管的健身训练记录与追踪应用。",
+      "why_it_matters": "为不想将训练历史交给商业云服务的用户提供开源替代方案。",
+      "category": "Apps / fitness",
+      "tags": [
+        "self-hosted",
+        "fitness",
+        "tracking"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DuarteSantos8/openGym",
+      "image_url": "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/readme/hero-dark.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "DuarteSantos8/openGym",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 近7日工作应用类 +1,896 stars；官方 README 验证自托管定位。",
+        "language": null
+      }
+    },
+    {
+      "title": "ranxianglei/billion-context",
+      "summary": "面向编码 Agent 的上下文压缩插件，尝试用摘要与检索延长长任务可用上下文。",
+      "why_it_matters": "长会话成本与上下文污染是现实痛点；README 的节省比例属于作者宣称，尚非独立基准。",
+      "category": "AI / context",
+      "tags": [
+        "Agent",
+        "context",
+        "compression",
+        "tokens"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ranxianglei/billion-context",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ranxianglei/billion-context",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 日榜第14；官方 README 核实压缩插件定位。",
+        "language": null
+      }
+    },
+    {
+      "title": "milind-soni/OpenMausBot",
+      "summary": "本地优先的多机器人聊天工作台，可在聊天界面协调 Claude、Codex 等独立 Agent。",
+      "why_it_matters": "以聊天联系人形式管理多 Agent，并引入审批环节；需要特别检查虚拟机隔离和权限边界。",
+      "category": "AI / agents",
+      "tags": [
+        "Agent",
+        "Electron",
+        "local-first",
+        "orchestration"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/milind-soni/OpenMausBot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "milind-soni/OpenMausBot",
+        "github_stars": 16707,
+        "stars_growth": null,
+        "trend_signal": "2026-11-07 GitHub Trend 周增长 +7,304 stars，周榜第8；README 验证功能定位。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "zortos293/Lichii",
+      "summary": "基于既有开源模拟器分支演进的实验性 Switch / Switch 2 模拟器。",
+      "why_it_matters": "游戏兼容与渲染技术值得观察，但尚处实验阶段，使用须遵守游戏与固件版权要求。",
+      "category": "Creative / emulation",
+      "tags": [
+        "C++",
+        "emulation",
+        "gaming"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/zortos293/Lichii",
+      "image_url": "https://raw.githubusercontent.com/zortos293/Lichii/main/dist/branding/lichii_icon_with_logo.png",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "zortos293/Lichii",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 2026-11-07 18:00 UTC 新仓库榜第4，约 5.1k stars；日速未作为可靠实测增量。",
+        "language": "C++"
+      }
+    }
+  ]
+}
