@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-07T23:57:03.688Z",
+  "title": "每日前沿简报",
+  "summary": "本期重点是科研智能体从标准化问答转向真实湿实验数据判读，但模型对实验对照仍存在明显错误。医学方面，两项NIH发布的研究分别提示环境暴露与癌症亚型的关联，以及医疗服务交付模式可能改善高风险人群生存。开发者生态则聚焦企业数据语义层、3D创作Skills与协作平台内嵌Agent。",
+  "items": [
+    {
+      "title": "AI实验室基础能力评测BioBasicsBench发布",
+      "summary": "OpenAI与Ligo发布100项湿实验任务基准，覆盖凝胶、电泳、显微图像、测序文件及实验对照判读。GPT-6 Astra在xhigh设置下获得66.7%平均得分，GPT-5.6 Sol为43.8%；模型仍会误判对照和菌落数量。",
+      "why_it_matters": "从精选论文图表转向原始实验数据，更接近AI科研助手真实可靠性要求；分数来自开发方评测，不等于可独立开展实验。",
+      "category": "AI",
+      "tags": [
+        "BioBasicsBench",
+        "科研Agent",
+        "多模态"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "image_url": null,
+      "published_at": "2026-11-06T00:00:00-05:00",
+      "evidence": "moderate",
+      "extra": {
+        "notes": "厂商与合作方设计并报告的基准，尚非独立外部复现。"
+      }
+    },
+    {
+      "title": "NIH分析：两类PFAS暴露与ER阴性乳腺癌风险相关",
+      "summary": "NIH发布分析，报告较高血浆PFOA与PFOS水平与雌激素受体阴性乳腺癌发生率升高存在关联。观察性关联不能直接证明这些化学物质造成癌症。",
+      "why_it_matters": "环境暴露风险可能因乳腺癌亚型而异，值得关注后续机制研究和因果证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "PFAS",
+        "乳腺癌",
+        "环境流行病学"
+      ],
+      "source_name": "NIH",
+      "source_url": "https://www.nih.gov/news-events/news-releases/two-forever-chemicals-associated-higher-risk-aggressive-breast-cancer-nih-analysis",
+      "image_url": null,
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "evidence": "moderate",
+      "extra": {
+        "notes": "关联性研究，不可据此推断个体因果风险。"
+      }
+    },
+    {
+      "title": "NIH资助试验：流动医疗单元综合服务与死亡减少相关",
+      "summary": "美国五城NIH资助临床试验比较了流动医疗单元综合HIV和物质使用障碍服务与社区服务转介。研究报告全因死亡这一项次要终点降低71%，但日常口服PrEP和阿片使用障碍药物使用指标未见组间差异；研究者强调需要重复验证。",
+      "why_it_matters": "医疗服务交付模式本身可能显著影响高风险群体结局，但次要终点不应被解读为所有干预指标成功。",
+      "category": "MEDICINE",
+      "tags": [
+        "HIV",
+        "临床试验",
+        "公共卫生"
+      ],
+      "source_name": "NIH",
+      "source_url": "https://www.nih.gov/news-events/news-releases/integrated-health-service-delivery-through-medical-mobile-units-helped-reduce-deaths-among-individuals-risk-hiv-who-also-inject-drugs",
+      "image_url": null,
+      "published_at": "2026-11-04T00:00:00-05:00",
+      "evidence": "moderate",
+      "extra": {
+        "notes": "死亡率为次要终点；需要独立重复。"
+      }
+    },
+    {
+      "title": "NVIDIA Auto Ontology受到开发者社区关注",
+      "summary": "NVIDIA的Auto Ontology开源框架提供企业数据的语义本体层，支持定义指标、关系和血缘，并通过MCP、CLI及API供Agent查询。项目强调先校验数据语义和SQL再生成答案，仓库提供部署示例和安全配置说明。",
+      "why_it_matters": "面向企业数据的Agent可靠性，语义定义、可回答性检查与来源追踪可能比单纯增强检索更关键。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "NVIDIA",
+        "MCP",
+        "语义层"
+      ],
+      "source_name": "NVIDIA GitHub",
+      "source_url": "https://github.com/NVIDIA/auto-ontology",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "GitHub Explore近期推荐；未核实精确新增star数及上线日期。"
+      }
+    },
+    {
+      "title": "Scenario开源Skills覆盖Blender与3D创作工作流",
+      "summary": "Scenario Labs的Skills仓库提供面向图片、视频、音频、3D资产以及Blender、Maya、Unreal等工具的Agent技能。仓库包含质量门禁、角色一致性、分镜和资产评审等流程；部分功能依赖Scenario MCP服务及其账户。",
+      "why_it_matters": "技能化的创意流水线可以将单次生成升级为可评审、可复用的生产流程，尤其适合3D资产和视频项目。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Agent Skills",
+        "Blender",
+        "3D"
+      ],
+      "source_name": "Scenario Labs GitHub",
+      "source_url": "https://github.com/scenario-labs/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "开源技能仓库不代表其依赖的模型与服务全部开源或免费。"
+      }
+    },
+    {
+      "title": "GitHub在Slack与Teams中的编程Agent正式可用",
+      "summary": "GitHub宣布@GitHub在Slack和Teams中达到正式可用状态，支持从聊天讨论发起缺陷排查、Issue、代码实现及PR。Teams内还可查看实现计划与代码预览，PR会标记来自协作聊天的来源。",
+      "why_it_matters": "Agent进入沟通入口，减少需求讨论到代码交付的上下文切换，同时需要注意权限与审批治理。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "协作Agent"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/",
+      "image_url": null,
+      "published_at": "2026-11-06T00:00:00-05:00",
+      "evidence": "strong",
+      "extra": {}
+    }
+  ]
+}
