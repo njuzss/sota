@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T00:04:57.608Z",
+  "title": "Daily Trending Projects",
+  "summary": "11月8日公开趋势快照显示，Agent 正向移动端远程操控、设计评审、隔离运行与多 Agent 调度扩展；本地推理、GPU 可观测性和智能电视实用工具也出现明显关注。严格区分第三方趋势快照与 GitHub 官方当前 Stars，未推断精确24小时增长。",
+  "top_picks": [
+    "ccch1mneyyy/dsh-Go",
+    "google/elephant-goldfish-model",
+    "shanselman/gputaskman"
+  ],
+  "items": [
+    {
+      "title": "ccch1mneyyy/dsh-Go",
+      "summary": "将 DeepSeek Harness 带到 Android 手机，支持本机运行或远程控制桌面端。",
+      "why_it_matters": "移动端 Agent 操作入口具有实际价值，适合测试跨设备任务接续；需评估远程控制认证与权限边界。",
+      "category": "Mobile Agent",
+      "tags": [
+        "Android",
+        "DeepSeek",
+        "Remote Control"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ccch1mneyyy/dsh-Go",
+        "github_stars": 16037,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第3，页面显示当日约+1.7k（第三方快照，非独立复核24小时增量）",
+        "language": "Dart"
+      }
+    },
+    {
+      "title": "milind-soni/OpenMausBot",
+      "summary": "为机器人提供可操作虚拟机环境的开源 AI Bot。",
+      "why_it_matters": "隔离式计算机执行环境值得关注，尤其是权限控制、可重现性和任务日志。",
+      "category": "Agent Runtime",
+      "tags": [
+        "AI Agent",
+        "VM",
+        "Sandbox"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/milind-soni/OpenMausBot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "milind-soni/OpenMausBot",
+        "github_stars": 18217,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第4；GitHub Trending 归档亦显示当日上榜",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "google/elephant-goldfish-model",
+      "summary": "用于软件设计与评审的开源 Agent 插件。",
+      "why_it_matters": "把设计审查流程结构化，有助于在代码生成前发现需求与架构缺陷；实际质量需验证。",
+      "category": "Agent Plugin",
+      "tags": [
+        "Design Review",
+        "Agent",
+        "Software Engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/google/elephant-goldfish-model",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "google/elephant-goldfish-model",
+        "github_stars": 15062,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第5，第三方快照约+1.1k",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "qybaihe/bla",
+      "summary": "针对 AI 逆向工程 Agent 的对抗性软件保护实验项目。",
+      "why_it_matters": "反映逆向 Agent 与防护技术的对抗趋势；其防护有效性及合法使用边界尚未独立验证。",
+      "category": "Security Research",
+      "tags": [
+        "Reverse Engineering",
+        "Adversarial",
+        "Software Protection"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/qybaihe/bla",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "qybaihe/bla",
+        "github_stars": 3793,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第6，第三方快照约+990",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Gathin23/cleanyourtv",
+      "summary": "通过 Wi-Fi 精简 Android TV / Google TV 预装组件并调整主屏体验。",
+      "why_it_matters": "直击智能电视臃肿问题，但删除系统组件前必须检查设备兼容性与恢复方案。",
+      "category": "Desktop & Utilities",
+      "tags": [
+        "Android TV",
+        "Debloat",
+        "Home UI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Gathin23/cleanyourtv",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Gathin23/cleanyourtv",
+        "github_stars": 54741,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第7，第三方快照约+793",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "shanselman/gputaskman",
+      "summary": "跨 Windows、Linux、WSL 的 GPU 进程监控工具，展示显存、GPU 活动与模型缓存信息。",
+      "why_it_matters": "本地 LLM 开发者能更直接定位显存占用及 KV-cache 压力；早期项目需验证不同驱动支持。",
+      "category": "Developer Utility",
+      "tags": [
+        "GPU",
+        "Local LLM",
+        "Monitoring"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shanselman/gputaskman",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "shanselman/gputaskman",
+        "github_stars": 998,
+        "stars_growth": null,
+        "trend_signal": "2026-11-03 创建；OSS Radar 2026-11-08 排名第24，第三方快照约+456",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "yetone/magpie",
+      "summary": "在菜单栏集中配置编码 Agent 使用的不同模型与提供商。",
+      "why_it_matters": "适合多模型编码工作流，减少在不同 CLI 中重复配置；需要核查凭据存储安全。",
+      "category": "Desktop Tool",
+      "tags": [
+        "macOS",
+        "Model Routing",
+        "Coding Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/yetone/magpie",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "yetone/magpie",
+        "github_stars": 32299,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第23，第三方快照约+480",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "Niko1221/Strata",
+      "summary": "面向消费级 Windows/Linux 硬件的一键本地推理工具，提供兼容 API。",
+      "why_it_matters": "降低本地模型实验门槛；模型兼容性和性能宣称应在目标设备上实测。",
+      "category": "Local AI",
+      "tags": [
+        "Inference",
+        "C++",
+        "Windows",
+        "Linux"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Niko1221/Strata",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Niko1221/Strata",
+        "github_stars": 42006,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第21，第三方快照约+489",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "stablyai/orca",
+      "summary": "在桌面、移动端和远程环境协调多个 Codex、Claude Code 等编码 Agent。",
+      "why_it_matters": "多 Agent 任务可视化与调度是实用方向，尤其适合并行开发；应检查会话隔离与成本控制。",
+      "category": "Coding Agent Orchestration",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "Multi-Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/stablyai/orca",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "stablyai/orca",
+        "github_stars": 119276,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第13，第三方快照约+678",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "vAPI-Network/vapi-network",
+      "summary": "基于 Base 网络 USDC 的 x402 API 支付客户端。",
+      "why_it_matters": "探索 Agent 自主调用付费 API 的支付基础设施，但涉及链上资产与授权风险，不建议未经审计投入真实资金。",
+      "category": "Developer Infrastructure",
+      "tags": [
+        "x402",
+        "API",
+        "Payments"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vAPI-Network/vapi-network",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "vAPI-Network/vapi-network",
+        "github_stars": 3430,
+        "stars_growth": null,
+        "trend_signal": "OSS Radar 2026-11-08 排名第12，第三方快照约+683",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "rivet-dev/rivet",
+      "summary": "面向 Agent 工作负载的高密度编排运行时。",
+      "why_it_matters": "提供可研究的 Agent 长任务调度架构；性能优势属于项目定位，尚未独立验证。",
+      "category": "Infrastructure",
+      "tags": [
+        "Orchestration",
+        "Rust",
+        "Agents"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/rivet-dev/rivet",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "rivet-dev/rivet",
+        "github_stars": 6812,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending AI agents 分类2026-11-08收录；非当日爆发项目",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "chaitin/MonkeyCode",
+      "summary": "中文企业级 AI 办公工作台。",
+      "why_it_matters": "适合关注中文场景、企业内部部署与权限治理；当前增长信号较弱，作为区域生态观察。",
+      "category": "Productivity",
+      "tags": [
+        "Chinese",
+        "Enterprise",
+        "AI Workspace"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/chaitin/MonkeyCode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "chaitin/MonkeyCode",
+        "github_stars": 5102,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending AI agents 分类2026-11-08收录；页面仅显示小幅日增长",
+        "language": "TypeScript"
+      }
+    }
+  ]
+}
