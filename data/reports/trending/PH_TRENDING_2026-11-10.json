@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-09T23:56:49.017Z",
+  "title": "Daily Trending Projects",
+  "summary": "截至北京时间11月10日早晨，新增热度集中在受控手机 Agent、可复用 Skills、跨平台原生工具及代码驱动创意制作。趋势信号采用 Trendar 11月9日18:00 UTC 快照；增长速度属第三方口径，不等同于独立复核的严格24小时增量。",
+  "top_picks": [
+    "DIYgod/pinky",
+    "janestreet/agent_skills",
+    "libracoder/kiri"
+  ],
+  "items": [
+    {
+      "title": "janestreet/agent_skills",
+      "summary": "Jane Street 发布遵循 SKILL.md 格式的 Agent 技能集，首个 Socratic Tutor 提供诊断、分级提问与间隔复习。",
+      "why_it_matters": "来自成熟工程组织的可移植教学 Skill；可直接检验 Agent 教学质量。",
+      "category": "Agent Skills",
+      "tags": [
+        "Skills",
+        "Education"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/janestreet/agent_skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "janestreet/agent_skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓增长榜第6；新仓日增为估算值。",
+        "language": null
+      }
+    },
+    {
+      "title": "DIYgod/pinky",
+      "summary": "通过 MCP 让 Codex、Claude 等 Agent 操作 iPhone/Android，桌面端可实时观察、接管和审批高风险操作。",
+      "why_it_matters": "审批由网关强制执行而非仅靠提示词，适合研究可控移动端自动化。",
+      "category": "Mobile Agent",
+      "tags": [
+        "MCP",
+        "iOS",
+        "Android",
+        "Human-in-the-loop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DIYgod/pinky",
+      "image_url": "https://github.com/DIYgod/pinky/blob/main/assets/readme/demo.gif",
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "DIYgod/pinky",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第10，约709 stars/day（第三方统计）。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "anefzaoui/misterdownloadmanager",
+      "summary": "Rust 实现的跨平台下载管理器，提供 Windows/macOS/Linux 客户端和浏览器扩展。",
+      "why_it_matters": "传统实用软件的开源替代方向；性能宣传需独立测试。",
+      "category": "Desktop Utility",
+      "tags": [
+        "Rust",
+        "Download Manager",
+        "Browser Extension"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anefzaoui/misterdownloadmanager",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第4，约2536 stars/day（第三方统计）。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "huamidev/GestaltX",
+      "summary": "iOS 27.x MobileGestalt 配置编辑器，支持设备特性预设、修改前后检查与备份恢复。",
+      "why_it_matters": "高热度 iOS 系统工具，但改动系统配置有兼容与稳定性风险。",
+      "category": "iOS Utility",
+      "tags": [
+        "Swift",
+        "iOS",
+        "System Configuration"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/huamidev/GestaltX",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "huamidev/GestaltX",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第1，日增长为估算。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "jamesondh/chimera-vocal-synth",
+      "summary": "Rust/WASM 物理建模人声合成器，以气道和声带模拟实现说话、唱歌、节奏与动物发声。",
+      "why_it_matters": "不同于采样或生成式 TTS 的可解释声音引擎，兼具创意和教学价值。",
+      "category": "Creative Audio",
+      "tags": [
+        "Rust",
+        "WebAssembly",
+        "Audio"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/jamesondh/chimera-vocal-synth",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "jamesondh/chimera-vocal-synth",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第13，约631 stars/day（第三方统计）。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "sarpstar/cinecode",
+      "summary": "由编码 Agent 生成剧本、程序化构建画面与声音并输出 MP4 的代码驱动影视工具。",
+      "why_it_matters": "将影视制作流程变成可版本控制的代码资产；适合可复现短片实验。",
+      "category": "Creative Tool",
+      "tags": [
+        "Video",
+        "Agent",
+        "Procedural"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/sarpstar/cinecode",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "sarpstar/cinecode",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第20，约389 stars/day（第三方统计）。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "JosssphZhou/poki",
+      "summary": "通过本地 MCP 服务让 AI Agent 操作真实 iPhone，项目提供安装 Skill。",
+      "why_it_matters": "为真实设备自动化提供新方案；需要审查设备权限与操作确认。",
+      "category": "Mobile Automation",
+      "tags": [
+        "iPhone",
+        "MCP",
+        "Swift"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JosssphZhou/poki",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "JosssphZhou/poki",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第28，约146 stars/day（第三方统计）。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "sqlpxc/airhand",
+      "summary": "基于 QUIC、硬件编解码与自建中继的跨平台远程桌面工具，项目宣称支持最高120fps。",
+      "why_it_matters": "低延迟远程控制适合跨设备工作流；性能与安全性仍待实测。",
+      "category": "Remote Desktop",
+      "tags": [
+        "Rust",
+        "QUIC",
+        "Remote Work"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/sqlpxc/airhand",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "sqlpxc/airhand",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第31，约185 stars/day（第三方统计）。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "libracoder/kiri",
+      "summary": "Rust 编写的轻量容器运行时，兼容 Docker CLI、Compose 与 Engine API。",
+      "why_it_matters": "可能降低桌面容器环境资源成本，值得验证 Docker 工作流兼容性。",
+      "category": "Developer Tool",
+      "tags": [
+        "Containers",
+        "Rust",
+        "Docker"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/libracoder/kiri",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "libracoder/kiri",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第36，约206 stars/day（第三方统计）。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "tang1693/KIKUmap",
+      "summary": "macOS 菜单栏应用，将 Claude 和 ChatGPT 会话整理为思维导图并显示任务状态。",
+      "why_it_matters": "多 Agent 工作流可视化的轻量探索；需关注会话数据隐私。",
+      "category": "Productivity",
+      "tags": [
+        "macOS",
+        "AI Chats",
+        "Visualization"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tang1693/KIKUmap",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tang1693/KIKUmap",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第39，约106 stars/day（第三方统计）。",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "chadyi/StudyOnTV",
+      "summary": "Android 手机、平板及电视端学习后解锁屏幕时间的工具，题目与规则可保存在设备本地。",
+      "why_it_matters": "有趣的家庭数字设备使用机制；需留意其 Personal Use Only 许可与儿童使用体验。",
+      "category": "Family Utility",
+      "tags": [
+        "Android TV",
+        "Education",
+        "Parental Control"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/chadyi/StudyOnTV",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "chadyi/StudyOnTV",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第34，约169 stars/day（第三方统计）。",
+        "language": "Kotlin"
+      }
+    },
+    {
+      "title": "synchopate/llama-modchip",
+      "summary": "面向低内存 CPU 设备的 MoE 模型推理实验，附技术文档和基准提交入口。",
+      "why_it_matters": "CPU 推理优化方向值得研究；项目给出的速度、内存数据未获独立复现。",
+      "category": "Local AI",
+      "tags": [
+        "Inference",
+        "CPU",
+        "MoE"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/synchopate/llama-modchip",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "synchopate/llama-modchip",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-09 Trendar 新仓榜第18，约413 stars/day（第三方统计）。",
+        "language": "Python"
+      }
+    }
+  ]
+}
