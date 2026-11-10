@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T07:57:57+08:00",
+  "title": "每日前沿简报",
+  "summary": "美国10月CPI环比数据及其同比缺口，是今日宏观判断的重要信息。AI领域出现多模型编码工具接入、芯片产业链资本合作和基础设施供应链政策风险。中国出口与国产AI芯片融资继续体现外需和算力产业链的结构性变化；医学领域暂未找到足够新的高质量原始证据，未为凑数重复旧研究。",
+  "items": [
+    {
+      "title": "美国10月CPI环比上涨0.4%，核心CPI上涨0.3%",
+      "summary": "美国劳工统计局公布10月CPI季调后环比上涨0.4%，核心CPI环比上涨0.3%，住房与食品继续推动物价。由于2025年10月数据采集缺失，多个同比指标无法正常公布，不宜机械引用同比通胀率。",
+      "why_it_matters": "利率定价需要区分真实环比压力与同比数据缺口。",
+      "category": "MACRO",
+      "tags": [
+        "CPI",
+        "美联储",
+        "通胀"
+      ],
+      "source_name": "美国劳工统计局",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "中国前十个月贸易顺差突破1万亿美元，10月出口同比增35.2%",
+      "summary": "路透援引中国海关数据称，2026年前十个月贸易顺差达1.04万亿美元，10月美元计价出口同比增长35.2%。AI基础设施相关高科技产品出口是重要支撑，但内需偏弱和贸易壁垒风险仍在。",
+      "why_it_matters": "外需与内需分化加深，科技供应链和全球贸易摩擦值得同步观察。",
+      "category": "CHINA",
+      "tags": [
+        "贸易",
+        "出口",
+        "AI供应链"
+      ],
+      "source_name": "Reuters（援引海关数据）",
+      "source_url": "https://www.reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "数字来自路透对官方海关数据的报道，本次未独立核验海关原始表格。"
+      }
+    },
+    {
+      "title": "Gemini 4 Carbon正式接入GitHub Copilot",
+      "summary": "GitHub宣布Gemini 4 Carbon现已在Copilot中正式可用，覆盖CLI、coding agent、VS Code及多种IDE。企业管理员可通过模型策略控制访问，具体推出进度分批进行。",
+      "why_it_matters": "多模型编码Agent的竞争正延伸到企业部署与计费、治理层面。",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "Copilot",
+        "Agent"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "官方证实产品可用性；并不代表已独立验证其编码能力优于其他模型。"
+      }
+    },
+    {
+      "title": "Copilot CLI的C++语言服务器自动处理MSBuild编译配置",
+      "summary": "GitHub宣布微软C++语言服务器内置MSBuild compile commands提取器，可在项目打开时自动生成编译数据库。过去需要Agent自行寻找skill或用户提供compile_commands.json，现可减少配置步骤与token开销。",
+      "why_it_matters": "这是将Agent脆弱的探索式配置转变为确定性工具链的工程化案例。",
+      "category": "TECH",
+      "tags": [
+        "C++",
+        "LSP",
+        "Copilot CLI"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub将暂停多数长期不活跃仓库的Dependabot告警",
+      "summary": "GitHub宣布自12月8日起，对一年内无活动的多数仓库暂停Dependabot告警，旧告警归档而非删除。再次推送或手动启用可恢复，受强制安全配置管理的仓库存在例外。",
+      "why_it_matters": "长期维护但低频提交的项目可能出现安全告警盲区，需要调整治理策略。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "Dependabot",
+        "供应链安全",
+        "GitHub"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "台积电董事会批准对OpenAI与Anthropic各投资最多5亿美元",
+      "summary": "路透报道台积电董事会批准分别向两家AI企业投资最多5亿美元。此举显示芯片制造商试图同时获得AI需求增长的供应链收入与股权收益，实际投资条件及后续执行仍需关注。",
+      "why_it_matters": "AI产业链资本关系进一步交织，需求预测和利益关联需要共同评估。",
+      "category": "AI",
+      "tags": [
+        "台积电",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "依据路透报道，未独立读回台积电董事会公告原文。"
+      }
+    },
+    {
+      "title": "阿里巴巴称平头哥已秘密提交香港上市申请",
+      "summary": "路透报道阿里巴巴确认其AI芯片部门平头哥已秘密提交港股上市申请，上市规模、结构及最终持股比例尚未确定。独立融资可帮助国产AI芯片研发，但申请不等于获批或成功上市。",
+      "why_it_matters": "国产AI算力供应链的融资和商业化进展值得追踪。",
+      "category": "CHINA",
+      "tags": [
+        "平头哥",
+        "AI芯片",
+        "港股"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-chip-unit-t-head-files-confidential-hong-kong-ipo-application-2026-11-10/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "上市仍有审批与执行不确定性。"
+      }
+    },
+    {
+      "title": "美国科技企业反对拟议中国光模块限制，担忧AI数据中心建设受阻",
+      "summary": "路透报道微软等企业向美国政府表达担忧，拟议限制中国光收发器可能影响AI数据中心建设进度。该政策尚处讨论阶段，行业关于供给替代能力的判断存在利益相关方立场。",
+      "why_it_matters": "AI基础设施瓶颈不只在GPU，还包括网络互连和全球供应链。",
+      "category": "TECH",
+      "tags": [
+        "光模块",
+        "数据中心",
+        "出口管制"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/media-telecom/microsoft-presses-trump-scuttle-expected-ban-chinese-data-center-technology-2026-11-10/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "拟议政策并非已生效禁令，行业影响属于情景风险。"
+      }
+    }
+  ]
+}
