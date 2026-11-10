@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T08:03:58+08:00",
+  "title": "每日前沿简报",
+  "summary": "中国10月物价数据揭示生产端和消费端涨价速度分化，电子消费品价格上涨尤其值得关注。海外AI模型竞争继续向长周期软件工程延伸，但厂商科研突破声明需要独立复核。医学领域近期两项后期随机试验为RNA疗法和IgA肾病免疫治疗提供了新证据。",
+  "items": [
+    {
+      "title": "中国10月CPI同比0.7%，PPI同比5.7%",
+      "summary": "国家统计局公布10月CPI同比上涨0.7%，核心CPI上涨0.8%。PPI同比上涨5.7%，环比上涨0.7%，但环比涨幅较9月回落。能源和上游原材料是生产端涨价的重要推动因素。",
+      "why_it_matters": "消费端与生产端通胀分化，影响利率、利润分配和政策判断。",
+      "category": "MACRO",
+      "tags": [
+        "CPI",
+        "PPI",
+        "中国经济"
+      ],
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261109_1965796.html",
+      "image_url": null,
+      "published_at": "2026-11-09T09:30:00+08:00",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "中国电子消费品价格上涨，存储设备同比涨45.4%",
+      "summary": "国家统计局10月数据指出，数据存储设备、平板电脑、计算机、手机价格分别同比上涨45.4%、29.3%、23.0%、16.7%。四类商品合计影响CPI同比上涨约0.26个百分点。该数据为居民消费价格口径，不能直接等同于芯片批发价格。",
+      "why_it_matters": "AI基础设施和消费电子成本压力值得持续追踪，但价格变化成因不能仅归因于AI。",
+      "category": "CHINA",
+      "tags": [
+        "存储",
+        "消费电子",
+        "价格"
+      ],
+      "source_name": "国家统计局",
+      "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261109_1965796.html",
+      "image_url": null,
+      "published_at": "2026-11-09T09:30:00+08:00",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "Claude Fable 5.2与Mythos 5.2公布，强调复杂工程能力",
+      "summary": "据11月9日报道，Anthropic发布Claude Fable 5.2与Mythos 5.2，强调软件工程、多智能体协同和科学任务能力。公司还宣称模型参与了硬件设计及数学、物理研究；这些突破性案例目前不应视作已获独立复核的学术成果。",
+      "why_it_matters": "模型能力竞争正从短任务基准转向长周期工程交付，但厂商案例需要第三方复现。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "Agent",
+        "软件工程"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "报道为二手来源；模型及科研表现尚需官方技术报告和独立评估交叉核验。"
+      }
+    },
+    {
+      "title": "纽约联储消费者调查：失业预期担忧升至2020年以来高位",
+      "summary": "纽约联储10月消费者预期调查显示，受访者对未来一年失业率上升的担忧达到2020年4月以来最高水平。未来一年、三年、五年通胀预期分别为3.9%、3.3%、3.0%。调查反映的是家庭主观预期，并非实际失业率预测。",
+      "why_it_matters": "劳动力市场预期与通胀黏性并存，可能影响美联储利率路径。",
+      "category": "MACRO",
+      "tags": [
+        "美联储",
+        "就业",
+        "通胀预期"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/ny-fed-survey-finds-americans-more-worried-over-future-jobless-levels-2026-11-09/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "二手报道，原始调查细项未在本次核验中独立读回。"
+      }
+    },
+    {
+      "title": "中国多家银行上调美元存款利率，人民币汇率预期受关注",
+      "summary": "路透11月9日报道，多家中国银行近期提高美元存款利率，部分报价超过4%。市场人士认为这可能增加企业和储户持有美元的吸引力，但尚无证据确认存在统一的监管指令。",
+      "why_it_matters": "美元存款利差变化可影响结汇节奏、银行负债成本和人民币汇率预期。",
+      "category": "CHINA",
+      "tags": [
+        "汇率",
+        "美元存款",
+        "银行"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/chinese-banks-boost-dollar-deposit-rates-sources-say-beijing-seeks-smooth-yuan-2026-11-09/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "报道基于市场消息，政策动机未经官方证实。"
+      }
+    },
+    {
+      "title": "重度高甘油三酯血症：APOC3靶向siRNA三期研究发表",
+      "summary": "《新英格兰医学杂志》11月5日发表两项双盲安慰剂对照试验，纳入757名重度高甘油三酯血症成人，评估plozasiran。研究以12个月空腹甘油三酯百分比变化为主要终点，并关注胰腺炎风险。不能仅凭血脂下降推断长期心血管获益。",
+      "why_it_matters": "针对APOC3的RNA疗法正在进入更大规模的随机对照证据阶段。",
+      "category": "MEDICINE",
+      "tags": [
+        "siRNA",
+        "APOC3",
+        "甘油三酯"
+      ],
+      "source_name": "New England Journal of Medicine / PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42981569/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布日期精度仅为日，published_at使用null避免虚构具体时刻。"
+      }
+    },
+    {
+      "title": "IgA肾病：BAFF/APRIL双靶点药物三期中期分析发表",
+      "summary": "《新英格兰医学杂志》发表povetacicept治疗IgA肾病的三期试验中期分析。该药通过双重抑制BAFF和APRIL干预B细胞相关病理通路，研究采用随机、双盲、安慰剂对照设计。中期替代终点变化不能自动等同于长期肾功能保护。",
+      "why_it_matters": "IgA肾病精准免疫治疗出现值得追踪的后期临床证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "IgA肾病",
+        "BAFF",
+        "APRIL"
+      ],
+      "source_name": "New England Journal of Medicine / PubMed",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42912669/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "2026-11-05期刊发表；未核验完整长期终点。"
+      }
+    }
+  ]
+}
