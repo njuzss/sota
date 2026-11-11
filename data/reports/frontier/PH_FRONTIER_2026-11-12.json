@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:58:28.536+08:00",
+  "title": "每日前沿简报",
+  "summary": "今日高价值增量集中在开发者供应链安全、AI 推理芯片融资和医疗 AI 商业化。Git 修复多项安全漏洞，值得运行自动化开发流水线的团队优先处理。医疗数据治理和 AI 基础设施盈利能力仍是需要区分事实与预期的两条主线。",
+  "items": [
+    {
+      "title": "Git 发布六项安全漏洞修复，涉及恶意仓库克隆与内存破坏",
+      "summary": "Git 项目发布修补版本，处理六项漏洞，包括递归克隆恶意仓库可能触发代码执行，以及合并、二进制补丁处理中的内存安全问题。官方建议升级至 Git 2.56.1 或相应维护分支修复版本。",
+      "why_it_matters": "Git 是开发流水线及智能体自动化的基础依赖；处理不可信仓库的 Agent 和 CI 应优先检查捆绑的 Git 版本。",
+      "category": "TECH",
+      "tags": [
+        "Git",
+        "安全",
+        "供应链"
+      ],
+      "source_name": "GitHub Blog",
+      "source_url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "image_url": null,
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub 个人仓库正式支持 Issue 类型和自定义字段",
+      "summary": "GitHub 宣布个人账户仓库现可使用 Issue types 和 Issue fields，允许个人开发者以结构化方式管理任务类别与属性。该能力此前主要面向组织场景。",
+      "why_it_matters": "有助于个人开源维护者和使用 Agent 自动维护仓库的开发者建立更一致的任务分类与规划流程。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "GitHub",
+        "Issues",
+        "开发协作"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/month/11-2026/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "英国 AI 推理芯片公司 Fractile 融资 7.2 亿美元",
+      "summary": "据路透社报道，Fractile 完成 7.2 亿美元 C 轮融资，估值达到 70 亿美元。公司主攻 AI 推理芯片，计划明年推出首款商用产品；其能效与性能优势仍主要来自企业自身主张。",
+      "why_it_matters": "资金继续向推理侧专用硬件集中，但商业化时间表和性能优势尚待独立验证。",
+      "category": "AI",
+      "tags": [
+        "推理芯片",
+        "融资",
+        "英国"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/transactional/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round-2026-11-11/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "融资数据为媒体报道；性能优势未见独立实测。"
+      }
+    },
+    {
+      "title": "中国药企探索 AI 医生平台作为新的专业推广渠道",
+      "summary": "路透社报道，中国药企正在探索借助阿里健康、京东健康等医疗 AI 平台触达医生，背景是医院拜访监管趋严。平台可能提供疾病教育、临床证据检索与商业化服务，但广告与证据展示边界需要关注。",
+      "why_it_matters": "医疗 AI 的商业模式正从问答工具向专业流量入口演进，同时带来利益冲突与医学证据可信度问题。",
+      "category": "CHINA",
+      "tags": [
+        "医疗AI",
+        "医药营销",
+        "监管"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/drugmakers-tap-china-ai-app-boom-reach-doctors-crackdown-upends-marketing-2026-11-11/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "平台使用比例与市场预测属于企业调查及预测，不等同于独立临床效果证据。"
+      }
+    },
+    {
+      "title": "美股 AI 相关股票反弹，CoreWeave 财报改善市场预期",
+      "summary": "美联社报道，美国股市周三反弹，标普500上涨约1.3%，纳斯达克上涨约1.6%。CoreWeave 披露好于市场预期的亏损情况及上调营收展望后股价显著上涨，带动多只 AI 基础设施股票。",
+      "why_it_matters": "市场对 AI 资本开支和融资可持续性的判断高度敏感，短期股价反弹不代表长期盈利能力得到证实。",
+      "category": "MACRO",
+      "tags": [
+        "美股",
+        "AI基础设施",
+        "财报"
+      ],
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/297d040c83844a9563327340b370c24e",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "市场驱动是媒体分析，不是已证实的单一因果关系。"
+      }
+    },
+    {
+      "title": "英国讨论利用 NHS 长期医疗数据推动 AI 药物研发",
+      "summary": "英国科学部长表示，应在维持公众信任和数据治理前提下，利用 NHS 长期健康记录支持 AI 药物研发。围绕数据商业利用、隐私和技术主权仍存在争议。",
+      "why_it_matters": "纵向医疗数据对药物发现和真实世界研究具有潜在价值，但可访问性、患者同意和商业治理将决定实际效果。",
+      "category": "MEDICINE",
+      "tags": [
+        "NHS",
+        "医疗数据",
+        "药物研发"
+      ],
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/f95d9298-d27e-4c1b-87e5-ea75f67a1e0c",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "controversy": "患者隐私、商业用途和供应商依赖仍有争议；属于政策主张，不是临床疗效证据。"
+      }
+    }
+  ]
+}
