@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-11T23:57:41.371Z",
+  "title": "Daily Trending Projects",
+  "summary": "11月11日公开榜单显示，编码 Agent 的规划/执行分工、可复用工程 Skills、企业语义层和 MCP 家庭自动化继续受到关注；同时个人财务与浏览器工具保持热度。榜单增量为各来源快照口径，不等同严格滚动24小时。",
+  "top_picks": [
+    "shadcn/improve",
+    "NVIDIA/auto-ontology",
+    "homeassistant-ai/ha-mcp"
+  ],
+  "items": [
+    {
+      "title": "shadcn/improve",
+      "summary": "利用高能力模型审查代码库并生成执行计划，交给低成本模型实施。",
+      "why_it_matters": "把规划与执行分层，适合多模型编码成本治理。",
+      "category": "AI coding",
+      "tags": [
+        "Agent",
+        "code review",
+        "planning"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shadcn/improve",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "shadcn/improve",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：333 stars today",
+        "language": null
+      }
+    },
+    {
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "summary": "GoogleChrome 发布的现代 Web 开发指导源代码仓库。",
+      "why_it_matters": "浏览器厂商的一手工程指导材料，适合核对前端实践；具体内容以仓库为准。",
+      "category": "Developer tools",
+      "tags": [
+        "Web",
+        "Chrome",
+        "guidance"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "GoogleChrome/modern-web-guidance-src",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：133 stars today",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "NVIDIA/auto-ontology",
+      "summary": "面向企业数据的语义本体与图式推理框架。",
+      "why_it_matters": "将结构化语义层用于 Agent 检索和可解释查询。",
+      "category": "AI infrastructure",
+      "tags": [
+        "knowledge graph",
+        "RAG",
+        "enterprise"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/auto-ontology",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVIDIA/auto-ontology",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trend 2026-11-11：7天增长约7306 stars",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Nutlope/hallmark",
+      "summary": "面向 AI 编码工具的设计 Skill 包。",
+      "why_it_matters": "帮助生成式界面设计获得更明确的设计约束。",
+      "category": "Skills",
+      "tags": [
+        "design",
+        "Agent",
+        "frontend"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Nutlope/hallmark",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trend 2026-11-11：7天增长约5532 stars",
+        "language": null
+      }
+    },
+    {
+      "title": "DietrichGebert/ponytail",
+      "summary": "面向 AI 编码 Agent 的 Skill 集合。",
+      "why_it_matters": "提供可复用的编码指令与流程，需按具体仓库文档评估质量。",
+      "category": "Skills",
+      "tags": [
+        "coding",
+        "skills",
+        "workflow"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "DietrichGebert/ponytail",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trend 2026-11-11：7天增长约4603 stars",
+        "language": null
+      }
+    },
+    {
+      "title": "we-promise/sure",
+      "summary": "开源个人财务管理应用。",
+      "why_it_matters": "非 AI 工具但具有实际生产力用途，值得关注自托管个人财务软件生态。",
+      "category": "Productivity",
+      "tags": [
+        "finance",
+        "self-hosted",
+        "app"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/we-promise/sure",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "we-promise/sure",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：1079 stars today",
+        "language": "Ruby"
+      }
+    },
+    {
+      "title": "homeassistant-ai/ha-mcp",
+      "summary": "通过 MCP 将 Home Assistant 接入 Claude、ChatGPT 等助手。",
+      "why_it_matters": "把家庭自动化能力暴露给 Agent，需关注设备权限与执行确认。",
+      "category": "Plugins",
+      "tags": [
+        "MCP",
+        "smart home",
+        "automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/homeassistant-ai/ha-mcp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "homeassistant-ai/ha-mcp",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：640 stars today",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "openai/codex-security",
+      "summary": "用于发现、验证与修复安全漏洞的 Codex Security CLI 和 TypeScript SDK。",
+      "why_it_matters": "把安全验证集成进 Agent 开发流程；近期上榜但单日增长信号较弱。",
+      "category": "Security",
+      "tags": [
+        "CLI",
+        "SDK",
+        "security"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/openai/codex-security",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "openai/codex-security",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：20 stars today",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "addyosmani/agent-skills",
+      "summary": "面向 AI 编码 Agent 的生产级工程 Skills。",
+      "why_it_matters": "将工程实践沉淀为可复用指令，有助于团队标准化。",
+      "category": "Skills",
+      "tags": [
+        "engineering",
+        "Agent",
+        "quality"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/addyosmani/agent-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "addyosmani/agent-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：788 stars today",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "ranxianglei/billion-context",
+      "summary": "面向长会话的上下文压缩插件。",
+      "why_it_matters": "长任务的上下文成本与连续性是重要痛点；性能宣传尚需独立验证。",
+      "category": "Plugins",
+      "tags": [
+        "context",
+        "compression",
+        "LLM"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ranxianglei/billion-context",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ranxianglei/billion-context",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitStock 2026-11-11 月榜收录，月增长约5300 stars",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "tashfeenahmed/freellmapi",
+      "summary": "聚合多个 LLM 服务端点的 OpenAI 兼容路由工具。",
+      "why_it_matters": "统一路由与故障切换可降低实验接入成本，但免费额度和服务稳定性需独立核实。",
+      "category": "Developer tools",
+      "tags": [
+        "LLM",
+        "routing",
+        "API"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tashfeenahmed/freellmapi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tashfeenahmed/freellmapi",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitStock 2026-11-11 月榜收录，月增长约17591 stars",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "vercel-labs/agent-browser",
+      "summary": "供 AI Agent 使用的浏览器自动化 CLI。",
+      "why_it_matters": "成熟的浏览器操作接口，适合跨工具自动化；此前已被广泛关注，本次因日榜持续增长再次收录。",
+      "category": "CLI",
+      "tags": [
+        "browser",
+        "automation",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vercel-labs/agent-browser",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "vercel-labs/agent-browser",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub Trending 2026-11-11：712 stars today",
+        "language": "Rust"
+      }
+    }
+  ]
+}
