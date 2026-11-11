@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T00:00:16.772Z",
+  "title": "Daily Trending Projects",
+  "summary": "11月10日公开榜单显示，Agent 工程技能与可控工作流继续升温，同时本地优先视频创作、研究工作台、Rust 系统工具和实验性平台移植获得关注。今日更看重可试用价值与明确的上榜信号，未独立确认的 Stars 与增长数字留空。",
+  "top_picks": [
+    "meta/astryx",
+    "jub0t/Concat",
+    "horizon-rust/horizon"
+  ],
+  "items": [
+    {
+      "title": "meta/astryx",
+      "summary": "可定制、面向 Agent 工作流的开源 React 设计系统。",
+      "why_it_matters": "将组件规范和 Agent 生成界面结合，适合检查设计一致性。",
+      "category": "UI / Design System",
+      "tags": [
+        "React",
+        "Design",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/meta/astryx",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "meta/astryx",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-10 GitHub Trending 日榜第1；GitDiscover 同日显示强增长。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "addyosmani/agent-skills",
+      "summary": "面向 AI 编码 Agent 的生产级软件工程技能集合。",
+      "why_it_matters": "可复用的工程实践比一次性提示词更容易标准化团队代码质量。",
+      "category": "Agent Skills",
+      "tags": [
+        "Skills",
+        "Engineering",
+        "Coding"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/addyosmani/agent-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "addyosmani/agent-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-10 GitHub Trending 日榜第3。",
+        "language": null
+      }
+    },
+    {
+      "title": "homeassistant-ai/ha-mcp",
+      "summary": "通过 MCP 将 Home Assistant 设备与自动化能力接入 AI 助手。",
+      "why_it_matters": "将自然语言控制接入真实家庭设备，需控制访问权限。",
+      "category": "Smart Home",
+      "tags": [
+        "MCP",
+        "Home Assistant",
+        "Automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/homeassistant-ai/ha-mcp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "homeassistant-ai/ha-mcp",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-10 GitHub Trending 日榜第7。",
+        "language": null
+      }
+    },
+    {
+      "title": "tokio-rs/topcoat",
+      "summary": "用于构建 Web 应用的 Rust 全栈框架。",
+      "why_it_matters": "探索 Rust 服务端生态的一体化开发体验。",
+      "category": "Developer Framework",
+      "tags": [
+        "Rust",
+        "Web",
+        "Full-stack"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tokio-rs/topcoat",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tokio-rs/topcoat",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-10 GitHub Trending 日榜第10。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "ranxianglei/billion-context",
+      "summary": "通过上下文压缩维持长周期 Agent 会话的插件。",
+      "why_it_matters": "长任务的状态保留和成本控制是 Agent 工程化痛点；节省比例属项目自述。",
+      "category": "Agent Plugin",
+      "tags": [
+        "Context",
+        "Compression",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ranxianglei/billion-context",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ranxianglei/billion-context",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-10 GitHub Trending 日榜第11。",
+        "language": null
+      }
+    },
+    {
+      "title": "we-promise/sure",
+      "summary": "社区维护的个人财务与资产管理应用。",
+      "why_it_matters": "为个人财务数据提供可自托管的开源管理方案。",
+      "category": "Personal Finance",
+      "tags": [
+        "Finance",
+        "Self-hosted",
+        "App"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/we-promise/sure",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "we-promise/sure",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-10 GitHub Trending 日榜首次出现，第6。",
+        "language": "Ruby"
+      }
+    },
+    {
+      "title": "poco-ai/Agentero",
+      "summary": "融合 PDF 引用问答、知识库与写作的人机协作研究工作台。",
+      "why_it_matters": "试图减少文献管理与 Agent 研究之间的上下文断裂。",
+      "category": "Research Productivity",
+      "tags": [
+        "PDF",
+        "Research",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/poco-ai/Agentero",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "poco-ai/Agentero",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitDiscover 2026-11-10 Under the Radar 栏目收录。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "jub0t/Concat",
+      "summary": "本地优先、支持 JSON-RPC 与 MCP 脚本控制的跨平台视频编辑器。",
+      "why_it_matters": "可将非线性剪辑接入 Agent 自动化，仍为 Beta。",
+      "category": "Creative Video",
+      "tags": [
+        "MCP",
+        "Video",
+        "Local-first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/jub0t/Concat",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "jub0t/Concat",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitDiscover 2026-11-10 New & Rising 收录。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "horizon-rust/horizon",
+      "summary": "以 Rust 重写 Minecraft Java 版并通过差分测试与原版对照。",
+      "why_it_matters": "大量差分测试可为复杂系统重写和迁移一致性验证提供方法参考。",
+      "category": "Game Engineering",
+      "tags": [
+        "Rust",
+        "Differential Testing",
+        "Game"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/horizon-rust/horizon",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "horizon-rust/horizon",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitDiscover 2026-11-10 New & Rising 收录。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Leviidev/Henge",
+      "summary": "探索在 iOS 和 iPadOS 上模拟 macOS 的实验项目。",
+      "why_it_matters": "跨平台系统模拟技术有趣，实际兼容性和稳定性需谨慎验证。",
+      "category": "Experimental Software",
+      "tags": [
+        "iOS",
+        "Emulation",
+        "macOS"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Leviidev/Henge",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Leviidev/Henge",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitDiscover 2026-11-10 Under the Radar 收录。",
+        "language": "C"
+      }
+    },
+    {
+      "title": "mantrakp04/ardia",
+      "summary": "采用 Chromium 的免费 Mac 浏览器，强调侧边栏和简洁界面。",
+      "why_it_matters": "探索 Arc 风格浏览器的独立实现，需关注维护与安全更新。",
+      "category": "Desktop Browser",
+      "tags": [
+        "macOS",
+        "Chromium",
+        "Productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mantrakp04/ardia",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mantrakp04/ardia",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitDiscover 2026-11-10 Under the Radar 收录。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "jhaizhou-ops/S2Arm",
+      "summary": "探索将自有 Switch 游戏代码重编译至 ARM64 并通过 Metal 渲染。",
+      "why_it_matters": "游戏移植与原生重编译的技术路线值得观察；兼容性未经独立验证。",
+      "category": "Experimental Gaming",
+      "tags": [
+        "ARM64",
+        "Metal",
+        "iOS"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/jhaizhou-ops/S2Arm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "jhaizhou-ops/S2Arm",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitDiscover 2026-11-10 Daily Picks 收录。",
+        "language": "C#"
+      }
+    }
+  ]
+}
