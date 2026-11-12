@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T07:59:37.811+08:00",
+  "title": "每日前沿简报",
+  "summary": "本期重点是开源推理基础设施治理、AI芯片性能竞争以及量子—经典混合计算的工程推进。医学方面，美国癌症协会更新前列腺癌筛查指南，中国批准新的口服GLP-1体重管理药物。宏观层面，AI资本开支扩张与劳动收入分配风险同时受到关注。",
+  "items": [
+    {
+      "title": "SGLang成立跨厂商开源推理联盟",
+      "summary": "LMSYS宣布成立SGLang Consortium，创始成员包括NVIDIA、AMD、Intel、Google、Meta、Cloudflare等。联盟将围绕推理效率、多模态、分布式部署和硬件优化协作，项目维护者仍保留代码决策权。",
+      "why_it_matters": "推理成本成为AI落地瓶颈，跨硬件开放推理栈的治理机制具有长期价值。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "SGLang",
+        "推理引擎",
+        "开源治理"
+      ],
+      "source_name": "LMSYS Org",
+      "source_url": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "美国癌症协会更新前列腺癌筛查指南",
+      "summary": "ACS发布2010年以来首次更新的前列腺癌筛查建议，直接建议普通风险50至69岁男性每两年接受一次PSA筛查，并强调筛查前告知收益和风险。对黑人男性和具有较强家族史者，建议从45岁起每年筛查。",
+      "why_it_matters": "筛查建议从共同决策框架进一步转向主动推荐，但过度诊断与后续干预风险仍需平衡。",
+      "category": "MEDICINE",
+      "tags": [
+        "前列腺癌",
+        "PSA",
+        "临床指南"
+      ],
+      "source_name": "American Cancer Society",
+      "source_url": "https://pressroom.cancer.org/prostate-cancer-screening-guideline-update-2026",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "AMD扩展MI400系列并公布推理测试",
+      "summary": "AMD公布MI430X面向科学计算的FP64与高带宽内存能力，并介绍MI450X与MI455X在Helios系统上的定位。公司称MI455X在特定DeepSeek-R1 MLPerf Offline配置下达到每GPU每秒21,333 token，跨平台比较受测试配置约束。",
+      "why_it_matters": "AI基础设施竞争从单卡参数延伸到整机推理吞吐、内存和科学计算兼容性。",
+      "category": "TECH",
+      "tags": [
+        "AMD",
+        "GPU",
+        "MLPerf"
+      ],
+      "source_name": "AMD Newsroom",
+      "source_url": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "AMD与PsiQuantum扩大光量子计算合作",
+      "summary": "PsiQuantum与AMD宣布联合设计面向容错光量子计算的经典计算基础设施，整合CPU、GPU、FPGA与ROCm。AMD计划投资PsiQuantum，双方还计划探索药物研发等量子—经典混合工作流。",
+      "why_it_matters": "容错量子计算需要庞大的经典控制和纠错计算，合作揭示了实际工程路线；商业可用性尚待证明。",
+      "category": "TECH",
+      "tags": [
+        "量子计算",
+        "AMD",
+        "硅光子"
+      ],
+      "source_name": "PsiQuantum",
+      "source_url": "https://www.psiquantum.com/news-import/psiquantum-amd-partnership-future-of-computing",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "美联储理事警示AI可能加剧劳动收入不平等",
+      "summary": "美联储理事Michael Barr在11月12日讲话中指出，AI既可能提高生产率，也可能通过资本偏向型创新强化市场集中度。现阶段尚未观察到广泛失业，但年轻和低经验劳动者面临潜在替代风险。",
+      "why_it_matters": "为评估AI对就业、劳动收入份额及货币政策的长期影响提供官方政策视角，讲话中的未来情景不是已发生事实。",
+      "category": "MACRO",
+      "tags": [
+        "美联储",
+        "AI就业",
+        "收入分配"
+      ],
+      "source_name": "Federal Reserve Board",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "礼来口服GLP-1减重药在中国获批",
+      "summary": "据路透社11月12日报道，中国监管机构批准礼来口服GLP-1药物orforglipron用于体重管理，成为中国该领域的重要剂型突破。该产品此前已在美国获批，具体中国上市价格及供货时间尚未确认。",
+      "why_it_matters": "口服给药可能改变肥胖药物的可及性、依从性与市场竞争格局；监管批准不等于长期真实世界疗效已充分确立。",
+      "category": "CHINA",
+      "tags": [
+        "GLP-1",
+        "肥胖治疗",
+        "药品审批"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/china-approves-eli-lillys-weight-loss-pill-orforglipron-2026-11-12/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "大型企业计划提高开放权重模型使用比例",
+      "summary": "路透社援引凯捷调查称，近六成受访大型企业高管计划未来一年增加开放权重AI模型使用，以控制超预算的AI支出。这反映出企业模型选型正更重视推理成本与部署自主性。",
+      "why_it_matters": "从闭源API向可自部署模型转移的意向值得关注，但调查意愿不等于实际采购和使用数据。",
+      "category": "AI",
+      "tags": [
+        "开放权重",
+        "企业AI",
+        "成本"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/most-large-firms-plan-higher-open-weight-ai-use-cap-bills-study-shows-2026-11-12/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "高盛预测2027年AI仍将主导美国企业投资增长",
+      "summary": "据路透社报道，高盛预计2027年AI硬件和知识产权年化支出可能达到1.4万亿美元，并预测AI投资继续拉动资本开支。其估算同时提示资本开支增长对GDP的直接增量可能有限。",
+      "why_it_matters": "AI资本开支与经济产出之间的转换效率，是判断AI投资周期持续性的关键变量；预测不是已实现数据。",
+      "category": "MACRO",
+      "tags": [
+        "AI资本开支",
+        "美国经济",
+        "高盛"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/ai-stay-dominant-force-behind-us-business-investment-2027-goldman-says-2026-11-12/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
