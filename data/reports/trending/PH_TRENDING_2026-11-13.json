@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T00:00:11.047Z",
+  "title": "Daily Trending Projects",
+  "summary": "11月12日公开榜单呈现安全审计型编码 Agent、本地推理、Agent 隔离执行与跨模型路由持续受到关注；与此同时，个人财务、设备工具、Wi-Fi 感知及中文电商监控也进入趋势视野。优先选取近期未介绍的项目；趋势名次及 Stars 为来源快照，不将榜单排名视为产品质量证明。",
+  "top_picks": [
+    "openai/codex-security",
+    "ashhart/TensorFold",
+    "CopilotKit/OpenBot"
+  ],
+  "items": [
+    {
+      "title": "openai/codex-security",
+      "summary": "面向代码仓库的 AI 安全漏洞扫描项目。",
+      "why_it_matters": "安全检查进入编码 Agent 工作流，值得观察其误报控制与漏洞验证方式。",
+      "category": "Security",
+      "tags": [
+        "security",
+        "agent",
+        "audit"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/openai/codex-security",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "openai/codex-security",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第2名；较前一日上升7位",
+        "language": null
+      }
+    },
+    {
+      "title": "ashhart/TensorFold",
+      "summary": "Zig 编写的本地 LLM 推理引擎，支持 Metal、CUDA 等后端。",
+      "why_it_matters": "减少 Python 运行时依赖，适合研究本地推理部署与底层性能工程。",
+      "category": "Local AI",
+      "tags": [
+        "Zig",
+        "inference",
+        "GPU"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ashhart/TensorFold",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ashhart/TensorFold",
+        "github_stars": 1900,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第7名，首次进入该追踪站榜单",
+        "language": "Zig"
+      }
+    },
+    {
+      "title": "CopilotKit/OpenBot",
+      "summary": "为 AI 同事提供独立浏览器、文件和工具环境，并记录操作过程。",
+      "why_it_matters": "隔离执行环境与操作审计是 Agent 实际落地的关键。",
+      "category": "AI agents",
+      "tags": [
+        "sandbox",
+        "audit",
+        "AG-UI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/CopilotKit/OpenBot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "CopilotKit/OpenBot",
+        "github_stars": 11526,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第11名",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "we-promise/sure",
+      "summary": "开源个人财务管理应用。",
+      "why_it_matters": "非 Agent 类实用产品仍能进入日榜前列，体现本地/自主数据管理需求。",
+      "category": "Productivity",
+      "tags": [
+        "finance",
+        "self-hosted",
+        "app"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/we-promise/sure",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "we-promise/sure",
+        "github_stars": 13834,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第5名",
+        "language": "Ruby"
+      }
+    },
+    {
+      "title": "QwenLM/qwen-code",
+      "summary": "可在终端运行的开源 AI 编码 Agent，提供 MCP 和子 Agent 能力。",
+      "why_it_matters": "提供可替换的终端编码工作流，值得与其他 CLI Agent 对照测试。",
+      "category": "AI coding",
+      "tags": [
+        "CLI",
+        "Qwen",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/QwenLM/qwen-code",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "QwenLM/qwen-code",
+        "github_stars": 29758,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第6名",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "pookjw/HermesEnabler",
+      "summary": "Apple Watch 非官方表盘启用工具。",
+      "why_it_matters": "属于设备定制类的非 AI 新上榜项目，需留意兼容性与使用风险。",
+      "category": "Device utilities",
+      "tags": [
+        "watchOS",
+        "utility"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pookjw/HermesEnabler",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pookjw/HermesEnabler",
+        "github_stars": 1500,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第4名，首次进入追踪榜单",
+        "language": "Objective-C"
+      }
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "summary": "多 Agent 任务编排与管理平台。",
+      "why_it_matters": "适合观察多 Agent 的任务生命周期、协调及运行治理。",
+      "category": "AI agents",
+      "tags": [
+        "orchestration",
+        "workflow"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/paperclipai/paperclip",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "paperclipai/paperclip",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 趋势站 2026-11-12 AI agents 分类近7日增长榜第2",
+        "language": null
+      }
+    },
+    {
+      "title": "ruvnet/RuView",
+      "summary": "利用 Wi-Fi 信号进行环境感知与监测的实验性系统。",
+      "why_it_matters": "展示无线信号感知的软件应用潜力，实际性能与隐私边界需独立验证。",
+      "category": "Experimental",
+      "tags": [
+        "WiFi",
+        "sensing",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ruvnet/RuView",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ruvnet/RuView",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 趋势站 2026-11-12 日常应用分类近7日增长榜第3",
+        "language": null
+      }
+    },
+    {
+      "title": "Usagi-org/ai-goofish-monitor",
+      "summary": "面向闲鱼商品信息的 AI 辅助监控工具。",
+      "why_it_matters": "中文互联网垂直自动化工具，适合观察实际消费工作流。",
+      "category": "Productivity",
+      "tags": [
+        "Chinese",
+        "monitoring",
+        "ecommerce"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Usagi-org/ai-goofish-monitor",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 趋势站 2026-11-12 日常应用分类近7日增长榜第1",
+        "language": null
+      }
+    },
+    {
+      "title": "Alishahryar1/free-claude-code",
+      "summary": "面向多个编码 Agent 客户端的模型接入与路由工具。",
+      "why_it_matters": "多 Harness 兼容需求明显，但免费额度、服务条款与隐私承诺需自行核验。",
+      "category": "AI coding",
+      "tags": [
+        "routing",
+        "CLI",
+        "multi-model"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Alishahryar1/free-claude-code",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Alishahryar1/free-claude-code",
+        "github_stars": 69210,
+        "stars_growth": null,
+        "trend_signal": "GitHub 2026-11-12 日榜第12名",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "summary": "用于编码 Agent 的界面设计与视觉质量 Skill 包。",
+      "why_it_matters": "将设计约束做成可复用 Skill，减少生成界面质量波动。",
+      "category": "Skills",
+      "tags": [
+        "design",
+        "UI",
+        "agent-skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pbakaus/impeccable",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 趋势站 2026-11-12 AI coding add-ons 分类近7日增长榜第1",
+        "language": null
+      }
+    },
+    {
+      "title": "tashfeenahmed/freellmapi",
+      "summary": "LLM API 网关及模型路由项目。",
+      "why_it_matters": "可用于研究多模型接入与路由，但服务可靠性及安全性尚需测试。",
+      "category": "Developer tools",
+      "tags": [
+        "gateway",
+        "LLM",
+        "routing"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tashfeenahmed/freellmapi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tashfeenahmed/freellmapi",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitHub 趋势站 2026-11-12 推理模型分类近7日增长榜第1",
+        "language": null
+      }
+    }
+  ]
+}
