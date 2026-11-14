@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T08:00:50+08:00",
+  "title": "每日前沿简报",
+  "summary": "AI基础设施风险开始更明确地进入金融稳定讨论，同时GitHub将AI安全扫描纳入可编程治理。中国算力项目的供应链约束和微软云服务中断提醒企业重视交付真实性与业务连续性。英国科技产业增长则提供了观察AI投资实际经济效果的一个窗口。",
+  "items": [
+    {
+      "title": "美联储金融稳定报告：AI相关风险跃升为金融业首要担忧",
+      "summary": "美联储最新金融稳定报告调查显示，受访金融市场联系人中有87%提及AI相关风险，高于5月的50%。担忧集中于AI融资结构、网络风险及估值回调，调查结果并非风险发生概率。",
+      "why_it_matters": "AI基础设施从技术投资议题进入金融稳定监测，值得追踪杠杆、期限错配与跨机构敞口。",
+      "category": "MACRO",
+      "tags": [
+        "美联储",
+        "金融稳定",
+        "AI融资"
+      ],
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "87%为调查受访者提及比例，数字由Reuters报道；美联储官方报告入口已确认，具体统计未在原文逐项复核。"
+      }
+    },
+    {
+      "title": "GitHub开放仓库级AI Scan配置API",
+      "summary": "GitHub在11月13日宣布，可通过REST API在组织和仓库级启用或关闭AI Scan for repositories，当前为公开预览。开启配置不会自动触发扫描，实际扫描需有写权限者按需执行且消耗AI credits。",
+      "why_it_matters": "让AI安全扫描能够进入基础设施即代码和批量治理流程，同时需要明确授权与费用边界。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "AI Scan",
+        "DevSecOps"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "中国AI算力项目对英伟达受限芯片依赖仍显著",
+      "summary": "路透梳理中国多个算力项目招投标与建设文件，识别出合计超过30亿美元的项目提及英伟达处理器。部分文件列出H100、H200等型号，但项目规划或招标不等于芯片已经交付。",
+      "why_it_matters": "揭示国产替代、供应链合规与算力建设落地之间的差距，不能据规划金额推断实际进口规模。",
+      "category": "CHINA",
+      "tags": [
+        "算力",
+        "NVIDIA",
+        "出口管制"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/factbox-chinas-3-billion-plus-pipeline-nvidia-powered-ai-data-centres-2026-11-13/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "基于媒体对项目文件的梳理；部分项目交付状态未确认。"
+      }
+    },
+    {
+      "title": "Microsoft 365大范围故障暴露云服务集中风险",
+      "summary": "11月13日，微软Outlook、Teams等多项服务发生大范围中断，影响企业和公共机构。微软表示事件与网络攻击或AI无关，报道指向网络容量升级相关技术问题，完整事故报告尚待发布。",
+      "why_it_matters": "对依赖单一云协作平台的组织而言，业务连续性、离线替代通道和故障演练的重要性再次凸显。",
+      "category": "TECH",
+      "tags": [
+        "Microsoft 365",
+        "云故障",
+        "业务连续性"
+      ],
+      "source_name": "The Guardian",
+      "source_url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "事故根因依据微软初步说明，等待正式事后报告。"
+      }
+    },
+    {
+      "title": "英国科技产业增长加快，但就业扩张未同步",
+      "summary": "英国科技相关行业在截至9月的三个月同比增长约10%，英国整体经济同比增长约1.9%，据金融时报报道。AI基础设施投资被视为推动因素之一，但直接生产率贡献和就业传导尚不清晰。",
+      "why_it_matters": "提供观察AI资本开支能否转化为真实经济增长的案例，也提示产出增长不必然带来招聘扩张。",
+      "category": "MACRO",
+      "tags": [
+        "英国经济",
+        "AI投资",
+        "生产率"
+      ],
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/76fec740-0825-4c6b-a106-1dcdcba36219",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "行业增长与AI因果贡献须区分。"
+      }
+    }
+  ]
+}
