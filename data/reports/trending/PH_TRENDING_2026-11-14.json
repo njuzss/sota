@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T08:01:02.886+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月13日的项目热度呈现三条线索：浏览器官方知识向 Agent Skills 转化；编码 Agent 从单体助手升级为可编排、可评估、可回放的工程系统；Rust/GPUI 等原生工具和本地知识检索继续吸引开发者。榜单增速采用注明日期的第三方快照口径，非实时 GitHub 官方计数。",
+  "top_picks": [
+    "Tencent/LoopForge",
+    "NVIDIA/SkillEvaluator",
+    "GoogleChrome/modern-web-guidance-src"
+  ],
+  "items": [
+    {
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "summary": "Chrome、Edge、Firefox 与 MDN 共同维护的现代 Web 开发 Agent Skills 源仓库，提供浏览器兼容性与现代 API 指导。",
+      "why_it_matters": "浏览器平台知识可直接进入编码 Agent 的设计与代码审查，减少过时 API 的使用。",
+      "category": "Agent Skills",
+      "tags": [
+        "Web",
+        "Skills",
+        "浏览器兼容"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "GoogleChrome/modern-web-guidance-src",
+        "github_stars": 3280,
+        "stars_growth": "+739/日榜快照",
+        "trend_signal": "11月13日 GitHub Trending 日榜第1；归档显示当日新增约739 stars。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Tencent/LoopForge",
+      "summary": "腾讯开源的自托管多编码 Agent 工作台，通过沙箱、SOP 和人工审批编排 CodeBuddy、Codex、Claude Code。",
+      "why_it_matters": "适合企业内网多 Agent 任务调度和交付治理；需验证部署依赖与安全边界。",
+      "category": "Agent Orchestration",
+      "tags": [
+        "CodeBuddy",
+        "Codex",
+        "自托管"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Tencent/LoopForge",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Tencent/LoopForge",
+        "github_stars": 588,
+        "stars_growth": null,
+        "trend_signal": "11月13日注意力加速榜第3，近7日关注度明显提升。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "NVIDIA/SkillEvaluator",
+      "summary": "NVIDIA 的 Agent Skill 评估工具，结合静态质量、安全扫描和执行前后效果对比。",
+      "why_it_matters": "Skill 从经验型 Prompt 走向可测量、可在 CI 中把关的工程资产。",
+      "category": "Developer Tools",
+      "tags": [
+        "Skills",
+        "Evaluation",
+        "Security",
+        "CI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/SkillEvaluator",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVIDIA/SkillEvaluator",
+        "github_stars": 900,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜前列，7日相对增长约28%。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "devaccuracy/ledgerforge",
+      "summary": "面向钱包、支付和 AI Agent 支出的复式记账引擎，提供额度约束与可审计记录。",
+      "why_it_matters": "把 Agent 消费权限和审计落在账务层，适合金融科技和 Agent 支出治理研究。",
+      "category": "Fintech Infrastructure",
+      "tags": [
+        "Ledger",
+        "Agent",
+        "Go",
+        "Audit"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/devaccuracy/ledgerforge",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "devaccuracy/ledgerforge",
+        "github_stars": 223,
+        "stars_growth": null,
+        "trend_signal": "11月13日注意力榜第2，近7日增长约67%。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "Parcha-ai/agentrun",
+      "summary": "Agent 工作流 DSL 与 pi 扩展，组合脚本步骤、模型调用和可追溯的多模态证据。",
+      "why_it_matters": "让复杂 Agent 任务拥有显式流程与证据引用，便于控制成本和调试。",
+      "category": "Agent Framework",
+      "tags": [
+        "Workflow",
+        "DSL",
+        "Multimodal"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Parcha-ai/agentrun",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Parcha-ai/agentrun",
+        "github_stars": 624,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜第6，尚未进入 GitHub Trending 日榜。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "ShayanAbbas1/dbdelve",
+      "summary": "Rust 与 GPUI 构建的原生多数据库客户端，主打低内存、快速启动和大表浏览。",
+      "why_it_matters": "为不愿承担 Electron/JVM 资源开销的开发者提供数据库 GUI 新选择。",
+      "category": "Desktop Tools",
+      "tags": [
+        "Rust",
+        "GPUI",
+        "Database"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ShayanAbbas1/dbdelve",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ShayanAbbas1/dbdelve",
+        "github_stars": 1244,
+        "stars_growth": null,
+        "trend_signal": "11月13日注意力榜第8，近7日增长约47%。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "AbdullahAlhariri/penmentor",
+      "summary": "连接 xournal++ 手写笔记和大模型的数学辅导工具，可直接批注推导并生成动画解释。",
+      "why_it_matters": "把 AI 辅导嵌入手写学习过程，交互形态比纯聊天更贴近真实教学。",
+      "category": "Education",
+      "tags": [
+        "Handwriting",
+        "Math",
+        "Manim"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/AbdullahAlhariri/penmentor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "AbdullahAlhariri/penmentor",
+        "github_stars": 237,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜前10，尚未进入 GitHub Trending 日榜。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ardia-browser/ardia",
+      "summary": "基于 Chromium 的 macOS 浏览器，结合侧栏、分屏和广告追踪拦截。",
+      "why_it_matters": "在成熟浏览器内核上探索原生桌面交互和本地优先浏览体验。",
+      "category": "Desktop Apps",
+      "tags": [
+        "macOS",
+        "Browser",
+        "Chromium"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ardia-browser/ardia",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ardia-browser/ardia",
+        "github_stars": 2087,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜显示近7日增长约43%。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "byenzyme/enzyme",
+      "summary": "为 Markdown 笔记构建本地语义索引，使编码 Agent 能检索并引用已有知识。",
+      "why_it_matters": "有望让个人知识库和 Agent 之间建立低成本、可溯源的检索层。",
+      "category": "Productivity",
+      "tags": [
+        "PKM",
+        "Obsidian",
+        "Local-first"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/byenzyme/enzyme",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "byenzyme/enzyme",
+        "github_stars": 157,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜上榜，尚未进入 GitHub Trending 日榜。",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "unstablebuild/rune",
+      "summary": "GPU 加速的 IDE 与终端复用器，整合手动编码和多 Agent 会话工作区。",
+      "why_it_matters": "针对同时运行多个终端和 Agent 的工作流减少窗口切换成本。",
+      "category": "Developer Tools",
+      "tags": [
+        "IDE",
+        "Terminal",
+        "Go"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/unstablebuild/rune",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "unstablebuild/rune",
+        "github_stars": 1770,
+        "stars_growth": null,
+        "trend_signal": "11月13日注意力榜显示近7日增长约17%。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "vincentsch/explainroo",
+      "summary": "本地化的 Agent 视频工作室，将脚本、语音、词级时间对齐与画布渲染组合为讲解视频。",
+      "why_it_matters": "适合自动制作产品演示和技术讲解，减少对在线剪辑平台的依赖。",
+      "category": "Creative Tools",
+      "tags": [
+        "Video",
+        "Agent",
+        "Local"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vincentsch/explainroo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "vincentsch/explainroo",
+        "github_stars": 1260,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜上榜，近7日增长约37%。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "Continuum-AI-Corp/OrcaReplay",
+      "summary": "记录、离线重放、分叉并对比编码 Agent 执行轨迹的调试工具。",
+      "why_it_matters": "Agent 故障复现与跨模型回归测试具有实际工程价值，需核验其确定性重放边界。",
+      "category": "Agent Observability",
+      "tags": [
+        "Replay",
+        "Debugging",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Continuum-AI-Corp/OrcaReplay",
+        "github_stars": 591,
+        "stars_growth": null,
+        "trend_signal": "11月13日加速榜显示近7日增长约41%。",
+        "language": "TypeScript"
+      }
+    }
+  ]
+}
