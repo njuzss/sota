@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T07:57:35+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月14日的公开趋势快照显示，Agent 人机协同、可嵌入办公与浏览器调试工具继续获得关注，同时本地会议助手、跨设备显示与神经渲染扩展了实用软件的覆盖面。榜单增长是关注度而非实际安装量；不同来源的统计窗口不混用。",
+  "top_picks": [
+    "backnotprop/plannotator",
+    "FrigadeHQ/yogurt",
+    "arjun988/blender-skills"
+  ],
+  "items": [
+    {
+      "title": "backnotprop/plannotator",
+      "summary": "将 Agent 的计划、代码审查与人工批注集中到交互式工作台。",
+      "why_it_matters": "适合在执行前审阅方案，在执行后集中反馈，降低反复复制上下文的成本。",
+      "category": "Agent Tools",
+      "tags": [
+        "agent",
+        "review",
+        "planning"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/backnotprop/plannotator",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "backnotprop/plannotator",
+        "github_stars": 11093,
+        "stars_growth": "+412（GitHub Trending today）",
+        "trend_signal": "GitHub Trending 日榜首位；trendrepo 11月14日23:20 UTC 快照显示当日增长501（不同统计窗口）。",
+        "language": "TypeScript",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "FrigadeHQ/yogurt",
+      "summary": "本地优先的跨平台 AI 会议笔记应用。",
+      "why_it_matters": "适合评估会议记录的本地存储与隐私边界；仍需核对具体模型配置是否向外部服务发送内容。",
+      "category": "Productivity",
+      "tags": [
+        "meeting",
+        "local-first",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/FrigadeHQ/yogurt",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "FrigadeHQ/yogurt",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 11月14日18:00 UTC 新项目榜第7，约203 stars/day。",
+        "language": "TypeScript",
+        "trend_source_url": "https://trendar.org/trending"
+      }
+    },
+    {
+      "title": "arjun988/blender-skills",
+      "summary": "面向编码 Agent 的 Blender 技术美术技能集合，覆盖建模、材质、动画及引擎导出。",
+      "why_it_matters": "可将资产制作拆为可复用的操作规范，结合 MCP 执行；实际质量仍需渲染与人工验收。",
+      "category": "Skills",
+      "tags": [
+        "blender",
+        "3d",
+        "mcp"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/arjun988/blender-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "arjun988/blender-skills",
+        "github_stars": 3132,
+        "stars_growth": "+345（11月14日美西自然日截至23:20 UTC）",
+        "trend_signal": "trendrepo 11月14日23:20 UTC 快照显示增长加速约3.5倍。",
+        "language": "TypeScript",
+        "trend_source_url": "https://www.trendrepo.dev/"
+      }
+    },
+    {
+      "title": "deepseek-ai/chat-demo",
+      "summary": "官方静态聊天示例，浏览器直接连接配置的 DeepSeek API，支持流式回复和会话管理。",
+      "why_it_matters": "无需应用后端便可研究大模型聊天界面；API key 保存在浏览器本地，仍需注意部署来源与 XSS 风险。",
+      "category": "AI Apps",
+      "tags": [
+        "deepseek",
+        "web",
+        "chat"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/deepseek-ai/chat-demo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "deepseek-ai/chat-demo",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 11月14日18:00 UTC 新项目榜第1，约1157 stars/day。",
+        "language": "TypeScript",
+        "trend_source_url": "https://trendar.org/trending"
+      }
+    },
+    {
+      "title": "apex-compute/ANR",
+      "summary": "神经渲染项目，提供帧生成 Beta 及用于比较不同帧生成方案的录制工具。",
+      "why_it_matters": "适合研究跨 GPU 的帧生成和可复现图像比较；核心渲染源码尚未公开，超分与光线重建尚未进入公开 Beta。",
+      "category": "Creative Tools",
+      "tags": [
+        "rendering",
+        "gpu",
+        "graphics"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/apex-compute/ANR",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "apex-compute/ANR",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "Trendar 11月14日18:00 UTC 新项目榜第5，约397 stars/day。",
+        "language": "C++",
+        "trend_source_url": "https://trendar.org/trending"
+      }
+    },
+    {
+      "title": "vercel-labs/ui",
+      "summary": "为 Agent 生成用户界面提供可复用交互行为的库。",
+      "why_it_matters": "将界面行为与视觉样式分开考虑，有助于减少生成式 UI 的交互不一致。",
+      "category": "Developer Tools",
+      "tags": [
+        "ui",
+        "frontend",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/vercel-labs/ui",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "vercel-labs/ui",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitTrend 11月13日榜单第2，页面报告约2200新增 stars，数字为近似快照。",
+        "language": "TypeScript",
+        "trend_source_url": "https://gittrend.io/"
+      }
+    },
+    {
+      "title": "raiseCatError/meowdisplay",
+      "summary": "将 Mac 屏幕镜像、扩展或单窗口投射到 iPhone、iPad 或另一台 Mac。",
+      "why_it_matters": "可复用闲置设备作为副屏并进行触控操作；Android 尚处封闭测试。",
+      "category": "Desktop Apps",
+      "tags": [
+        "macos",
+        "ios",
+        "remote-display"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/raiseCatError/meowdisplay",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "raiseCatError/meowdisplay",
+        "github_stars": 166,
+        "stars_growth": null,
+        "trend_signal": "11月14日 gori.me 专文介绍；此前 Show HN 排名追踪显示持续数日获得关注。",
+        "language": null,
+        "trend_source_url": "https://gori.me/en/apps/mac-app-news/172292/"
+      }
+    },
+    {
+      "title": "dream-num/univer",
+      "summary": "可嵌入应用的办公 SDK，提供编辑、计算、协作及文件处理能力。",
+      "why_it_matters": "适合构建可让用户和 Agent 共同操作的表格及文档系统；评估时需区分开源核心与商业扩展。",
+      "category": "Developer Tools",
+      "tags": [
+        "office",
+        "spreadsheet",
+        "sdk"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/dream-num/univer",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "dream-num/univer",
+        "github_stars": 24461,
+        "stars_growth": "+495（GitHub Trending today）",
+        "trend_signal": "GitHub Trending 当前日榜收录。",
+        "language": "TypeScript",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "summary": "将 Chrome DevTools 能力开放给编码 Agent 的 MCP 服务。",
+      "why_it_matters": "可将网页调试、运行时观测和自动化验证接入开发流程；应隔离测试浏览器与私人登录会话。",
+      "category": "MCP",
+      "tags": [
+        "browser",
+        "debugging",
+        "mcp"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "ChromeDevTools/chrome-devtools-mcp",
+        "github_stars": 56268,
+        "stars_growth": "+673（GitHub Trending today）",
+        "trend_signal": "GitHub Trending 当前日榜收录。",
+        "language": "TypeScript",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "alibaba/open-code-review",
+      "summary": "融合确定性规则流水线与 LLM Agent 的代码评审工具，支持多语言与行级评论。",
+      "why_it_matters": "适合对比传统静态分析和模型审查的互补性，尤其是空指针、并发及安全规则；不意味着能替代人工审查。",
+      "category": "Developer Tools",
+      "tags": [
+        "code-review",
+        "static-analysis",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/alibaba/open-code-review",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "alibaba/open-code-review",
+        "github_stars": 51397,
+        "stars_growth": "+897（GitHub Trending today）",
+        "trend_signal": "GitHub Trending 当前日榜收录，显著新增关注。",
+        "language": "Go",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "Likely7/Veyra-NRVideo",
+      "summary": "Windows 视频播放及采集增强工具，结合超分辨率和帧生成。",
+      "why_it_matters": "值得观察实时视频处理在采集卡和播放场景中的应用；项目宣传性能并非独立实测。",
+      "category": "Creative Tools",
+      "tags": [
+        "video",
+        "windows",
+        "gpu"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Likely7/Veyra-NRVideo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "Likely7/Veyra-NRVideo",
+        "github_stars": 2203,
+        "stars_growth": "+423（GitHub Trending today）",
+        "trend_signal": "GitHub Trending 当前日榜收录。",
+        "language": "C++",
+        "trend_source_url": "https://github.com/trending"
+      }
+    },
+    {
+      "title": "louislam/uptime-kuma",
+      "summary": "自托管服务可用性监控工具，支持网络探测、告警及状态页。",
+      "why_it_matters": "适合个人服务和小团队的轻量运维监控，成熟度相对较高。",
+      "category": "DevOps",
+      "tags": [
+        "monitoring",
+        "self-hosted",
+        "status-page"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/louislam/uptime-kuma",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "louislam/uptime-kuma",
+        "github_stars": 94219,
+        "stars_growth": "+432（GitHub Trending today）",
+        "trend_signal": "GitHub Trending 当前日榜重新出现。",
+        "language": "JavaScript",
+        "trend_source_url": "https://github.com/trending"
+      }
+    }
+  ]
+}
