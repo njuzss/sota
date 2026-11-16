@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T07:56:34+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月16日公开趋势快照显示，Agent 生态继续向标准交互协议、可复用插件和本地创作工具延伸；自托管容器管理与历史地图也进入日榜。项目功能由官方 README 核验，趋势主要来自 GitHub 榜单归档，未获得足够可核验的其他社区热度数据；未知精确指标留空。",
+  "top_picks": [
+    "getarcaneapp/arcane",
+    "kajisho5/ffmpeg-skill",
+    "DeanChensj/jiangshan-map"
+  ],
+  "items": [
+    {
+      "title": "getarcaneapp/arcane",
+      "summary": "自托管 Docker 管理面板，集中查看容器与 Compose 应用。",
+      "why_it_matters": "适合家庭服务器及小团队运维，主分支已进入 v3 开发，生产使用前应确认稳定版本。",
+      "category": "DevOps",
+      "tags": [
+        "Docker",
+        "Self-hosted",
+        "Web UI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/getarcaneapp/arcane",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "getarcaneapp/arcane",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第5，归档首次记录上榜。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "kajisho5/ffmpeg-skill",
+      "summary": "为编码 Agent 提供本地 FFmpeg 剪辑、字幕、重构画幅和导出工具，并检查输出。",
+      "why_it_matters": "将视频制作转成可复用、可验证的自动化流程，无需云端视频 API。",
+      "category": "Creative tools",
+      "tags": [
+        "FFmpeg",
+        "MCP",
+        "Skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "kajisho5/ffmpeg-skill",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第14，归档首次记录上榜。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "DeanChensj/jiangshan-map",
+      "summary": "江山时序：从战国到现代的交互历史地图，可浏览疆域、古今地名和诗词路线。",
+      "why_it_matters": "将历史地理与时间轴结合，适合学习和数字人文交互设计；历史边界仍应参考专业资料。",
+      "category": "Education",
+      "tags": [
+        "GIS",
+        "History",
+        "Web App"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DeanChensj/jiangshan-map",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "DeanChensj/jiangshan-map",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第6，归档首次记录上榜。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "google-research/paper-orchestra",
+      "summary": "多 Agent 科研写作框架，把实验记录与研究构想组织为 LaTeX 草稿。",
+      "why_it_matters": "可研究文献整合、章节写作与图表生成的任务分工；引用与结论必须人工核验。",
+      "category": "Research",
+      "tags": [
+        "Multi-agent",
+        "LaTeX"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/google-research/paper-orchestra",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "google-research/paper-orchestra",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第11，归档首次记录上榜。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ag-ui-protocol/ag-ui",
+      "summary": "以双向事件流连接 Agent 与用户端应用的开放协议。",
+      "why_it_matters": "统一工具调用、状态和交互事件，减少不同 Agent 框架与前端之间的适配工作。",
+      "category": "Agent infrastructure",
+      "tags": [
+        "Protocol",
+        "Frontend"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ag-ui-protocol/ag-ui",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ag-ui-protocol/ag-ui",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第1，较前日上升一位。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "google-labs-code/stitch-skills",
+      "summary": "Google Stitch 的设计与构建 Skills、插件组合，支持多种编码 Agent。",
+      "why_it_matters": "适合把界面设计与实现流程衔接起来，并研究跨 Agent 插件组织方式。",
+      "category": "Skills",
+      "tags": [
+        "UI",
+        "Design",
+        "Plugins"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/google-labs-code/stitch-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "google-labs-code/stitch-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第7。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "mvanhorn/last30days-skill",
+      "summary": "面向 Agent 的近期社区信息研究工具，支持 Reddit、HN、GitHub 等来源。",
+      "why_it_matters": "适合发现真实用户讨论和近期产品信号，但热度不等于事实准确性。",
+      "category": "Skills",
+      "tags": [
+        "Research",
+        "Search"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mvanhorn/last30days-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mvanhorn/last30days-skill",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日日榜第8，重新上榜。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "Thysrael/Horizon",
+      "summary": "自动整理新闻并生成 AI 简报的开源项目。",
+      "why_it_matters": "适合研究个人信息聚合、每日摘要与静态发布工作流。",
+      "category": "Productivity",
+      "tags": [
+        "News",
+        "Automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Thysrael/Horizon",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Thysrael/Horizon",
+        "github_stars": null,
+        "stars_growth": "+1341/7d",
+        "trend_signal": "11月16日分类归档：日常应用近7日增长第三。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "JustVugg/colibri",
+      "summary": "用磁盘按需加载 MoE 专家权重的本地推理引擎，支持纯 CPU 执行。",
+      "why_it_matters": "适合实验低内存大模型推理；实际速度取决于存储和硬件，不应将可运行等同于高吞吐。",
+      "category": "Local AI",
+      "tags": [
+        "MoE",
+        "Inference",
+        "CPU"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/JustVugg/colibri",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "JustVugg/colibri",
+        "github_stars": null,
+        "stars_growth": "+2235/7d",
+        "trend_signal": "11月16日模型运行分类近7日增长第二。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "C"
+      }
+    },
+    {
+      "title": "cursor/plugins",
+      "summary": "Cursor 官方插件集合，涵盖代码评审、持续学习、团队流程与插件创建。",
+      "why_it_matters": "可借鉴 Agent 工具契约、验证流程和可复用团队工程规范。",
+      "category": "Plugins",
+      "tags": [
+        "Cursor",
+        "Code Review"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cursor/plugins",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cursor/plugins",
+        "github_stars": null,
+        "stars_growth": "+751/7d",
+        "trend_signal": "11月16日开发工具分类近7日增长第三。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "D4Vinci/Scrapling",
+      "summary": "Python 网页采集框架，面向现代网页的信息提取。",
+      "why_it_matters": "适合构建公开信息采集与结构化数据流程，使用时应遵守站点权限和访问规则。",
+      "category": "Developer tools",
+      "tags": [
+        "Python",
+        "Scraping"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/D4Vinci/Scrapling",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "D4Vinci/Scrapling",
+        "github_stars": null,
+        "stars_growth": "+3167/7d",
+        "trend_signal": "11月16日开发工具分类近7日增长第一。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "debpalash/VoiceStudio",
+      "summary": "本地优先的 AI 语音工作台，覆盖配音、转录、朗读和语音设计。",
+      "why_it_matters": "适合本地音频创作，涉及声音克隆时应取得授权。",
+      "category": "Creative tools",
+      "tags": [
+        "Audio",
+        "Local AI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/debpalash/VoiceStudio",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "debpalash/VoiceStudio",
+        "github_stars": 111817,
+        "stars_growth": "+5924/7d",
+        "trend_signal": "11月16日归档近7日增长榜第8。 来源：https://trend.ondo.sh/github/2026-11-16/en.html；增长为归档7日窗口，非24小时。",
+        "language": null
+      }
+    }
+  ]
+}
