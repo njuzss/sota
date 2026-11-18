@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T08:04:34+08:00",
+  "title": "每日前沿简报",
+  "summary": "过去24小时，Agent编码生态集中推进模型、评测、代码审查和浏览器交互，安全治理正在成为产品核心能力。OpenAI披露AI辅助公共网络防御的新案例，FDA则发布罕见病生存获益药物批准及跨境审评共享计划。对企业研发而言，值得优先关注可重复评测、风险分层审查和密钥防泄漏。",
+  "items": [
+    {
+      "title": "OpenAI向北约及欧洲网络防御机构提供Daybreak模型",
+      "summary": "OpenAI披露与北约NCIA合作，将前沿模型用于授权漏洞研究、软件审查和修复验证。公司称ENISA与CERT-EU相关评估中，维护者确认的88项候选问题有95%属实；这是特定样本结果，并非通用准确率。",
+      "why_it_matters": "标志AI安全研究从实验演示进入跨国关键基础设施防护，需关注误报、人类复核与数据治理。",
+      "category": "AI",
+      "tags": [
+        "网络安全",
+        "Daybreak",
+        "NATO"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GPT-6.2 Astra与Sol进入GitHub Copilot",
+      "summary": "GitHub宣布两款OpenAI模型在Copilot中正式可用，覆盖IDE、CLI及代码审查等入口。官方称早期内部测试发现更多真实代码问题且部分任务使用更少token，但未提供可独立复验的统一基准。",
+      "why_it_matters": "Agent编码和代码审查模型竞争继续升级，部署决策应以本地工作负载实测为准。",
+      "category": "AI",
+      "tags": [
+        "GPT-6.2",
+        "Copilot",
+        "代码审查"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GitHub Copilot代码审查引入自适应审查深度",
+      "summary": "Copilot code review新增Adaptive模式，按PR复杂度与风险选择不同审查强度。GitHub同时介绍跨仓库上下文和密钥检测能力，部分功能处于公开预览。",
+      "why_it_matters": "与企业迁移质量扫描高度相关：可把高风险变更优先投入更多自动审查资源。",
+      "category": "TECH",
+      "tags": [
+        "Code Review",
+        "DevSecOps",
+        "Adaptive"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GitHub Copilot Evals开放公开预览",
+      "summary": "GitHub宣布Copilot Evals进入公开预览，进一步提供智能体工作流评估能力。评估工具本身的上线不等于任一模型效果已被独立证明。",
+      "why_it_matters": "有利于从主观Agent体验转向可重复的任务集、质量门禁和回归评测。",
+      "category": "TECH",
+      "tags": [
+        "Evals",
+        "Agent",
+        "评测"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GitHub推出面向开发者与Agent的按需密钥扫描",
+      "summary": "GitHub宣布按需secret scanning能力，面向开发者和自动化Agent调用。该能力旨在帮助代码进入主分支前发现敏感凭据暴露风险。",
+      "why_it_matters": "对自动生成代码和多Agent协作尤其重要，可作为提交前安全关卡。",
+      "category": "TECH",
+      "tags": [
+        "Secret Scanning",
+        "Agent安全",
+        "供应链"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GitHub公开Agent Harness比较维度",
+      "summary": "GitHub宣布其Copilot基准网站加入harness比较，便于观察不同执行框架下的表现。基准表现受任务集、工具权限、预算和运行环境影响，不宜直接等同生产效率。",
+      "why_it_matters": "Agent工具选型需要同时比较模型和harness，而非仅凭模型排行榜。",
+      "category": "AI",
+      "tags": [
+        "Harness",
+        "Benchmark",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GitHub Copilot增加浏览器交互能力",
+      "summary": "GitHub发布Copilot与浏览器交互的新能力说明，扩展Agent从代码编辑到网页操作的工作边界。网页内容可能包含不可信指令，自动化使用仍需权限隔离和人工确认。",
+      "why_it_matters": "浏览器操作可串联测试、复现和验证，但同时扩大提示注入及凭据风险。",
+      "category": "AI",
+      "tags": [
+        "Browser Agent",
+        "Copilot",
+        "自动化"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "FDA批准首个证实延长婴幼儿起病NPC患者生存的药物",
+      "summary": "FDA批准鞘内注射adrabetadex用于符合条件的NPC患者。36名治疗者与匹配外部对照比较，报告死亡风险降低55%、中位生存8.5年对4.9年；非随机外部对照设计存在混杂风险，且药物有永久听力损伤黑框警告。",
+      "why_it_matters": "罕见病生存终点获监管认可意义重大，但证据设计和风险收益必须同时呈现。",
+      "category": "MEDICINE",
+      "tags": [
+        "罕见病",
+        "NPC",
+        "adrabetadex"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-shown-help-patients-infantile-onset-niemann-pick-disease-type-c-live-longer",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "FDA启动全球审评资料依赖共享计划",
+      "summary": "FDA宣布GRDP计划，允许企业向境外监管机构分享经有限删节的FDA科学审评材料。该机制已先在PEPFAR部分暂定批准中启动，计划于2027年1月扩展至创新药和生物制品。",
+      "why_it_matters": "可能缩短跨国药品审评的信息壁垒，但各国仍保留独立监管决定权。",
+      "category": "MEDICINE",
+      "tags": [
+        "药品监管",
+        "GRDP",
+        "全球可及性"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    },
+    {
+      "title": "GitHub开源维护者试点将AI漏洞报告转为可修复问题",
+      "summary": "GitHub与Microsoft介绍Codename MDASH试点，将大量AI发现压缩成99份经过检查的私密报告，覆盖六个广泛使用的开源项目。官方称维护者已修复超过一半，结果属于项目试点而非普遍效果。",
+      "why_it_matters": "说明AI安全审计的瓶颈不只是发现问题，更是证据质量、去重和可执行修复。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "开源安全",
+        "AI审计",
+        "维护者"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "发布时间仅确认自然日；未确认具体时刻，published_at应置null"
+      }
+    }
+  ]
+}
