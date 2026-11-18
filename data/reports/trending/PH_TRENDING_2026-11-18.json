@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T08:05:19.458+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月17日前后，Agent 工具热度集中于跨设备控制台、安全审计、可复用设计 Skills 与多模型路由。选取具有明确使用场景的项目，并加入跨平台移植、金融工作流与小模型教学等不同方向。趋势信号主要来自 GitHub Trending 归档；增长统计口径为归档标示的七日或单日窗口，不混用。",
+  "top_picks": [
+    "pingdotgg/t3code",
+    "cloudflare/security-audit-skill",
+    "Nutlope/hallmark"
+  ],
+  "items": [
+    {
+      "title": "pingdotgg/t3code",
+      "summary": "跨设备编码 Agent 控制台，统一管理本机 Codex、Claude Code 等 Agent 的会话与审批。",
+      "why_it_matters": "桌面启动、手机审批的闭环适合远程与夜间 Agent 工作流；应审查远程访问和授权边界。",
+      "category": "AI Agent",
+      "tags": [
+        "Agent",
+        "Remote",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pingdotgg/t3code",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "pingdotgg/t3code",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月17日七日趋势榜第2，七日新增8464 Stars（归档快照）。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare 开源的多阶段安全审计 Skill，包含覆盖台账、独立验证和结构化发现。",
+      "why_it_matters": "适合借鉴覆盖率驱动、独立反证与可机读报告，避免单个 Agent 自证结论。",
+      "category": "Security",
+      "tags": [
+        "Skill",
+        "Audit",
+        "Verification"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "cloudflare/security-audit-skill",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日七日增长5959 Stars，位列七日榜第7。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "summary": "面向编码 Agent 的 UI 设计词汇与批评、审计、润色技能集。",
+      "why_it_matters": "用可复用设计命令和质量审查提升 AI 生成前端的审美与一致性。",
+      "category": "Design Skills",
+      "tags": [
+        "Design",
+        "Agent",
+        "UI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pbakaus/impeccable",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日分类榜 AI coding add-ons 七日增长4551 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "DietrichGebert/ponytail",
+      "summary": "面向多种编码 Agent 的工程技能工具包。",
+      "why_it_matters": "可研究将资深工程实践封装成跨 Agent 可复用命令，但需先评估实际技能质量。",
+      "category": "Agent Skills",
+      "tags": [
+        "Skills",
+        "Developer tools"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "DietrichGebert/ponytail",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日 AI coding add-ons 分类七日增长4511 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "Nutlope/hallmark",
+      "summary": "通过主题、真实浏览器审查与分层质量门禁改善 Agent 生成网页的设计技能。",
+      "why_it_matters": "把无障碍、移动端适配和设计反模式纳入发布门禁，具备可操作的验收思路。",
+      "category": "Creative tools",
+      "tags": [
+        "Web design",
+        "Skill",
+        "Browser"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Nutlope/hallmark",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日 AI coding add-ons 分类七日增长4371 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "Alishahryar1/free-claude-code",
+      "summary": "基于 Python 的编码 Agent 路由与工具集成项目。",
+      "why_it_matters": "提供研究多提供商路由和编码 Harness 的开源样本；部署前须审查许可与凭据处理。",
+      "category": "Coding AI",
+      "tags": [
+        "Python",
+        "Agent",
+        "Router"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Alishahryar1/free-claude-code",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Alishahryar1/free-claude-code",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日 Coding AI 分类七日增长3245 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "tashfeenahmed/freellmapi",
+      "summary": "聚合多提供商免费额度的 OpenAI 兼容模型网关，提供路由、故障切换和用量追踪。",
+      "why_it_matters": "适合研究 API 统一接入和限流容错；README 的免费额度宣传不等于实际可用保障。",
+      "category": "AI Infrastructure",
+      "tags": [
+        "LLM Gateway",
+        "API",
+        "Routing"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tashfeenahmed/freellmapi",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tashfeenahmed/freellmapi",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日模型运行分类七日增长3761 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "boykopovar/AnyPS5",
+      "summary": "探索将特定平台可执行文件重链接到 Linux/Windows 原生格式的移植工具。",
+      "why_it_matters": "绕过传统仿真进程的技术路径有研究价值，但兼容性和合法使用范围需逐项核验。",
+      "category": "Experimental",
+      "tags": [
+        "Cross-platform",
+        "Gaming",
+        "Binary"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/boykopovar/AnyPS5",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "boykopovar/AnyPS5",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月16日 Everyday & work apps 分类七日增长1885 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "tradermonty/claude-trading-skills",
+      "summary": "将投资复盘、风险管理、交易计划与日志整理成 Claude Skills 工作流。",
+      "why_it_matters": "强调纪律化流程而非自动买卖信号，适合研究可审计的投资研究辅助工具。",
+      "category": "Finance tools",
+      "tags": [
+        "Investing",
+        "Skills",
+        "Workflow"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tradermonty/claude-trading-skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "tradermonty/claude-trading-skills",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月17日 GitHub Trending 日榜第4，归档显示当天新增837 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "affaan-m/ECC",
+      "summary": "面向编码 Agent 的规则、工作流和上下文优化体系。",
+      "why_it_matters": "可借鉴工程化 Agent 配置与协作规范，但需避免未经评测直接引入大量规则。",
+      "category": "Agent Framework",
+      "tags": [
+        "Agent",
+        "Context",
+        "Engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "affaan-m/ECC",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月17日 GitHub Trending 日榜第13；11月17日分类七日增长4588 Stars。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": null
+      }
+    },
+    {
+      "title": "jingyaogong/minimind",
+      "summary": "从零实现轻量语言模型的中文开源教学项目，覆盖训练和对齐流程。",
+      "why_it_matters": "以小规模模型帮助理解预训练、微调、偏好优化和工具调用的完整链路。",
+      "category": "AI Education",
+      "tags": [
+        "LLM",
+        "Training",
+        "Python"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/jingyaogong/minimind",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "jingyaogong/minimind",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月17日 GitHub Trending 日榜第14。 趋势来源：https://trend.ondo.sh/github/2026-11-17/en.html 或 https://trend.ondo.sh/github/2026-11-16/en.html；增长窗口不等同24小时。",
+        "language": "Python"
+      }
+    }
+  ]
+}
