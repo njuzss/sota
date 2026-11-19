@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T08:01:09.736+08:00",
+  "title": "每日前沿简报",
+  "summary": "过去一个信息周期，AI芯片跨境供应与模型使用监管成为全球AI产业的关键变量。GitHub集中推出模型、MCP连接器及团队插件治理更新，推动Agent从单人开发工具走向组织级工作流。资本市场对AI基础设施的需求前景与治理风险同时重新定价。",
+  "items": [
+    {
+      "title": "英伟达停止向中国出货获许可的Hopper AI芯片",
+      "summary": "英伟达管理层表示已停止向中国出货获得美国许可的Hopper数据中心芯片，当前展望也不包含后续出货。公司没有说明暂停是否永久，政策许可与实际交付之间仍有明显障碍。",
+      "why_it_matters": "直接影响中国大模型训练算力供应、国产替代节奏及全球AI芯片收入预期。",
+      "category": "CHINA",
+      "tags": [
+        "NVIDIA",
+        "H200",
+        "出口管制"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "腾讯称美国新算力限制可能拖慢模型训练",
+      "summary": "腾讯表示新限制对主要由推理驱动的云业务收入影响有限，但可能影响先进模型训练进度。其第三季度营收同比增长8%，AI基础设施资本开支继续上升。",
+      "why_it_matters": "揭示中国大型互联网公司在推理商业化与前沿模型训练之间的算力结构性差异。",
+      "category": "CHINA",
+      "tags": [
+        "腾讯",
+        "算力",
+        "财报"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "美国政府考虑要求企业披露中国AI模型使用情况",
+      "summary": "据路透社援引知情人士报道，美国政府正在讨论要求美国企业公开披露其对中国AI模型的使用。该方案仍处于考虑阶段，并非已经生效的监管规定。",
+      "why_it_matters": "若落实，将影响跨国企业模型采购、合规披露与中美开源模型生态。",
+      "category": "AI",
+      "tags": [
+        "模型治理",
+        "美国政策",
+        "中国AI"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Copilot接入Gemini 4 Neon",
+      "summary": "GitHub宣布Gemini 4 Neon在Copilot中正式可用，覆盖CLI、IDE和Coding Agent等入口。Google声称其在较低任务成本下接近Carbon的质量，但性能描述主要来自供应商。",
+      "why_it_matters": "模型选择进一步细化为质量、成本、延迟及工具使用可靠性的多目标优化。",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "Copilot",
+        "Agent"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Copilot新增八类经过验证的MCP连接器",
+      "summary": "GitHub开放Box、Supabase、Buildkite、Calendly等八项连接器的公开预览。用户可以在Copilot CLI、VS Code等入口配置，企业环境仍受管理员策略约束。",
+      "why_it_matters": "MCP正在从手工配置走向平台托管，跨数据库、CI和业务系统的Agent工作流更易落地。",
+      "category": "TECH",
+      "tags": [
+        "MCP",
+        "Copilot",
+        "工具集成"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Copilot支持团队级Agent插件配置",
+      "summary": "GitHub推出团队级Copilot插件默认配置，维护者可为团队成员统一选择获准使用的插件。企业及组织策略仍优先，团队成员可在许可范围内关闭默认插件。",
+      "why_it_matters": "为企业Agent技能标准化、分层治理和减少重复配置提供了实际机制。",
+      "category": "TECH",
+      "tags": [
+        "Agent Plugins",
+        "团队治理",
+        "Copilot"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Team组织自动获得代码安全风险评估",
+      "summary": "GitHub宣布Team组织将自动运行免费安全风险评估，帮助管理员识别暴露凭据和代码漏洞。该功能提供风险盘点，不等同于自动修复。",
+      "why_it_matters": "降低中小开发团队建立持续安全基线的门槛。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "DevSecOps",
+        "凭据泄露",
+        "GitHub"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "美国议员要求微软说明向字节跳动提供AI模型的潜在交易",
+      "summary": "美国众议院相关委员会要求微软就媒体报道的潜在AI服务交易作出说明。相关交易条款及最终是否签约尚未获得官方确认。",
+      "why_it_matters": "云平台转售AI模型的跨境合规边界成为政策关注点。",
+      "category": "CHINA",
+      "tags": [
+        "Microsoft",
+        "ByteDance",
+        "Azure"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/us-house-panel-seeks-microsoft-briefing-reported-ai-deal-talks-with-chinas-2026-11-18/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "英伟达业绩强劲但AI资本市场仍对治理和估值敏感",
+      "summary": "路透社报道英伟达季度收入大幅增长，但公司治理及监管调查相关疑虑压制市场情绪。投资者同时关注Anthropic IPO对AI资产定价的影响。",
+      "why_it_matters": "AI基础设施需求增长与资本市场风险溢价上升可能并存，不能仅以营收增速判断板块走势。",
+      "category": "MACRO",
+      "tags": [
+        "NVIDIA",
+        "AI投资",
+        "资本市场"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/ai-stocks-rally-nvidia-outlook-calms-demand-fears-2026-11-18/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
