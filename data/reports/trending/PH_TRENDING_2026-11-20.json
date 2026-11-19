@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:57:17.236+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月19日的新增关注点从通用 Agent Skills 转向有验证闭环的工程工具：行为保持式迁移、带证据的安全测试、可验收的多 Agent 协作与隔离执行。同时，手机复用、远程桌面、电子签名和本地视频处理等实用工具获得关注。趋势归档的单日增量属于第三方估算，不作为精确 GitHub stars_growth。",
+  "top_picks": [
+    "erkamyaman/rust-anything",
+    "mdiri-ai/SoduWork",
+    "pithings/unkernel"
+  ],
+  "items": [
+    {
+      "title": "erkamyaman/rust-anything",
+      "summary": "通过记录原程序行为并差分验证，将多语言应用逐步迁移至 Rust；README 展示 Prettier 迁移案例。",
+      "why_it_matters": "迁移过程中保留行为证据，比只让 Agent 翻译代码更适合高可靠系统改造。",
+      "category": "Developer tools",
+      "tags": [
+        "Rust",
+        "migration",
+        "differential-testing"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/erkamyaman/rust-anything",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "erkamyaman/rust-anything",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 breakout；归档约 +1308 stars（平台估算）",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "BaaRai/ARTEX",
+      "summary": "自托管多 Agent 渗透测试平台，将规划、真实工具执行和 HTTP 流量证据关联。",
+      "why_it_matters": "安全审计强调可复现证据与审查链；仅应在授权资产上使用。",
+      "category": "Security",
+      "tags": [
+        "security",
+        "agent",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/BaaRai/ARTEX",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "BaaRai/ARTEX",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 breakout；归档约 +1473 stars（平台估算）",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "mdiri-ai/SoduWork",
+      "summary": "自托管多 Agent 团队工作流，支持 Pi、OpenCode、DeepSeek Harness、Codex 等多种执行器，以验收签署完成任务。",
+      "why_it_matters": "把验收标准、独立审查与人工签收纳入 Agent 交付闭环，适合企业内网工作流试验。",
+      "category": "AI agents",
+      "tags": [
+        "agent",
+        "workflow",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mdiri-ai/SoduWork",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mdiri-ai/SoduWork",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 breakout；归档约 +589 stars（平台估算）",
+        "language": "JavaScript"
+      }
+    },
+    {
+      "title": "ersinkoc/phonebox",
+      "summary": "让旧 Android 手机通过 USB 或局域网变成电脑状态与 AI 编码会话监控面板。",
+      "why_it_matters": "复用闲置设备，无需云服务，跨 Windows、Linux、macOS。",
+      "category": "Apps",
+      "tags": [
+        "android",
+        "desktop",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ersinkoc/phonebox",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ersinkoc/phonebox",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 breakout；归档约 +377 stars（平台估算）",
+        "language": "C#"
+      }
+    },
+    {
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "BatteryHub：在 Windows 任务栏显示蓝牙等无线外设电量，不依赖厂商控制软件。",
+      "why_it_matters": "轻量解决跨品牌设备电量查看痛点；README 已注明 1.1.0 更名。",
+      "category": "Desktop",
+      "tags": [
+        "windows",
+        "utility",
+        "battery"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "krisgfx9/Wireless-Device-Battery-Monitor",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 peaking；归档约 +711 stars（平台估算）",
+        "language": "C++"
+      }
+    },
+    {
+      "title": "NYLLON-SOFTWARE/SignuDoc",
+      "summary": "在自己的 Vercel 环境部署 PDF 电子签名系统，提供签署字段、链接和审计证书。",
+      "why_it_matters": "降低团队电子签署的供应商锁定，但法律合规与数据留存需自行评估。",
+      "category": "Productivity",
+      "tags": [
+        "pdf",
+        "esign",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NYLLON-SOFTWARE/SignuDoc",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 breakout；归档约 +233 stars（平台估算）",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "zephyr4123/snug",
+      "summary": "macOS 菜单栏工具，为 UU 远程提供针对手机和平板的虚拟显示器与原生触控手势。",
+      "why_it_matters": "改善从手机远程操作 Mac 的窗口比例与交互体验；依赖 UU 远程。",
+      "category": "macOS",
+      "tags": [
+        "macos",
+        "remote-desktop",
+        "swift"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/zephyr4123/snug",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "zephyr4123/snug",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 early signal；归档约 +241 stars（平台估算）",
+        "language": "Swift"
+      }
+    },
+    {
+      "title": "pithings/unkernel",
+      "summary": "将 Linux 内核编译成 WebAssembly，在浏览器或 Node 中启动带 Shell 的 Linux 环境。",
+      "why_it_matters": "为浏览器内实验环境与 Agent 沙箱提供值得研究的新技术路线，性能及隔离边界仍需测试。",
+      "category": "Developer tools",
+      "tags": [
+        "wasm",
+        "linux",
+        "sandbox"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/pithings/unkernel",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "pithings/unkernel",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 early signal；归档约 +133 stars（平台估算）",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "haziqahmedqasmi/PeakCut",
+      "summary": "自托管视频剪辑服务，从长视频或直播提取竖屏短片，自动加字幕和发布队列。",
+      "why_it_matters": "把长视频再利用流程串成可自动化管线，使用自有 AI API 密钥。",
+      "category": "Creative tools",
+      "tags": [
+        "video",
+        "automation",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "haziqahmedqasmi/PeakCut",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 early signal；归档约 +149 stars（平台估算）",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Apakottur/unref",
+      "summary": "Rust 实现的 Python 死代码检查器，内置 pytest、Pydantic、SQLAlchemy 等适配规则。",
+      "why_it_matters": "适合大型 Python 项目的静态清理与 CI 检查；性能宣称来自项目基准，需自行复测。",
+      "category": "Developer tools",
+      "tags": [
+        "python",
+        "rust",
+        "static-analysis"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Apakottur/unref",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Apakottur/unref",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 early signal；归档约 +63 stars（平台估算）",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "agent-substrate/substrate",
+      "summary": "基于 Kubernetes 的 Agent 隔离执行底座，提供多租户 worker 复用与微虚拟机、gVisor 等隔离方案。",
+      "why_it_matters": "针对大规模 Agent 执行的安全边界和资源调度，适合架构研究而非直接视为生产成熟。",
+      "category": "Infrastructure",
+      "tags": [
+        "kubernetes",
+        "agent",
+        "sandbox"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/agent-substrate/substrate",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "agent-substrate/substrate",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "GitNova 2026-11-19 breakout；归档约 +175 stars（平台估算）",
+        "language": "Go"
+      }
+    }
+  ]
+}
