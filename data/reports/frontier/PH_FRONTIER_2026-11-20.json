@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-19T23:55:58.234Z",
+  "title": "每日前沿简报",
+  "summary": "AI基础设施投资、出口管制与亚洲半导体贸易持续成为重要变量。医学监管聚焦生物制品上市后安全、病原体测序和肿瘤治疗获益评估，GitHub则完善企业迁移与安全治理工具。",
+  "items": [
+    {
+      "title": "FDA成立生物制品上市后安全委员会",
+      "summary": "FDA宣布CBER成立独立于产品审评办公室的安全委员会，统筹疫苗、细胞与基因治疗等上市后监测。此举属于治理改革，不代表具体产品出现新风险。",
+      "why_it_matters": "有助于增强药物警戒独立性。",
+      "category": "MEDICINE",
+      "tags": [
+        "MEDICINE"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "FDA讨论通用病原体测序应急应用",
+      "summary": "FDA专家委员会11月19日讨论病原体无关测序在未知病原体识别中的使用，涉及检测验证与生物信息学更新。会议讨论不等于产品获批。",
+      "why_it_matters": "关系新发传染病检测技术路线。",
+      "category": "MEDICINE",
+      "tags": [
+        "MEDICINE"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/november-19-2026-microbiology-devices-panel-medical-devices-advisory-committee-meeting-announcement",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "FDA审视卵巢癌维持治疗获益与毒性",
+      "summary": "FDA举办研讨会，讨论卵巢癌维持治疗的PFS、OS、毒性与剂量选择。讨论涉及新型ADC，但并非新药获批公告。",
+      "why_it_matters": "突出真实生存获益与安全性的权衡。",
+      "category": "MEDICINE",
+      "tags": [
+        "MEDICINE"
+      ],
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/fda-public-virtual-only-workshop-maintenance-treatment-ovarian-cancer-workshop-weighing-benefit-and",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "阿里云AI业务增长与算力供应约束并存",
+      "summary": "阿里巴巴季度收入2715.2亿元，云和计算服务收入约609.7亿元，同比增长53%。公司同时提示出口限制和算力供应可能影响后续扩张。",
+      "why_it_matters": "检验中国AI商业化与资本开支可持续性。",
+      "category": "CHINA",
+      "tags": [
+        "CHINA"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/chinas-alibaba-beats-quarterly-revenue-estimates-2026-11-19/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "美国国会披露对华AI芯片出口许可数据",
+      "summary": "美国众议院外交事务委员会披露先进AI芯片出口许可资料，涉及英伟达和AMD。许可批准数量不等于实际出货数量。",
+      "why_it_matters": "影响中国AI算力供给及出口管制判断。",
+      "category": "MACRO",
+      "tags": [
+        "MACRO"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "韩国出口突破万亿美元",
+      "summary": "韩国年内出口突破万亿美元，AI半导体需求是主要驱动力。传统产业和居民部门受益程度仍有差异。",
+      "why_it_matters": "揭示AI投资对亚洲贸易格局的影响。",
+      "category": "MACRO",
+      "tags": [
+        "MACRO"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/south-korea-becomes-fourth-country-globally-hit-1-trillion-exports-ai-chip-boom-2026-11-19/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "GitHub推出企业级Azure DevOps在线迁移",
+      "summary": "GitHub于11月19日宣布Enterprise Live Migrations from Azure DevOps正式可用。具体支持范围与限制需参照官方文档。",
+      "why_it_matters": "利于企业统一代码平台和研发工作流。",
+      "category": "TECH",
+      "tags": [
+        "TECH"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Actions支持RHEL运行器镜像",
+      "summary": "GitHub于11月19日宣布Red Hat Enterprise Linux runner images正式可用。企业可更方便地验证RHEL相关构建与测试流程。",
+      "why_it_matters": "有利于企业Linux环境兼容性测试。",
+      "category": "OPEN_SOURCE",
+      "tags": [
+        "OPEN_SOURCE"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub扩展OIDC方式的S3审计日志传输",
+      "summary": "GitHub于11月19日宣布在GHE.com扩展基于OIDC的S3审计日志流式传输。该方式可降低对长期云访问密钥的依赖。",
+      "why_it_matters": "改善企业安全审计和凭据治理。",
+      "category": "TECH",
+      "tags": [
+        "TECH"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.blog/changelog/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    }
+  ]
+}
