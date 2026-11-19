@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T08:02:26+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月18日榜单以安全审计技能、Agent 原生 CLI、Skills 评估和研究自动化为显著主题，同时成熟的 Python 工具链、后端平台、推理部署及 UI 框架再次获得关注。重点区分榜单重现与新发布；已介绍项目仅在明显榜位变化或新的核验价值下复访。趋势数据来自2026-11-18 GitHub Trending 归档，未经可靠核对的 Stars 数值与增速留空。",
+  "top_picks": [
+    "HKUDS/CLI-Anything",
+    "elementalsouls/Claude-BugHunter",
+    "astral-sh/uv"
+  ],
+  "items": [
+    {
+      "title": "elementalsouls/Claude-BugHunter",
+      "summary": "面向 Claude Code 的漏洞挖掘技能包，组织安全测试方法、命令与漏洞模式。",
+      "why_it_matters": "安全测试知识结构化可供授权代码审计参考；不能把技能集合等同于经过验证的漏洞发现能力。",
+      "category": "Security",
+      "tags": [
+        "Security",
+        "Skills",
+        "Claude Code"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "elementalsouls/Claude-BugHunter",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日 GitHub Trending 日榜第1；归档标示当天新增1005 stars。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "HKUDS/CLI-Anything",
+      "summary": "将现有软件能力转为可供 Agent 调用的命令行接口。",
+      "why_it_matters": "可减少对 GUI 自动化的依赖，适合研究软件工具的 Agent 化适配。",
+      "category": "Agent tooling",
+      "tags": [
+        "CLI",
+        "Agent",
+        "Automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/HKUDS/CLI-Anything",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "HKUDS/CLI-Anything",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日 GitHub Trending 日榜第3（重新上榜）。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": null
+      }
+    },
+    {
+      "title": "astral-sh/uv",
+      "summary": "Rust 编写的跨平台 Python 包、环境、脚本和项目管理工具。",
+      "why_it_matters": "统一依赖锁定、Python 版本与工具运行，有利于可复现的 Agent 执行环境。",
+      "category": "Developer tools",
+      "tags": [
+        "Python",
+        "Rust",
+        "CLI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/astral-sh/uv",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "astral-sh/uv",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日趋势归档首次出现，日榜第8；并非新发布项目。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "appwrite/appwrite",
+      "summary": "支持自托管的后端平台，提供认证、数据库、存储和函数能力。",
+      "why_it_matters": "适合快速搭建应用后端；可与独立的 Appwrite MCP 服务配合，但需管理写入权限。",
+      "category": "Backend",
+      "tags": [
+        "BaaS",
+        "Self-hosted",
+        "MCP"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/appwrite/appwrite",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "appwrite/appwrite",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日趋势归档首次出现，日榜第13；并非首次发布。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": null
+      }
+    },
+    {
+      "title": "openvinotoolkit/openvino",
+      "summary": "Intel 生态的开源推理优化和部署工具，覆盖 CPU、GPU、NPU。",
+      "why_it_matters": "本地与边缘 AI 推理可用的硬件适配路径；性能应以目标模型和设备实测为准。",
+      "category": "AI infrastructure",
+      "tags": [
+        "Inference",
+        "Edge AI",
+        "Intel"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/openvinotoolkit/openvino",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "openvinotoolkit/openvino",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日趋势归档首次出现，日榜第14。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": null
+      }
+    },
+    {
+      "title": "solidjs/solid",
+      "summary": "细粒度响应式的声明式 JavaScript UI 框架。",
+      "why_it_matters": "对交互密集型应用提供不同于虚拟 DOM 的性能与响应式设计取舍。",
+      "category": "Web development",
+      "tags": [
+        "JavaScript",
+        "UI",
+        "Framework"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/solidjs/solid",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "solidjs/solid",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日趋势归档首次出现，日榜第19；不代表新发布。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "n8n-io/n8n",
+      "summary": "可自托管的可视化工作流自动化平台，支持大量系统集成。",
+      "why_it_matters": "可将事件触发、人工审批和外部服务串联成流程，但 Agent 自动化仍需权限隔离。",
+      "category": "Productivity",
+      "tags": [
+        "Workflow",
+        "Automation",
+        "Self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "n8n-io/n8n",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日 GitHub Trending 日榜第18，重新上榜。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "NVIDIA/SkillEvaluator",
+      "summary": "评估 Agent Skills 的质量、安全、兼容性与真实任务收益的分层工具。",
+      "why_it_matters": "可把 Skills 的静态检查和有无 Skill 的执行对照纳入 CI；完整动态评估需要额外环境。",
+      "category": "Agent evaluation",
+      "tags": [
+        "Skills",
+        "Evaluation",
+        "CI"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/NVIDIA/SkillEvaluator",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "NVIDIA/SkillEvaluator",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日 GitHub Trending 日榜第6，重新上榜；11月14日曾介绍，本次因再次上榜及官方功能细节更新而复访。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "google-research/paper-orchestra",
+      "summary": "通过多 Agent 流程辅助研究论文写作的开源框架。",
+      "why_it_matters": "可研究研究工作流分工与交叉验证，但输出需要人工审阅引用与事实。",
+      "category": "Research tools",
+      "tags": [
+        "Research",
+        "Multi-agent",
+        "Writing"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/google-research/paper-orchestra",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {
+        "repo": "google-research/paper-orchestra",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日 GitHub Trending 日榜第9，较前日上升6位；另有归档记录11月17日一天增加1561 stars。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "cursor/plugins",
+      "summary": "Cursor 官方插件规范和插件集合。",
+      "why_it_matters": "可参考插件封装与分发约定，评估跨编码 Agent 的工具复用边界。",
+      "category": "Plugins",
+      "tags": [
+        "IDE",
+        "Plugins",
+        "Agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cursor/plugins",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cursor/plugins",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "11月18日 GitHub Trending 日榜第2，较前日上升6位；11月17日已介绍，因明显榜位上升再次收录。 来源：https://trend.ondo.sh/github/2026-11-18/en.html",
+        "language": "TypeScript"
+      }
+    }
+  ]
+}
