@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T07:59:14+08:00",
+  "title": "每日前沿简报",
+  "summary": "过去24小时，医学基因组学出现大规模跨祖源研究成果，AI产品与使用政策也出现实质性更新。企业研发方面，GitHub加强离线安全检测和最小权限治理；资本市场则因AI估值和投资回报疑虑出现显著波动。中国AI算力供应链继续受到出口限制和国产替代产能瓶颈的双重影响。",
+  "items": [
+    {
+      "title": "百万级跨祖源研究揭示子宫内膜异位症遗传通路",
+      "summary": "NIH支持的国际研究整合14个生物样本库、逾100万人数据，识别58个相关基因组区域，其中27个此前未被识别。多组学分析提出314个候选相关基因，但尚未直接证明新治疗有效。",
+      "why_it_matters": "扩大非欧洲祖源样本覆盖，有助于后续机制验证与精准诊断研究。",
+      "category": "MEDICINE",
+      "tags": [
+        "子宫内膜异位症",
+        "GWAS",
+        "多组学"
+      ],
+      "source_name": "NIH",
+      "source_url": "https://www.nih.gov/news-events/news-releases/large-nih-supported-study-identifies-key-underlying-pathways-endometriosis",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "ChatGPT Space向Plus用户逐步开放",
+      "summary": "OpenAI在11月20日更新中宣布，Space开始面向全球符合条件的Plus成年用户推出。该功能支持交互页面、演示文稿和协作，并可利用连接的应用和工具保持内容更新；属于逐步开放而非所有用户即时可用。",
+      "why_it_matters": "从聊天向持久协作工作空间演进，可能改变文档、研究和自动化交付方式。",
+      "category": "AI",
+      "tags": [
+        "ChatGPT",
+        "Space",
+        "协作"
+      ],
+      "source_name": "OpenAI Help Center",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "OpenAI新版使用政策于11月20日生效",
+      "summary": "OpenAI公布的政策修订明确了使用模型输出训练其他模型的限制、未成年人保护和高风险使用要求，并纳入国家安全与执法用途的审批要求。修订于11月20日生效。",
+      "why_it_matters": "对模型集成商、Agent开发者及企业合规治理有直接影响。",
+      "category": "AI",
+      "tags": [
+        "AI治理",
+        "政策",
+        "合规"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/policies/usage-policies/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Enterprise Server 3.23候选版引入离线AI密钥检测",
+      "summary": "GitHub发布GHES 3.23候选版，其中AI密钥检测可在隔离网络环境通过设备CPU运行，不依赖外部LLM或GPU；功能仍处于公开预览。版本还扩大恶意依赖包识别范围并引入Dependabot三天冷却期。",
+      "why_it_matters": "对内网、隔离网络的软件供应链安全与国产化部署环境具有实践参考价值。",
+      "category": "TECH",
+      "tags": [
+        "GHES",
+        "离线AI",
+        "软件供应链"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub安全公告权限实现更细粒度授权",
+      "summary": "GitHub宣布组织可以通过自定义仓库角色分配安全公告查看、编辑、私密漏洞报告受理及CVE发布等权限，无需赋予仓库管理员或组织级安全经理权限。适用于支持自定义角色的组织计划。",
+      "why_it_matters": "降低安全协作过程中过度授权的风险，适合大型研发团队分权治理。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "权限治理",
+        "安全公告"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "AI估值担忧引发美股科技板块急跌",
+      "summary": "路透社报道11月20日美股大幅下跌，纳斯达克指数跌约5.28%，标普500指数跌约3.70%。市场将AI资本开支回报、估值和利率前景列为主要担忧，但单日价格波动无法证明AI长期商业前景已经逆转。",
+      "why_it_matters": "AI基础设施投资周期与资本市场风险偏好正在更紧密地相互影响。",
+      "category": "MACRO",
+      "tags": [
+        "纳斯达克",
+        "AI估值",
+        "美股"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "美国芯片限制冲击中国AI产业链",
+      "summary": "路透社11月20日报道，新一轮美国措施涉及中国企业远程使用先进芯片、芯片出口及相关披露要求，令中国科技股承压。阿里巴巴和腾讯均讨论了算力限制对业务的潜在影响，国产替代仍面临先进制造产能约束。",
+      "why_it_matters": "影响中国大模型训练、云计算资本开支及国产AI芯片生态的中期发展。",
+      "category": "CHINA",
+      "tags": [
+        "国产算力",
+        "出口管制",
+        "云计算"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
