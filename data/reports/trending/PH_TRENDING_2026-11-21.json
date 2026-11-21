@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T07:59:59.644+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月20日的项目热度既有面向 Agent 的图表设计与 CI/CD 可靠性工具，也有语音听写、视频剪辑、下载器和知识工作台等实际应用。重点筛选当日榜单中新出现且近期日报未介绍的项目；趋势排名来自第三方 GitHub Trending 归档，未可靠确认的 Stars 总数和增速均为 null。",
+  "top_picks": [
+    "cathrynlavery/diagram-design",
+    "Tracer-Cloud/opensre",
+    "zhouxiaoka/autoclip"
+  ],
+  "items": [
+    {
+      "title": "cathrynlavery/diagram-design",
+      "summary": "面向编码 Agent 的编辑级图表设计 Skill，提供 45 类图形及 HTML/SVG 输出。",
+      "why_it_matters": "将架构图和说明图从随意生成转为可复用设计规范，适合技术报告与演示。",
+      "category": "AI Skills",
+      "tags": [
+        "diagram",
+        "svg",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "cathrynlavery/diagram-design",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 GitHub Trending 日榜第 9；官方 README 描述 45 种图形",
+        "language": "HTML"
+      }
+    },
+    {
+      "title": "Tracer-Cloud/opensre",
+      "summary": "面向 CI/CD 可靠性的开源 Agent，辅助定位和处理流水线问题。",
+      "why_it_matters": "适合研究研发运维闭环，但自动修复必须配合审批与回滚。",
+      "category": "DevOps",
+      "tags": [
+        "cicd",
+        "sre",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Tracer-Cloud/opensre",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Tracer-Cloud/opensre",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 GitHub Trending 日榜第 13",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "zhouxiaoka/autoclip",
+      "summary": "开源 AI 视频剪辑桌面工具，从长视频提取短片并生成字幕、封面及文案。",
+      "why_it_matters": "提供从素材到社交媒体短片的端到端桌面工作流。",
+      "category": "Creative tools",
+      "tags": [
+        "video",
+        "desktop",
+        "ai"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/zhouxiaoka/autoclip",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "zhouxiaoka/autoclip",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 GitHub Trending 日榜第 16",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "anomalyco/hex",
+      "summary": "跨 macOS、Windows、Linux 的本地语音听写应用。",
+      "why_it_matters": "本地语音输入可降低云端转录依赖，适合日常写作与编码。",
+      "category": "Desktop",
+      "tags": [
+        "voice",
+        "local",
+        "productivity"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anomalyco/hex",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anomalyco/hex",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 趋势归档：工作应用类七日新增 1098 stars（第三方统计）",
+        "language": null
+      }
+    },
+    {
+      "title": "mjmirza/app-store-compliance",
+      "summary": "App Store 与 Google Play 审核规则及预提交检查工具，附 Agent Skill。",
+      "why_it_matters": "将隐私声明、审核拒绝模式和合规检查提前到发布流程。",
+      "category": "Developer tools",
+      "tags": [
+        "mobile",
+        "compliance",
+        "skill"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mjmirza/app-store-compliance",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mjmirza/app-store-compliance",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 GitHub Trending 日榜第 12",
+        "language": null
+      }
+    },
+    {
+      "title": "XiaoYouChR/Ghost-Downloader-3",
+      "summary": "跨平台下载管理器，聚焦多协议下载与桌面操作体验。",
+      "why_it_matters": "实用桌面工具，值得比较下载协议兼容性和资源占用。",
+      "category": "Desktop",
+      "tags": [
+        "download",
+        "desktop",
+        "utility"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "XiaoYouChR/Ghost-Downloader-3",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 GitHub Trending 日榜第 15",
+        "language": null
+      }
+    },
+    {
+      "title": "elie222/rakazo",
+      "summary": "开源可自选模型与沙箱的 AI Bot 平台。",
+      "why_it_matters": "对自托管 Bot 的模型选择与执行隔离提供可实验方案。",
+      "category": "AI agents",
+      "tags": [
+        "agent",
+        "sandbox",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/elie222/rakazo",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "elie222/rakazo",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 趋势归档：AI agents 分类七日增长榜入选",
+        "language": null
+      }
+    },
+    {
+      "title": "toeverything/AFFiNE",
+      "summary": "集文档、白板和知识管理于一体的开源知识工作台。",
+      "why_it_matters": "本地优先和可自托管方向值得关注，尤其是跨文档与画布组织。",
+      "category": "Productivity",
+      "tags": [
+        "knowledge",
+        "notes",
+        "whiteboard"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/toeverything/AFFiNE",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "toeverything/AFFiNE",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 GitHub Trending 日榜第 14",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "p-e-w/heretic",
+      "summary": "无需重新训练的语言模型行为修改研究工具。",
+      "why_it_matters": "探索模型行为可编辑性，同时应评估安全约束变化与评测偏差。",
+      "category": "AI research",
+      "tags": [
+        "llm",
+        "model-editing",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/p-e-w/heretic",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "p-e-w/heretic",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 趋势归档：模型工具分类七日增长榜入选",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "zed-industries/zed",
+      "summary": "以高性能和协同编辑为核心的开源代码编辑器。",
+      "why_it_matters": "成熟编辑器的性能、协作与 Agent 接入设计可供开发工具参考。",
+      "category": "Developer tools",
+      "tags": [
+        "editor",
+        "rust",
+        "collaboration"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/zed-industries/zed",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "zed-industries/zed",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 趋势归档：开发工具分类七日增长榜入选",
+        "language": "Rust"
+      }
+    }
+  ]
+}
