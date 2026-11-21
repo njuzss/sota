@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T07:57:03+08:00",
+  "title": "每日前沿简报",
+  "summary": "本期关注AI在药物化学与芯片设计中的能力边界，以及对抗性蒸馏和Agent可逆性治理。GitHub安全权限更新提供可直接落地的企业实践；中国AI芯片限制与美国AI公司估值波动持续影响产业预期。",
+  "items": [
+    {
+      "title": "OpenAI发布MedChemBench，评测模型药物化学推理",
+      "summary": "基准收集99道来自公开药物化学研究的问题，考察分子结构识别、证据解释、化合物选择与性质预测。官方报告GPT-6.2 Astra在高推理设置下获得84.5%分数，但化合物选择和数值预测仍明显困难。",
+      "why_it_matters": "为AI辅助药物研发提供更细粒度的能力评价；历史文献基准成绩不等于新药发现的临床有效性。",
+      "category": "AI",
+      "tags": [
+        "MedChemBench",
+        "药物发现",
+        "Benchmark"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-medchembench/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "厂商自评；论文与专利可能存在训练数据污染，不能推断真实实验增益"
+      }
+    },
+    {
+      "title": "OpenAI披露对抗性蒸馏防护框架",
+      "summary": "OpenAI公布针对未经授权提取模型能力的多层防护，包括请求级识别、协调攻击调查及推理轨迹保护。文章讨论通过蒸馏绕过原模型安全约束的风险。",
+      "why_it_matters": "对企业模型API安全、推理日志保护及模型能力盗用治理具有直接参考价值。",
+      "category": "AI",
+      "tags": [
+        "模型安全",
+        "蒸馏",
+        "API"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "主要是厂商披露的防御方法，独立有效性验证有限"
+      }
+    },
+    {
+      "title": "GitHub开放安全公告细粒度权限",
+      "summary": "GitHub宣布组织自定义仓库角色可单独授予安全公告管理权限，包括处理私密漏洞报告，而不必给予仓库管理员或组织安全经理权限。",
+      "why_it_matters": "落实最小权限原则，适合大型组织安全团队和研发团队协同处理漏洞。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "供应链安全",
+        "权限"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "研究提出Agent记忆轻量化适用边界",
+      "summary": "论文《RAG in a Trenchcoat》探讨何时简单检索记忆足以支撑智能体，何时需要更复杂的状态与记忆机制。该研究为不同任务复杂度下的Agent架构取舍提供新的分析视角。",
+      "why_it_matters": "可帮助开发者避免过度设计长期记忆系统，但目前属于预印本研究。",
+      "category": "AI",
+      "tags": [
+        "Agent",
+        "Memory",
+        "RAG"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2611.22179",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "未经同行评审的预印本，结论需进一步复现"
+      }
+    },
+    {
+      "title": "Agent操作可逆性分类成为治理研究议题",
+      "summary": "一篇新预印本提出按照能否撤销来区分AI智能体执行的操作。与单纯审批不同，可逆性分类有助于将风险控制嵌入工具调用和执行流程。",
+      "why_it_matters": "适用于企业Agent的写操作授权、回滚设计与审计机制。",
+      "category": "AI",
+      "tags": [
+        "Agent治理",
+        "可逆性",
+        "安全"
+      ],
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/abs/2611.22075",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "weak",
+      "extra": {
+        "notes": "早期概念性研究，尚无充分生产环境验证"
+      }
+    },
+    {
+      "title": "AI模型开始进入芯片设计流程",
+      "summary": "OpenAI介绍利用模型优化计算模块、协助AMD相关芯片设计工作，以及RISC-V内核的设计与验证探索。案例体现AI在复杂工程约束和硬件研发中的潜在作用。",
+      "why_it_matters": "若能独立复现并满足验证要求，可能影响芯片设计迭代效率；展示案例尚不能代表通用工业生产率提升。",
+      "category": "TECH",
+      "tags": [
+        "芯片设计",
+        "RISC-V",
+        "EDA"
+      ],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "公司案例展示，缺少广泛独立复现"
+      }
+    },
+    {
+      "title": "美国AI芯片限制继续冲击中国科技板块",
+      "summary": "路透社11月20日报道，美国AI芯片出口限制变化引发中国相关科技股调整，并推动本土供应链替代讨论。报道关注限制措施与国产算力建设之间的互动。",
+      "why_it_matters": "影响国产AI算力供应、资本市场预期和企业中长期采购策略。",
+      "category": "CHINA",
+      "tags": [
+        "AI芯片",
+        "出口管制",
+        "国产算力"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "notes": "市场波动与政策影响的因果解释存在不确定性；相关事件前日已报道，本条侧重后续市场影响"
+      }
+    },
+    {
+      "title": "Anthropic上市表现考验AI估值预期",
+      "summary": "路透社报道Anthropic上市后的股价波动，引发市场对AI增长兑现、估值和资本投入回报的重新评估。市场反应不能单独证明技术商业化前景。",
+      "why_it_matters": "为判断AI资本开支周期与风险偏好提供观察窗口。",
+      "category": "MACRO",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI估值"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
