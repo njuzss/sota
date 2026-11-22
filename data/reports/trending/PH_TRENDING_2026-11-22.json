@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T08:01:02+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月21日趋势信号显示 Agent 工具正向可验证的工程闭环发展：逆向分析、代码知识图谱、并行调度、上下文记忆与自动化测试均持续受到关注；消费设备去广告、桌面 Bot 和视频工具则体现实用软件的传播力。日榜重复率高，本期优先从七日增长、月度增长及开发者工具趋势中筛选未在近期日报出现的项目。第三方快照的增长口径明确标注，无法确认的指标保持 null。",
+  "top_picks": [
+    "morluto/rea",
+    "Graphify-Labs/graphify",
+    "kunchenguid/firstmate"
+  ],
+  "items": [
+    {
+      "title": "morluto/rea",
+      "summary": "Agent 逆向工程 MCP 与 CLI，分析原生二进制、Electron/JS 应用和运行行为，并保留证据链。",
+      "why_it_matters": "为合法授权的软件兼容性分析与迁移验证提供可审计工具链；需注意逆向权限。",
+      "category": "Developer tools",
+      "tags": [
+        "reverse-engineering",
+        "mcp",
+        "cli"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/morluto/rea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "morluto/rea",
+        "github_stars": 472522,
+        "stars_growth": "+13142/7d",
+        "trend_signal": "2026-11-21 七日增长 13,142 Stars，周增长榜首（第三方归档）",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "Gathin23/cleanyourtv",
+      "summary": "通过局域网 ADB 停用 Android/Google TV 预装广告与遥测组件，安装可恢复的简洁启动器。",
+      "why_it_matters": "面向普通用户的可操作桌面/家庭设备改造，支持撤销但需要核对电视型号。",
+      "category": "Consumer utility",
+      "tags": [
+        "android-tv",
+        "adb",
+        "privacy"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Gathin23/cleanyourtv",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Gathin23/cleanyourtv",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-21 月度增长榜第 2（第三方归档）",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "storytold/craft-anything",
+      "summary": "Rust 实现的逆向检查与 AI 重建工作台，支持网站、应用及游戏的研究、构建与结果比对。",
+      "why_it_matters": "将观察—实现—验证组成闭环，值得研究自动化一致性验证；遵守知识产权边界。",
+      "category": "Creative developer tools",
+      "tags": [
+        "rust",
+        "reverse-engineering",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/storytold/craft-anything",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "storytold/craft-anything",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-21 月度增长榜第 6（第三方归档）",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "Graphify-Labs/graphify",
+      "summary": "用 tree-sitter AST 将代码、文档和配置映射为可查询的知识图谱，并区分提取和推断的关系。",
+      "why_it_matters": "适合大型代码库依赖追踪与迁移影响分析；本地代码解析无需向外部模型发送代码。",
+      "category": "Code intelligence",
+      "tags": [
+        "knowledge-graph",
+        "ast",
+        "skill"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Graphify-Labs/graphify",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Graphify-Labs/graphify",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 RepoCurrent 当前领先项目榜第 8",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "kunchenguid/firstmate",
+      "summary": "以单一主 Agent 指挥多工作树中的并行编码 Agent，提供任务监督、审查和交付。",
+      "why_it_matters": "面向多任务开发调度，Git worktree 隔离减少并行改动冲突。",
+      "category": "AI agents",
+      "tags": [
+        "orchestration",
+        "git-worktree",
+        "tmux"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/kunchenguid/firstmate",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "kunchenguid/firstmate",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 RepoCurrent 当前领先项目榜第 6",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "volcengine/OpenViking",
+      "summary": "以 viking:// 虚拟文件系统组织 Agent 记忆、知识和 Skills，支持分层检索与轨迹追踪。",
+      "why_it_matters": "可观察的上下文管理适合长期 Agent 工程；评估需独立复现官方基准。",
+      "category": "AI memory",
+      "tags": [
+        "memory",
+        "rag",
+        "context"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/volcengine/OpenViking",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "volcengine/OpenViking",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 RepoCurrent 当前领先项目榜第 12",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "tester-army/e2e",
+      "summary": "自然语言驱动 Web/移动端端到端测试，结合定位器断言，并重放已记录操作。",
+      "why_it_matters": "将 Agent 探索与确定性断言结合，降低重复执行模型成本；项目仍在快速迭代。",
+      "category": "Testing",
+      "tags": [
+        "e2e",
+        "qa",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/tester-army/e2e",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "tester-army/e2e",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-20 RepoCurrent 当前领先项目榜第 10",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "milind-soni/OpenMausBot",
+      "summary": "将多个 AI Bot 组织为聊天式桌面应用，支持隔离虚拟机及人工审批工具动作。",
+      "why_it_matters": "跨平台可视化 Agent 管理对个人工作流有价值；Windows 安装包签名与 Linux beta 状态需注意。",
+      "category": "Desktop AI",
+      "tags": [
+        "desktop",
+        "agent",
+        "sandbox"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/milind-soni/OpenMausBot",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "milind-soni/OpenMausBot",
+        "github_stars": null,
+        "stars_growth": "+3781/7d",
+        "trend_signal": "2026-11-21 AI agents 七日增长分类前三，+3,781 Stars（第三方归档）",
+        "language": null
+      }
+    },
+    {
+      "title": "Leonxlnx/taste-skill",
+      "summary": "改善编码 Agent 生成界面的排版、动效、间距和视觉一致性的可移植 Skills。",
+      "why_it_matters": "为 AI 前端产物提供可复用设计约束，适合与浏览器视觉验收配合。",
+      "category": "AI Skills",
+      "tags": [
+        "frontend",
+        "design",
+        "skills"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/Leonxlnx/taste-skill",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "Leonxlnx/taste-skill",
+        "github_stars": null,
+        "stars_growth": "+4155/7d",
+        "trend_signal": "2026-11-21 AI coding add-ons 七日增长分类前三，+4,155 Stars（第三方归档）",
+        "language": null
+      }
+    },
+    {
+      "title": "heygen-com/hyperframes",
+      "summary": "面向 AI 视频创作的程序化渲染框架。",
+      "why_it_matters": "对自动视频制作和可复现的媒体流水线有研究价值，具体集成能力仍需试用验证。",
+      "category": "Creative tools",
+      "tags": [
+        "video",
+        "rendering",
+        "ai"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/heygen-com/hyperframes",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "heygen-com/hyperframes",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-21 趋势追踪中近 30 日持续出现 30 天",
+        "language": null
+      }
+    }
+  ]
+}
