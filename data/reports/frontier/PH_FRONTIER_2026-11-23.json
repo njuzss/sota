@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T08:03:56.664+08:00",
+  "title": "每日前沿简报",
+  "summary": "周末最值得关注的前沿进展集中在AI辅助数学证明的独立复核和白血病治疗性疫苗的临床结果。与此同时，瑞士通胀与美元利率预期的变化提示全球资产定价仍面临货币政策不确定性。本期对尚未完成同行评审的重大研究明确保留争议标签，避免把早期报告当作定论。",
+  "items": [
+    {
+      "title": "Claude参与的黎曼猜想形式化证明获独立复核",
+      "summary": "数学家Levent Alpöge公布与Claude协作形成的Lean形式化证明，声称解决黎曼猜想及狄利克雷L函数的广义版本。独立复核项目报告两个证明内核接受完整形式化对象，但数学论证尚未经过传统同行评审，不能等同于数学界最终确认。",
+      "why_it_matters": "若后续复核成立，将是形式化数学与AI辅助科研的重要里程碑；目前必须区分机器验证记录和学术共识。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "Lean",
+        "数学",
+        "黎曼猜想"
+      ],
+      "source_name": "Alpöge原始公告",
+      "source_url": "https://alpo.ge/remark.pdf",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "disputed",
+      "extra": {}
+    },
+    {
+      "title": "急性髓系白血病治疗性疫苗公布III期积极结果",
+      "summary": "Sellas与研究机构披露galinpepimut-S在126名不适合移植、处于第二次或以后缓解期的急性髓系白血病患者中达到III期主要终点。报道给出的中位总生存期为24个月，对照组14.7个月；完整结果及监管审查尚待公布。",
+      "why_it_matters": "总生存期终点比单纯替代指标更具临床意义，但新闻披露不等于完整同行评审证据。",
+      "category": "MEDICINE",
+      "tags": [
+        "AML",
+        "癌症疫苗",
+        "III期临床"
+      ],
+      "source_name": "The Washington Post",
+      "source_url": "https://www.washingtonpost.com/health/2026/11/17/leukemia-vaccine-passes-key-trial-adding-breakthrough-year-cancer-drugs/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "瑞士央行关注通胀二轮传导和瑞郎避险升值",
+      "summary": "瑞士央行副主席Antoine Martin表示正监测通胀的二轮效应。10月通胀从9月的1%升至1.5%，市场开始评估12月加息可能性；他同时强调瑞郎的避险货币地位。",
+      "why_it_matters": "显示全球主要央行政策分化与汇率风险仍是跨市场资产定价的重要变量。",
+      "category": "MACRO",
+      "tags": [
+        "瑞士央行",
+        "通胀",
+        "汇率"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/snb-closely-watching-second-round-inflation-effects-vice-chairman-tells-paper-2026-11-22/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "美元从高位回落，市场重估美联储12月加息路径",
+      "summary": "路透报道，经历上周市场震荡后美元在亚洲早盘从19个月高位略有回落。利率期货定价显示12月加息25基点的概率较高，但这是随时变化的市场隐含概率而非央行决定。",
+      "why_it_matters": "美元与美国利率预期会影响全球流动性、科技股估值及人民币资产的外部环境。",
+      "category": "MACRO",
+      "tags": [
+        "美元",
+        "美联储",
+        "利率预期"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/dollar-edges-off-19-month-high-after-market-rout-yen-softens-2026-11-22/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
