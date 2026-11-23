@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T08:01:19+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月22日 GitHub 趋势延续 Agent 工程化：多 Agent 编排、可组合 Skills、Agent 与前端协议、网页数据基础设施受到关注；同时自托管财务管理与股票分析工具保持增长。日榜重复率较高，本期优先依据七日增长及实际使用价值选择，并明确复访项目的新增热度信号。",
+  "top_picks": [
+    "stablyai/orca",
+    "mattpocock/skills",
+    "ZhuLinsen/daily_stock_analysis"
+  ],
+  "items": [
+    {
+      "title": "stablyai/orca",
+      "summary": "桌面、移动端与远程运行环境统一管理多个编码 Agent，可使用已有工具订阅。",
+      "why_it_matters": "多 Agent 调度、人工复核与跨设备访问值得试用；实际权限隔离需自行验证。",
+      "category": "AI Agent orchestration",
+      "tags": [
+        "agent",
+        "orchestration",
+        "desktop"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/stablyai/orca",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "stablyai/orca",
+        "github_stars": 132962,
+        "stars_growth": "+7182/7d",
+        "trend_signal": "2026-11-22 第三方七日增长榜第4，+7,182 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "mattpocock/skills",
+      "summary": "面向专业工程师的可组合 Agent Skills 和脚本集合。",
+      "why_it_matters": "相比宽泛提示词，更容易复用可执行的工程操作；需评估脚本安全性。",
+      "category": "Agent Skills",
+      "tags": [
+        "skills",
+        "shell",
+        "engineering"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mattpocock/skills",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mattpocock/skills",
+        "github_stars": 330470,
+        "stars_growth": "+5323/7d",
+        "trend_signal": "2026-11-22 第三方七日增长榜第9，+5,323 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "obra/superpowers",
+      "summary": "为编码 Agent 提供结构化开发流程与技能框架。",
+      "why_it_matters": "把计划、实现、验证固化为工作流；虽然并非新项目，仍持续登上日榜。",
+      "category": "Agent Skills",
+      "tags": [
+        "skills",
+        "workflow",
+        "coding"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/obra/superpowers",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "obra/superpowers",
+        "github_stars": 324150,
+        "stars_growth": "+6033/7d",
+        "trend_signal": "2026-11-22 GitHub 日榜第2，七日新增6,033 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "Shell"
+      }
+    },
+    {
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "summary": "多市场股票分析工具，聚合行情、新闻、LLM 分析和定时推送。",
+      "why_it_matters": "兼顾数据源与自动推送，适合研究个人市场信息工作流；投资结论不能直接当作交易建议。",
+      "category": "Productivity",
+      "tags": [
+        "finance",
+        "python",
+        "automation"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ZhuLinsen/daily_stock_analysis",
+        "github_stars": 73710,
+        "stars_growth": "+1260/7d",
+        "trend_signal": "2026-11-22 分类七日增长榜第三，+1,260 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "we-promise/sure",
+      "summary": "自托管个人财务管理应用，聚焦账户、交易和财务视图。",
+      "why_it_matters": "非 Agent 的成熟实用产品，适合注重数据自主的个人用户。",
+      "category": "Personal finance",
+      "tags": [
+        "finance",
+        "self-hosted",
+        "ruby"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/we-promise/sure",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "we-promise/sure",
+        "github_stars": 17335,
+        "stars_growth": "+1666/7d",
+        "trend_signal": "2026-11-22 Everyday & work apps 分类七日增长第一，+1,666 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "Ruby"
+      }
+    },
+    {
+      "title": "firecrawl/firecrawl",
+      "summary": "为 Agent 提供网页搜索、抓取和外部数据访问接口。",
+      "why_it_matters": "网络数据接入是 Agent 基础设施关键环节；需评估托管费用与访问限制。",
+      "category": "Developer tools",
+      "tags": [
+        "scraping",
+        "search",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/firecrawl/firecrawl",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "firecrawl/firecrawl",
+        "github_stars": 207011,
+        "stars_growth": null,
+        "trend_signal": "2026-11-22 GitHub 日榜第7；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "effect-ts/effect",
+      "summary": "TypeScript 生产级应用的类型化错误处理、依赖管理与并发工具库。",
+      "why_it_matters": "为复杂 Agent 后端提供可测试的可靠性构件，属于技术价值而非短期爆红。",
+      "category": "Developer tools",
+      "tags": [
+        "typescript",
+        "reliability",
+        "runtime"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/effect-ts/effect",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "effect-ts/effect",
+        "github_stars": 17655,
+        "stars_growth": null,
+        "trend_signal": "2026-11-15 RepoCurrent 高动量榜第3；2026-11-22 仓库仍活跃；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "ag-ui-protocol/ag-ui",
+      "summary": "连接 Agent 与前端界面的开放交互协议。",
+      "why_it_matters": "标准化事件和状态交互，可降低不同 Agent 前端集成成本；本期因七日增长明显复访。",
+      "category": "AI tool bridges",
+      "tags": [
+        "protocol",
+        "frontend",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ag-ui-protocol/ag-ui",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ag-ui-protocol/ag-ui",
+        "github_stars": 21183,
+        "stars_growth": "+3452/7d",
+        "trend_signal": "2026-11-22 AI agents 分类七日增长第二，+3,452 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "dream-num/univer",
+      "summary": "可嵌入电子表格、文档和演示编辑的开源 Office SDK。",
+      "why_it_matters": "让业务应用和 Agent 集成结构化 Office 编辑能力；因周增长显著再次收录。",
+      "category": "Office SDK",
+      "tags": [
+        "office",
+        "sdk",
+        "typescript"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/dream-num/univer",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "dream-num/univer",
+        "github_stars": 31260,
+        "stars_growth": "+5799/7d",
+        "trend_signal": "2026-11-22 七日增长榜第7，+5,799 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "summary": "面向工作场景的开源 Agent 管理应用。",
+      "why_it_matters": "为团队 Agent 任务管理提供产品化参考；本期因七日持续增长复访。",
+      "category": "AI agents",
+      "tags": [
+        "agents",
+        "management",
+        "self-hosted"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/paperclipai/paperclip",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "paperclipai/paperclip",
+        "github_stars": 115966,
+        "stars_growth": "+1807/7d",
+        "trend_signal": "2026-11-22 AI agents 分类七日增长第三，+1,807 Stars；来源 https://trend.ondo.sh/github/2026-11-22/en.html",
+        "language": "TypeScript"
+      }
+    }
+  ]
+}
