@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "channel": "frontier",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:56:30+08:00",
+  "title": "每日前沿简报",
+  "summary": "今日值得关注的新增信息集中在 GitHub 的 Agent 协作基础设施与开发安全治理，以及 AI 投资波动向金融市场稳定措施的传导。澳大利亚也正把 AI 竞争与安全纳入外交政策讨论。部分消息仍属于媒体报道或政策预告，需与已落地的产品变更区分。",
+  "items": [
+    {
+      "title": "GitHub Issues 增加精细状态与仓库看板",
+      "summary": "GitHub 公测 Backlog、Todo、In progress、In review 等 Issue 状态，并推出仓库级看板。状态可经 REST、GraphQL 与 MCP 接口读取和更新，Agent 分配任务也会触发状态变化。",
+      "why_it_matters": "为多智能体研发提供可机器读取的任务状态，减少依赖标签和自定义看板的胶水代码。",
+      "category": "TECH",
+      "tags": [
+        "GitHub",
+        "Agent",
+        "项目管理"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub Code Quality 对错误覆盖率格式改为显式失败",
+      "summary": "GitHub 的 upload-code-coverage Action 现在会校验 Cobertura XML 格式，错误格式直接使上传步骤失败。此前可能出现流程成功但 PR 无覆盖率的静默失败；新逻辑也放宽对部分有效报告结构的容错。",
+      "why_it_matters": "改善 CI 质量信号可信度，尤其适用于大型代码迁移和测试覆盖率治理。",
+      "category": "TECH",
+      "tags": [
+        "CI",
+        "测试",
+        "代码质量"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "GitHub 降低 Slack Webhook 密钥扫描误报",
+      "summary": "GitHub Secret Scanning 更新 Slack incoming webhook URL 检测规则，排除不符合 Slack Webhook URL 格式的字符串。官方确认该变化针对误报率，不意味着扫描覆盖范围全面扩展。",
+      "why_it_matters": "安全扫描误报治理有助于提高团队对真正泄密告警的响应效率。",
+      "category": "TECH",
+      "tags": [
+        "DevSecOps",
+        "密钥扫描"
+      ],
+      "source_name": "GitHub Changelog",
+      "source_url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "strong",
+      "extra": {}
+    },
+    {
+      "title": "台湾调整融资维持率应对 AI 交易波动",
+      "summary": "路透社报道，台湾证券商将融资维持率最低门槛由130%降至120%，以减轻市场下跌期间的强制平仓压力。措施背景是 AI 数据中心投资回报及相关科技股估值担忧引发的剧烈波动。",
+      "why_it_matters": "反映 AI 资本开支争议已从个股估值传导至市场杠杆和稳定政策。",
+      "category": "MACRO",
+      "tags": [
+        "AI资本开支",
+        "台湾股市",
+        "杠杆"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/sustainability/boards-policy-regulation/global-markets-taiwan-update-1-2026-11-23/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    },
+    {
+      "title": "澳大利亚拟将 AI 纳入核心外交议题",
+      "summary": "路透社报道，澳大利亚外长预计在议会讲话中把 AI 列为影响经济实力、民主安全和国际秩序的重要变量。相关表述仍属于预告，具体政策落地有待后续官方文件确认。",
+      "why_it_matters": "AI 治理正在从国内产业政策扩展到外交与国家安全框架。",
+      "category": "AI",
+      "tags": [
+        "AI治理",
+        "澳大利亚",
+        "外交"
+      ],
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/australia-treat-ai-key-foreign-policy-challenge-2026-11-23/",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {}
+    }
+  ]
+}
