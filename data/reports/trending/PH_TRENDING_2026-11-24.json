@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "channel": "trending",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T08:02:18+08:00",
+  "title": "Daily Trending Projects",
+  "summary": "11月23日趋势榜被反复上榜的 Agent 工具占据，本期主动降低重复率，转而关注本地 GPU 创意渲染、跨设备生产力、OCR 与本地量化，以及增量变异测试。热门榜与 Hacker News/日本开发者社区的信号互补；部分冷门项目关注度较低，明确区分产品价值与爆红程度。",
+  "top_picks": [
+    "shinyobjectz/raea",
+    "thtbee/nectarlink",
+    "baidu/Unlimited-OCR"
+  ],
+  "items": [
+    {
+      "title": "shinyobjectz/raea",
+      "summary": "将自然语言创意转换为 React/TypeScript 场景，再通过 Rust/Bevy 在本地 GPU 渲染视频、动效、3D 与游戏。",
+      "why_it_matters": "AI 创意制作从云端生成走向可编程本地渲染，适合试验自动化视频和交互资产生产。",
+      "category": "Creative tools",
+      "tags": [
+        "creative",
+        "video",
+        "3d",
+        "agent"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/shinyobjectz/raea",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "shinyobjectz/raea",
+        "github_stars": 4551,
+        "stars_growth": "+964/日快照",
+        "trend_signal": "2026-11-23 zhuikan 日增长榜第10，日快照新增964 Stars；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "thtbee/nectarlink",
+      "summary": "连接 Android 手机与 Windows/Linux PC 的本地优先跨设备工具，项目宣称端到端加密且无需账号。",
+      "why_it_matters": "跨设备同步与通知互通有直接实用价值；加密实现和兼容性仍需自行审计。",
+      "category": "Desktop productivity",
+      "tags": [
+        "android",
+        "desktop",
+        "local-first",
+        "sync"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/thtbee/nectarlink",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "thtbee/nectarlink",
+        "github_stars": 5848,
+        "stars_growth": "+659/日快照",
+        "trend_signal": "2026-11-23 zhuikan 日增长榜第22，新增659 Stars；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "baidu/Unlimited-OCR",
+      "summary": "百度开源的长跨度文档解析与 OCR 方案，强调一次性处理长文档。",
+      "why_it_matters": "复杂文档解析是知识库和 Agent 数据摄入的重要环节，值得评估真实版面准确率与资源开销。",
+      "category": "AI document tools",
+      "tags": [
+        "ocr",
+        "document",
+        "ai"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/baidu/Unlimited-OCR",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "baidu/Unlimited-OCR",
+        "github_stars": 32037,
+        "stars_growth": "+641/日快照",
+        "trend_signal": "2026-11-23 zhuikan 日增长榜第23，新增641 Stars；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "ShinMegamiBoson/lookatmyquant",
+      "summary": "利用按权重分配精度等方法压缩大语言模型的量化编译器。",
+      "why_it_matters": "面向本地推理的量化创新，项目声称同体积下优于常见方案，但尚不能把自报基准视为独立复现。",
+      "category": "AI inference",
+      "tags": [
+        "quantization",
+        "local-llm",
+        "research"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "ShinMegamiBoson/lookatmyquant",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-23 Ageshio 记录 Hacker News 582 points；官方仓库公开量化实验；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "Python"
+      }
+    },
+    {
+      "title": "mizchi/mutator",
+      "summary": "为 Vitest 提供基于 Git diff 的增量变异测试，借助 oxc 插桩与结果缓存减少重跑。",
+      "why_it_matters": "相比单纯覆盖率，变异测试可验证测试用例能否发现真实逻辑错误；增量设计更适合 CI。",
+      "category": "Developer testing",
+      "tags": [
+        "testing",
+        "mutation",
+        "vitest",
+        "ci"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/mizchi/mutator",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "mizchi/mutator",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-23 Ageshio 日本技术社区讨论收录，官方仓库确认 diff-driven 实现；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "anefzaoui/misterdownloadmanager",
+      "summary": "使用 Rust 构建的跨平台开源下载管理器，面向 Windows、macOS 和 Linux。",
+      "why_it_matters": "非 AI 类实用桌面软件，提供传统下载管理器的开源替代路径。",
+      "category": "Desktop apps",
+      "tags": [
+        "rust",
+        "download",
+        "cross-platform"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "anefzaoui/misterdownloadmanager",
+        "github_stars": 17018,
+        "stars_growth": "+860/日快照",
+        "trend_signal": "2026-11-23 zhuikan 日增长榜第14，新增860 Stars；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "Rust"
+      }
+    },
+    {
+      "title": "datazip-inc/olake-go",
+      "summary": "Go 编写的数据摄取与同步工具，面向数据管道工作流。",
+      "why_it_matters": "数据同步与迁移场景可评估其连接器和可靠性；近期进入 Go 分类趋势榜。",
+      "category": "Data engineering",
+      "tags": [
+        "etl",
+        "go",
+        "data-sync"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/datazip-inc/olake-go",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "datazip-inc/olake-go",
+        "github_stars": 2271,
+        "stars_growth": "+85/榜单窗口",
+        "trend_signal": "2026-11-23 Ageshio Go 分类第1，记录增长85 Stars；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "Go"
+      }
+    },
+    {
+      "title": "stryker-mutator/stryker-js",
+      "summary": "通过故意修改 JS/TS 代码来检验测试是否真正捕获错误的变异测试框架。",
+      "why_it_matters": "对高可靠研发团队有直接价值，提供比覆盖率更严格的测试有效性指标。",
+      "category": "Developer testing",
+      "tags": [
+        "mutation-testing",
+        "typescript",
+        "quality"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/stryker-mutator/stryker-js",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "stryker-mutator/stryker-js",
+        "github_stars": null,
+        "stars_growth": null,
+        "trend_signal": "2026-11-23 Ageshio 记录 Zenn 技术讨论关注；非新发布项目；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "TypeScript"
+      }
+    },
+    {
+      "title": "opensandbox-group/OpenSandbox",
+      "summary": "面向应用及 Agent 执行环境的开源沙箱基础设施。",
+      "why_it_matters": "可作为不可信 Agent 代码隔离与执行管理的候选，但具体安全边界需审计。",
+      "category": "Agent infrastructure",
+      "tags": [
+        "sandbox",
+        "agent",
+        "go"
+      ],
+      "source_name": "GitHub",
+      "source_url": "https://github.com/opensandbox-group/OpenSandbox",
+      "image_url": null,
+      "published_at": null,
+      "evidence": "moderate",
+      "extra": {
+        "repo": "opensandbox-group/OpenSandbox",
+        "github_stars": 17810,
+        "stars_growth": "+41/榜单窗口",
+        "trend_signal": "2026-11-23 Ageshio Go 分类第7，记录增长41 Stars；趋势参考 https://zhuikan.com/b/daily 与 https://ageshio.dev/archive/2026-11-23/",
+        "language": "Go"
+      }
+    }
+  ]
+}
