@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "channel": "market",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T07:34:39.247Z",
+  "title": "A股收盘点评",
+  "market_open": true,
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "name": "科创50",
+      "code": "000688",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "name": "北证50",
+      "code": "899050",
+      "close": null,
+      "change_pct": null
+    }
+  ],
+  "metrics": {
+    "turnover": null,
+    "up_count": null,
+    "down_count": null,
+    "limit_up": null,
+    "limit_down": null
+  },
+  "leading_sectors": [],
+  "lagging_sectors": [],
+  "sentiment": {
+    "stage": "修复待确认",
+    "summary": "午间冲高回落，全天情绪尚无法确认。",
+    "evidence": [
+      "11月25日创业板指跌4.19%，科创50跌5.12%（同花顺）。",
+      "26日上午沪指跌0.03%，深成指涨0.15%，创业板指涨0.06%，科创50跌0.93%。"
+    ]
+  },
+  "analysis": "已确认：26日正常交易，多家媒体午评一致。午间沪深成交约8000亿元，贵金属、元件及油服相对活跃，航空机场、文娱用品偏弱；这些均非全天排名。昨日沪指收3476.47点，跌2.03%。检索到的部分今日标记收评实际与25日行情一致，故不采作26日收盘数据。全天指数、量能、涨跌家数及封板统计未可靠核实，置空。政策方面，据每日经济新闻报道，央行当日开展5715亿元隔夜逆回购，利率1.25%，不能据此推断净投放；新一代通信网建设方案及服务贸易规划值得跟踪。市场解释：上午反弹回吐可能反映风险偏好仍不稳定，但缺少全天证据，不能确认资金净流向或收盘趋势。",
+  "outlook": {
+    "horizon": "1-5 trading days",
+    "scenarios": [
+      {
+        "name": "修复扩散",
+        "conditions": "若主要指数企稳、上涨家数扩大且成交改善",
+        "implication": "成长板块可能出现更广泛修复"
+      },
+      {
+        "name": "结构轮动",
+        "conditions": "若指数横盘且量能不足、行业分化持续",
+        "implication": "局部主题可能活跃但持续性有限"
+      },
+      {
+        "name": "再度承压",
+        "conditions": "若科技板块再创新低且下跌家数扩大",
+        "implication": "风险偏好可能继续收缩"
+      }
+    ],
+    "risks": [
+      "海外贸易政策变化",
+      "成长股估值波动",
+      "反弹缺乏成交支持"
+    ],
+    "opportunities": [
+      "通信网络建设相关订单与交付验证",
+      "贵金属价格与盈利联动",
+      "科技板块修复的市场宽度"
+    ]
+  },
+  "sources": [
+    {
+      "name": "每日经济新闻 11月26日午评及政策",
+      "url": "https://www.nbd.com.cn/articles/2026-11-26/4659574.html"
+    },
+    {
+      "name": "21世纪经济报道 11月26日午评",
+      "url": "https://finance.eastmoney.com/a/202611263940475023.html"
+    },
+    {
+      "name": "同花顺 11月25日收盘复盘",
+      "url": "https://news.10jqka.com.cn/20261125/c682198110.shtml"
+    },
+    {
+      "name": "同花顺 11月26日午间快讯",
+      "url": "https://m.10jqka.com.cn/20261126/c682236794.shtml"
+    }
+  ]
+}
