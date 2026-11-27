@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "channel": "market",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T07:30:04.206Z",
+  "title": "A股收盘点评",
+  "market_open": true,
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "close": null,
+      "change_pct": 3.73
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "close": null,
+      "change_pct": 7.24
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "close": null,
+      "change_pct": 11.61
+    },
+    {
+      "name": "科创50",
+      "code": "000688",
+      "close": null,
+      "change_pct": null
+    },
+    {
+      "name": "科创综指",
+      "code": "000680",
+      "close": null,
+      "change_pct": null
+    }
+  ],
+  "metrics": {
+    "turnover": "沪深两市超2万亿元，较前日增加6824亿元（媒体收评）",
+    "up_count": null,
+    "down_count": null,
+    "limit_up": null,
+    "limit_down": null
+  },
+  "leading_sectors": [
+    {
+      "name": "半导体",
+      "reason": "设备、先进封装等方向集体上涨。"
+    },
+    {
+      "name": "华为及国产算力",
+      "reason": "软硬件产业链走强。"
+    },
+    {
+      "name": "光通信",
+      "reason": "光芯片及光模块方向上涨。"
+    }
+  ],
+  "lagging_sectors": [
+    {
+      "name": "高股息红利",
+      "reason": "煤炭、石油、电信代表股盘中相对偏弱，全天排名待核实。"
+    }
+  ],
+  "sentiment": {
+    "stage": "快速升温（判断）",
+    "summary": "成长股带动放量普涨，极端涨幅仍待交易所终值复核。",
+    "evidence": [
+      "财联社收评转引称超5300股上涨、超400股涨停，精确家数待核实。",
+      "第一财经13:40报道科创50涨超12%、创业板涨逾9%。"
+    ]
+  },
+  "analysis": "事实：11月27日正常交易，多家媒体确认科技股领涨及午后加速。财联社收评经PANews转引称科创50涨超15%，三大指数涨幅见表。尚未取得交易所终值，精确点位及科创指数精确涨幅留空；不采用与盘中走势冲突的疑似陈旧聚合数据。政策：第一财经转引新华财经称当日国务院常务会议研究深化资本市场投融资综合改革，监管部门拟精准支持优质科技企业上市，同时强化公司治理及反财务造假。解释：政策预期与国产算力主题共振可能推动估值修复，但并非已证实的唯一原因。推断：成长风格和市场宽度同步改善提示风险偏好升温，放量不等于净流入。可比资金流量及其他宏观数据尚未核实。",
+  "outlook": {
+    "horizon": "1-5 trading days",
+    "scenarios": [
+      {
+        "name": "放量延续",
+        "conditions": "若量能维持高位且科技龙头与市场宽度同步改善",
+        "implication": "成长风格可能延续。"
+      },
+      {
+        "name": "高位分化",
+        "conditions": "若量能下降且开板增多",
+        "implication": "可能出现获利回吐与轮动。"
+      },
+      {
+        "name": "风险偏好逆转",
+        "conditions": "若政策细节低于预期或外围明显走弱",
+        "implication": "高弹性科技股可能承压。"
+      }
+    ],
+    "risks": [
+      "极端涨幅后的获利回吐",
+      "政策落地与预期差异",
+      "估值扩张与外围波动"
+    ],
+    "opportunities": [
+      "观察半导体设备及先进封装订单兑现",
+      "观察国产算力与光通信需求",
+      "观察券商等板块是否持续扩散"
+    ]
+  },
+  "sources": [
+    {
+      "name": "PANews转引财联社收评",
+      "url": "https://tw.tradingview.com/news/panews%3Aaf92b3022acdf%3A0/"
+    },
+    {
+      "name": "第一财经午后行情及政策",
+      "url": "https://www.yicai.com/news/103457351.html"
+    },
+    {
+      "name": "澎湃新闻午评",
+      "url": "https://m.thepaper.cn/newsDetail_forward_34572790"
+    },
+    {
+      "name": "央广财经午评",
+      "url": "https://finance.eastmoney.com/a/202611273941555069.html"
+    }
+  ]
+}
